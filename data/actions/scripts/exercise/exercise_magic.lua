@@ -170,7 +170,6 @@ local function startTrain(playerId, itemid, fpos, start_pos, rateMagic, rateSkil
                 player:addSkillTries(skillId, gainAmount)
             end
 
-            player:getPosition():sendMagicEffect(0)
             fpos:sendMagicEffect(3)
             if skills[itemid].range then
                 player:getPosition():sendDistanceEffect(fpos, skills[itemid].range)

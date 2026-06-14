@@ -2399,7 +2399,7 @@ void ProtocolGame::sendDistanceShoot(const Position& from, const Position& to, u
 
 void ProtocolGame::sendMagicEffect(const Position& pos, uint8_t type)
 {
-	if (!canSee(pos)) {
+	if (type == CONST_ME_NONE || !canSee(pos)) {
 		return;
 	}
 

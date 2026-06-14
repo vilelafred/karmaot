@@ -115,7 +115,6 @@ local function startTrainClub(playerId, itemid, fpos, start_pos, rateMagic, rate
             -- Recalcula o multiplicador de dificuldade com o novo nível da habilidade
             requiredPercentage = calculateDifficultyMultiplier(player, skillId, rateMagic, rateSkill)
 
-            player:getPosition():sendMagicEffect(0)
             fpos:sendMagicEffect(3)
             if skills[itemid].range then
                 player:getPosition():sendDistanceEffect(fpos, skills[itemid].range)

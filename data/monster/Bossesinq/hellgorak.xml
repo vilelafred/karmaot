@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Hellgorak" nameDescription="Hellgorak" race="blood" experience="10000" speed="860">
+	<health now="355850" max="355850"/>
+	<look type="335" head="19" body="96" legs="21" feet="81" corpse="2916"/>
+	<targetchange interval="5000" chance="8"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="85"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="-500" max="-910"/>
+		<attack name="energy" interval="1000" chance="25" length="8" spread="0" min="-500" max="-819">
+			<attribute key="areaEffect" value="purpleenergy"/>
+		</attack>
+		<attack name="manadrain" interval="2000" chance="25" radius="5" target="0" min="-900" max="-1500">
+			<attribute key="areaEffect" value="stun"/>
+		</attack>
+		<attack name="fire" interval="1000" chance="25" radius="5" target="1" min="-500" max="-920">
+			<attribute key="areaEffect" value="firearea"/>
+		</attack>
+		<attack name="lifedrain" interval="2000" chance="25" radius="7" target="0" min="-500" max="-1050">
+			<attribute key="areaEffect" value="poff"/>
+		</attack>
+	</attacks>
+	<defenses armor="70" defense="65">
+		<defense name="healing" interval="1000" chance="11" min="1500" max="2000">
+			<attribute key="areaEffect" value="greenshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element icePercent="99"/>
+		<element energyPercent="99"/>
+		<element earthPercent="99"/>
+		<element holyPercent="99"/>
+		<element deathPercent="99"/>
+		<element firePercent="99"/>
+		<element drownPercent="-50"/>
+	</elements>
+	<immunities>
+		<immunity lifedrain="1"/>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="5000" chance="0">
+		<voice sentence="I'll sacrifice yours souls to seven!"/>
+		<voice sentence="I'm bad news for you mortals!"/>
+		<voice sentence="No man can defeat me!"/>
+		<voice sentence="Your puny skills are no match for me."/>
+		<voice sentence="I smell your fear."/>
+		<voice sentence="Delicious!"/>
+	</voices>
+	<loot>
+		<item id="2160" countmax="50" chance="100000"/>
+		<item id="2152" countmax="100" chance="21790"/>
+		<item id="2487" chance="19670"/>
+		<item id="2281" chance="16190"/>
+		<item id="2144" countmax="25" chance="14070"/>
+		<item id="2143" countmax="25" chance="13920"/>
+		<item id="2145" countmax="25" chance="12860"/>
+		<item id="2147" countmax="5" chance="13010"/>
+		<item id="2125" chance="12710"/>
+		<item id="2150" countmax="25" chance="12410"/>
+		<item id="2133" chance="11800"/>
+		<item id="2146" countmax="25" chance="11650"/>
+		<item id="2149" countmax="25" chance="10740"/>
+		<item id="2645" chance="10740"/>
+		<item id="2488" chance="10140"/>
+		<item id="2130" chance="9680"/>
+		<item id="2477" chance="9530"/>
+		<item id="7631" chance="8620"/>
+		<item id="2179" chance="8320"/>
+		<item id="2656" chance="8170"/>
+		<item id="2466" chance="2870"/>
+		<item id="2470" chance="450"/>
+		<item id="2136" chance="150"/>
+		<item id="2415" chance="100"/>
+	</loot>
+</monster>

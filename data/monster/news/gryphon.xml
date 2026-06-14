@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="gryphon" nameDescription="a gryphon" race="blood" experience="2100" speed="260" manacost="0">
+	<health now="1800" max="1800"/>
+	<look type="11" corpse="4317"/>
+	<targetchange interval="4000" chance="10"/>
+	<targetstrategies nearest="70" health="10" damage="10" random="10"/>
+	<flags>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag summonable="0"/>
+		<flag convinceable="0"/>
+		<flag illusionable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="70"/>
+		<flag runonhealth="250"/>
+		<flag canwalkonfire="0"/>
+		<flag canwalkonenergy="0"/>
+		<flag canwalkonpoison="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" skill="100" attack="40"/>
+		<attack name="lifedrain" interval="2000" chance="10" target="0" length="8" spread="3" min="-175" max="-380">
+			<attribute key="areaEffect" value="poff"/>
+		</attack>
+		<attack name="physical" interval="2000" chance="5" radius="3" target="0" min="-60" max="-120">
+			<attribute key="areaEffect" value="yellownote"/>
+		</attack>
+		<attack name="physical" interval="2000" chance="10" target="1" radius="4" min="-100" max="-240">
+			<attribute key="areaEffect" value="blackspark"/>
+		</attack>
+		<attack name="physical" interval="2000" chance="5" target="0" length="1" spread="0" min="0" max="-220">
+			<attribute key="areaEffect" value="poff"/>
+		</attack>
+	</attacks>
+	<defenses armor="45" defense="45">
+		<defense name="healing" interval="5000" chance="10" min="150" max="200">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		<defense name="haste_giantspider" chance="20"/>
+		  <attribute key="areaEffect" value="redshimmer" />
+		</defense>
+	</defenses>
+	<elements>
+	</elements>
+	<immunities>
+		<immunity lifedrain="1"/>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="1000" chance="5">
+		<voice sentence="Don't touch our hatchlings!" yell="1"/>
+	</voices>
+	<loot>
+		<item id="2671" chance="45000"/><!-- 1 45% ham -->
+		<item id="2666" chance="80000" countmax="3"/><!-- 3 80% meat -->
+		<item id="2148" countmax="95" chance="23000"/><!-- gold coin -->
+		<item id="2148" countmax="90" chance="23000"/><!-- gold coin -->
+		<item id="2148" countmax="85" chance="23000"/><!-- gold coin -->
+		<item id="2148" countmax="80" chance="23000"/><!-- gold coin -->
+		<item id="2547" countmax="6" chance="4100"/><!-- power bolt -->
+		<item id="2796" chance="11000"/><!-- green mushroom -->
+		<item id="1976" chance="9500"/><!-- gemmed book -->
+		<item id="2146" chance="6200"/><!-- small sapphire -->
+		<item id="2167" chance="5500"/><!-- energy ring -->
+		<item id="2033" chance="3000"/><!-- golden mug -->
+		<item id="5138" countmax="3" chance="5500"/> <!-- headhunter spear -->
+		<item id="1987" chance="100000"><!-- bag -->
+			<inside>
+				<item id="2177" chance="400"/><!-- life crystal -->
+				<item id="2492" chance="300"/><!-- dragon scale mail -->
+				<item id="2479" chance="300"/><!-- strange helmet -->
+				<item id="2498" chance="300"/><!-- royal helmet -->
+				<item id="2528" chance="200"/><!-- tower shield -->
+				<item id="5137" chance="100"/><!-- flaming bow -->
+				<item id="2396" chance="100"/><!-- ice rapier -->
+			</inside>
+		</item>
+	</loot>
+</monster>

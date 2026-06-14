@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Minotaur Guard" nameDescription="a minotaur guard" race="blood" experience="160" speed="190" manacost="550">
+	<health now="185" max="185"/>
+	<look type="29" corpse="2876"/>
+	<targetchange interval="1000" chance="5"/>
+	<targetstrategies nearest="70" health="10" damage="20" random="0"/>
+	<flags>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag summonable="1"/>
+		<flag convinceable="1"/>
+		<flag illusionable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="80"/>
+		<flag runonhealth="0"/>
+	</flags>
+			<script>
+    <event name="elite"/>
+</script>
+	<attacks>
+		<attack name="melee" skill="50" attack="35"/>
+	</attacks>
+	<defenses armor="15" defense="32">
+	</defenses>
+	<elements>
+	</elements>
+	<immunities>
+	</immunities>
+	<voices interval="1000" chance="5">
+		<voice sentence="Kirll Karrrl!"/>
+		<voice sentence="Kaplar!"/>
+	</voices>
+	<loot>
+			<item id="1987" chance="55000" countmax="1"/><!-- bag -->
+		<item id="2666" chance="10000"/><!-- 10% meat -->
+		<item id="2148" chance="60000" countmax="20"/><!-- 20 60% gold coin -->
+		<item id="2465" chance="1200"/><!-- 1.2% brass armor -->
+		<item id="2464" chance="1700"/><!-- 1.7% chain armor -->
+		<item id="2648" chance="1000"/><!-- 1% chain legs -->
+		<item id="2649" chance="15000"/><!-- 15% leather legs -->
+
+			
+				<item id="2387" chance="800"/><!-- 0.8% double axe -->
+				<item id="2388" chance="10000"/><!-- 10% hatchet -->
+				<item id="8176" countmax="5" chance="10000"/> <!-- mystic shard -->
+				<item id="8176" countmax="5" chance="10000"/> <!-- mystic shard -->
+				<item id="8176" countmax="5" chance="10000"/> <!-- mystic shard -->
+				<item id="2513" chance="1000"/><!-- 2% battle shield -->
+				<item id="2580" chance="5000"/><!-- 5% fishing rod -->
+			
+
+	</loot>
+</monster>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Princess Archer" nameDescription="a princess archer" race="blood" experience="1960" speed="300" manacost="0">
+	<health now="1870" max="1870"/>
+	<look type="255" corpse="3065"/>
+	<targetchange interval="1000" chance="5"/>
+	<targetstrategies nearest="80" health="10" damage="10" random="0"/>
+	<flags>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag summonable="0"/>
+		<flag convinceable="0"/>
+		<flag illusionable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="5"/>
+		<flag staticattack="80"/>
+		<flag runonhealth="300"/>
+	</flags>
+	<attacks>
+		<attack name="melee" skill="70" attack="65"/>
+		<attack name="physical" checkshield="1" chance="20" range="7" min="-145" max="-250">
+			<attribute key="shootEffect" value="arrow"/>
+		</attack>
+			<attack name="physical" checkshield="1" chance="25" range="7" min="-175" max="-275">
+			<attribute key="shootEffect" value="bolt"/>
+		</attack>
+		
+		<attack name="fire" interval="1000" chance="20" range="3" min="-150" max="-300">
+			<attribute key="shootEffect" value="burstarrow"/>
+			<attribute key="areaEffect" value="explosionarea"/>
+		</attack>
+		
+	</attacks>
+	<defenses armor="35" defense="200">
+		<defense name="healing" chance="25" min="350" max="400">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element firePercent="100"/>
+		<element earthPercent="100"/>
+		<element energyPercent="100"/>
+	</elements>
+	<immunities>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="1000" chance="5">
+		<voice sentence="Protect the Queen!"/>
+		<voice sentence="Hail Princess!"/>
+		<voice sentence="Hail Lumelia"/>
+	</voices>
+	<loot>
+		<item id="2680" chance="18000" countmax="2"/><!-- 2 18% morango -->
+		<item id="2148" chance="60000" countmax="100"/><!-- 100 60% gold coin-->
+		<item id="2148" chance="60000" countmax="100"/><!-- 100 60% gold coin-->
+		<item id="2543" chance="27000" countmax="3"/><!-- 13 27% bolt -->
+		<item id="2657" chance="12000"/><!-- 12% simple dress -->
+		<item id="2457" chance="12000"/><!-- 12% steel helmet -->
+		<item id="2659" chance="200"/><!-- 12% ballgown dress -->
+		<item id="5811" chance="500"/><!-- 0.5% chain princess -->
+		<item id="5789" chance="100"/><!-- 0.5% silver bow -->
+		<item id="5800" chance="300"/><!-- 0.6% galea -->
+		<item id="5787" chance="200"/><!-- crown boots -->
+		<item id="5899" chance="200"/><!-- princess armor -->
+		<item id="5801" chance="300"/><!-- tiara -->  
+		<item id="5896" chance="300"/><!-- princess mail --> 
+		<item id="1987" chance="100000"><!-- bag -->   
+			<inside>
+				<item id="2455" chance="20000"/><!-- 20% crossbow -->	
+				<item id="2456" chance="13000"/><!-- 13% bow -->
+				<item id="2744" chance="1500"/><!-- red rose -->
+				<item id="5891" chance="1500"/><!-- heart bp -->
+				<item id="5840" chance="1500"/><!-- enchanted ruby -->
+				<item id="2509" chance="1500"/><!-- 1.5% steel shield -->
+				<item id="2402" chance="1000"/><!-- 1% silver dagger -->
+				<item id="5806" chance="100"/><!-- 1% princess ring -->
+				<item id="2547" chance="1000"/><!-- 1% power bolt-->
+				<item id="5848" chance="1000"/><!-- 1% Pink Gem -->
+				<item id="2537" chance="100"/><!-- 1% amazon shield -->
+				<item id="5829" chance="300"/><!--  1% violet blood herb -->
+				<item id="2798" chance="300"/><!--  1% blood herb -->
+				<item id="2148" chance="60000" countmax="70"/><!-- 100 60% gold coin-->
+				<item id="2546" chance="16000" countmax="5"/><!-- 5 16% burst arrow -->
+			</inside>
+		</item>
+	</loot>
+</monster>

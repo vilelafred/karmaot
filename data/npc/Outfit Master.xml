@@ -1,0 +1,14 @@
+<npc name="Outfit Master" script="outfit.lua" floorchange="0" walkinterval="1500" speed="100">
+	<health now="100" max="100"/>
+	<look type="685" head="58" body="68" legs="101" feet="95"/>
+	<parameters>
+		<parameter key="idletime" value="30"/>
+		<parameter key="message_greet" value="Welcome, |PLAYERNAME|. This is a boutique for millionaires and power game legends only! Wanna check the exclusive outfits?"/>
+		<parameter key="message_placedinqueue" value="Calm down, |PLAYERNAME|. One VIP at a time, please."/>
+		<parameter key="message_walkaway" value="Even the rich need time to think. Bye!"/>
+		<parameter key="message_farewell" value="Farewell, fashion icon."/>
+		<parameter key="message_idletimeout" value="Gone already? Must be busy making more gold."/>
+		<parameter key="message_decline" value="Maybe when you're feeling more fabulous."/>
+		<parameter key="message_needmoremoney" value="You're not rich enough yet, my friend. Come back when your pockets shine."/>
+	</parameters>
+</npc>

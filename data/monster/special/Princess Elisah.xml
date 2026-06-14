@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Princess Elisah" nameDescription="a princess elisah she is a master sorcerer of the red roses" race="blood" experience="1960" speed="300" manacost="0">
+	<health now="2870" max="2870"/>
+	<look type="320" corpse="3065"/>
+	<targetchange interval="1000" chance="5"/>
+	<targetstrategies nearest="80" health="10" damage="10" random="0"/>
+	<flags>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag summonable="0"/>
+		<flag convinceable="0"/>
+		<flag illusionable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="5"/>
+		<flag staticattack="80"/>
+		<flag runonhealth="300"/>
+	</flags>
+	<attacks>
+		<attack name="melee" skill="70" attack="65"/>
+		
+		<attack name="fire" interval="1000" chance="20" range="3" min="-150" max="-300">
+			<attribute key="shootEffect" value="burstarrow"/>
+			<attribute key="areaEffect" value="explosionarea"/>
+		</attack>
+		
+		<attack name="physical" interval="1000" chance="12" range="7" min="-500" max="-680">
+			<attribute key="shootEffect" value="death"/>
+		</attack>
+		
+		<attack name="lifedrain" interval="1000" chance="15" length="8" spread="0" min="-500" max="-850">
+      <attribute key="areaEffect" value="redshimmer"/>
+    </attack>
+	
+	<attack name="manadrain" interval="2000" chance="13" range="7" min="-260" max="-450"/>
+		</attacks>
+		
+	<defenses armor="35" defense="200">
+		<defense name="healing" chance="25" min="350" max="400">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element firePercent="10"/>
+		<element earthPercent="10"/>
+	</elements>
+	<immunities>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+		<immunity physical="1"/>
+		<immunity poison="1"/>
+	</immunities>
+	
+	  <summons maxSummons="2">
+    <summon name="elf arcanist" interval="2000" chance="20" max="2"/>
+  </summons>
+  
+	<voices interval="1000" chance="5">
+		<voice sentence="I Promisse protect you!"/>
+		<voice sentence="Hail Princess of Red Rose!"/>
+		<voice sentence="Hail CARLIN!!"/>
+	</voices>
+	<loot>
+		<item id="2680" chance="18000" countmax="2"/><!-- 2 18% morango -->
+		<item id="2148" chance="60000" countmax="100"/><!-- 100 60% gold coin-->
+		<item id="2148" chance="60000" countmax="100"/><!-- 100 60% gold coin-->
+		<item id="2545" countmax="3" chance="3000"/><!-- poison arrow  -->
+		<item id="2657" chance="12000"/><!-- 12% simple dress -->
+		<item id="2457" chance="12000"/><!-- 12% steel helmet -->
+		<item id="5811" chance="500"/><!-- 0.5% chain princess -->
+		<item id="5801" chance="300"/><!-- tiara -->  
+		<item id="2642" chance="135000"/><!-- sandals -->
+		<item id="1987" chance="100000"><!-- bag -->   
+			<inside>
+		<item id="2456" chance="13000"/><!-- 13% bow -->
+		<item id="2744" chance="1500"/><!-- red rose -->
+		<item id="2802" chance="4250"/><!-- sling herb -->
+		<item id="2198" chance="1666"/><!-- elven amulet -->
+		<item id="2189" chance="400"/><!-- wand of cosmic energy -->
+		<item id="2177" chance="950"/><!-- life crystal -->
+		<item id="2155" chance="375"/><!-- green gem -->
+			</inside>
+		</item>
+	</loot>
+</monster>

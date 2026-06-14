@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Elite Witch" nameDescription="a witch" race="blood" experience="120" speed="204" manacost="0">
+	<health now="300" max="300" />
+	<level min="5" max="100" />	
+	<look type="54" corpse="3065" />
+	<targetchange interval="1000" chance="50" />
+	<targetstrategies nearest="100" health="0" damage="0" random="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="1" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="4" />
+		<flag staticattack="80" />
+		<flag runonhealth="30" />
+	</flags>
+	<attacks>
+		<attack name="melee" skill="18" attack="18" />
+		<attack name="fire" chance="20" range="7" min="-25" max="-55">
+			<attribute key="shootEffect" value="fire" />
+		</attack>
+		<attack name="firefield" chance="13" range="7" radius="1" target="1">
+			<attribute key="shootEffect" value="fire" />
+		</attack>
+	</attacks>
+	<defenses armor="8" defense="12">
+	</defenses>
+	<elements>
+		<element earthPercent="100" />
+		<element energyPercent="100" />
+	</elements>
+	<immunities>
+		<immunity invisible="1" />
+	</immunities>
+	<voices interval="1000" chance="5">
+		<voice sentence="Horax pokti!" />
+		<voice sentence="Hihihihi!" />
+		<voice sentence="Herba budinia ex!" />  
+	</voices>
+	<loot>
+			<item name="mystic shard" countmax="8" chance="13008" />
+		
+		<item id="2696" chance="48000" />
+		<item id="2687" chance="36000" countmax="8" />
+		<item id="2148" chance="12000" countmax="45" />
+		<item id="2800" chance="10800" />
+		<item id="2551" chance="24000" />
+		<item id="2643" chance="60000" />
+		<item id="2654" chance="60000" />
+		<item id="2651" chance="24000" />
+		<item id="2129" chance="12000" />
+
+			
+				<item id="2405" chance="48000" />
+				<item id="2402" chance="600" />
+				<item id="2199" chance="3000" />
+			
+
+	</loot>
+</monster>

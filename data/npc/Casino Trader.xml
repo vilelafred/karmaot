@@ -1,0 +1,7 @@
+<npc name="Casino Trader" script="casinotrader.lua" walkinterval="2000" floorchange="0">
+  <health now="100" max="100"/>
+  <look type="75" head="78" body="86" legs="0" feet="114"/>
+  <parameters>
+    <parameter key="message_greet" value="Hello |PLAYERNAME|! Say {list} to see eligible items, {trade <item name>} to exchange one, or {trade all} to exchange everything."/>
+  </parameters>
+</npc>

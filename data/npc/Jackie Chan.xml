@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Jackie Chan" script="Jackie Chan.lua" walkinterval="2000" floorchange="0">
+  <health now="100" max="100"/>
+  <look type="128" head="114" body="115" legs="114" feet="76"/>
+  <parameters>
+    <parameter key="message_greet" value="Greetings |PLAYERNAME|! Im selling the Book of Training for 5kk and Fluid of Training Weapons for 15kk. Say {buy book} or {buy fluid} if you're interested." />
+  </parameters>
+</npc>

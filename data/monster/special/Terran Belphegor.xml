@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Terran Belphegor" nameDescription="a Terran Belphegor" race="blood" experience="299660" speed="995" manacost="0">
+  <health now="46600" max="46600"/>
+  <look type="373" head="0" body="52" legs="128" feet="95" corpse="3128"/>
+  <targetchange interval="2000" chance="50"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="0"/>
+	<flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  
+      <script>
+        <event name="elite"/>
+    </script>
+<attacks>
+	<attack name="melee" skill="190" attack="172"/>
+	
+	<!-- Poison Bolt mais forte -->
+	<attack name="poison" chance="20" range="7" min="-700" max="-1120">
+		<attribute key="shootEffect" value="poisonarrow"/>
+		<attribute key="areaEffect" value="poison"/>
+	</attack>
+	
+	<!-- Paralyze com visual de morte -->
+	<attack name="paralyze_serpentspawn" chance="30" range="9">
+		<attribute key="areaEffect" value="mortarea"/>
+	</attack>
+	
+	<!-- Life Drain reforçado -->
+	<attack name="lifedrain" chance="25" length="8" spread="0" min="-770" max="-1120">
+		<attribute key="areaEffect" value="purpleenergy"/>
+	</attack>
+	
+	<!-- Poison Wave reforçado -->
+	<attack name="poison" chance="25" length="8" spread="3" min="-490" max="-1385">
+		<attribute key="areaEffect" value="greenbubble"/>
+	</attack>
+</attacks>
+
+<defenses armor="28" defense="164">
+	<!-- Healing mais chamativo -->
+	<defense name="healing" chance="25" min="1700" max="1980">
+		<attribute key="areaEffect" value="holyarea"/>
+	</defense>
+	<defense name="haste_serpentspawn" chance="25"/>
+</defenses>
+  
+  <elements>
+    <element earthPercent="35"/>
+    <element deathPercent="25"/>
+    <element physicalPercent="15"/>
+    <element firePercent="-25"/>
+  </elements>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  
+  <voices interval="5000" chance="10">
+    <voice sentence="Learn the secrets of TERRAN!!"/>
+    <voice sentence="I'am the mage of TERRA."/>
+    <voice sentence="The TERRA clean your soul!"/>
+	<voice sentence="THE TERRA reveals the way"/>
+  </voices>
+	<loot>
+            <item id="2401" chance="225" /> 
+            <item id="5786" chance="250" />
+            <item id="2260" chance="700" />
+            <item id="2795" countmax="2" chance="325" />
+            <item id="2214" chance="100" /> 
+            <item id="2197" chance="300" /> 
+			<item id="2239" chance="900" /> 
+            <item id="2392" chance="400" /> 
+        <item id="5937" chance="1000"/><!-- mystic ore -->					
+			<item id="5844" chance="200" /> 
+			<item id="5948" chance="100" /> 
+			<item id="2546" chance="8000" countmax="3"/><!-- 100 80% gold coin -->
+			<item id="5907" chance="900" /> 
+	<item id="2160" chance="1000" countmax="1"/><!-- 100 80% gold coin -->
+	<item id="2160" chance="1000" countmax="1"/><!-- 50 40% gold coin-->
+	<item id="2160" chance="1000" countmax="1"/><!-- 100 60% gold coin-->
+		<item id="2796" chance="3480" countmax="50"/>
+		<item id="2152" chance="4800" countmax="10"/>
+		<item id="5937" chance="3600" countmax="1"/>		
+		<item id="2146" chance="3600" countmax="50"/>
+		<item id="2547" chance="3600" countmax="50"/>
+		<item id="2177" chance="480"/>
+		<item id="6862" chance="1200"/>		
+		<item id="2033" chance="1200"/>
+		<item id="6865" chance="1200"/>	
+		<item id="6863" chance="1200"/>		
+		<item id="6875" chance="1800"/>		
+		<item id="2472" chance="1200"/>			
+		<item id="6178" chance="54"/>
+		<item id="6177" chance="36"/>
+		<item id="3971" chance="1200"/>
+		<item id="6183" chance="10"/>
+		<item id="2470" chance="1320"/>
+		<item id="2392" chance="360"/>
+		<item id="2536" chance="150"/><!-- medusa shield - ajustado -->
+		<item id="2168" chance="1800"/>
+		<item id="2167" chance="1800"/>
+		<item id="2498" chance="130"/> <!-- royal helmet -->
+		<item id="2472" chance="120"/> <!-- magic plate armor -->
+		<item id="2150" countmax="2" chance="200"/> <!-- small amethyst -->
+</loot>
+</monster>

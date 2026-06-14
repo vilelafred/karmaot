@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Water Sorcerer" nameDescription="a water sorcerer" race="blood" experience="29000" speed="520" manacost="0">
+	<health now="16000" max="16000"/>
+	<look type="384" corpse="3128"/>
+	<targetchange interval="1000" chance="25"/>
+	<targetstrategies nearest="80" health="10" damage="5" random="5"/>
+	<flags>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag summonable="0"/>
+		<flag convinceable="0"/>
+		<flag illusionable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="2"/>
+		<flag staticattack="85"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="0" max="-900"/>
+
+		<attack name="ice" interval="2000" chance="25" radius="4" target="0" min="-600" max="-1000">
+			<attribute key="areaEffect" value="icearea"/>
+		</attack>
+
+		<attack name="energy" interval="2000" chance="20" range="7" radius="3" target="1" min="-500" max="-850">
+			<attribute key="shootEffect" value="energy"/>
+			<attribute key="areaEffect" value="energyarea"/>
+		</attack>
+
+		<attack name="lifedrain" interval="2000" chance="18" radius="3" target="0" min="-400" max="-800">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</attack>
+
+		<attack name="drown" interval="2000" chance="12" radius="5" target="0" min="-300" max="-700">
+			<attribute key="areaEffect" value="bluenote"/>
+		</attack>
+	</attacks>
+	<defenses armor="90" defense="90">
+		<defense name="healing" interval="2000" chance="25" min="1200" max="2000">
+			<attribute key="areaEffect" value="bluebubble"/>
+		</defense>
+	</defenses>
+	<summons maxSummons="2">
+		<summon name="water elemental" chance="25" max="2"/>
+	</summons>
+	<elements>
+		<element icePercent="30"/>
+		<element energyPercent="20"/>
+		<element firePercent="-35"/>
+	</elements>
+	<immunities>
+		<immunity lifedrain="1"/>
+		<immunity invisible="1"/>
+		<immunity paralyze="1"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="Feel the wrath of the deep!"/>
+		<voice sentence="Drown in power!"/>
+		<voice sentence="The tide is against you!"/>
+	</voices>
+	<loot>
+		<item id="2152" chance="1000" countmax="100"/> <!-- platinum coin -->
+		<item id="2195" chance="2000"/> <!-- boots of haste -->
+		<item id="2656" chance="1500"/> <!-- blue robe -->		
+		<item name="mystic shard" countmax="10" chance="10000"/>
+		<item name="mystic ore" chance="2000"/>
+		<item name="blue robe" chance="1000"/>
+		<item id="2183" chance="180"/> <!-- tempest rod -->
+		<item id="2138" chance="120"/> <!-- sapphire amulet -->
+		<item id="2146" countmax="2" chance="220"/> <!-- small sapphire -->
+	</loot>
+</monster>

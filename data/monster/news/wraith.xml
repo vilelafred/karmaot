@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="wraith" nameDescription="a wraith" race="undead" experience="1050" speed="110" manacost="0">
+	<health now="1000" max="1000"/>
+	<look type="235" corpse="2998"/>
+	<targetchange interval="1000" chance="4"/>
+	<targetstrategies nearest="50" health="20" damage="20" random="10"/>
+	<flags>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag summonable="0"/>
+		<flag convinceable="0"/>
+		<flag illusionable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="100"/>
+		
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="0" max="-100"/>
+		<attack name="physical" chance="34" radius="4" target="0" min="-0" max="-175">
+			<attribute key="areaEffect" value="mortarea"/>
+		</attack>
+		<attack name="manadrain" chance="4" range="1" min="-50" max="-100"/>
+		<attack name="paralyze_banshee" chance="10" range="7"/>
+		<attack name="manadrain" chance="34" radius="4" target="0" min="-75" max="-125">
+			<attribute key="areaEffect" value="bluenote"/>
+		</attack>
+	</attacks>
+	<defenses armor="25" defense="25">
+	</defenses>
+	<elements>
+		<element earthPercent="100"/>
+		<element physicalPercent="100"/>
+		<element deathPercent="100"/>
+	</elements>
+	<immunities>
+		<immunity lifedrain="1"/>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="1000" chance="5">
+		    <voice sentence="Eternal nothingness awaits!"/>
+	</voices>
+	<loot>
+		<item id="2148" chance="30000" countmax="75"/><!-- 75 30% gold coin -->
+		<item id="2377" chance="20000"/><!-- 20% two handed sword -->
+		<item id="2177" chance="1000" countmax="2"/><!-- 1% life crystal -->
+		<item id="2189" chance="1500"/><!-- 1.5% wand of cosmic energy -->
+		<item id="2237" chance="20000"/><!-- 20% dirty cape -->
+		<item id="2656" chance="900"/><!-- 0.9% blue robe -->
+		<item id="1995" chance="100000"><!-- blue bag -->
+			<inside>
+				<item id="2663" chance="15000"/><!-- 15% mystic turban -->
+				<item id="2146" chance="1500" countmax="4"/><!-- 1.5% small sapphire -->
+				<item id="2394" chance="30000"/><!-- 30% morning star -->
+				<item id="2423" chance="3000"/><!-- 3% clerical mace -->
+			</inside>
+		</item>
+	</loot>
+</monster>

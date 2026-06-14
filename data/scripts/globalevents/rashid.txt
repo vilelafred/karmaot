@@ -1,0 +1,22 @@
+local loginEvent = CreatureEvent("onLogin_rashidLocation")
+loginEvent:type("login")
+
+local rashidLocations = {
+    ["Monday"] = "Ab'dendriel, in Briasol's tavern, north-west of the depot.",
+    ["Tuesday"] = "Thais, in Frodos's store, north of the temple.",
+    ["Wednesday"] = "Port Hope, in Clyde's tavern, west of the depot.",
+    ["Thursday"] = "Ankrahmun, in Arito's tavern, above the post office.",
+    ["Friday"] = "Darashia, in Miraia's tavern, south of the guildhalls.",
+    ["Saturday"] = "Edron, in Mirabell's tavern, above the depot.",
+    ["Sunday"] = "Carlin depot, one floor above."
+}
+
+function loginEvent.onLogin(player)
+    local currentDayOfWeek = os.date("%A")
+    local rashidLocationMessage = "Rashid is currently visiting " .. rashidLocations[currentDayOfWeek]
+
+    player:sendTextMessage(MESSAGE_STATUS_DEFAULT, rashidLocationMessage)
+    return true
+end
+
+loginEvent:register()

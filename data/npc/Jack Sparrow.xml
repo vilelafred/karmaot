@@ -1,0 +1,7 @@
+<npc name="Jack Sparrow" script="Sparrow.lua" floorchange="0" walkinterval="1500" speed="0">
+	<health now="150" max="150"/>
+	<look type="712" head="76" body="43" legs="38" feet="76" corpse="2212"/>
+	<parameters>
+		<parameter key="message_greet" value="G'day, traveler. Ready to sail the seas that ordinary maps dare not show? Ask for 'Karma Boat' to travel, or 'weekly pass' if you're below level 1000 for unlimited trips!"/>
+	</parameters>
+</npc>

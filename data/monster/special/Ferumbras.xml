@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Ferumbras" nameDescription="Ferumbras" race="blood" experience="1999999" speed="990" manacost="0">
+  <health now="10280000" max="10280000"/>
+  <look type="314" head="0" body="0" legs="0" feet="0" corpse="0"/>
+  <targetchange interval="2000" chance="20"/>
+  <strategy attack="60" defense="5"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="2500"/>
+  </flags>
+         <script>
+            <event name="RewardChestDeath"/>
+             <event name="RewardChestMonster"/>
+    </script>
+  <attacks>
+    <attack name="melee" interval="2000" skill="165" attack="155"/>
+    <attack name="manadrain" interval="1000" chance="12" range="7" min="-350" max="-650">
+      <attribute key="areaEffect" value="redshimmer"/>
+    </attack>
+    <attack name="poisoncondition" interval="1000" chance="9" radius="6" target="0" min="-1150" max="-1750">
+      <attribute key="areaEffect" value="poison"/>
+    </attack>
+    <attack name="energycondition" interval="1000" chance="10" radius="6" target="0" min="-600" max="-1700">
+      <attribute key="areaEffect" value="energy"/>
+    </attack>
+    <attack name="manadrain" interval="1000" chance="8" radius="6" target="0" min="-125" max="-375">
+      <attribute key="areaEffect" value="redshimmer"/>
+    </attack>
+    <attack name="lifedrain" interval="1000" chance="15" radius="6" target="0" min="-1200" max="-1400">
+      <attribute key="areaEffect" value="poff"/>
+    </attack>
+    <attack name="strength" interval="1000" chance="6" radius="5" target="0">
+      <attribute key="areaEffect" value="blackspark"/>
+    </attack>
+    <attack name="firecondition" interval="1000" chance="15" range="7" radius="7" target="1" min="-300" max="-1700">
+      <attribute key="shootEffect" value="fire"/>
+      <attribute key="areaEffect" value="firearea"/>
+    </attack>
+    <attack name="lifedrain" interval="1000" chance="9" length="8" spread="0" min="-50" max="-850">
+      <attribute key="areaEffect" value="greenspark"/>
+    </attack>
+  </attacks>
+  <defenses armor="90" defense="110">
+    <defense name="healing" interval="1000" chance="25" min="600" max="1000">
+      <attribute key="areaEffect" value="greenshimmer"/>
+    </defense>
+    <defense name="healing" interval="1000" chance="10" min="1400" max="2600">
+      <attribute key="areaEffect" value="greenshimmer"/>
+    </defense>
+    <defense name="speed" interval="1000" chance="4" speedchange="600" duration="7000">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+  </defenses>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="1"/>
+    <immunity fire="1"/>
+    <immunity poison="1"/>
+    <immunity lifedrain="1"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <summons maxSummons="4">
+    <summon name="demon" interval="1000" chance="35" max="4"/>
+  </summons>
+  <voices interval="5000" chance="10">
+    <voice sentence="NOONE WILL STOP ME THIS TIME!" yell="1"/>
+    <voice sentence="THE POWER IS MINE!" yell="1"/>
+    <voice sentence="I returned from death and you dream about defeating me?"/>
+    <voice sentence="Witness the first seconds of my eternal world domination!"/>
+    <voice sentence="The powers of darkness are with me!"/>
+    <voice sentence="Even in my weakened state I will crush you all!"/>
+    <voice sentence="I came, I see, I will win!"/>
+  </voices>
+	<loot>
+    <item id="1988" chance="100000"> 
+        <inside>
+            <item id="2522" chance="16500" /> 
+            <item id="2147" countmax="96" chance="8450" /> 
+            <item id="2143" countmax="99" chance="5975" />
+            <item id="2150" countmax="76" chance="5525" />
+            <item id="2466" chance="11175" /> 
+            <item id="2127" chance="17825" /> 
+            <item id="2472" chance="16500" /> 
+            <item id="2145" countmax="90" chance="6550" />
+            <item id="2387" chance="1825" /> 
+            <item id="2402" chance="1825" /> 
+            <item id="2377" chance="1825" /> 
+            <item id="2178" chance="1825" /> 
+            <item id="2539" chance="27175" />
+            <item id="2144" countmax="96" chance="5275" />
+            <item id="2149" countmax="99" chance="7350" /> 
+            <item id="2415" chance="12500" />
+            <item id="2152" countmax="43" chance="2175" />
+            <item id="2520" chance="7175" /> 
+        </inside>
+    </item>
+    <item id="2470" chance="17825" /> 
+    <item id="2146" countmax="92" chance="4600" />
+    <item id="2542" chance="21825" /> 
+    <item id="1986" chance="8500" /> 
+    <item id="2514" chance="28500" /> 
+    <item id="2148" countmax="100" chance="53550" /> 
+    <item id="2148" countmax="84" chance="53550" /> 
+</loot>
+</monster>

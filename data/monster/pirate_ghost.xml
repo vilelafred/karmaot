@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Pirate Ghost" nameDescription="a pirate ghost" race="undead" experience="29000" speed="720" raceid="257">
+	<targetstrategies nearest="96" health="85" damage="98" random="95"/>
+	<health now="19000" max="19000"/>
+	<look type="732" corpse="7819"/>
+	<targetchange interval="4000" chance="15"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag staticattack="90"/>
+		<flag targetdistance="1"/>
+		<flag runonhealth="0"/>
+		<flag canwalkonenergy="0"/>
+		<flag canwalkonfire="0"/>
+	</flags>
+	<script>
+		<event name="elite"/>
+	</script>
+	<attacks>
+		<attack name="melee" interval="2000" min="0" max="-800" death="300"/>
+
+		<attack name="death" interval="2000" chance="20" radius="4" target="0" min="-600" max="-1000">
+			<attribute key="areaEffect" value="mortarea"/>
+		</attack>
+
+		<attack name="lifedrain" interval="2000" chance="25" radius="3" target="0" min="-500" max="-800">
+			<attribute key="areaEffect" value="purpleenergy"/>
+		</attack>
+
+		<attack name="energy" interval="2000" chance="10" radius="5" target="0" min="-400" max="-700">
+			<attribute key="areaEffect" value="energyarea"/>
+		</attack>
+
+		<attack name="teleport" interval="2000" chance="8"/>
+	</attacks>
+	<defenses armor="80" defense="85">
+		<defense name="healing" interval="5000" chance="20" min="1200" max="1800">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element firePercent="-15"/>
+		<element holyPercent="-30"/>
+		<element energyPercent="10"/>
+		<element icePercent="10"/>
+		<element deathPercent="40"/>
+	</elements>
+	<immunities>
+		<immunity invisible="1"/>	
+		<immunity paralyze="1"/>
+		<immunity lifedrain="1"/>
+		<immunity death="1"/>
+		<immunity earth="1"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="You shall join the cursed!"/>
+		<voice sentence="No soul escapes the sea!"/>
+		<voice sentence="My vengeance is eternal!"/>
+		<voice sentence="Your flesh is useless here!"/>
+	</voices>
+	<loot>
+		<item id="2152" countmax="100" chance="100000"/> <!-- platinum coin -->
+		<item name="vampire shield" chance="1500"/>
+		<item name="royal helmet" chance="1000"/>
+		<item name="golden armor" chance="2000"/>
+        <item id="5937" chance="1000"/><!-- mystic ore -->				
+		<item name="stealth ring" chance="1200"/>
+		<item id="8176" countmax="10" chance="10000"/> <!-- mystic shard -->
+		<item name="red robe" chance="1100"/>
+		<item name="dark armor" chance="1000"/>
+		<item name="shadow sceptre" chance="800"/>
+		<item name="compass" chance="6000"/>
+	</loot>
+</monster>

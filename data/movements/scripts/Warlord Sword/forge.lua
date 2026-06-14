@@ -1,0 +1,31 @@
+	--//Helmet of the Ancients//--
+	function onAddItem(moveitem, tileitem, pos)
+	if tileitem.uid == 61112 then
+	
+		if moveitem.itemid == 2350 or moveitem.itemid == 2153 or moveitem.itemid == 2154 or moveitem.itemid == 2155 or moveitem.itemid == 2156 or moveitem.itemid == 2158 or moveitem.itemid == 6215 then
+		PayPos = {x=33022, y=32176, z=9}
+		Item1 = getTileItemById(PayPos, 2350)
+		Item2 = getTileItemById(PayPos, 2153)
+		Item3 = getTileItemById(PayPos, 2154)
+		Item4 = getTileItemById(PayPos, 2155)
+		Item5 = getTileItemById(PayPos, 2156)
+		Item6 = getTileItemById(PayPos, 2340)
+		Item7 = getTileItemById(PayPos, 2341)
+		
+			if Item1.itemid == 2350 and Item2.itemid == 2153 and Item3.itemid == 2154 and Item4.itemid == 2155 and Item5.itemid == 2156 and Item6.itemid == 2158 and Item7.itemid == 6215 then
+			doRemoveItem(Item1.uid)
+			doRemoveItem(Item2.uid)
+			doRemoveItem(Item3.uid)
+			doRemoveItem(Item4.uid)
+			doRemoveItem(Item5.uid)
+			doRemoveItem(Item6.uid)
+			doTransformItem(Item7.uid,2408)
+			doSendMagicEffect(PayPos, 15)
+			end
+		end
+		
+		
+	
+	end
+return TRUE
+end

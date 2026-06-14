@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Baba de Bruxa" nameDescription="a Baba de Bruxa" race="blood" experience="500000000" speed="1500" manacost="0">
+	<!-- -30% de HP (62.000.000 -> 43.400.000) -->
+	<health now="52400000" max="52400000"/>
+	<look type="637" head="118" body="97" legs="118" feet="114" corpse="0"/>
+
+    <targetchange interval="1000" chance="100"/>
+	<strategy attack="100" defense="0"/>
+
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag staticattack="98"/>
+        <flag targetdistance="7"/>
+		<!-- proporcional ao HP (-30%): 550.000 -> 385.000 -->
+		<flag runonhealth="385000"/>
+	</flags>
+
+	<script>
+		<event name="RewardChestDeath"/>
+		<event name="RewardChestMonster"/>
+	</script>
+
+    <attacks>
+        <!-- Ataques de mago: 100% à distância -->
+        <attack name="energy" interval="1000" chance="35" range="7" target="1" min="-2686" max="-208">
+            <attribute key="shootEffect" value="energyball"/>
+            <attribute key="areaEffect" value="energyarea"/>
+        </attack>
+        <attack name="death" interval="1200" chance="30" length="8" spread="0" min="-2564" max="-3046">
+            <attribute key="areaEffect" value="mortarea"/>
+        </attack>
+        <attack name="fire" interval="1400" chance="28" range="7" radius="5" target="1" min="-2483" max="-2886">
+            <attribute key="areaEffect" value="firearea"/>
+        </attack>
+        <attack name="earth" interval="1500" chance="20" range="7" radius="6" target="0" min="-2507" max="-2878">
+            <attribute key="areaEffect" value="poison"/>
+        </attack>
+		<!-- Exevo Gran Mas Mort: grande área de morte -->
+		<attack name="death" interval="1600" chance="25" radius="7" target="0" min="-2700" max="-3300">
+			<attribute key="areaEffect" value="mortarea"/>
+		</attack>
+		<!-- Exevo Gran Mas Vis: grande área de energia -->
+		<attack name="energy" interval="1600" chance="25" radius="7" target="0" min="-2250" max="-3600">
+			<attribute key="areaEffect" value="energyarea"/>
+		</attack>
+		<!-- SD (Sudden Death) de alvo único -->
+		<attack name="death" interval="1100" chance="22" range="7" target="1" min="-2800" max="-3400">
+			<attribute key="shootEffect" value="suddendeath"/>
+		</attack>		
+    </attacks>
+
+	<defenses armor="60" defense="70">
+		<defense name="healing" interval="1000" chance="35" min="12000" max="13500">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+		<defense name="speed" interval="1000" chance="80" speedchange="460" duration="6000">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</defense>
+        <defense name="invisible" interval="1000" chance="100" duration="15000">
+            <attribute key="areaEffect" value="blueshimmer"/>
+        </defense>
+	</defenses>
+
+    <summons maxSummons="6">
+        <summon name="Bubble" interval="1000" chance="100" max="6"/>
+    </summons>
+
+	<!-- Mantive o mesmo perfil elemental do Forgemaster -->
+	<elements>
+		<element firePercent="110"/>
+		<element energyPercent="50"/>
+		<element earthPercent="40"/>
+		<element deathPercent="70"/>
+		<element physicalPercent="60"/>
+		<element icePercent="-30"/>
+		<element holyPercent="-10"/>
+	</elements>
+
+	<immunities>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+
+
+	<voices interval="2000" chance="58">
+		<voice sentence="EXIVA PELEGOLAS" yell="1"/>
+		<voice sentence="FIM DE SEMANA eh RUIM OS FRAT MATA" yell="1"/>
+		<voice sentence="OVO MATA O PELEGOLAS" yell="1"/>
+		<voice sentence="DA EXETA BUBBLE" yell="1"/>
+		<voice sentence="PAREI DE PEDALAR PRA JOGAR TIBIA" yell="1"/>
+	</voices>
+
+	<loot>
+		<item id="2148" countmax="100" chance="100000"/>
+		<item id="2148" countmax="90" chance="50000"/>
+		<item id="2393" chance="55000"/>
+		<item id="2421" chance="9000"/>
+		<item id="2522" chance="6200"/>
+		<item id="2195" chance="15000"/>
+		<item id="2495" chance="7000"/>
+		<item id="2214" chance="14000"/>
+		<item id="2396" chance="21000"/>
+		<item id="2143" countmax="5" chance="12000"/>
+		<item id="2192" chance="24000"/>
+		<item id="5931" countmax="5" chance="18000"/>
+		<item id="2550" chance="22000"/>
+	</loot>
+</monster>

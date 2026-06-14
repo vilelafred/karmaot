@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Elite Elf Scout" nameDescription="an elf scout" race="blood" experience="75" speed="220" manacost="360">
+	<health now="160" max="160" />
+	<level min="5" max="100" />	
+	<look type="64" corpse="2981" />
+	<targetchange interval="1000" chance="50" />
+	<targetstrategies nearest="100" health="0" damage="0" random="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="1" />
+		<flag convinceable="1" />
+		<flag illusionable="1" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="4" />
+		<flag staticattack="80" />
+		<flag runonhealth="0" />
+	</flags>
+	<attacks>
+		<attack name="melee" skill="25" attack="18" />
+		<attack name="physical" checkshield="1" chance="25" range="7" min="-30" max="-60">
+			<attribute key="shootEffect" value="arrow" />
+		</attack>
+	</attacks>
+	<defenses armor="7" defense="18">
+	</defenses>
+	<elements>
+	</elements>
+	<immunities>
+		<immunity invisible="1" />
+	</immunities>
+	<voices interval="1000" chance="5">
+		<voice sentence="Tha'shi Ab'Dendriel!" />
+		<voice sentence="Feel the sting of my arrows!" />
+		<voice sentence="Thy blood will quench the soil's thirst!" />
+		<voice sentence="Evicor guide my arrow." />
+		<voice sentence="Your existence will end here!" />
+	</voices>
+	<loot>
+			<item name="mystic shard" countmax="16" chance="19512" />
+		
+		<item id="2681" chance="32400" />
+		<item id="2148" chance="54000" countmax="40" />
+		<item id="2544" chance="54000" countmax="12" />
+		<item id="2545" chance="27000" countmax="3" />
+		<item id="2031" chance="25200" />
+		<item id="2642" chance="18000" />
+		<item id="2482" chance="14400" />
+		<item id="2484" chance="21600" />
+
+			
+				<item id="2456" chance="7200" />
+				<item id="2397" chance="10800" />
+			
+
+	</loot>
+</monster>

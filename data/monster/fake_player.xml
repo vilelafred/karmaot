@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Fake Player" nameDescription="KarmaBot" race="blood" experience="0" speed="220" manacost="0" script="fake_player.lua">
+	<health now="185" max="185"/>
+	<look type="131" head="78" body="69" legs="58" feet="76" corpse="3058"/>
+	<targetchange interval="4000" chance="10"/>
+	<targetstrategies nearest="100" health="0" damage="0" random="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="0"/>
+		<flag canpushcreatures="1"/>
+		<flag staticattack="100"/>
+		<flag targetdistance="1"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="1500" skill="50" attack="35"/>
+	</attacks>
+	<defenses armor="10" defense="12"/>
+	<immunities>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+</monster>

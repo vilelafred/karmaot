@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="War Golem" nameDescription="a war golem" race="energy" experience="1250" speed="270" manacost="0">
+	<health now="1400" max="1400"/>
+	<look type="163" corpse="2952"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="50" attack="80"/>
+		<attack name="physical" interval="1000" chance="14" range="7" min="-0" max="-95">
+			<attribute key="shootEffect" value="fire"/>
+		</attack>
+	</attacks>
+	<defenses armor="45" defense="45">
+		<defense name="healing" interval="1000" chance="20" min="100" max="220">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element earthPercent="50"/>
+		<element firePercent="-10"/>
+		<element energyPercent="-5"/>
+		<element physicalPercent="40"/>
+		<element deathPercent="30"/>
+	</elements>
+	<immunities>
+		<immunity invisible="1"/>
+		<immunity paralyze="1"/>
+	</immunities>
+	<voices interval="2500" chance="10">
+		<voice sentence="Ferumbras barada nikto!"/>
+		<voice sentence="Klonk klonk klonk"/>
+		<voice sentence="Engaging Enemy!"/>
+		<voice sentence="Threat level processed."/>
+		<voice sentence="Charging weapon systems!"/>
+		<voice sentence="Auto repair in progress."/>
+		<voice sentence="The battle is joined!"/>
+		<voice sentence="Termination initialized!"/>
+		<voice sentence="Rrrtttarrrttarrrtta"/>		
+		<voice sentence="INTRUDER ALARM!"/>
+		<voice sentence="klonk klonk klonk"/>
+		<voice sentence="Awaiting orders."/>
+		<voice sentence="Secret objective complete."/>
+	</voices>
+	<loot>
+		<item id="2148" countmax="70" chance="34000"/><!-- gold coin -->
+		<item id="2148" countmax="61" chance="34000"/><!-- gold coin -->
+		<item id="2145" countmax="3" chance="5000"/><!-- small diamond -->
+		<item id="2510" chance="9000"/><!-- plate shield -->
+		<item id="2377" chance="5500"/><!-- two handed sword -->
+		<item id="2394" chance="7000"/><!-- morning star -->
+		<item id="2513" chance="6500"/><!-- battle shield -->
+		<item id="2438" chance="3500"/><!-- epee -->
+		<item id="2273" chance="1600"/><!-- ultimate healing rune -->
+		<item id="2168" chance="190"/><!-- life ring -->
+		<item id="1987" chance="100000"><!-- bag -->
+			<inside>
+				<item id="2209" chance="1000"/><!-- club ring -->
+				<item id="2213" chance="10000"/><!-- dwarven ring -->	
+				<item id="2645" chance="400"/><!-- steel boots -->
+				<item id="2391" chance="1550"/><!-- war hammer -->		
+				<item id="2177" chance="750"/><!-- life crystal -->		
+				<item id="2164" chance="650"/><!-- might ring -->
+				<item id="2434" chance="200"/><!-- dragon hammer -->
+				<item id="2311" chance="1500"/><!-- HMM -->
+			</inside>
+		</item>
+	</loot>
+</monster>

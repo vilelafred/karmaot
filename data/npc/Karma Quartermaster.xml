@@ -1,0 +1,14 @@
+<npc name="Karma Quartermaster" script="Karma Quartermaster.lua" floorchange="0" walkinterval="1500" speed="100">
+	<health now="100" max="100"/>
+	<look type="131" head="58" body="76" legs="38" feet="114"/>
+	<parameters>
+		<parameter key="idletime" value="30"/>
+		<parameter key="message_greet" value="Welcome aboard, sailor. Looking for protection stones? Say 'offer', 'stones' or 'help'."/>
+		<parameter key="message_placedinqueue" value="Hold the line, |PLAYERNAME|."/>
+		<parameter key="message_walkaway" value="Fair winds, |PLAYERNAME|."/>
+		<parameter key="message_farewell" value="Fair winds and following seas, |PLAYERNAME|!"/>
+		<parameter key="message_idletimeout" value="Until next tide, |PLAYERNAME|!"/>
+	</parameters>
+</npc>
+
+

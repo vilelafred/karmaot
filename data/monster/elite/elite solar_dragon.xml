@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Solar Dragon" nameDescription="a solar dragon" race="blood" experience="7950" speed="450" manacost="0">
+	<health now="3700" max="3700"/>
+	<look type="262" corpse="6220"/>
+	<level min="50" max="100" />		
+	<targetchange interval="1000" chance="20"/>
+	<targetstrategies nearest="70" health="10" damage="10" random="10"/>
+	<flags>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag summonable="0"/>
+		<flag convinceable="0"/>
+		<flag illusionable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="80"/>
+		<flag runonhealth="300"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="65" attack="55"/>
+		<attack name="fire" interval="2000" chance="17" range="7" radius="4" target="1" min="-120" max="-180">
+			<attribute key="shootEffect" value="fire"/>
+			<attribute key="areaEffect" value="firearea"/>
+		</attack>
+		<attack name="fire" interval="2000" chance="17" length="8" spread="3" min="-50" max="-250">
+			<attribute key="areaEffect" value="firearea"/>
+		</attack>
+		<attack name="speed" interval="2000" chance="25" range="1" target="1" speedchange="-500" duration="50000">
+			<attribute key="areaEffect" value="firearea"/>
+		</attack>
+		<attack name="physical" interval="2000" chance="25" range="7" radius="7" target="0" min="-200" max="-320">
+			<attribute key="areaEffect" value="firearea"/>
+		</attack>
+		<attack name="fire" interval="2000" chance="25" radius="3" target="0" min="-150" max="-450">
+			<attribute key="areaEffect" value="yellowspark"/>
+		</attack>
+		<attack name="firefield" interval="2000" chance="15" range="7" target="1">
+			<attribute key="shootEffect" value="fire"/>
+			<attribute key="areaEffect" value="fire"/>
+			<attribute key="duration" value="5000"/>
+		</attack>
+	</attacks>
+	<defenses armor="32" defense="156">
+		<defense name="healing" interval="2000" chance="15" min="200" max="300">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element firePercent="100"/>
+		<element earthPercent="100"/>
+	</elements>
+	<immunities>
+		<immunity lifedrain="1"/>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+		<immunity fire="1"/>
+	</immunities>
+	<voices interval="1000" chance="5">
+		<voice sentence="ZCHHHHH" yell="1"/>
+		<voice sentence="YOU WILL BURN!" yell="1"/>
+	</voices>
+	<loot>
+		<item id="8176" chance="16000" countmax="100"/>
+		<item id="8176" chance="16000" countmax="50"/>
+		<item id="2152" chance="4000" countmax="70"/>
+		<item id="2148" chance="36000" countmax="100"/>
+		<item id="2154" chance="3000"/>
+		<item id="2145" chance="1800"/>
+		<item id="2547" chance="1600"/>
+		<item id="2137" chance="600"/>
+		<item id="2177" chance="1600"/>
+		<item id="2418" chance="1400"/>
+		<item id="2033" chance="1800"/>
+		<item id="2980" chance="1800"/>
+		<item id="2130" chance="1400"/>
+		<item id="5970" chance="600"/>
+		<item id="5969" chance="600"/>
+		<item id="5968" chance="600"/>
+		<item id="2466" chance="600"/>
+		<item id="2470" chance="600"/>
+		<item id="7592" chance="60"/>
+	</loot>
+</monster>

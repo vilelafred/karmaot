@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Barbarian Brutetamer" nameDescription="a barbarian brutetamer" race="blood" experience="59000" speed="690" raceid="332">
+    <targetstrategies nearest="96" health="85" damage="98" random="95"/>
+    <health now="24500" max="24500"/>
+    <look type="756" head="78" body="116" legs="95" feet="121" corpse="3065"/>
+    <targetchange interval="60000" chance="0"/>
+    
+    <flags>
+        <flag summonable="0"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="0"/>
+        <flag convinceable="0"/>
+        <flag pushable="0"/>
+        <flag canpushitems="1"/>
+        <flag staticattack="90"/>
+        <flag lightlevel="0"/>
+        <flag lightcolor="0"/>
+        <flag targetdistance="1"/>
+        <flag runonhealth="0"/>
+        <flag canwalkonenergy="0"/>
+        <flag canwalkonfire="0"/>
+        <flag canwalkonpoison="0"/>
+    </flags>
+
+    <script>
+        <event name="elite"/>
+    </script>
+
+    <attacks>
+        <attack name="melee" skill="122" attack="130"/>
+        <attack name="ice" interval="2000" chance="25" radius="5" target="0" min="-700" max="-1390">
+            <attribute key="areaEffect" value="icearea"/>
+            <attribute key="shootEffect" value="ice"/>
+        </attack>
+        <attack name="paralyze_dworcvoodoomaster" chance="50" range="7"/>
+        <attack name="outfit" chance="90" range="7" monster="chicken" duration="5000">
+            <attribute key="areaEffect" value="blueshimmer"/>
+        </attack>
+        <attack name="poison" chance="20" radius="6" target="0" min="-600" max="-1080">
+            <attribute key="areaEffect" value="greenbubble"/>
+        </attack>
+        <attack name="poisonfield" chance="13" range="7" radius="1" target="1">
+            <attribute key="shootEffect" value="poison"/>
+        </attack>
+    </attacks>
+
+    <defenses armor="30" defense="80">
+        <defense name="healing" chance="25" min="300" max="900">
+            <attribute key="areaEffect" value="blueshimmer"/>
+        </defense>
+        <defense name="haste_dworcvoodoomaster" chance="80"/>
+        <defense name="invisible" chance="5" duration="3000">
+            <attribute key="areaEffect" value="blueshimmer"/>
+        </defense>
+    </defenses>
+
+    <elements>
+        <element icePercent="50"/>
+        <element holyPercent="10"/>
+        <element energyPercent="20"/>
+        <element physicalPercent="-10"/>
+        <element deathPercent="-5"/>
+    </elements>
+
+    <immunities>
+        <immunity paralyze="1"/>
+        <immunity invisible="1"/>
+    </immunities>
+
+    <voices interval="5000" chance="10">
+        <voice sentence="To me, creatures of the wild!"/>
+        <voice sentence="Feel the power of the beast!"/>
+        <voice sentence="My instincts tell me about your cowardice."/>
+    </voices>
+
+    <loot>
+        <item id="1958" chance="4750"/> <!-- grey small book -->
+        <item name="crystal coin" countmax="5" chance="530"/>
+        <item id="2472" chance="2350"/> <!-- staff -->
+        <item name="fur boots" chance="170"/>
+        <item name="mammoth fur cape" chance="150"/>
+        <item name="mammoth fur shorts" chance="90"/>
+        <item name="7587" chance="190"/>		
+        <item name="mana potion" chance="580"/>
+        <item id="8176" countmax="50" chance="50000"/> <!-- mystic shard -->
+        <item id="8176" countmax="50" chance="50000"/>
+    </loot>
+</monster>

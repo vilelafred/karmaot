@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Malakar" nameDescription="Malakar" race="fire" experience="500560000" speed="710">
+    <targetstrategies nearest="96" health="85" damage="98" random="95" />
+    <health now="50900000" max="50900000"/>
+    <look type="413" corpse="0"/>
+    <targetchange interval="2000" chance="30"/>
+    
+    <flags>
+        <flag summonable="0"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="0"/>
+        <flag convinceable="0"/>
+        <flag pushable="0"/>
+        <flag canpushitems="1"/>
+        <flag canpushcreatures="1"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="100"/>
+        <flag runonhealth="10"/>
+        <flag canwalkonenergy="1"/>
+        <flag canwalkonfire="1"/>
+        <flag canwalkonpoison="1"/>
+    </flags>
+
+    <script>
+        <event name="RewardChestDeath"/>
+        <event name="RewardChestMonster"/>
+    </script>
+
+<attacks>
+		<attack name="melee" skill="380" attack="399"/>
+    <!-- ⚡ Vengeful Thunderstorm: tempestade de energia em área (pressão constante) -->
+    <attack name="energy" interval="1200" chance="38" radius="5" target="0" min="-2400" max="-4200">
+        <attribute key="areaEffect" value="purpleenergy"/>
+    </attack>
+
+    <!-- 💀 Abyssal Nova: grande explosão de morte ao redor do boss (burst pesado) -->
+    <attack name="death" interval="1500" chance="32" radius="7" target="0" min="-3000" max="-5200">
+        <attribute key="areaEffect" value="mortarea"/>
+    </attack>
+
+    <!-- 🔥 Spirit Overload: rajadas rápidas e pequenas detonações no chão (controle de espaço) -->
+    <attack name="energy" interval="900" chance="26" radius="2" target="0" min="-1500" max="-3000">
+        <attribute key="areaEffect" value="energyarea"/>
+    </attack>
+
+    <!-- ⚡ Annihilating Pulse: feixe linear à distância (pune linhas/stack atrás) -->
+    <attack name="energy" interval="2000" chance="24" length="8" spread="0" min="-2800" max="-5000">
+        <attribute key="shootEffect" value="energy"/>
+        <attribute key="areaEffect" value="energyarea"/>
+    </attack>
+
+    <!-- 💥 Spectral Detonation (Anti-Stack): explode no alvo e pega ao redor -->
+    <attack name="death" interval="1000" chance="27" range="3" radius="6" target="1" min="-2700" max="-4800">
+        <attribute key="areaEffect" value="darkenergy"/>
+    </attack>
+
+    <!-- 🌀 Grudge Quake: onda física curta em volta do boss (desestabiliza melê colado) -->
+    <attack name="physical" interval="1000" chance="22" radius="4" target="0" min="-2100" max="-3900">
+        <attribute key="areaEffect" value="explosionarea"/>
+    </attack>
+
+    <!-- ⚔️ Revenant Crush: golpe focal de proximidade (finish em quem agrar) -->
+    <attack name="physical" interval="1100" chance="20" range="2" radius="3" target="1" min="-2300" max="-4100">
+        <attribute key="areaEffect" value="explosion"/>
+    </attack>
+</attacks>
+
+
+
+    <defenses armor="84" defense="84"/>
+    <defense name="healing" chance="30" min="5000" max="7000">
+        <attribute key="areaEffect" value="greenspark"/>
+    </defense>
+
+    <elements>
+        <element deathPercent="100"/>
+        <element firePercent="100"/>
+        <element energyPercent="100"/>
+    </elements>
+
+    <immunities>
+        <immunity paralyze="1"/>
+        <immunity invisible="1"/>
+    </immunities>
+
+    <!-- No loot -->
+</monster>

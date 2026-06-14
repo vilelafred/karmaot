@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Dark Warrior" nameDescription="a Dark Warrior" race="blood" experience="326000" speed="890" manacost="0">
+	<health now="51800" max="51800"/>
+	<look type="667" head="95" body="95" legs="95" feet="95" corpse="3128"/>
+	<targetchange interval="1000" chance="3"/>
+	<targetstrategies nearest="80" health="10" damage="10" random="0"/>
+	<flags>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag summonable="0"/>
+		<flag convinceable="0"/>
+		<flag illusionable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="80"/>
+		<flag runonhealth="0"/>
+	</flags>
+			<script>
+    <event name="elite"/>
+</script>
+	<attacks>
+		<attack name="melee" skill="200" attack="280"/>
+		<attack name="physical" checkshield="1" chance="15" range="6" min="-1545" max="-2385">
+			<attribute key="shootEffect" value="spear"/>
+		</attack>
+	</attacks>
+	<defenses armor="142" defense="160">
+	</defenses>
+	<elements>
+		<element physicalPercent="10"/>
+		<element deathPercent="15"/>
+		<element energyPercent="-20"/>
+		<element holyPercent="-10"/>
+	</elements>
+	<immunities>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="1000" chance="5">
+		<voice sentence="By Bolg's Blood!"/>
+		<voice sentence="You're no match for me!"/>
+		<voice sentence="NO MERCY!" yell="1"/>
+		<voice sentence="NO PRISONERS!" yell="1"/>
+		<voice sentence="MINE!" yell="1"/>
+	</voices>
+    <loot>
+        <item id="2795" chance="1000" countmax="20"/><!-- fire mushroom -->
+        <item id="2152" chance="3000" countmax="10"/><!-- platinum coin -->
+        <item id="2152" chance="3000" countmax="10"/>
+        <item id="2152" chance="3000" countmax="10"/>
+        <item id="5937" chance="1000"/><!-- mystic ore -->			
+        <item id="2514" chance="800"/><!-- mastermind shield -->
+        <item id="2214" chance="1000"/><!-- ring of healing -->
+        <item id="2164" chance="1000"/><!-- might ring -->
+        <item id="2165" chance="1000"/><!-- stealth ring -->
+        <item id="2151" chance="3000"/><!-- talon -->
+        <item id="5907" chance="500"/><!-- demoniac essence -->
+        <item id="1986" chance="1000"/><!-- red tome -->
+        <item id="2653" chance="700"/><!-- red tunic -->
+        <item id="2483" chance="500"/><!-- scale armor -->
+        <item id="2147" chance="900"/><!-- small ruby -->
+        <item id="2493" chance="700"/><!-- demon helmet -->
+        <item id="2472" chance="600"/><!-- magic plate armor -->
+        <item id="5780" chance="1000"/><!-- sun fire robe -->
+        <item id="2546" chance="1000" countmax="15"/><!-- burst arrow -->
+        <item id="2396" chance="120"/><!-- ice rapier - ajustado -->
+        <item id="2520" chance="1000"/><!-- demon shield -->
+        <item id="5980" chance="100"/><!-- red spellwand -->
+        <item id="2164" chance="200"/><!-- might ring (extra) -->
+        <item id="2472" chance="150"/> <!-- magic plate armor - já existente -->
+        <item id="2514" chance="130"/> <!-- mastermind shield - já existente -->
+        <item id="2155" chance="200"/> <!-- green gem -->
+    </loot>
+</monster>

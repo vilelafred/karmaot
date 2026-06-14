@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Black Demon" nameDescription="a elite black demon" race="fire" experience="45600" speed="795" manacost="0">
+    <health now="19600" max="19600"/>
+    <level min="50" max="100"/>
+    <look type="256" corpse="6168"/>
+
+    <targetchange interval="1000" chance="50"/>
+    <targetstrategies nearest="90" health="10" damage="10" random="30"/>
+
+    <flags>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag summonable="0"/>
+        <flag convinceable="0"/>
+        <flag illusionable="0"/>
+        <flag pushable="0"/>
+        <flag canpushitems="1"/>
+        <flag canpushcreatures="1"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="80"/>
+        <flag runonhealth="0"/>
+    </flags>
+
+    <attacks>
+        <attack name="melee" skill="120" attack="90"/>
+        <attack name="poison" chance="34" range="9" radius="12" target="1" min="-510" max="-950">
+            <attribute key="shootEffect" value="fire"/>
+            <attribute key="areaEffect" value="poison"/>
+        </attack>
+        <attack name="speed" interval="2000" chance="25" range="7" speedchange="-900" duration="50000">
+            <attribute key="areaEffect" value="redshimmer"/>
+        </attack>
+        <attack name="physical" interval="2000" chance="30" radius="3" target="0" min="-500" max="-700">
+            <attribute key="areaEffect" value="blackspark"/>
+        </attack>
+        <attack name="physical" interval="2000" chance="7" radius="3" target="0" min="-550" max="-950">
+            <attribute key="areaEffect" value="mortarea"/>
+        </attack>
+    </attacks>
+
+    <defenses armor="60" defense="490">
+        <defense name="healing" chance="25" min="290" max="790">
+            <attribute key="areaEffect" value="redshimmer"/>
+        </defense>
+    </defenses>
+
+    <summons maxSummons="1">
+        <summon name="demon" chance="19" max="1"/>
+    </summons>
+
+    <elements>
+        <element firePercent="100"/>
+        <element earthPercent="100"/>
+        <element energyPercent="100"/>
+    </elements>
+
+    <immunities>
+        <immunity lifedrain="1"/>
+        <immunity paralyze="1"/>
+        <immunity invisible="1"/>
+    </immunities>
+
+    <voices interval="1000" chance="5">
+        <voice sentence="DIE HUMANS!" yell="1"/>
+        <voice sentence="DARKNESSSS!" yell="1"/>
+        <voice sentence="CHAMEK ATH UTHUL ARAK!" yell="1"/>
+    </voices>
+
+    <loot>
+        <item id="2792" chance="2000" countmax="100"/> <!-- Dark Mushroom -->
+        <item id="2152" chance="80000" countmax="10"/> <!-- Gold Coin -->
+        <item id="2152" chance="70000" countmax="10"/>
+        <item id="2645" chance="2000"/> <!-- Steel Boots -->
+        <item id="2489" chance="5100"/> <!-- Dark Armor -->
+        <item id="2490" chance="5500"/> <!-- Dark Helmet -->
+        <item id="5907" chance="5000"/> <!-- Demoniac Essence -->
+        <item id="2176" chance="3000"/> <!-- Orb -->
+        <item id="2178" chance="5500"/> <!-- Mind Stone -->
+        <item id="5812" chance="10"/> <!-- Rebellion Sword -->
+        <item id="5792" chance="30"/> <!-- Ironworker -->
+        <item id="5841" chance="6000"/> <!-- Enchanted Emerald -->
+        <item id="2144" chance="2000"/> <!-- Black Pearl -->
+        <item id="2393" chance="2000"/> <!-- Giant Sword -->
+        <item id="2462" chance="5200"/> <!-- Devil Helmet -->
+        <item id="2387" chance="20000"/> <!-- Double Axe -->
+        <item id="2396" chance="6000"/> <!-- Ice Rapier -->
+        <item id="2168" chance="2000"/> <!-- Life Ring -->
+        <item id="5908" chance="5000"/> <!-- Demon Horn -->
+        <item id="2547" chance="5000" countmax="100"/> <!-- Power Bolt -->
+        <item id="5843" chance="2000"/> <!-- White Gem -->
+    </loot>
+</monster>

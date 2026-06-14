@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Uruk hai" nameDescription="an Uruk hai" race="blood" experience="9500" speed="500" manacost="55590">
+	<health now="9110" max="9110"/>
+	<look type="379" corpse="2864"/>
+	<targetchange interval="1000" chance="10"/>
+	<targetstrategies nearest="60" health="710" damage="0" random="0"/>
+	<flags>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag summonable="1"/>
+		<flag convinceable="1"/>
+		<flag illusionable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="80"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" skill="300" attack="205"/>
+		<attack name="paralyze_mummy" chance="8" range="9"/>
+				<attack name="melee" skill="120" attack="90"/>
+		<attack name="manadrain" chance="33" range="7" min="-130" max="-500"/>
+		<attack name="poison" chance="34" range="9" radius="12" target="1" min="-410" max="-1550">
+			<attribute key="shootEffect" value="fire"/>
+			<attribute key="areaEffect" value="poison"/>
+		</attack>
+	</attacks>
+	<elements>
+		<element earthPercent="100"/>
+				<element physicalPercent="100"/>
+				<element deathPercent="100"/>
+	</elements>		
+	<immunities>
+	</immunities>
+	<voices interval="1000" chance="5">
+		<voice sentence="Ash nazg durbatulûk!" yell="1"/>
+		<voice sentence="ash nazg gimbatul!" yell="1"/>
+		<voice sentence="ash nazg thrakatulûk agh burzum-ishi krimpatul." yell="1"/>
+	</voices>
+	<loot>
+		<item id="2671" chance="17000"/><!-- 17% ham -->
+		<item id="2148" chance="55000" countmax="100"/><!-- 12 55% gold coin -->
+		<item id="2491" chance="11000"/><!-- 11% crown helmet -->
+		<item id="2487" chance="10000"/><!-- 10% crown armor -->
+		<item id="1987" chance="100000"><!-- bag -->
+			<inside>
+				<item id="2044" chance="8000"/><!-- 8% lamp -->
+				<item id="2381" chance="7000"/><!-- 7% halberd -->
+				<item id="2469" chance="1000"/><!-- 1% dragon scale legs -->
+			</inside>
+		</item>
+	</loot>
+</monster>

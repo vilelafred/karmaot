@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Elite Goblin" nameDescription="a goblin" race="blood" experience="25" speed="120" manacost="290">
+	<health now="50" max="50" />
+	<level min="5" max="100" />	
+	<look type="61" corpse="2940" />
+	<targetchange interval="1000" chance="0" />
+	<targetstrategies nearest="100" health="0" damage="0" random="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="1" />
+		<flag convinceable="1" />
+		<flag illusionable="1" />
+		<flag pushable="1" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="80" />
+		<flag runonhealth="15" />
+	</flags>
+	<attacks>
+		<attack name="melee" skill="15" attack="10" />
+		<attack name="physical" checkshield="1" chance="9" range="7" min="-15" max="-25">
+			<attribute key="shootEffect" value="smallstone" />
+		</attack>
+	</attacks>
+	<defenses armor="6" defense="8">
+	</defenses>
+	<elements>
+	</elements>
+	<immunities>
+	</immunities>
+	<voices interval="1000" chance="5">
+		<voice sentence="Me have him!" />
+		<voice sentence="Zig Zag! Gobo attack!" />
+		<voice sentence="Help! Goblinkiller!" />
+		<voice sentence="Bugga! Bugga!" />
+		<voice sentence="Me green, me mean!" />
+	</voices>
+	<loot>
+			<item name="mystic shard" countmax="16" chance="19512" />
+		<item name="mystic ore" chance="252" />	
+				<item name="mystic shard" countmax="16" chance="19512" />
+		<item name="mystic ore" chance="252" />	
+		<item id="2667" chance="23400" />
+		<item id="2148" chance="80000" countmax="90" />
+		<item id="1294" chance="80000" countmax="50" />
+		<item id="2230" chance="21600" />
+		<item id="2235" chance="12600" />
+		<item id="2559" chance="5400" />
+		<item id="2461" chance="9000" />
+		<item id="2467" chance="9000" />
+
+			
+				<item id="2379" chance="7200" />
+				<item id="2406" chance="5400" />
+				<item id="2449" chance="3600" />
+			
+
+	</loot>
+</monster>

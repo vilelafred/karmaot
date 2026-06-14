@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Terragor" nameDescription="Terragor" race="earth" experience="1560000" speed="610">
+    <targetstrategies nearest="96" health="85" damage="98" random="95" />
+    <health now="6900000" max="6900000"/>
+    <look type="404" corpse="0"/>
+    <targetchange interval="4000" chance="10"/>
+    
+    <flags>
+        <flag summonable="0"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="0"/>
+        <flag convinceable="0"/>
+        <flag pushable="0"/>
+        <flag canpushitems="1"/>
+        <flag canpushcreatures="1"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="100"/>
+        <flag runonhealth="10"/>
+        <flag canwalkonenergy="1"/>
+        <flag canwalkonfire="1"/>
+        <flag canwalkonpoison="1"/>
+    </flags>
+
+    <script>
+        <event name="RewardChestDeath"/>
+        <event name="RewardChestMonster"/>
+    </script>
+
+    <attacks>
+        <!-- Earth Beam Special -->
+        <attack name="earth" interval="2000" chance="35" range="7" radius="1" target="1" min="-1500" max="-2500">
+            <attribute key="shootEffect" value="earth"/>
+            <attribute key="areaEffect" value="greenspark"/>
+        </attack>
+		
+    <attack name="manadrain" interval="1000" chance="25" range="7" min="-800" max="-1000">
+      <attribute key="areaEffect" value="redshimmer"/>
+    </attack>
+	
+        <!-- Area Poison Explosion -->
+        <attack name="earth" interval="1500" chance="35" radius="6" min="-1060" max="-2560">
+            <attribute key="areaEffect" value="poison"/>
+        </attack>
+
+        <!-- Strong Earth Hit -->
+        <attack name="earth" interval="2000" chance="35" range="7" radius="7" target="1" min="-1810" max="-2500">
+            <attribute key="shootEffect" value="earth"/>
+            <attribute key="areaEffect" value="bigplants"/>
+        </attack>
+    </attacks>
+
+    <defenses armor="84" defense="84"/>
+    <defense name="healing" chance="30" min="2000" max="3200">
+        <attribute key="areaEffect" value="greenspark"/>
+    </defense>
+
+    <elements>
+        <element earthPercent="100"/>
+        <element firePercent="100"/>
+        <element energyPercent="100"/>
+    </elements>
+
+    <immunities>
+        <immunity paralyze="1"/>
+        <immunity invisible="1"/>
+    </immunities>
+
+    <!-- No loot -->
+</monster>

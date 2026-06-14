@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Captain Max" script="Captain Max.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="134" head="95" body="10" legs="56" feet="77" addons="0" />
+    <parameters>
+        
+        <parameter key="message_greet" value="Ahoy, matey. You are lucky to catch me here. Ask me for a {Travel}." /> 
+		<parameter key="message_placedinqueue" value="One moment please, |PLAYERNAME|." />
+		<parameter key="message_farewell" value="Good bye. You are welcome." /> 
+		<parameter key="message_walkaway" value="Good bye. You are welcome." /> 	
+		
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="name;job;sail;captain;ship;ferry;wares;traveller;island;monastery;monk;white raven" />
+		
+        <parameter key="keyword_reply1" value="I'm m ol' Captain Nelson." />
+        <parameter key="keyword_reply2" value="Ask me for a TRAVEL!" />
+        <parameter key="keyword_reply3" value="Ask me for a TRAVEL!" />
+        <parameter key="keyword_reply4" value="Ask me for a TRAVEL!" />
+        <parameter key="keyword_reply5" value="All right she's small. But she's a real beauty, don't you think?" />
+        <parameter key="keyword_reply6" value="All right she's small. But she's a real beauty, don't you think?" />
+		<parameter key="keyword_reply7" value="They always need provisions from the cities, and they sell their wine there." />
+		<parameter key="keyword_reply8" value="Sometimes pilgrims come to this place. And now and then a monk leaves the monastery for some time." />
+		<parameter key="keyword_reply9" value="" />
+		<parameter key="keyword_reply10" value="If you have the abbot's permission, I can take you to the home of a local fisherman on the continent Tibia." />
+		<parameter key="keyword_reply11" value="" />
+		<parameter key="keyword_reply12" value="This is the isle of the kings. All the great Tibian leaders have found their final rest here under the monastery." />
+		<parameter key="keyword_reply13" value="The white raven monastery is a place of wisdom and contemplation, or so the monks say. Sounds like a pretty boring place to me! HAR HAR!" />
+		<parameter key="keyword_reply14" value="The order of the white raven." />
+		<parameter key="keyword_reply15" value="I prefer parrots. And monkeys! And snakes! HAR! HAR!" />
+
+    </parameters>
+</npc>
+

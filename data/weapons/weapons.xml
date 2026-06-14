@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<weapons>
+
+	<!-- RODS -->
+	<wand id="2182" mana="2" min="8" max="18" type="earth"> <!-- Snakebit Rod -->
+		<vocation name="Druid"/>
+		<vocation name="Elder Druid"/>
+	</wand>
+	<wand id="2186" mana="3" min="13" max="25" type="energy"> <!-- Moonlight Rod -->
+		<vocation name="Druid"/>
+		<vocation name="Elder Druid"/>
+	</wand>
+	<wand id="2185" mana="5" min="27" max="33" type="death"> <!-- Necrotic Rod -->
+		<vocation name="Druid"/>
+		<vocation name="Elder Druid"/>
+	</wand>
+	<wand id="2181" mana="8" min="42" max="48" type="earth"> <!-- Terra Rod -->
+		<vocation name="Druid"/>
+		<vocation name="Elder Druid"/>
+	</wand>
+	<wand id="2183" mana="13" min="55" max="75" type="energy"> <!-- Hailstorm Rod -->
+		<vocation name="Druid"/>
+		<vocation name="Elder Druid"/>
+	</wand>
+
+	<!-- WANDS -->
+	<wand id="2190" mana="2" min="8" max="18" type="energy"> <!-- Wand of Vortex -->
+		<vocation name="Sorcerer"/> 
+		<vocation name="Master Sorcerer"/>
+	</wand>
+	<wand id="2191" mana="3" min="13" max="25" type="fire"> <!-- Wand of Dragonbreath -->
+		<vocation name="Sorcerer"/> 
+		<vocation name="Master Sorcerer"/>
+	</wand>
+	<wand id="2188" mana="5" min="27" max="33" type="death"> <!-- Wand of Decay -->
+		<vocation name="Sorcerer"/> 
+		<vocation name="Master Sorcerer"/>
+	</wand>
+	<wand id="2189" mana="8" min="42" max="48" type="energy"> <!-- Wand of Cosmic Energy -->
+		<vocation name="Sorcerer"/> 
+		<vocation name="Master Sorcerer"/>
+	</wand>
+	<wand id="2187" mana="13" min="55" max="75" type="fire"> <!-- Wand of Inferno -->
+		<vocation name="Sorcerer"/> 
+		<vocation name="Master Sorcerer"/>
+	</wand>
+	<wand id="5785" mana="28" min="100" max="175" type="fire"> <!-- Magic Staff -->
+		<vocation name="Sorcerer"/> 
+		<vocation name="Master Sorcerer"/>
+	</wand>
+	<wand id="6086" mana="18" min="75" max="110" type="fire"> <!-- Red Magician Wand -->
+		<vocation name="Sorcerer"/> 
+		<vocation name="Master Sorcerer"/>
+		<vocation name="Druid"/>	
+		<vocation name="Elder Druid"/>
+	</wand>
+	<wand id="2453" mana="25" min="110" max="170" type="death"> <!-- Arcane Staff -->
+		<vocation name="Sorcerer"/> 
+		<vocation name="Master Sorcerer"/>
+		<vocation name="Druid"/>	
+		<vocation name="Elder Druid"/>
+	</wand>
+	<wand id="7556" mana="30" min="170" max="210" type="death"> <!-- Blessed Staff -->
+		<vocation name="Sorcerer"/> 
+		<vocation name="Master Sorcerer"/>
+		<vocation name="Druid"/>	
+		<vocation name="Elder Druid"/>
+	</wand>
+	<wand id="7637" mana="25" min="100" max="150" type="death"> <!-- Undead Rod -->
+		<vocation name="Sorcerer"/> 
+		<vocation name="Master Sorcerer"/>
+		<vocation name="Druid"/>	
+		<vocation name="Elder Druid"/>
+	</wand>
+	<wand id="6196" mana="100" level="300" min="300" max="500" type="death"> <!-- karma staff -->
+		<vocation name="Sorcerer"/> 
+		<vocation name="Master Sorcerer"/>
+		<vocation name="Druid"/>	
+		<vocation name="Elder Druid"/>
+	</wand>	
+	<wand id="6197" mana="200" level="500" min="900" max="1200" type="death"> <!-- karma staff +2 -->
+		<vocation name="Sorcerer"/> 
+		<vocation name="Master Sorcerer"/>
+		<vocation name="Druid"/>	
+		<vocation name="Elder Druid"/>
+	</wand>		
+	<wand id="6822" mana="5" min="25" max="50" type="fire"/> <!-- Rooker Wand -->
+
+	<!-- AMMUNITION FOR PALADINS ONLY -->
+	<distance id="7690" action="removecount" level="280" script="flaming.lua"> <!-- Flaming Arrow -->
+		<vocation name="Paladin"/>
+		<vocation name="Royal Paladin"/>
+	</distance>
+	<distance id="7691" action="removecount" unproperly="1" level="150"> <!-- Piercing Bolt -->
+	</distance>
+	<distance id="7692" action="removecount" unproperly="1" level="40"> <!-- Onyx Arrow -->
+	</distance>
+	<distance id="7693" action="removecount" unproperly="1" level="20"> <!-- Sniper Arrow -->
+	</distance>
+	<distance id="7688" action="removecount" level="150" script="flash.lua"> <!-- Flaming Arrow -->
+	</distance>
+	<distance id="7689" action="removecount" level="280" script="icing.lua"> <!-- Flaming Arrow -->
+		<vocation name="Paladin"/>
+		<vocation name="Royal Paladin"/>
+	</distance>
+	<distance id="7696" breakchance="30" unproperly="1" level="80"> <!-- Assassin Star -->
+	</distance>
+	<distance id="7514" breakchance="5" unproperly="1" level="25"> <!-- Royal Spear -->
+		<vocation name="Paladin"/>
+		<vocation name="Royal Paladin"/>
+	</distance>
+	<distance id="6499" action="removecount" unproperly="1" level="800"> <!-- infernal Bolt -->
+		<vocation name="Paladin"/>
+		<vocation name="Royal Paladin"/>	
+	</distance>	
+	<distance id="6498" action="removecount" unproperly="1" level="500"> <!-- enchanted Bolt -->
+		<vocation name="Paladin"/>
+		<vocation name="Royal Paladin"/>	
+	</distance>	
+	
+	
+	<distance id="7695" breakchance="0" unproperly="1" level="1"> <!-- Enchanted Spear -->
+	</distance>
+	
+	<distance id="2389" breakchance="1"> <!-- Spear -->
+	</distance>
+
+
+	<!-- Swords -->
+
+	<!-- Ice rapier -->
+	<melee id="2396" action="removecharge" />
+	<melee id="6628" action="removecharge" />
+
+	<!-- Broadsword -->
+	<melee id="2413" unproperly="1"/>
+	<melee id="6634" unproperly="1">
+	</melee>
+
+	<!-- Two handed sword -->
+	<melee id="2377" unproperly="1"/>
+	<melee id="6633" unproperly="1"/>
+	<melee id="6469" unproperly="1">
+	</melee>
+
+	<!-- Fire sword -->
+	<melee id="2392" unproperly="1" event="function" value="default"/>
+	<melee id="6473" unproperly="1" event="function" value="default"/>
+	<melee id="6589" unproperly="1" event="function" value="default"/>
+
+	<!-- Bright sword -->
+	<melee id="2407" unproperly="1" />
+	<melee id="6626" unproperly="1" />
+
+	<melee id="2438" unproperly="1" />
+	<melee id="2451" unproperly="1" />
+	<melee id="2446" unproperly="1" />
+
+
+	<melee id="2400" unproperly="1" />
+
+	<!-- Warlord Sword -->
+	<melee id="2408" unproperly="1"/>
+	<melee id="6411" unproperly="1">
+	</melee>
+
+	<!-- Magic Longsword -->
+	<melee id="2390" unproperly="1"/>
+	<melee id="6543" unproperly="1"/>
+	<melee id="6472" unproperly="1">
+	</melee>
+
+	<!-- Axes -->
+
+	<!-- Battle Axe -->
+	<melee id="2378" unproperly="1"/>
+	<melee id="6638" unproperly="1"/>
+	<melee id="6639" unproperly="1">
+	</melee>
+
+	<!-- Barbarian Axe -->
+	<melee id="2429" unproperly="1" />
+	<melee id="6557" unproperly="1" />
+
+	<melee id="2435" unproperly="1" />
+
+	<!-- Obsidian Lance -->
+	<melee id="2425" unproperly="1" />
+	<melee id="6559" unproperly="1" />
+
+	<melee id="2430" unproperly="1" />
+
+	<!-- Double Axe -->
+	<melee id="2387" unproperly="1"/>
+	<melee id="6535" unproperly="1"/>
+	<melee id="6576" unproperly="1">
+	</melee>
+
+	<!-- Halberd -->
+	<melee id="2381" unproperly="1" />
+	<melee id="6400" unproperly="1" />
+
+	<melee id="2440" unproperly="1">
+	</melee>
+
+	<!-- Naginata -->
+	<melee id="2426" unproperly="1" />
+	<melee id="6554" unproperly="1" />
+
+
+	<melee id="3962" unproperly="1" />
+	<melee id="2432" unproperly="1" />
+	<melee id="2447" unproperly="1">
+
+	</melee>
+
+	<!-- Guardian Halberd -->
+	<melee id="2427" unproperly="1" />
+	<melee id="6541" unproperly="1" />
+
+	<!-- Dragon lance -->
+	<melee id="2414" unproperly="1" />
+	<melee id="6553" unproperly="1" />
+
+	<melee id="2454" unproperly="1">
+
+	</melee>
+	<melee id="2443" unproperly="1">
+
+	</melee>
+	<melee id="2431" unproperly="1" />
+
+	<!-- Great axe -->
+	<melee id="2415" unproperly="1"/>
+	<melee id="6556" unproperly="1">
+	</melee>
+
+	<!--Clubs -->
+	<melee id="2423" unproperly="1" />
+	<melee id="2434" unproperly="1" />
+
+	<!-- Skull staff -->
+	<melee id="2436" unproperly="1" />
+	<melee id="6480" unproperly="1" />
+
+	<melee id="3961" unproperly="1" />
+	<melee id="2445" unproperly="1" />
+
+	<!-- Silver mace -->
+	<melee id="2424" unproperly="1" />
+	<melee id="6414" unproperly="1" />
+
+	<!-- War hammer -->
+	<melee id="2391" unproperly="1"/>
+	<melee id="6404" unproperly="1">
+	</melee>
+	<melee id="2444" unproperly="1">
+
+	</melee>
+	<melee id="2452" unproperly="1">
+
+	</melee>
+
+	<!-- Ammunition -->
+	<distance id="1294" breakchance="3"/> <!-- small stone -->
+	<distance id="6463" breakchance="1" action="removecount"/> <!-- small stone -->
+	<distance id="2111" action="removecount" /> <!-- snowball -->
+	<distance id="2389" breakchance="1"/> <!-- spear -->
+	<distance id="6640" breakchance="1" action="removecount"/> <!-- spear -->
+	<distance id="6641" breakchance="1" action="removecount"/> <!-- spear -->
+	<distance id="2399" breakchance="10"/> <!-- throwing star -->
+	<distance id="2410" breakchance="7" action="removecount" /> <!-- throwing knife -->
+    <distance id="2543" action="removecount" /> <!-- bolt -->
+	<distance id="2544" action="removecount" /> <!-- arrow -->
+	<distance id="7738" action="removecount" /> <!-- arrow -->	
+	<distance id="2545" action="removecount" script="poison_arrow.lua" />
+	<distance id="2546" action="removecount" script="burst_arrow.lua" />	
+    <distance id="2547" action="removecount" unproperly="1" /> <!-- Power Bolt -->
+	
+	
+	<!-- Ammunition -->
+	
+    <!-- removed invalid distance with empty id (Infernal Bolt) -->
+
+	<distance id="7694" breakchance="9" script="viper_star.lua" />
+	
+
+	
+</weapons>

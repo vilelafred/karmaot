@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="wyvern" nameDescription="a wyvern" race="blood" experience="515" speed="240" manacost="0">
+	<health now="795" max="795"/>
+	<look type="239" corpse="3104"/>
+	<targetchange interval="5000" chance="8"/>
+	<targetstrategies nearest="70" health="10" damage="10" random="10"/>
+	<flags>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag summonable="0"/>
+		<flag convinceable="0"/>
+		<flag illusionable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="300"/>
+		
+	</flags>
+	<attacks>
+		<attack name="melee" skill="50" attack="40" poison="300"/>
+		<attack name="poisoncondition" chance="40" length="8" spread="3" min="-480" max="-480">
+			<attribute key="areaEffect" value="poison"/>
+		</attack>
+		<attack name="drunk" chance="20" length="8" spread="3" duration="16000">
+			<attribute key="areaEffect" value="rednote"/>
+		</attack>
+	</attacks>
+	<defenses armor="25" defense="25">
+		<defense name="healing" chance="13" min="34" max="56">
+			<attribute key="areaEffect" value="blueshimmer"/>
+			<defense name="haste_monk" chance="9"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element energyPercent="20"/>
+		<element earthPercent="100"/>
+	</elements>
+	<immunities>
+		<immunity drunk="1"/>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="Shriiiek" yell="1"/>
+	</voices>
+	<loot>
+		<item id="2672" chance="112500" countmax=""/><!-- 1 11,25% dragon ham -->
+		<item id="2148" chance="215000" countmax="75"/><!-- 75 21,5% gold coin -->
+		<item id="2547" chance="3000" countmax="2"/><!-- 2 3% power bolt -->
+		<item id="2146" chance="1000"/><!-- 1% small sapphire -->
+		<item id="1987" chance="100000"><!-- bag -->
+			<inside>
+				<item id="2187" chance="750"/><!-- 0.75% wand of inferno -->
+				<item id="2409" chance="1000"/><!-- 1% serpent sword -->
+				<item id="2127" chance="300"/><!-- 0.3% emerald bangle -->
+			</inside>
+		</item>
+	</loot>
+</monster>

@@ -1,0 +1,21 @@
+FROM ubuntu:22.04
+
+ENV DEBIAN_FRONTEND=noninteractive
+
+RUN apt-get update && apt-get install -y \
+    libboost-filesystem1.74.0 \
+    libboost-iostreams1.74.0 \
+    libcrypto++8 \
+    libluajit-5.1-2 \
+    libmysqlclient21 \
+    libpugixml1v5 \
+    libfmt8 \
+    libgmp10 \
+    gdb \
+    && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /home/nekiro
+
+EXPOSE 7171 7172
+
+CMD ["./tfs"]

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Azerus" nameDescription="a Azerus" race="blood" experience="400000" speed="840" manacost="0">
+  <health now="2750000" max="2750000"/>
+  <look type="762" head="0" body="0" legs="0" feet="95" corpse="0"/>
+
+  <targetchange interval="2000" chance="50"/>
+  <strategy attack="100" defense="0"/>
+
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="4"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="2000"/>
+  </flags>
+ <script>
+    <event name="AzerusDeath"/>
+</script> 
+  <attacks>
+    <attack name="melee" interval="2000" skill="170" attack="160"/>
+    <attack name="manadrain" interval="1000" chance="25" range="7" min="-800" max="-1000">
+      <attribute key="areaEffect" value="redshimmer"/>
+    </attack>
+    <attack name="energy" interval="2000" chance="25" length="8" spread="0" min="-605" max="-1205">
+      <attribute key="areaEffect" value="energy"/>
+    </attack>
+    <attack name="drunk" interval="1000" chance="8" range="7">
+      <attribute key="shootEffect" value="energy"/>
+      <attribute key="areaEffect" value="poff"/>
+    </attack>
+    <attack name="lifedrain" interval="1000" chance="25" radius="8" target="0" min="-1000" max="-1620">
+      <attribute key="areaEffect" value="bluebubble"/>
+    </attack>
+    <attack name="physical" interval="1000" chance="52" range="7" min="-560" max="-880">
+      <attribute key="shootEffect" value="death"/>
+    </attack>
+  </attacks>
+
+  <defenses armor="32" defense="50">
+    <defense name="healing" interval="2000" chance="25" min="1500" max="2000">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+    <defense name="invisible" interval="4000" chance="70" duration="5000">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+    <defense name="wild growth" interval="4000" chance="50"/>
+  </defenses>
+
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="1"/>
+    <immunity fire="1"/>
+    <immunity poison="1"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+
+  <summons maxSummons="2">
+    <summon name="black demon" interval="2000" chance="50" max="4"/>
+  </summons>
+
+  <voices interval="5000" chance="10">
+    <voice sentence="You can call me RAIBON WIZARD!!"/>
+    <voice sentence="I'am a WHITE MAGE."/>
+    <voice sentence="I'AM THE LEADER OF ISTARI"/>
+    <voice sentence="A LOT OF THAT HAS BEEN LOST, FOR NONE THAT REMEMBER IS ALIVE."/>
+    <voice sentence="Aaaah.."/>
+  </voices>
+
+  <loot>
+    <item id="2401" chance="2125"/>
+    <item id="5785" chance="450"/> <!-- Skull Staff :: Def 12 :: Atk 36 -->
+    <item id="2260" chance="7000"/>
+    <item id="2789" countmax="10" chance="2250"/>
+    <item id="2168" chance="1000"/>
+    <item id="2213" chance="300"/>
+    <item id="2197" chance="500"/>
+    <item id="2134" chance="1000"/>
+    <item id="5937" chance="500"/>
+    <item id="2761" chance="200"/>
+    <item id="5022" chance="200"/>
+    <item id="5907" chance="200"/>
+    <item id="2157" chance="100"/>
+    <item id="5843" chance="100"/>
+    <item id="2193" chance="300"/>
+    <item id="2152" chance="8000" countmax="50"/> <!-- 80% Gold Coin -->
+    <item id="2145" countmax="50" chance="3250"/> <!-- Small Diamond -->
+    <item id="2143" countmax="50" chance="3250"/> <!-- White Pearl -->
+    <item id="5839" chance="375"/>
+    <item id="2600" chance="600"/>
+    <item id="2151" chance="400"/>
+    <item id="5775" chance="15"/>
+    <item id="7631" chance="150"/>	
+    <item id="2175" chance="525"/>
+    <item id="2176" chance="325"/>
+    <item id="2433" chance="525"/>
+    <item id="5779" chance="100"/> <!-- White Magic Robe -->
+    <item id="5819" chance="100"/>
+    <item id="5832" chance="225"/>
+  </loot>
+</monster>

@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+
+	<!-- Market (Karma Market item inside depot locker) -->
+	<action itemid="6879" function="market" />
+
+	<!-- Brass armor/legs quest -->
+	<action itemid="4874" script="rookgaard/dwarvenpick.lua"/>
+	<action itemid="6563" script="rookgaard/dwarvenpick.lua"/>
+	<action actionid="14001" script="rookgaard/lever_secret_quest.lua"/>
+	<action actionid="14004" script="rookgaard/lever2_secret_quest.lua"/>
+	<action actionid="14005" script="rookgaard/lever3_secret_quest.lua"/>
+	<action actionid="14006" script="rookgaard/lever4_secret_quest.lua"/>
+	<action actionid="14007" script="rookgaard/lever5_secret_quest.lua"/>
+
+	<!-- Djins Quest -->
+	<action itemid="2344" script="NewsUpdates/djinsquest/EfreetLamp.lua"/>
+	<action actionid="910" script="NewsUpdates/djinsquest/waterbasin.lua"/>
+	<action actionid="913" script="NewsUpdates/djinsquest/doors.lua"/>
+	<action actionid="914" script="NewsUpdates/djinsquest/doors.lua"/>
+	<action actionid="915" script="NewsUpdates/djinsquest/doors.lua"/>
+	<action actionid="916" script="NewsUpdates/djinsquest/doors.lua"/>
+
+	<!-- Auto Loot Sell Item -->
+	<action itemid="6193" script="auto_loot_sell.lua"/>
+	<action actionid="50100" script="Custom/bless_vip_altar.lua"/>	 
+	  
+	<!-- Daily Reward -->
+	<action actionid="9900" script="rarity_test.lua" />
+	<action actionid="3001" script="quests/dailyquest.lua"/>
+	<action actionid="3302" script="bossmagic.lua"/>
+	<action actionid="3303" script="bossmagic100.lua"/>		
+	<action actionid="5001" script="goldenboots.lua" />
+	<action actionid="5055" script="karmatres.lua" />	
+	<action actionid="5099" script="karmaboots4.lua" />	
+	<action uniqueid="9999" script="leverdemon.lua" />
+	<action itemid="5838" script="magic.lua"/>
+	<action actionid="6066" script="Custom/red_stone_switch.lua"/>
+	<action actionid="9002" script="Custom/yellow_stone.lua"/>	
+	<action fromaid="6077" toaid="6078" script="Custom/twin_stones.lua"/>
+    <action actionid="5041" script="quiver.lua"/>	
+	<action actionid="9001" script="altar.lua" />	
+	<action actionid="9003"	script="Custom/twin_fences.lua"/>	
+	<action actionid="9004"	script="Custom/tp_fence.lua"/>	
+	<action actionid="9005"	script="fence500.lua"/>		
+	<action actionid="9006"	script="fence800.lua"/>
+	<action actionid="9007"	script="fencecemetery.lua"/>
+	<action actionid="9008"	script="fencecastledark.lua"/>	
+	<action actionid="9009"	script="fencecastledark.lua"/>	
+	
+				<!-- karma boots +5 -->	
+
+	<action actionid="8006"	script="karmaboots/fence2karmaboots5.lua"/>		
+	<action actionid="8007"	script="karmaboots/fencekarmaboots5.lua"/>	
+	<action actionid="8008"	script="karmaboots/pagoda2karmaboots5.lua"/>		
+	<action actionid="8009"	script="karmaboots/pagodakarmaboots5.lua"/>
+	<action actionid="8010"	script="karmaboots/eletrickarmaboots5.lua"/>		
+	<action actionid="8011"	script="karmaboots/eletric2karmaboots5.lua"/>	
+	<action actionid="8012"	script="karmaboots/backkarmaboots5.lua"/>			
+	<action actionid="8013"	script="karmaboots/karmaboots5.lua"/>		
+	
+	
+	<action fromaid="4177" toaid="4178" script="basin500.lua"/>
+
+	<action itemid="6675" script="uh.lua" allowfaruse="1"/>
+	
+	<!-- Karma +2 Upgrade Lever -->
+	<action actionid="46010" script="Custom/karma_upgrade_plus2.lua"/>
+	<action actionid="46011" script="Custom/karma_upgrade_plus2.lua"/>
+	<action actionid="46012" script="Custom/karma_upgrade_plus2.lua"/>
+	<action actionid="46013" script="Custom/karma_upgrade_plus2.lua"/>
+	<action actionid="46014" script="Custom/karma_upgrade_plus2.lua"/>
+	<action actionid="46015" script="Custom/karma_upgrade_plus2.lua"/>
+	<action actionid="46016" script="Custom/karma_upgrade_plus2.lua"/>
+	<action actionid="46017" script="Custom/karma_upgrade_plus2.lua"/>
+	<action actionid="46018" script="Custom/karma_upgrade_plus2.lua"/>
+	<action actionid="46019" script="Custom/karma_upgrade_plus2.lua"/>
+	<action actionid="46020" script="Custom/karma_upgrade_plus2.lua"/>
+	<action actionid="46021" script="Custom/karma_upgrade_plus2.lua"/>	
+	<action actionid="46022" script="Custom/karma_upgrade_plus2.lua"/>	
+	<action actionid="46023" script="Custom/karma_upgrade_plus2.lua"/>		
+	<action actionid="46024" script="Custom/karma_upgrade_plus2.lua"/>	
+	
+	<!-- Bless Castle 24h -->
+	<action uniqueid="7001" script="castle/castle_main_door.lua" />
+	<action uniqueid="1999" script="castle/castle_lever.lua" />
+	
+<!-- CUSTOM -->	
+	<action fromid="1945" toid="1946" script="fastshop.lua" />
+    <action itemid="6784" script="demonout.lua"/>
+    <action itemid="6613" script="royalout.lua"/>
+    <action itemid="6694" script="dwarfoutfit.lua"/>		
+    <action itemid="2128" script="kingoutfit.lua"/>	
+    <action itemid="6799" script="bansheeoutfit.lua"/>		
+    <action itemid="7707" script="outfit_mage.lua"/>	
+    <action itemid="5824" script="lory_outfit.lua"/>	
+	
+	<action actionid="46551" script="bossmagic500.lua"/>
+	<action actionid="46552" script="bossmagic500.lua"/>
+	<action actionid="46553" script="bossmagic500.lua"/>
+	<action actionid="46554" script="bossmagic500.lua"/>
+
+
+
+    <action actionid="1502" script="vipdoors.lua"/>
+    <action actionid="1503" script="vipdoors.lua"/>
+    <action actionid="1504" script="vipdoors.lua"/>
+	
+
+    <action actionid="15014" script="Custom/greendjinn_gemmed.lua"/>	
+	
+				<!-- Training Exercise -->
+			
+	<action itemid="8244" script="exercise/exercise_magic.lua" allowfaruse="1"/>
+	<action itemid="8245" script="exercise/exercise_dist.lua" allowfaruse="1"/>	
+	<action itemid="8246" script="exercise/exercise_club.lua" allowfaruse="1"/>		
+	<action itemid="8247" script="exercise/exercise_axe.lua" allowfaruse="1"/>		
+	<action itemid="8248" script="exercise/exercise_sword.lua" allowfaruse="1"/>
+	<action itemid="7730" script="exercise/exercise_shield.lua" allowfaruse="1"/>	
+			
+			<!-- mining system -->
+			
+	<action itemid="8206" script="mining/mining10.lua" />
+	<action itemid="8178" script="mining/mining20.lua" />	
+	<action itemid="8177" script="mining/mining40.lua" />
+	
+			<!-- training monster -->
+			
+	<action itemid="6607" script="training.lua"/>
+	
+	<action itemid="8243" script="aura.lua"/>	
+	
+	
+	<!-- Svargrond Arena Quest-
+	<action actionid="13100" script="quests/svargrond arena/arenaDoor.lua" />
+	<action actionid="26101" script="quests/svargrond arena/arenaDoor.lua" />
+	<action actionid="27101" script="quests/svargrond arena/arenaDoor.lua" />
+	<action actionid="28101" script="quests/svargrond arena/arenaDoor.lua" />	->
+	
+
+	<!-- thaddeus scroll -->	
+	
+	<action uniqueid="24777" script="Thaddeus/door.lua"/>
+	<action itemid="6850" script="Thaddeus/scroll.lua"/>
+	<action itemid="5849" script="karmamap.lua"/>
+
+	
+	<!-- bless check -->	
+	
+	<action itemid="6088" script="Custom/checkBless.lua"/>
+	
+	<!-- Item Rarity system - FORGE -->	
+		
+	<action itemid="2178" script="Custom/slot.lua"/>
+	<action uniqueid="30020" script="forge/forge.lua" />
+	<action uniqueid="30021" script="forge/forge.lua" />
+	<action itemid="6562" script="forge/forge.lua" />
+
+	
+	
+	<!-- Stackable Potions -->
+	
+	<action itemid="6146" script="potions/life.lua"/>	
+	<action itemid="6147" script="potions/mana.lua"/>
+	<action itemid="2281" script="potions/manarune.lua"/>
+	<action itemid="6656" script="potions/manarune2.lua"/>
+	<action itemid="2284" script="potions/manarune3.lua"/>	
+	<action itemid="6659" script="potions/manarune4.lua"/>		
+	<action itemid="6660" script="potions/manarune5.lua"/>		
+	<action itemid="2300" script="potions/manarunepala.lua"/>		
+	<!-- <action itemid="2273" script="uh.lua" allowfaruse="1"/>	 -->
+	
+	<!-- switch Potions -->	
+	<action actionid="5142" script="potions/br.lua"/>
+	<action actionid="5143" script="potions/smh.lua"/>
+	<action actionid="5144" script="potions/smp.lua"/>	
+	
+	<!-- Tools  -->
+	<action itemid="6838" script="Custom/blessings.lua"/>	
+	<action itemid="6698" script="Custom/exp10.lua"/>	
+	<action itemid="6832" script="Custom/squeeze.lua"/>
+	<action itemid="6477" script="Custom/points.lua"/>
+	<action itemid="6836" script="Custom/pointss.lua"/>		
+	<action itemid="7403" script="Custom/1000karmapoints.lua"/>			
+	<action itemid="6817" script="Custom/housescroll.lua"/>	
+	<action itemid="6495" script="Custom/frag_remove.lua"/> 
+	<action itemid="6833" script="Custom/djinn_blue.lua" />
+	<action itemid="2375" script="Custom/bluedjinn_gemmed.lua" />	
+    <action itemid="6834" script="Custom/djinn_green.lua" />	
+    <action itemid="6835" script="Custom/postman.lua" />
+    <action itemid="6818" script="Custom/templeScroll.lua" />
+    <action itemid="2148" script="Custom/money.lua"/>
+	<action itemid="2152" script="Custom/money.lua"/>
+	<action itemid="2160" script="Custom/money.lua"/>
+	<action itemid="5806" script="Custom/lovering.lua"/>
+	<action itemid="5807" script="Custom/blessedring.lua"/>
+	
+	<!-- Spell Rune -->
+
+	<!-- Spell Scroll -->
+	<action itemid="6223" script="NewsUpdates/spellscroll.lua"/>
+
+	<!-- Mintwallin Quest -->
+	<action actionid="9000" script="NewsUpdates/entrance_lever_Mintwallin.lua"/>
+
+	<!-- premium scroll  --> 
+	<action fromid="6780" toid="6782" script="NewsUpdates/premium.lua" />
+
+	<!-- outfit item-->
+	<action actionid="6222" script="NewsUpdates/skin.lua"/>
+
+	<!-- outfit items by vine96 -->
+	<action itemid="2110" script="NewsUpdates/outfititem.lua"/>
+
+	<!-- Triangle Tower Quest -->
+	<action actionid="33827" script="NewsUpdates/triangletower.lua"/>
+
+	<!-- Sam Old backpack -->
+	<action actionid="900" script="NewsUpdates/dwarven.lua"/>
+
+	<!-- Costello -->
+	<action actionid="905" script="NewsUpdates/costello.lua"/>
+
+	<!-- Kazz Lever House -->
+	<action actionid="901" script="NewsUpdates/kazz/leverup.lua"/>
+	<action actionid="902" script="NewsUpdates/kazz/leverdown.lua"/>
+	<action actionid="906" script="NewsUpdates/kazz/buraco.lua"/>
+	<action actionid="907" script="NewsUpdates/kazz/scarab.lua"/>
+	<action actionid="908" script="NewsUpdates/kazz/dogvenore.lua"/>
+
+	<!-- Lighthouse of Thais -->
+	<action actionid="903" script="NewsUpdates/lighthouse/lighthouse.lua"/>
+	<action actionid="904" script="NewsUpdates/lighthouse/lighthousetp.lua"/>
+
+	<!-- Helmet of the ancients -->
+	<action itemid="2342" script="NewsUpdates/enchanting.lua"/>
+	<action itemid="6136" script="NewsUpdates/explosivepotion.lua"/>
+	<action actionid="10205" script="NewsUpdates/keyburaco.lua"/>
+	<action actionid="10206" script="NewsUpdates/dwarvenpick.lua"/>
+	<action actionid="10207" script="NewsUpdates/explodirparede.lua"/>
+	<action uniqueid="10208" script="NewsUpdates/removerstones.lua"/>
+
+	<!-- Demon Legs -->
+	<action actionid="40995" script="quests/Demon Legs/teleportdemon.lua"/>
+	<action actionid="40996" script="quests/Demon Legs/demonlegs_sacrifice.lua"/>
+	<action uniqueid="40998" script="quests/Demon Legs/demonlegs_lever.lua"/>
+
+	<!-- Golden Helmet -->
+   	<action uniqueid="40999" script="quests/Golden Helmet/lever_goldenhelmetquest.lua"/>	<!-- The Golden Helmet Quest -->
+	<action uniqueid="40997" script="quests/Golden Helmet/goldenhetlmet_lever.lua"/>
+
+	<!-- Orc Fortress -->
+	<action uniqueid="22101" script="quests/Orc F/elf_lever.lua"/>
+	<action uniqueid="22102" script="quests/Orc F/woman_lever.lua"/>
+
+	<!-- Basilisk  -->
+	<action uniqueid="11099" script="quests/Basilisk/pedragrande.lua"/>
+	<action actionid="11097" script="quests/Basilisk/buracoentrada.lua"/>
+	<action actionid="11098" script="quests/Basilisk/buracoalavanca.lua"/>
+
+	<!-- Dwarven Set  -->
+	<action actionid="11100" script="quests/Dwarven/dwarven.lua"/>
+
+	<!-- Pits of Inferno -->
+	<action uniqueid="10203" script="quests/The Pits of Inferno Quest/oil.lua"/>
+	<action actionid="60037" script="quests/The Pits of Inferno Quest/voc1.lua"/>	
+
+	<!-- Quests -->
+	<action actionid="2000" script="quests/QuestSystem.lua" />
+	<action actionid="2001" script="quests/QuestNew.lua" />
+	<action actionid="2002" script="quests/keybk.lua" />
+	<action actionid="25014" script="quests/lever_DH.lua" />
+	<action actionid="102" script="quests/teleport_drawwell.lua"/>
+
+	<!-- Switchs -->
+	<action actionid="25004" script="quests/lever_alawarsvault.lua"/>
+	<action actionid="25005" script="quests/lever_orcsedron.lua"/>
+	<action actionid="25006" script="quests/lever_behemothquest.lua"/>
+	<action actionid="25007" script="quests/lever_molsentrance.lua"/>
+	<action actionid="25008" script="quests/lever_molstrap.lua"/>
+	<action actionid="25009" script="quests/lever_brightswordoven.lua"/>
+	<action actionid="25010" script="quests/lever_brightswordring.lua"/>
+	<action actionid="25011" script="quests/lever_brightswordbarrel.lua"/>
+	<action uniqueid="2469" script="quests/kazz_lever.lua"/>
+	<action uniqueid="33210" script="quests/banuta.lua"/>
+	<action uniqueid="33211" script="quests/banuta.lua"/>	
+	<action uniqueid="7000" script="quests/lever_annihilator.lua"/>	<!-- The Annihilator Quest -->
+	<action uniqueid="8100" script="quests/anihi2.lua"/>	<!-- The Annihilator Quest -->	
+	<action uniqueid="8890" script="quests/lever_desertquest.lua"/>	<!-- The Desert Dungeons Quest -->
+
+	<!-- Draconia Quest -->
+	<action uniqueid="1654" script="quests/Draconia Quest/parede.lua"/>
+	<action uniqueid="1657" script="quests/Draconia Quest/pedra.lua"/>
+
+	<!-- Paradox Tower Quest -->
+	<action actionid="50002" script="quests/Paradox Tower Quest/paradox_lvl2.lua"/>
+	<action actionid="50005" script="quests/Paradox Tower Quest/paradox_box.lua"/>
+	<action actionid="50007" script="quests/Paradox Tower Quest/paradox_lvl4.lua"/>
+	<action actionid="50008" script="quests/Paradox Tower Quest/paradox_lvl5.lua"/>
+
+	<!-- The Postman Missions Quest -->
+	<action itemid="2416" script="quests/The Postman Missions Quest/crowbar_mail.lua"/>
+	<action itemid="2330" script="quests/The Postman Missions Quest/santa_mail.lua"/>
+	<action actionid="25003" script="quests/The Postman Missions Quest/mailbox.lua"/>
+
+	<!-- The Queen of the Banshees Quest -->
+	<action actionid="50016" script="quests/The Queen of the Banshees Quest/magic_wall_1.lua"/>
+	<action actionid="50019" script="quests/The Queen of the Banshees Quest/entrance_lever.lua"/>
+	<action actionid="2451" script="quests/The Queen of the Banshees Quest/campfires.lua"/>
+	<action actionid="2452" script="quests/The Queen of the Banshees Quest/campfires.lua"/>
+	<action actionid="2453" script="quests/The Queen of the Banshees Quest/campfires.lua"/>
+	<action actionid="2454" script="quests/The Queen of the Banshees Quest/campfires.lua"/>
+	<action actionid="2455" script="quests/The Queen of the Banshees Quest/campfires.lua"/>
+	<action actionid="2456" script="quests/The Queen of the Banshees Quest/campfires.lua"/>
+	<action actionid="2551" script="quests/The Queen of the Banshees Quest/seal6_levers_effects.lua"/>
+	<action actionid="2552" script="quests/The Queen of the Banshees Quest/seal6_levers_effects.lua"/>
+	<action actionid="2553" script="quests/The Queen of the Banshees Quest/seal6_levers_effects.lua"/>
+	<action actionid="2554" script="quests/The Queen of the Banshees Quest/seal6_levers_effects.lua"/>
+	<action actionid="2555" script="quests/The Queen of the Banshees Quest/seal6_levers_effects.lua"/>
+
+	<!-- Tools -->
+	<action itemid="2420" script="tools/machete.lua" />
+	<action itemid="6479" script="tools/machete.lua" />
+	<action itemid="2550" script="tools/scythe.lua" />
+	<action itemid="6637" script="tools/scythe.lua" />
+	<action itemid="6501" script="tools/scythe.lua" />
+	<action itemid="2580" script="tools/fishing.lua" allowfaruse="1" />
+	<action itemid="6454" script="tools/fishing.lua" allowfaruse="1" />
+	<action itemid="6519" script="tools/fishing.lua" allowfaruse="1" />
+	<action itemid="2554" script="tools/shovel.lua" />
+	<action itemid="6599" script="tools/shovel.lua" />
+	<action itemid="6504" script="tools/shovel.lua" />
+	<action itemid="2120" script="tools/rope.lua" />
+	<action itemid="6517" script="tools/rope.lua" />
+	<action itemid="6518" script="tools/rope.lua" />
+	<action itemid="2553" script="tools/pick.lua" />
+	<action itemid="6503" script="tools/pick.lua" />
+
+	<!-- Transform and decay -->
+	<action fromid="1479" toid="1480" script="other/decayto.lua" />
+	<action fromid="1634" toid="1641" script="other/decayto.lua" />
+	<action fromid="1786" toid="1793" script="other/decayto.lua" />
+	<action fromid="1873" toid="1876" script="other/decayto.lua" />
+	<action fromid="1945" toid="1946" script="other/decayto.lua" />
+	<action fromid="2037" toid="2042" script="other/decayto.lua" />
+	<action fromid="2044" toid="2045" script="other/decayto.lua" />
+	<action fromid="2047" toid="2048" script="other/decayto.lua" />
+	<action fromid="2050" toid="2055" script="other/decayto.lua" />
+	<action fromid="6577" toid="6583" script="other/decayto.lua" />
+	<action fromid="2058" toid="2061" script="other/decayto.lua" />
+	<action fromid="2064" toid="2069" script="other/decayto.lua" />
+	<action fromid="2096" toid="2097" script="other/decayto.lua" />
+	<action fromid="2162" toid="2163" script="other/decayto.lua" />
+	<!-- <action itemid="2578" script="other/open_trap.lua" /> -->
+	<!-- <action itemid="2579" script="other/close_trap.lua" />	 -->
+	<action fromid="3947" toid="3948" script="other/decayto.lua" />
+
+	<!-- Food -->
+	<action itemid="2362" script="other/food.lua" />
+	<action itemid="7731" script="other/inffood.lua" />	
+	<action fromid="2666" toid="2691" script="other/food.lua" />
+	<action fromid="2695" toid="2696" script="other/food.lua" />
+	<action fromid="2787" toid="2796" script="other/food.lua" />
+
+	<!-- .:: Rookgaard ::. -->
+	<!-- Switchs -->
+	<action actionid="11005" script="rookgaard/lever_sewers.lua"/>
+	<action actionid="11006" script="rookgaard/lever_bear_room.lua"/>
+	<action actionid="11007" script="rookgaard/lever_wall_1.lua"/>
+	<action actionid="11008" script="rookgaard/lever_wall_2.lua"/>
+	<action actionid="11009" script="rookgaard/lever_wall_3.lua"/>
+	<action actionid="11010" script="rookgaard/lever_wall_4.lua"/>
+	<action actionid="11011" script="rookgaard/lever_wall_5.lua"/>
+	<action actionid="11012" script="rookgaard/lever_katana.lua"/>
+	<action actionid="11013" script="rookgaard/door_katana.lua"/>
+	<action actionid="11014" script="rookgaard/lever_goblin1.lua"/>
+	<action actionid="11016" script="rookgaard/keyminomage.lua"/>
+
+	<!-- Other -->
+	<action itemid="2114" script="other/piggybank.lua" />
+	<action itemid="2036" script="other/watch.lua" />
+	<action itemid="6600" script="other/watch.lua" />
+	<action fromid="1728" toid="1731" script="other/watch.lua" />
+	<action itemid="3900" script="other/watch.lua" />
+	<action itemid="2785" script="other/blueberrybush.lua" />
+<!-- <action itemid="2148" script="other/changegold.lua" />
+	<action itemid="2152" script="other/changegold.lua" />
+	<action itemid="2160" script="other/changegold.lua" /> -->
+	<action fromid="3901" toid="3938" script="other/constructionkits.lua" />
+	<action fromid="5086" toid="5088" script="other/constructionkits.lua" />
+	<action fromid="2070" toid="2085" script="other/music.lua" />
+	<action itemid="2332" script="other/music.lua" />
+	<action itemid="2364" script="other/music.lua" />
+	<action fromid="2367" toid="2373" script="other/music.lua" />
+	<action fromid="3951" toid="3953" script="other/music.lua" />
+	<action itemid="3957" script="other/music.lua" />
+	<action itemid="430" script="other/teleport.lua" />
+	<action itemid="1369" script="other/teleport.lua" />
+	<action itemid="1386" script="other/teleport.lua" />
+	<action itemid="3678" script="other/teleport.lua" />
+	<action fromid="2376" toid="2404" script="other/destroy.lua" />
+	<action fromid="2406" toid="2415" script="other/destroy.lua" />
+	<action fromid="2417" toid="2419" script="other/destroy.lua" />
+	<action fromid="2421" toid="2453" script="other/destroy.lua" />
+	<action fromid="2005" toid="2009" script="other/fluids.lua" />
+	<action fromid="2011" toid="2015" script="other/fluids.lua" />
+	<action itemid="2023" script="other/fluids.lua" />
+	<action itemid="1775" script="other/fluids.lua" />
+	<action fromid="2031" toid="2034" script="other/fluids.lua" />
+	<action fromid="2574" toid="2577" script="other/fluids.lua" />
+	<action fromid="5792" toid="5797" script="other/die.lua" />
+	<action itemid="2692" script="other/createbread.lua" />
+	<action itemid="2694" script="other/createbread.lua" />
+	<action fromid="5303" toid="5304" script="other/windows.lua" />
+	<action fromid="1209" toid="1214" script="other/doors.lua" />
+	<action fromid="1219" toid="1262" script="other/doors.lua" />
+	<action fromid="1539" toid="1542" script="other/doors.lua" />
+	<action fromid="2086" toid="2092" script="other/doors.lua" />
+	<action fromid="3535" toid="3552" script="other/doors.lua" />
+	<action fromid="4913" toid="4918" script="other/doors.lua" />
+	<action fromid="5082" toid="5085" script="other/doors.lua" />
+	<action fromid="1816" toid="1817" script="other/wallmirror.lua" />
+	<action fromid="1843" toid="1844" script="other/wallmirror.lua" />
+	<action fromid="1846" toid="1847" script="other/wallmirror.lua" />
+	<action fromid="1849" toid="1850" script="other/wallmirror.lua" />
+	<action itemid="486" script="other/snowheap.lua" />
+	<action itemid="3743" script="other/transforms.lua" />
+	<action itemid="4404" script="other/transforms.lua" />
+
+	<!-- Autorune e Automunitions by vine96 xD -->
+	<!-- BEDS -->
+	<action fromid="1754" toid="1761" script="Custom/beds.lua"/>
+	<action fromid="3836" toid="3839" script="Custom/beds.lua"/>
+	<!--//Beds-->
+
+	<action fromid="6699" toid="6722" script="NewsUpdates/outfititem.lua" />
+	<action fromid="6693" toid="6697" script="NewsUpdates/outfititem.lua" />
+	<action fromid="6777" toid="6778" script="NewsUpdates/outfititem.lua" />
+	<action fromid="6789" toid="6800" script="NewsUpdates/outfititem.lua" />
+	<action itemid="6808" script="NewsUpdates/outfititem.lua" />
+	<action itemid="6783" script="NewsUpdates/outfititem.lua" />
+
+	<!-- Rooker Wand -->
+	<action itemid="5840" script="NewsUpdates/rookerwand.lua" />
+
+	<!-- Secret passage door BOSS SIREN -->
+	<action actionid="26261" script="rookgaard/door_boss_siren.lua" />
+
+	<!-- Special door make item -->
+	<action actionid="26262" script="rookgaard/special_door.lua" />
+
+	<!-- Lever to make tool in rookgaard -->
+	<action actionid="26263" script="rookgaard/lever_tool.lua" />
+
+	<!-- Make Ladder -->
+	<action itemid="6825" script="rookgaard/make_ladder.lua" />
+
+</actions>

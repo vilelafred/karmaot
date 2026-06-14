@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="queen knight" nameDescription="a queen knight" race="blood" experience="1950" speed="290" manacost="0">
+	<health now="1990" max="1990"/>
+	<look type="166" corpse="3128"/>
+	<targetchange interval="1000" chance="5"/>
+	<targetstrategies nearest="80" health="10" damage="10" random="0"/>
+	<flags>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag summonable="0"/>
+		<flag convinceable="0"/>
+		<flag illusionable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="490"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="95" attack="85"/>
+		<attack name="physical" interval="2000" checkshield="1" chance="25" range="9" min="-125" max="-295"/>
+			<attribute key="shootEffect" value="arrow"/>
+		</attack>
+	</attacks>
+	<defenses armor="35" defense="50">
+		<defense name="healing" interval="2000" chance="15" min="300" max="450"/>
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element firePercent="100"/>
+		<element earthPercent="100"/>
+		<element physicalPercent="75"/>
+	</elements>
+	<immunities>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="2000" chance="5">
+		<voice sentence="PROTECT the Queen!"/>
+		<voice sentence="Hail Princess of Red Rose!"/>
+		<voice sentence="Hail CARLIN!"/>
+	</voices>
+	<loot>
+		<item id="2674" chance="18000" countmax="2"/><!-- 2 18% apple -->
+		<item id="2687" chance="20000"/><!-- 20% cookie -->
+		<item id="2148" chance="60000" countmax="100"/><!-- 100 60% gold coin-->
+		<item id="2148" chance="60000" countmax="100"/><!-- 100 60% gold coin-->
+		<item id="2148" chance="60000" countmax="100"/><!-- 100 60% gold coin-->
+		<item id="2544" chance="27000" countmax="13"/><!-- 13 27% arrow -->
+		<item id="1974" chance="45000"/><!-- 45% book -->
+		<item id="2744" chance="20000"/><!-- 20% red rose -->
+		<item id="5992" chance="20000"/><!-- sapatilha -->
+		<item id="2374" chance="500"/><!-- 15% flauta -->
+		<item id="5981" chance="500"/><!-- 5% crown ring -->
+		<item id="5800" chance="500"/><!-- 5% galea -->
+		<item id="5980" chance="500"/><!-- 5% crown bp -->
+		<item id="2120" chance="20000"/><!-- 20% rope -->
+		<item id="2657" chance="12000"/><!-- 12% scarf -->
+		<item id="5811" chance="20000"/><!-- 20% chain legs princess -->
+		<item id="2651" chance="8000"/><!-- 8% coat -->
+		<item id="2488" chance="500"/><!-- 0.5% crown legs -->
+		<item id="5898" chance="100"/><!-- 0.5% crown mail -->
+		<item id="1987" chance="100000"><!-- bag -->
+			<inside>
+				<item id="2395" chance="1500"/><!-- 1.5% carlin sword -->
+				<item id="5848" chance="500"/><!-- 5% pink gem -->
+				<item id="2519" chance="400"/><!-- 0.4% crown shield -->
+				<item id="5825" chance="100"/><!-- 0.4% bear toy -->
+				<item id="2164" chance="500"/><!-- 0.5% might ring -->
+			</inside>
+		</item>
+	</loot>
+</monster>

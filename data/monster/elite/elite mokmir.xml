@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Elite Nokmir" nameDescription="a elite nokmir" race="blood" experience="2500" speed="300" manacost="0">
+	<health now="2800" max="2800"/>
+	<look type="708" corpse="3128"/>
+	<targetchange interval="1000" chance="15"/>
+	<targetstrategies nearest="80" health="10" damage="10" random="0"/>
+	<flags>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag summonable="0"/>
+		<flag convinceable="0"/>
+		<flag illusionable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="80"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<script>
+		<event name="elite"/>
+	</script>
+	<attacks>
+		<attack name="melee" skill="95" attack="85"/>
+		<attack name="physical" checkshield="1" chance="25" range="6" min="-220" max="-385">
+			<attribute key="shootEffect" value="arrow"/>
+		</attack>
+	</attacks>
+	<defenses armor="55" defense="70">
+		<defense name="healing" chance="10" min="277" max="377">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element firePercent="100"/>
+		<element earthPercent="100"/>
+		<element energyPercent="100"/>
+	</elements>
+	<immunities>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="1000" chance="5">
+		<voice sentence="Come on bitch!"/>
+		<voice sentence="Welcome to my battleground."/>
+		<voice sentence="Have you seen princess Lumelia?"/>
+		<voice sentence="I will sing a tune at your grave."/>
+	</voices>
+	<loot>
+		<item id="2666" chance="3420" countmax="2"/><!-- 2x 34.2% meat -->
+		<item id="2681" chance="3800"/><!-- 38% grapes -->
+		<item id="2152" chance="9600" countmax="15"/><!-- 100x 96% gold coin -->
+		<item id="2544" chance="5130" countmax="13"/><!-- 13x 51.3% arrow -->
+		<item id="1949" chance="8550"/><!-- 85.5% scroll -->
+		<item id="8176" countmax="100" chance="100000"/> <!-- 100% mystic shard -->
+		<item id="8176" countmax="100" chance="100000"/> <!-- 100% mystic shard -->
+		<item id="2744" chance="3800"/><!-- 38% red rose -->
+		<item id="2071" chance="2850"/><!-- 28.5% lyre -->
+		<item id="2121" chance="950"/><!-- 9.5% wedding ring -->
+		<item id="5793" chance="250"/><!-- 9.5% wedding ring -->	
+		<item id="7629" chance="250"/><!-- 9.5% wedding ring -->			
+		<item id="2120" chance="3800"/><!-- 38% rope -->
+		<item id="2661" chance="9880"/><!-- 98.8% scarf -->
+		<item id="2652" chance="3040"/><!-- 3.04% green tunic -->
+				<item id="2491" chance="4280"/><!-- 2.28% crown helmet -->
+				<item id="2487" chance="5420"/><!-- 3.42% crown armor -->
+				<item id="2488" chance="3850"/><!-- 2.85% crown legs -->
+				<item id="2456" chance="5500"/><!-- 85% bow -->
+				<item id="2392" chance="3850"/><!-- 2.85% fire sword -->
+				<item id="2377" chance="7850"/><!-- 2.85% two handed sword -->
+				<item id="2391" chance="5700"/><!-- 5.7% war hammer -->
+				<item id="2519" chance="4230"/><!-- 3.23% crown shield -->
+		</item>
+	</loot>
+</monster>

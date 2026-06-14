@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Lory Mistress" nameDescription="a lory mistress" race="undead" experience="5980000" speed="830" manacost="0">
+	<health now="1580000" max="1580000"/>
+	<look type="774" corpse="3129"/>
+
+	<targetchange interval="1000" chance="4"/>
+	<targetstrategies nearest="70" health="15" damage="15" random="0"/>
+
+	<flags>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag summonable="0"/>
+		<flag convinceable="0"/>
+		<flag illusionable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="85"/>
+		<flag runonhealth="1000"/>
+	</flags>
+
+	<attacks>
+		<attack name="melee" skill="175" attack="165" poison="130"/>
+		<attack name="manadrain" chance="15" range="7" min="-100" max="-1000"/>				
+		<attack name="lifedrain" chance="25" range="1" min="-1000" max="-1400"/>
+		<attack name="paralyze_banshee" chance="55" range="7"/>
+		<attack name="lifedrain" chance="40" radius="5" target="0" min="-720" max="-1000">
+			<attribute key="areaEffect" value="bluenote"/>
+		</attack>
+	</attacks>
+
+	<defenses armor="45" defense="85">
+		<defense name="healing" chance="35" min="1000" max="4000">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+
+	<elements>
+		<element firePercent="90"/>
+		<element earthPercent="100"/>
+	</elements>
+	<summons maxSummons="4">
+		<summon name="lory madam" chance="100" max="4"/>
+	</summons>
+	<immunities>
+		<immunity lifedrain="1"/>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+
+	<voices interval="1000" chance="7">
+		<voice sentence="Do you fear the final note?"/>
+		<voice sentence="Time to face the requiem!"/>
+		<voice sentence="Let death dance with you!"/>
+		<voice sentence="The encore shall be your doom!"/>
+		<voice sentence="I bring the last lullaby!" yell="1"/>
+	</voices>
+
+	<loot>
+		<!-- Coins -->
+		<item id="2160" chance="100000" countmax="50"/> <!-- Platinum Coin -->
+		<item id="2160" chance="70000" countmax="50"/> <!-- Crystal Coin -->
+		<item id="2160" chance="50000" countmax="10"/> <!-- Extra coins -->
+
+		<!-- Rare bag items -->
+		<item id="6692" chance="2500"/>      <!-- Rare item -->
+		<item id="2645" chance="1500"/>      <!-- Rare boots -->
+		<item id="7696" chance="5000" countmax="100"/> <!-- Stackable resource -->
+		<item id="7662" chance="500"/>       <!-- Super raro -->
+
+		<!-- Common drops -->
+		<item id="2143" chance="12000"/>
+		<item id="2177" chance="500"/>
+		<item id="2124" chance="400"/>
+		<item id="2121" chance="800"/>
+		<item id="2071" chance="1500"/>
+		<item id="2560" chance="8000"/>
+		<item id="2134" chance="7000"/>
+		<item id="2656" chance="10000"/>
+		<item id="2655" chance="4000"/>
+		<item id="8176" chance="12000" countmax="50"/>
+		<item id="2047" chance="70000"/>
+		<item id="2411" chance="2000"/>
+		<item id="2197" chance="9000"/>
+		<item id="2170" chance="10000"/>
+		<item id="2175" chance="1000"/>
+	</loot>
+</monster>

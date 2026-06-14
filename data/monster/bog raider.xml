@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Bog Raider" nameDescription="a bog raider" race="venom" experience="6260" speed="616" raceid="460">
+	<targetstrategies nearest="96" health="85" damage="98" random="95" />
+	<health now="4620" max="4620" />
+	<look type="726" corpse="7644" />
+	<targetchange interval="4000" chance="10" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag staticattack="60" />
+		<flag targetdistance="1" />
+		<flag runonhealth="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="0" />
+	</flags>
+
+	<script>
+		<event name="elite"/>
+	</script>
+
+	<attacks>
+		<!-- ~40% mais forte nos danos -->
+		<attack name="melee" min="0" max="-256" poison="80" />
+		<attack name="lifedrain"  chance="10" min="-226" max="-396" range="7" target="1">
+			<attribute key="areaEffect" value="redshimmer" />
+		</attack>
+		<attack name="earth" chance="10" radius="3" target="0" min="-440" max="-445">
+			<attribute key="areaEffect" value="bubbles" />
+		</attack>
+		<attack name="earth"  chance="15" min="-234" max="-354" range="7" target="1">
+			<attribute key="shootEffect" value="smallearth" />
+		</attack>
+		<attack name="speed" chance="15" range="7" target="1" speedchange="-600" duration="15000">
+			<attribute key="areaEffect" value="smallplants" />
+		</attack>
+	</attacks>
+
+	<defenses armor="42" defense="56">
+		<defense name="healing" interval="2000" chance="10" min="91" max="133">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>
+	</defenses>
+
+	<elements>
+		<element physicalPercent="-20" />
+		<element energyPercent="-10" />
+		<element icePercent="-5" />
+		<element holyPercent="-5" />
+		<element deathPercent="5" />
+		<element earthPercent="30" />
+		<element firePercent="85" />
+	</elements>
+
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity invisible="1" />
+	</immunities>
+
+	<voices interval="5000" chance="10">
+		<voice sentence="Tchhh!" />
+		<voice sentence="Slurp!" />
+	</voices>
+
+	<loot>
+		<item name="platinum coin" countmax="100" chance="1090" />
+		<item name="golden legs" chance="600" />
+		<item name="mana potion" chance="2030" />
+		<item name="health potion" chance="2010" />
+		<item name="health potion" chance="1750" />
+		<item name="paladin armor" chance="140" />
+		<item name="energy ring" chance="1020" />
+		<item name="platinum coin" chance="2870" />
+		<item id="8176" countmax="50" chance="10000"/>
+		<item id="8176" countmax="50" chance="10000"/>
+	</loot>
+</monster>

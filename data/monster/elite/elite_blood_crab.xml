@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Elite Blood Crab" nameDescription="a blood crab" race="blood" experience="160" speed="80" manacost="505" raceid="261">
+<targetstrategies nearest="96" health="85" damage="98" random="95" />
+	<health now="290" max="290" />
+		<level min="5" max="100" />	
+	<look type="734" corpse="7820" />
+	<targetchange interval="4000" chance="10" />
+	<flags>
+		<flag summonable="1" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="1" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="0" />
+		<flag staticattack="90" />
+		<flag targetdistance="1" />
+		<flag runonhealth="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="0" max="-110" />
+	</attacks>
+	<defenses armor="28" defense="28" />
+	<elements>
+		<element physicalPercent="5" />
+		<element firePercent="-10" />
+		<element energyPercent="-5" />
+	</elements>
+	<immunities>
+		<immunity ice="1" />
+		<immunity earth="1" />
+		<immunity drown="1" />
+	</immunities>
+	<loot>
+		<item name="gold coin" countmax="20" chance="80000" />
+		<item id="2667" chance="1560" />
+		<item name="chain armor" chance="6288" />
+		<item name="brass legs" chance="2544" />
+		<item name="white pearl" chance="636" />
+		<item id="8176" countmax="5" chance="12000" /> 
+	</loot>
+</monster>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Thaddeus" script="Thaddeus.lua" walkinterval="1500" floorchange="0">
+<look type="134" head="1" body="50" legs="50" feet="50"/>
+    <mana now="800" max="800"/>
+    <health now="200" max="200"/>
+
+<parameters>
+    <parameter key="message_greet" value="Hey boss, I buy all items, and also I can Pay 20% MORE. If I can't buy some, please contact my support. Say 'sell all items' to sell ALL ITEMS. KEEP OUT WITH EQUIPPED ITEMS. I WILL BUY ALL YOUR ITEMS." />
+    <parameter key="message_farewell" value="Good bye |PLAYERNAME|!" /> 
+    </parameters>
+</npc>

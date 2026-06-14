@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Pirate Cutthroat" nameDescription="a pirate cutthroat" race="blood" experience="175" speed="230" manacost="495">
+	<health now="325" max="325"/>
+	<look type="96" corpse="3128"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="1"/>
+		<flag pushable="1"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="0"/>
+		<flag staticattack="90"/>
+		<flag targetdistance="1"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="75" attack="40"/>
+		<attack name="fire" interval="1500" chance="34" range="1" radius="1" target="1" min="-0" max="-90">
+			<attribute key="areaEffect" value="explosion"/>
+		</attack>
+	</attacks>
+	<defenses armor="25" defense="25"/>
+	<elements>
+		<element physicalPercent="20"/>
+		<element deathPercent="15"/>
+		<element holyPercent="-25"/>
+	</elements>
+	<immunities>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="Give up!"/>
+		<voice sentence="Hiyaa!"/>
+		<voice sentence="Plundeeeeer!"/>
+	</voices>
+	<loot>
+		<item id="2148" countmax="48" chance="78000"/><!-- gold coin -->
+		<item id="2376" chance="10000"/><!-- sword -->
+		<item id="2483" chance="2600"/><!-- scale armor -->
+		<item id="2509" chance="3300"/><!-- steel shield -->
+		<item id="1987" chance="100000"><!-- bag -->
+			<inside>
+				<item id="5194" chance="120"/><!-- rum flask -->
+				<item id="2554" chance="200"/><!-- shovel -->
+				<item id="1957" chance="1000"/><!-- map -->
+				<item id="5245" chance="1000"/><!-- pirate bag -->
+				<item id="7420" chance="150"/> <!-- assassin dagger -->
+				<item id="2475" chance="130"/> <!-- warrior helmet -->
+				<item id="2477" chance="120"/> <!-- knight legs -->
+				<item id="2144" countmax="2" chance="220"/> <!-- black pearl -->
+			</inside>
+		</item>
+	</loot>
+</monster>

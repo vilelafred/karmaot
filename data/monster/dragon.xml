@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Dragon" nameDescription="a dragon" race="blood" experience="2100" speed="170" manacost="0">
+	<health now="1000" max="1000"/>
+	<look type="34" corpse="3104"/>
+	<targetchange interval="1000" chance="5"/>
+	<targetstrategies nearest="70" health="10" damage="10" random="10"/>
+	<flags>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag summonable="0"/>
+		<flag convinceable="0"/>
+		<flag illusionable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="80"/>
+		<flag runonhealth="300"/>
+	</flags>
+			<script>
+    <event name="elite"/>
+</script>
+	<attacks>
+		<attack name="melee" skill="55" attack="42"/>
+		<attack name="fire" chance="15" range="6" radius="4" target="1" min="-105" max="-125">
+			<attribute key="shootEffect" value="fire"/>
+			<attribute key="areaEffect" value="firearea"/>
+		</attack>
+		<attack name="fire" chance="12" length="8" spread="3" min="-130" max="-170">
+			<attribute key="areaEffect" value="firearea"/>
+		</attack>
+	</attacks>
+	<defenses armor="25" defense="38">
+		<defense name="healing" chance="13" min="34" max="76">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element firePercent="100"/>
+		<element earthPercent="100"/>
+	</elements>
+	<immunities>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="1000" chance="5">
+		<voice sentence="GROOAAARRR" yell="1"/>
+		<voice sentence="FCHHHHH" yell="1"/>
+	</voices>
+	<loot>
+		<item id="2672" chance="100000" countmax="3"/><!-- 3 45% dragon ham -->
+		<item id="2148" chance="100000" countmax="45"/><!-- 45 80% gold coin -->
+		<item id="2148" chance="100000" countmax="60"/><!-- 60 50% gold coin -->
+		<item id="2145" chance="1200"/><!-- 0.4% small diamond -->
+		<item id="2546" chance="48000" countmax="10"/><!-- 10 16% burst arrow -->
+		<item id="2177" chance="2400"/><!-- 0.1% life crystal -->
+		<item id="5922" chance="2400"/><!-- 0.1% dragon wing -->
+		<item id="2457" chance="3000"/><!-- 1% steel helmet -->
+		<item id="2647" chance="3000"/><!-- 1% plate legs -->
+		<item id="5937" countmax="1" chance="270"/> <!-- mystic ore -->	
+		<item id="8176" countmax="5" chance="30000"/> <!-- mystic shard -->
+			
+				<item id="2148" chance="100000" countmax="45"/><!-- 45 80% gold coin -->
+				<item id="2455" chance="30000"/><!-- 10% crossbow -->
+				<item id="2397" chance="12000"/><!-- 4% longsword -->
+				<item id="2413" chance="4500"/><!-- 1.5% broadsword -->
+				<item id="2387" chance="3600"/><!-- 1.2% double axe -->
+				<item id="2434" chance="2400"/><!-- 0.8% dragon hammer -->
+				<item id="2409" chance="2400"/><!-- 0.8% serpent sword -->
+				<item id="2406" chance="75000"/><!-- 25% short sword -->
+				<item id="2398" chance="60000"/><!-- 20% mace -->
+				<item id="2509" chance="45000"/><!-- 15% steel shield -->
+				<item id="2516" chance="2100"/><!-- 0.7% dragon shield -->
+			
+	</loot>
+</monster>

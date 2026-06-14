@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="elf swordmaster" nameDescription="an elf swordmaster" race="blood" experience="620" speed="235" manacost="0">
+	<health now="800" max="800"/>
+	<look type="190" corpse="2979"/>
+	<targetchange interval="1000" chance="10"/>
+	<targetstrategies nearest="80" health="10" damage="10" random="0"/>
+	<flags>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag summonable="0"/>
+		<flag convinceable="0"/>
+		<flag illusionable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="0"/>
+		<flag staticattack="80"/>
+		<flag runonhealth="1"/>
+	</flags>
+	<attacks>
+		<attack name="melee" skill="65" attack="60"/>
+		<attack name="physical" checkshield="1" range="1" min="0" max="-100"/>
+	</attacks>
+	<defenses armor="30" defense="180">
+		<defense name="haste_monk" chance="10"/>
+	</defenses>
+	<elements>
+	</elements>
+	<immunities>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="1000" chance="5">
+		<voice sentence="Die by my swords!"/>
+		<voice sentence="Thy blood will quench the soil's thirst!"/>
+	</voices>
+	<loot>
+		<item id="2148" chance="40000" countmax="11"/><!-- 11 40% gold coin -->
+				<item id="2397" chance="12000"/><!-- 12% longsword -->
+		<item id="2467" chance="10000"/><!-- 10% leather armor -->
+		<item id="2207" chance="2000"/><!-- 2% sword ring -->
+		<item id="2489" chance="3000"/><!-- 3% dark armor -->	
+		<item id="2413" chance="2000"/><!-- 2% broadsword -->
+		<item id="2171" chance="1000"/><!-- 1% platinum amulet -->
+		<item id="1987" chance="100000"><!-- bag -->
+			<inside>
+				<item id="2377" chance="4000"/><!-- 4% two handed sword -->
+				<item id="2383" chance="1000"/><!-- 1% spike sword -->
+				<item id="2198" chance="2000"/><!-- 2% elven amulet -->
+			</inside>
+		</item>
+	</loot>
+</monster>

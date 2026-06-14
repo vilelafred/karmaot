@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="abomination" nameDescription="a abomination" race="blood" experience="1875" speed="240" manacost="0">
+	<health now="3000" max="3000"/>
+	<look type="174" corpse="2931"/>
+	<targetchange interval="1000" chance="10"/>
+	<targetstrategies nearest="90" health="4" damage="4" random="2"/>
+	<flags>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag summonable="0"/>
+		<flag convinceable="0"/>
+		<flag illusionable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="70"/>
+		<flag runonhealth="0"/>
+		
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="0" max="-350"/>
+		<attack name="physical" checkshield="1" chance="15" range="7" min="-100" max="-160">
+			<attribute key="shootEffect" value="largerock"/>
+		</attack>
+		<attack name="poison" chance="3" length="8" spread="0" min="-0" max="-225">
+			<attribute key="areaEffect" value="poison"/>
+		</attack>
+	</attacks>
+	<defenses armor="50" defense="55">
+		<defense name="haste_behemoth" chance="5"/>
+	</defenses>
+	<elements>
+	</elements>
+	<immunities>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="1000" chance="5">
+		<voice sentence="Gll"/>
+		<voice sentence="Uhhhg!"/>
+		<voice sentence="Aaag!"/>
+		<voice sentence="Hmmnn!"/>		
+	</voices>
+	<loot>
+		<item id="2148" chance="75000" countmax="55"/><!-- 60 75% gold coin -->
+		<item id="2148" chance="55000" countmax="75"/><!-- 80 55% gold coin -->
+		<item id="2549" chance="9000"/><!-- 9% rake  -->
+		<item id="2475" chance="3500"/><!-- 3.5% warrior helmet -->
+		<item id="2197" chance="3000"/><!-- 3% stone skin amulet -->
+		<item id="2391" chance="5500"/><!-- 5,5% war hammer  -->
+		<item id="2547" chance="10000" countmax="3"/><!-- 3 10% power bolt -->
+		<item id="2489" chance="30000"/><!-- 30% dark armor -->	
+		<item id="1987" chance="100000"><!-- bag -->
+			<inside>
+				<item id="2414" chance="1000"/><!-- 1% dragon lance -->
+				<item id="2393" chance="500"/><!-- 0.5% giant sword -->
+				<item id="2466" chance="100"/><!-- 0.1% golden armor -->
+				<item id="2528" chance="5000"/><!-- 5% tower shield -->
+				<item id="2164" chance="800"/><!-- 0.8% might ring -->
+			</inside>
+		</item>
+	</loot>
+</monster>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Revenge Incarnate" nameDescription="Revenge Incarnate" race="undead" experience="575600000" speed="910" manacost="0">
+    <health now="19900000" max="19900000"/>
+    <look type="288" corpse="0"/>
+    <targetchange interval="4000" chance="100"/>
+    <targetstrategies nearest="96" health="85" damage="98" random="95"/>
+
+    <flags>
+        <flag summonable="0"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="0"/>
+        <flag convinceable="0"/>
+        <flag pushable="0"/>
+        <flag canpushitems="1"/>
+        <flag canpushcreatures="1"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="100"/>
+        <flag runonhealth="10"/>
+        <flag canwalkonenergy="1"/>
+        <flag canwalkonfire="1"/>
+        <flag canwalkonpoison="1"/>
+    </flags>
+
+    <script>
+        <event name="RewardChestDeath"/>
+        <event name="RewardChestMonster"/>
+    </script>
+
+    <attacks>
+        <!-- Estilo Revenge Spirit (dreno + paralyze) -->
+        <attack name="melee" skill="90" attack="290"/>
+        <attack name="lifedrain" chance="40" range="3" min="-1800" max="-2200"/>
+        <attack name="paralyze_banshee" chance="20" range="9"/>
+
+        <!-- Pulsos de lifedrain em area -->
+        <attack name="lifedrain" chance="30" radius="4" target="0" min="-1720" max="-1900">
+            <attribute key="areaEffect" value="yellownote"/>
+        </attack>
+        <attack name="lifedrain" chance="30" radius="4" target="0" min="-2100" max="-2400">
+            <attribute key="areaEffect" value="whitenote"/>
+        </attack>
+
+        <!-- Seus clusters/novas (mantidos, com efeito valido) -->
+        <attack name="fire" interval="2000" chance="25" range="7" radius="7" target="1" min="-1400" max="-2600">
+            <attribute key="shootEffect" value="fire"/>
+            <attribute key="areaEffect" value="explosionarea"/>
+        </attack>
+        <attack name="death" interval="2000" chance="22" radius="6" target="0" min="-1700" max="-2600">
+            <attribute key="areaEffect" value="darkenergy"/>
+        </attack>
+        <attack name="physical" interval="2000" chance="20" radius="4" target="0" min="-1200" max="-2200">
+            <attribute key="areaEffect" value="explosionarea"/>
+        </attack>
+        <attack name="fire" interval="1500" chance="20" radius="2" target="0" min="-1200" max="-1800">
+            <attribute key="areaEffect" value="firearea"/>
+        </attack>
+        <attack name="death" interval="2000" chance="20" range="7" radius="5" target="1" min="-1600" max="-2400">
+            <attribute key="areaEffect" value="mortarea"/>
+        </attack>
+    </attacks>
+
+    <defenses armor="184" defense="184">
+        <defense name="healing" chance="15" min="5000" max="25200">
+            <attribute key="areaEffect" value="greenspark"/>
+        </defense>
+    </defenses>
+
+    <elements>
+        <element deathPercent="100"/>
+        <element firePercent="100"/>
+        <element energyPercent="100"/>
+    </elements>
+
+    <immunities>
+        <immunity paralyze="1"/>
+        <immunity invisible="1"/>
+    </immunities>
+</monster>

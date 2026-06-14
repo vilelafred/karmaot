@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Golden Hero" nameDescription="a golden hero" race="fire" experience="35970" speed="650" manacost="0">
+    <health now="22800" max="22800"/>
+    <look type="431" corpse="3128"/>
+	<level min="50" max="100" />		
+    <targetchange interval="1000" chance="10"/>
+    <targetstrategies nearest="70" health="20" damage="10" random="20"/>
+    
+    <flags>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag summonable="0"/>
+        <flag convinceable="0"/>
+        <flag illusionable="0"/>
+        <flag pushable="0"/>
+        <flag canpushitems="1"/>
+        <flag canpushcreatures="1"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="90"/>
+        <flag runonhealth="0"/>
+    </flags>
+
+    <script>
+        <event name="elite"/>
+    </script>
+
+    <attacks>
+        <attack name="melee" interval="2000" skill="150" attack="150"/>
+        <attack name="fire" interval="2000" chance="30" length="8" spread="0" min="-1000" max="-1820">
+            <attribute key="areaEffect" value="fire"/>
+        </attack>
+    </attacks>
+
+    <defenses armor="140" defense="165">
+        <defense name="healing" interval="2000" chance="30" min="700" max="900">
+            <attribute key="areaEffect" value="redshimmer"/>
+        </defense>
+        <defense name="speed" interval="2000" chance="25" speedchange="500" duration="9000">
+            <attribute key="areaEffect" value="redshimmer"/>
+        </defense>
+    </defenses>
+
+    <elements>
+        <element firePercent="100"/>
+        <element earthPercent="100"/>
+        <element energyPercent="100"/>
+        <element deathPercent="15"/>		
+    </elements>
+
+    <immunities>
+        <immunity lifedrain="1"/>
+        <immunity paralyze="1"/>
+        <immunity invisible="1"/>
+    </immunities>
+
+    <voices interval="2000" chance="5">
+        <voice sentence="RELEASE MY SOUL!" yell="1"/>
+        <voice sentence="MY HATE IS GROOOW!" yell="1"/>
+        <voice sentence="HAIL RUTHLESS SEVEN!" yell="1"/>
+        <voice sentence="CHAMEK ATH UTHUL ARAK!" yell="1"/>
+    </voices>
+
+    <loot>
+        <item id="2795" chance="1000" countmax="20"/><!-- fire mushroom -->
+        <item id="2152" chance="3000" countmax="10"/><!-- platinum coin -->
+        <item id="2152" chance="3000" countmax="10"/>
+        <item id="2152" chance="3000" countmax="10"/>
+        <item id="2514" chance="800"/><!-- mastermind shield -->
+        <item id="2214" chance="1000"/><!-- ring of healing -->
+        <item id="2164" chance="1000"/><!-- might ring -->
+        <item id="2165" chance="1000"/><!-- stealth ring -->
+        <item id="2151" chance="3000"/><!-- talon -->
+        <item id="5907" chance="500"/><!-- demoniac essence -->
+        <item id="1986" chance="1000"/><!-- red tome -->
+        <item id="2653" chance="700"/><!-- red tunic -->
+        <item id="2483" chance="500"/><!-- scale armor -->
+        <item id="2147" chance="900"/><!-- small ruby -->
+        <item id="2493" chance="700"/><!-- demon helmet -->
+        <item id="2472" chance="600"/><!-- magic plate armor -->
+        <item id="5780" chance="1000"/><!-- sun fire robe -->
+        <item id="2546" chance="1000" countmax="15"/><!-- burst arrow -->
+        <item id="2396" chance="1000"/><!-- ice rapier -->
+        <item id="2520" chance="1000"/><!-- demon shield -->
+        <item id="5980" chance="100"/><!-- red spellwand -->
+        <item id="2164" chance="200"/><!-- might ring (extra) --> 
+    </loot>
+</monster>

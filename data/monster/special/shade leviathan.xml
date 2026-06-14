@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shade Leviathan" nameDescription="a Shade Leviathan" race="undead" experience="420000" speed="1100" manacost="0">
+  <health now="51000" max="51000"/>
+  <look type="363" head="0" body="0" legs="0" feet="0" corpse="3128"/>
+  <targetchange interval="1500" chance="50"/>
+  <strategy attack="100" defense="0"/>
+
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="0"/>
+    <flag staticattack="95"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+  <script>
+    <event name="elite"/>
+  </script>
+
+  <attacks>
+    <attack name="melee" skill="210" attack="250"/>
+    <!-- Dark energy blast -->
+    <attack name="death" chance="25" range="7" min="-400" max="-1900">
+      <attribute key="shootEffect" value="death"/>
+      <attribute key="areaEffect" value="mortarea"/>
+    </attack>
+    <!-- Shadow wave -->
+    <attack name="energy" chance="25" length="8" spread="3" min="-1750" max="-2350">
+      <attribute key="areaEffect" value="energyarea"/>
+    </attack>
+    <!-- Life Drain storm -->
+    <attack name="lifedrain" chance="30" radius="5" target="1" min="-500" max="-1900">
+      <attribute key="areaEffect" value="purpleenergy"/>
+    </attack>
+    <!-- Paralyze aura -->
+    <attack name="paralyze" chance="20" range="8">
+      <attribute key="areaEffect" value="darkenergy"/>
+    </attack>
+  </attacks>
+
+  <defenses armor="35" defense="180">
+    <defense name="healing" chance="25" min="1900" max="2300">
+      <attribute key="areaEffect" value="holyarea"/>
+    </defense>
+    <defense name="haste" chance="25"/>
+  </defenses>
+
+  <elements>
+    <element deathPercent="35"/>
+    <element energyPercent="25"/>
+    <element holyPercent="-25"/>
+    <element physicalPercent="-10"/>
+  </elements>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="1"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+
+  <voices interval="4000" chance="10">
+    <voice sentence="The abyss calls you!"/>
+    <voice sentence="Your soul will drown in shadow!"/>
+    <voice sentence="Feel the pull of the deep darkness!"/>
+  </voices>
+
+  <loot>
+    <item id="2160" chance="1000" countmax="5"/> <!-- Crystal coins -->
+    <item id="2472" chance="1200"/>
+    <item id="2470" chance="800"/>
+    <item id="2392" chance="400"/>
+        <item id="5937" chance="1000"/><!-- mystic ore -->			
+    <item id="2177" chance="120"/><!-- life crystal - ajustado -->
+    <item id="2152" chance="5000" countmax="20"/>
+    <item id="2796" chance="3500" countmax="60"/>
+    <item id="5880" chance="200"/> <!-- Rare abyssal essence -->
+    <item id="2472" chance="150"/> <!-- magic plate armor -->
+    <item id="2656" chance="130"/> <!-- blue robe -->
+    <item id="2123" chance="120"/> <!-- ring of the sky -->
+    <item id="2158" chance="200"/> <!-- blue gem -->
+  </loot>
+</monster>

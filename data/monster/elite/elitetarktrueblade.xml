@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Tark Trueblade" nameDescription="a Tark Trueblade" race="fire" experience="106000" speed="940" manacost="0">
+	<health now="38200" max="38200"/>
+	<look type="371" corpse="3128"/>
+	<level min="50" max="100" />		
+	<targetchange interval="1000" chance="10"/>
+	<targetstrategies nearest="70" health="10" damage="10" random="10"/>
+	<flags>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag summonable="0"/>
+		<flag convinceable="0"/>
+		<flag illusionable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="80"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" skill="180" attack="200"/>
+		<attack name="manadrain" chance="13" range="7" min="-50" max="-100"/>
+		<attack name="fire" chance="34" range="7" radius="7" target="1" min="-1210" max="-1350">
+			<attribute key="shootEffect" value="fire"/>
+			<attribute key="areaEffect" value="firearea"/>
+		</attack>
+		<attack name="energy" chance="40" length="9" spread="0" min="-900" max="-1420">
+			<attribute key="areaEffect" value="fire"/>
+		</attack>
+	</attacks>
+	<defenses armor="190" defense="190">
+		<defense name="healing" chance="15" min="1290" max="1350">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element firePercent="100"/>
+		<element earthPercent="100"/>
+		<element energyPercent="100"/>
+	</elements>
+	<immunities>
+		<immunity lifedrain="1"/>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="1000" chance="5">
+		<voice sentence="MUHAHAHAHA!" yell="1"/>
+		<voice sentence="I SMELL FEEEEEAAAR!" yell="1"/>
+		<voice sentence="CHAMEK ATH UTHUL ARAK!" yell="1"/>
+		<voice sentence="Your resistance is futile!"/>
+		<voice sentence="Your soul will be mine!" yell="1"/>
+	</voices>
+	<loot>
+		<item id="2795" chance="20000" countmax="6"/><!-- 6 20% fire mushroom -->
+		<item id="2152" chance="8000" countmax="100"/><!-- 100 40% gold coin -->
+		<item id="2152" chance="7000" countmax="100"/><!-- 100 70% gold coin -->
+		<item id="2152" chance="6000" countmax="100"/><!-- 100 60% gold coin -->
+		<item id="2152" chance="5000" countmax="100"/><!-- 100 50% gold coin -->
+		<item id="5937" chance="1000" countmax="1"/>			
+		<item id="2151" chance="35000"/><!-- 3.5% talon -->
+		<item id="2149" chance="11000" countmax="5"/><!-- 11% small emerald -->
+		<item id="2492" chance="4000"/><!-- 3% dragon scale mail -->
+		<item id="2173" chance="1000"/><!-- 3% amulet of loss -->
+		<item id="1983" chance="1300"/><!-- 1.3% green tome -->
+		<item id="2506" chance="700"/><!-- 0.7% dragon scale helmet -->
+		<item id="2469" chance="100"/><!-- 3% dragon scale legs -->
+				<item id="2432" chance="4000"/><!-- 4% fire axe -->
+				<item id="2393" chance="2000"/><!-- 2% giant sword -->
+				<item id="2522" chance="100"/><!-- 1.1% great shield -->
+				<item id="2396" chance="600"/><!-- 0.6% ice rapier -->
+				<item id="2214" chance="500"/><!-- 0.5% ring of healing -->
+				<item id="2164" chance="200"/><!-- 0.2% might ring -->
+	</loot>
+</monster>

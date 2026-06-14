@@ -1,0 +1,7546 @@
+# serverId -> clientId (id,name,clientId)
+100;void;100
+101;earth;101
+102;;102
+103;dirt;103
+104;sand;104
+105;;105
+106;grass;106
+107;;107
+108;flowers;108
+109;flowers;109
+110;;110
+111;;111
+112;;112
+113;;113
+114;;114
+115;;115
+116;;116
+117;;117
+118;;118
+119;;119
+120;;120
+121;;121
+122;;122
+123;;123
+124;;124
+125;;125
+126;;126
+127;;127
+128;;128
+129;;129
+130;;130
+131;;131
+132;;132
+133;;133
+134;;134
+135;;135
+136;;136
+137;;137
+138;;138
+139;;139
+140;;140
+141;;141
+142;;142
+143;;143
+144;;144
+145;;145
+146;;146
+147;;147
+148;;148
+149;;149
+150;;150
+151;;151
+152;;152
+153;;153
+154;;154
+155;;155
+156;;156
+157;;157
+158;;158
+159;;159
+160;;160
+161;;161
+162;;162
+163;;163
+164;;164
+165;;165
+166;;166
+167;;167
+168;;168
+169;;169
+170;;170
+171;;171
+172;;172
+173;;173
+174;;174
+175;;175
+176;;176
+177;;177
+178;;178
+179;;179
+180;;180
+181;;181
+182;;182
+183;;183
+184;;184
+185;;185
+186;;186
+187;;187
+188;;188
+189;;189
+190;;190
+191;;191
+192;;192
+193;;193
+194;dirt;194
+195;;195
+196;;196
+197;;197
+198;;198
+199;;199
+200;;200
+201;;201
+202;;202
+203;;203
+204;;204
+205;;205
+206;;206
+207;;207
+208;;208
+209;;209
+210;;210
+211;;211
+212;;212
+213;;213
+214;;214
+215;;215
+216;;216
+217;;217
+218;;218
+219;;219
+220;;220
+221;;221
+222;;222
+223;;223
+224;;224
+225;;225
+226;;226
+227;;227
+228;;228
+229;;229
+230;;230
+231;sand;231
+232;;232
+233;;233
+234;;234
+235;;235
+236;;236
+237;;237
+238;;238
+239;;239
+240;;240
+241;;241
+242;;242
+243;;243
+244;;244
+245;;245
+246;;246
+247;;247
+248;;248
+249;;249
+250;;250
+251;;251
+252;;252
+253;;253
+254;;254
+255;;255
+256;;256
+257;;257
+258;;258
+259;;259
+260;;260
+261;;261
+262;;262
+263;;263
+264;;264
+265;;265
+266;;266
+267;;267
+268;;268
+269;;269
+270;;270
+271;;271
+272;;272
+273;;273
+274;;274
+275;;275
+276;;276
+277;;277
+278;;278
+279;;279
+280;earth ground;280
+281;;281
+282;;282
+283;;283
+284;;284
+285;;285
+286;;286
+287;;287
+288;;288
+289;;289
+290;;290
+291;;291
+292;;292
+293;grass;293
+294;pitfall;294
+295;;295
+296;;296
+297;;297
+298;;298
+299;;299
+300;;300
+301;;301
+302;;302
+303;;303
+304;;304
+305;;305
+306;;306
+307;;307
+308;;308
+309;;309
+310;;310
+311;;311
+312;;312
+313;;313
+314;;314
+315;;315
+316;;316
+317;;317
+318;;318
+319;;319
+320;;320
+321;;321
+322;;322
+323;;323
+324;;324
+325;;325
+326;;326
+327;;327
+328;;328
+329;;329
+330;;330
+331;;331
+332;;332
+333;;333
+334;;334
+335;;335
+336;;336
+337;;337
+338;;338
+339;;339
+340;;340
+341;;341
+342;;342
+343;;343
+344;;344
+345;;345
+346;;346
+347;;347
+348;;348
+349;;349
+350;;350
+351;dirt floor;351
+352;dirt floor;352
+353;dirt floor;353
+354;muddy floor;354
+355;muddy floor;355
+356;dirt wall;356
+357;dirt wall;357
+358;dirt wall;358
+359;dirt wall;359
+360;dirt wall;360
+361;dirt wall;361
+362;dirt wall;362
+363;dirt wall;363
+364;dirt wall;364
+365;dirt wall;365
+366;dirt wall;366
+367;dirt wall;367
+368;earth ground;368
+369;trapdoor;369
+370;trapdoor;370
+371;stone wall;373
+372;stone wall;374
+373;stone wall;375
+374;stone wall;376
+375;stone wall;377
+376;stone wall;378
+377;stone wall;379
+378;stone wall;380
+379;stone wall;381
+380;stone wall;382
+381;stone wall;383
+382;stone wall;384
+383;hole;385
+384;dirt floor;386
+385;small hole;387
+386;stalagmites;388
+387;stalagmites;389
+388;lava hole;390
+389;lava hole;391
+390;stalagmites;392
+391;stalagmites;393
+392;hole;394
+393;;396
+394;;397
+395;;398
+396;;399
+397;;400
+398;;401
+399;;402
+400;;403
+401;;404
+402;;405
+403;;406
+404;;407
+405;wooden floor;408
+406;white marble floor;409
+407;black marble floor;410
+408;trapdoor;411
+409;trapdoor;412
+410;stairs;413
+411;stairs;414
+412;sandstone floor;415
+413;stone floor;416
+414;tiled floor;417
+415;stone floor;418
+416;stone tile;419
+417;stone tile;420
+418;stone tile;421
+419;sandstone tile;422
+420;tiled floor;423
+421;sandstone floor;424
+422;sandstone floor;425
+423;stairs;428
+424;stone tile;429
+425;stone tile;430
+426;stone tile;431
+427;trapdoor;432
+428;ladder;433
+429;trapdoor;434
+430;sewer grate;435
+431;stone floor;436
+432;stairs;437
+433;stairs;438
+434;wooden floor;439
+435;wooden floor;440
+436;wooden floor;441
+437;wooden floor;442
+438;wooden floor;443
+439;wooden floor;444
+440;wooden floor;445
+441;wooden floor;446
+442;wooden floor;447
+443;wooden floor;448
+444;wooden floor;449
+445;wooden floor;450
+446;wooden floor;452
+447;wooden floor;453
+448;wooden floor;454
+449;wooden floor;455
+450;wooden floor;456
+451;wooden floor;457
+452;wooden floor;458
+453;wooden floor;459
+454;wooden floor;460
+455;wooden floor;461
+456;wooden floor;462
+457;white stone tile;463
+458;wooden floor;464
+459;stairs;469
+460;nothing special;470
+461;closed trapdoor;475
+462;open trapdoor;476
+463;pedestal;477
+464;sandstone wall;478
+465;stone tile;479
+466;sandstone wall;480
+467;stone flooring;481
+468;stone pile;593
+469;hole;594
+470;hole;595
+471;time tile;596
+472;time tile;597
+473;time tile;598
+474;time tile;599
+475;hole;601
+476;hole;600
+477;ramp;602
+478;ramp;603
+479;hole;604
+480;hole;605
+481;loose stone pile;606
+482;hole;607
+483;loose ice pile;608
+484;hole;609
+485;hole;610
+486;snow heap;611
+487;ramp;612
+488;ramp;613
+489;hole;615
+490;;618
+491;;619
+492;;620
+493;water;622
+494;;623
+495;;624
+496;;625
+497;;626
+498;;627
+499;;628
+500;;629
+501;;630
+502;;631
+503;;632
+504;;633
+505;;634
+506;;635
+507;;636
+508;;637
+509;;638
+510;;639
+511;;640
+512;;641
+513;;642
+514;;643
+515;;644
+516;;645
+517;;646
+518;;647
+519;;648
+520;;649
+521;;650
+522;;651
+523;;652
+524;;653
+525;;654
+526;;655
+527;;656
+528;;657
+529;;658
+530;;659
+531;;660
+532;;661
+533;;662
+534;;663
+535;;664
+536;;665
+537;;666
+538;;667
+539;;668
+540;;669
+541;;670
+542;;671
+543;;672
+544;;673
+545;;674
+546;;675
+547;;676
+548;;677
+549;;678
+550;;679
+551;;680
+552;;681
+553;;682
+554;;683
+555;;684
+556;;685
+557;;686
+558;;687
+559;;688
+560;;689
+561;;690
+562;;691
+563;;692
+564;;693
+565;;694
+566;;695
+567;;696
+568;;697
+569;;698
+570;;699
+571;;700
+572;;701
+573;;702
+574;;703
+575;;704
+576;;705
+577;;706
+578;;707
+579;;708
+580;;709
+581;;710
+582;;711
+583;;712
+584;;713
+585;;714
+586;;715
+587;;716
+588;;717
+589;;718
+590;;719
+591;;720
+592;;721
+593;;722
+594;;723
+595;;724
+596;;725
+597;;726
+598;lava;727
+599;lava;728
+600;lava;729
+601;lava;730
+602;;731
+603;;732
+604;;733
+605;;734
+606;;735
+607;;736
+608;;737
+609;;738
+610;;739
+611;;740
+612;;741
+613;;742
+614;;743
+615;;744
+616;;745
+617;;746
+618;;747
+619;;748
+620;;749
+621;;750
+622;;751
+623;;752
+624;;753
+625;;754
+626;;755
+627;;756
+628;;757
+629;;758
+630;;759
+631;;760
+632;;761
+633;;762
+634;;763
+635;;764
+636;;765
+637;;766
+638;;767
+639;;768
+640;;769
+641;;770
+642;;771
+643;;772
+644;;773
+645;;774
+646;;775
+647;;776
+648;;777
+649;;778
+650;;779
+651;;780
+652;;781
+653;;782
+654;;783
+655;;784
+656;;785
+657;;786
+658;;787
+659;;788
+660;;789
+661;;790
+662;;791
+663;;792
+664;;793
+665;;794
+666;;795
+667;;796
+668;;797
+669;;798
+670;snow;799
+671;ice;800
+672;;801
+673;;802
+674;;803
+675;;804
+676;;805
+677;;806
+678;;807
+679;;808
+680;;809
+681;;810
+682;;811
+683;;812
+684;;813
+685;;814
+686;;815
+687;;816
+688;;817
+689;;818
+690;;819
+691;;820
+692;;821
+693;;822
+694;;823
+695;;824
+696;;825
+697;;826
+698;;827
+699;;828
+700;;829
+701;;830
+702;;831
+703;;832
+704;;833
+705;;834
+706;;835
+707;;836
+708;tar;837
+709;tar;838
+710;tar;839
+711;tar;840
+712;;841
+713;;842
+714;;843
+715;;844
+716;;845
+717;;846
+718;;847
+719;;848
+720;;849
+721;;850
+722;;851
+723;;852
+724;cobbled pavement;870
+725;;871
+726;;872
+727;;873
+728;;874
+729;;875
+730;;876
+731;;877
+732;;878
+733;;879
+734;;880
+735;;881
+736;;882
+737;;883
+738;;884
+739;;885
+740;;886
+741;;887
+742;;888
+743;;889
+744;;890
+745;;891
+746;;892
+747;;893
+748;;894
+749;;895
+750;;896
+751;;897
+752;;898
+753;;899
+754;;900
+755;;901
+756;;902
+757;;903
+758;;904
+759;;905
+760;;906
+761;;907
+762;;908
+763;;909
+764;;910
+765;;911
+766;;912
+767;;913
+768;;914
+769;;915
+770;;916
+771;;917
+772;;918
+773;;919
+774;;920
+775;;921
+776;;922
+777;sandstone;923
+778;sandstone;924
+779;sandstone;925
+780;sandstone;926
+781;sandstone;927
+782;sandstone;928
+783;sandstone;929
+784;sandstone;930
+785;sandstone;931
+786;sandstone;932
+787;sandstone;933
+788;sandstone;934
+789;sandstone;935
+790;sandstone;936
+791;grass;937
+792;;938
+793;;939
+794;;940
+795;;941
+796;;942
+797;;943
+798;;944
+799;;945
+800;;946
+801;;947
+802;;948
+803;;949
+804;dirt;950
+805;;951
+806;dirt;952
+807;;953
+808;;954
+809;;955
+810;;956
+811;;957
+812;;958
+813;;959
+814;;960
+815;;961
+816;;962
+817;;963
+818;;964
+819;;965
+820;;966
+821;;967
+822;;968
+823;;969
+824;;970
+825;;971
+826;;972
+827;;973
+828;;974
+829;;975
+830;;976
+831;;977
+832;;978
+833;;979
+834;;980
+835;;981
+836;sand;982
+837;;983
+838;;984
+839;;985
+840;;986
+841;;987
+842;;988
+843;;989
+844;;990
+845;;991
+846;;992
+847;;993
+848;;994
+849;;995
+850;;996
+851;;997
+852;;998
+853;;999
+854;;1000
+855;;1001
+856;;1002
+857;;1003
+858;;1004
+859;;1005
+860;;1006
+861;;1007
+862;;1008
+863;;1009
+864;;1010
+865;;1011
+866;;1012
+867;;1013
+868;;1014
+869;;1015
+870;;1016
+871;;1017
+872;;1018
+873;mountain;1081
+874;mountain;1082
+875;mountain;1083
+876;mountain;1084
+877;mountain;1085
+878;mountain;1086
+879;;1087
+880;;1088
+881;;1089
+882;;1090
+883;;1091
+884;;1092
+885;;1093
+886;;1094
+887;;1095
+888;;1096
+889;;1097
+890;;1098
+891;stone flooring;1100
+892;stone flooring;1101
+893;stone flooring;1102
+894;stone flooring;1103
+895;stone flooring;1104
+896;stone flooring;1105
+897;stone flooring;1106
+898;stone flooring;1107
+899;stone flooring;1108
+900;stone flooring;1109
+901;stone flooring;1110
+902;stone flooring;1111
+903;stone wall;1112
+904;stone wall;1113
+905;stone wall;1114
+906;stone wall;1115
+907;stone wall;1116
+908;stone wall;1117
+909;stone wall;1118
+910;stone wall;1119
+911;stone wall;1120
+912;stone wall;1121
+913;stone wall;1122
+914;stone archway;1123
+915;stone archway;1124
+916;stone archway;1125
+917;stone archway;1126
+918;mountain;1127
+919;mountain;1128
+920;flat roof;1152
+921;flat roof;1153
+922;flat roof;1154
+923;flat roof;1155
+924;trapdoor;1156
+925;tiled roof;1157
+926;tiled roof;1158
+927;tiled roof;1159
+928;tiled roof;1160
+929;tiled roof;1161
+930;tiled roof;1162
+931;tiled roof;1163
+932;tiled roof;1164
+933;tiled roof;1165
+934;tiled roof;1166
+935;tiled roof;1167
+936;tiled roof;1168
+937;tiled roof;1169
+938;tiled roof;1170
+939;tiled roof;1171
+940;tiled roof;1172
+941;tiled roof;1173
+942;tiled roof;1174
+943;tiled roof;1175
+944;tiled roof;1176
+945;wooden roof;1177
+946;wooden roof;1178
+947;wooden roof;1179
+948;wooden roof;1180
+949;wooden roof;1181
+950;wooden roof;1182
+951;wooden roof;1183
+952;wooden roof;1184
+953;wooden roof;1185
+954;wooden roof;1186
+955;wooden roof;1187
+956;wooden roof;1188
+957;wooden roof;1189
+958;wooden roof;1190
+959;wooden roof;1191
+960;wooden roof;1192
+961;wooden roof;1193
+962;wooden roof;1194
+963;wooden roof;1195
+964;wooden roof;1196
+965;white marble tile;1210
+966;black marble tile;1211
+967;marble flooring;1212
+968;marble flooring;1213
+969;marble flooring;1214
+970;marble flooring;1215
+971;marble flooring;1216
+972;marble flooring;1217
+973;marble flooring;1218
+974;marble flooring;1219
+975;marble flooring;1220
+976;marble flooring;1221
+977;marble flooring;1222
+978;marble flooring;1223
+979;marble flooring;1224
+980;marble flooring;1225
+981;marble flooring;1226
+982;marble flooring;1227
+983;marble flooring;1228
+984;marble flooring;1229
+985;marble flooring;1230
+986;marble flooring;1231
+987;marble flooring;1232
+988;marble flooring;1233
+989;marble flooring;1234
+990;marble flooring;1235
+991;marble flooring;1236
+992;marble flooring;1237
+993;marble flooring;1238
+994;marble flooring;1239
+995;marble flooring;1240
+996;marble flooring;1241
+997;marble flooring;1242
+998;marble flooring;1243
+999;marble flooring;1244
+1000;marble flooring;1245
+1001;marble flooring;1246
+1002;marble flooring;1247
+1003;marble flooring;1248
+1004;marble flooring;1249
+1005;marble flooring;1250
+1006;marble flooring;1251
+1007;marble flooring;1252
+1008;marble flooring;1253
+1009;marble flooring;1254
+1010;marble flooring;1255
+1011;marble flooring;1256
+1012;marble flooring;1257
+1013;marble flooring;1258
+1014;marble flooring;1259
+1015;marble flooring;1260
+1016;marble flooring;1261
+1017;marble flooring;1262
+1018;marble flooring;1263
+1019;marble flooring;1264
+1020;marble flooring;1265
+1021;marble flooring;1266
+1022;marble flooring;1267
+1023;marble flooring;1268
+1024;marble flooring;1269
+1025;brick wall;1270
+1026;brick wall;1271
+1027;brick wall;1272
+1028;brick wall;1273
+1029;brick wall;1274
+1030;brick wall;1275
+1031;brick wall;1276
+1032;brick wall;1277
+1033;brick wall;1278
+1034;brick wall;1279
+1035;brick wall;1280
+1036;framework wall;1281
+1037;framework wall;1282
+1038;framework wall;1283
+1039;framework wall;1284
+1040;framework wall;1285
+1041;framework wall;1286
+1042;framework wall;1287
+1043;framework wall;1288
+1044;framework wall;1289
+1045;framework wall;1290
+1046;framework wall;1291
+1047;framework wall;1292
+1048;framework wall;1293
+1049;stone wall;1294
+1050;stone wall;1295
+1051;stone wall;1296
+1052;stone wall;1297
+1053;stone wall;1298
+1054;stone wall;1299
+1055;stone wall;1300
+1056;stone wall;1301
+1057;stone wall;1302
+1058;stone wall;1303
+1059;stone wall;1304
+1060;sandstone wall;1305
+1061;sandstone wall;1306
+1062;sandstone wall;1307
+1063;sandstone wall;1308
+1064;sandstone wall;1309
+1065;sandstone wall;1310
+1066;sandstone wall;1311
+1067;sandstone wall;1312
+1068;sandstone wall;1313
+1069;sandstone wall;1314
+1070;sandstone wall;1315
+1071;sandstone;1316
+1072;sandstone wall;1317
+1073;sandstone wall;1318
+1074;sandstone wall;1319
+1075;sandstone wall;1320
+1076;sandstone wall;1321
+1077;sandstone wall;1322
+1078;sandstone wall;1323
+1079;sandstone wall;1324
+1080;sandstone wall;1325
+1081;sandstone wall;1326
+1082;sandstone wall;1327
+1083;sandstone wall;1328
+1084;sandstone wall;1329
+1085;sandstone wall;1330
+1086;sandstone wall;1331
+1087;sandstone wall;1332
+1088;sandstone wall;1333
+1089;metal wall;1334
+1090;metal wall;1335
+1091;metal wall;1336
+1092;metal wall;1337
+1093;metal wall;1338
+1094;;1339
+1095;metal wall;1340
+1096;metal wall;1341
+1097;metal wall;1342
+1098;metal wall;1343
+1099;metal wall;1344
+1100;sandstone wall;1345
+1101;sandstone wall;1346
+1102;sandstone wall;1347
+1103;sandstone wall;1348
+1104;sandstone wall;1349
+1105;sandstone wall;1350
+1106;sandstone wall;1351
+1107;sandstone wall;1352
+1108;sandstone wall;1353
+1109;sandstone wall;1354
+1110;sandstone wall;1355
+1111;white stone wall;1356
+1112;white stone wall;1357
+1113;white stone wall;1358
+1114;white stone wall;1359
+1115;white stone wall;1360
+1116;white stone wall;1361
+1117;white stone wall;1362
+1118;white stone wall;1363
+1119;white stone wall;1364
+1120;archway;1365
+1121;archway;1366
+1122;archway;1367
+1123;archway;1368
+1124;archway;1369
+1125;archway;1370
+1126;archway;1371
+1127;archway;1372
+1128;ornamented wall;1373
+1129;ornamented wall;1374
+1130;ornamented wall;1375
+1131;ornamented wall;1376
+1132;ornamented wall;1377
+1133;ornamented wall;1378
+1134;ornamented wall;1379
+1135;ornamented wall;1380
+1136;ornamented wall;1381
+1137;ornamented wall;1382
+1138;ornamented wall;1383
+1139;ornamented wall;1384
+1140;ornamented wall;1385
+1141;ornamented wall;1386
+1142;ornamented wall;1387
+1143;ornamented wall;1388
+1144;ornamented wall;1389
+1145;ornamented wall;1390
+1146;ornamented wall;1391
+1147;ornamented wall;1392
+1148;ornamented wall;1393
+1149;ornamented wall;1394
+1150;ornamented wall;1395
+1151;ornamented wall;1396
+1152;ornamented wall;1397
+1153;ornamented wall;1398
+1154;wall fountain;1399
+1155;wall fountain;1400
+1156;wall fountain;1401
+1157;wall fountain;1402
+1158;archway;1403
+1159;archway;1404
+1160;archway;1405
+1161;archway;1406
+1162;archway;1407
+1163;archway;1408
+1164;ornamented wall;1409
+1165;ornamented wall;1410
+1166;ornamented wall;1411
+1167;ornamented wall;1412
+1168;ornamented wall;1413
+1169;ornamented wall;1414
+1170;paravent;1415
+1171;paravent;1416
+1172;paravent;1417
+1173;paravent;1418
+1174;paravent;1419
+1175;paravent;1420
+1176;ornamented wall;1421
+1177;ornamented wall;1422
+1178;ornamented wall;1423
+1179;ornamented wall;1424
+1180;ornamented wall;1425
+1181;ornamented wall;1426
+1182;ornamented wall;1427
+1183;ornamented wall;1428
+1184;ornamented wall;1429
+1185;ornamented wall;1430
+1186;ornamented wall;1431
+1187;ornamented wall;1432
+1188;ornamented wall;1433
+1189;ornamented wall;1434
+1190;ornamented wall;1435
+1191;ornamented wall;1436
+1192;ornamented wall;1437
+1193;ornamented wall;1438
+1194;wall fountain;1439
+1195;wall fountain;1440
+1196;lava wall;1441
+1197;lava wall;1442
+1198;lava wall;1443
+1199;lava wall;1444
+1200;lava wall;1445
+1201;lava wall;1446
+1202;lava wall;1447
+1203;lava wall;1448
+1204;lava wall;1449
+1205;archway;1624
+1206;archway;1625
+1207;archway;1626
+1208;archway;1627
+1209;closed door;1628
+1210;closed door;1629
+1211;open door;1630
+1212;closed door;1631
+1213;closed door;1632
+1214;open door;1633
+1215;buttress;1634
+1216;buttress;1635
+1217;buttress;1636
+1218;buttress;1637
+1219;closed door;1638
+1220;open door;1639
+1221;closed door;1640
+1222;open door;1641
+1223;closed door;1642
+1224;open door;1643
+1225;closed door;1644
+1226;open door;1645
+1227;gate of expertise;1646
+1228;gate of expertise;1647
+1229;gate of expertise;1648
+1230;gate of expertise;1649
+1231;closed door;1650
+1232;closed door;1651
+1233;open door;1652
+1234;closed door;1653
+1235;closed door;1654
+1236;open door;1655
+1237;closed door;1656
+1238;open door;1657
+1239;closed door;1658
+1240;open door;1659
+1241;closed door;1660
+1242;open door;1661
+1243;closed door;1662
+1244;open door;1663
+1245;gate of expertise;1664
+1246;gate of expertise;1665
+1247;gate of expertise;1666
+1248;gate of expertise;1667
+1249;closed door;1668
+1250;closed door;1669
+1251;open door;1670
+1252;closed door;1671
+1253;closed door;1672
+1254;open door;1673
+1255;closed door;1674
+1256;open door;1675
+1257;closed door;1676
+1258;open door;1677
+1259;gate of expertise;1678
+1260;gate of expertise;1679
+1261;gate of expertise;1680
+1262;gate of expertise;1681
+1263;framework window;1734
+1264;framework window;1735
+1265;brick window;1736
+1266;brick window;1737
+1267;stone wall window;1738
+1268;stone wall window;1739
+1269;white stone wall window;1740
+1270;white stone wall window;1741
+1271;white stone wall window;1742
+1272;white stone wall window;1743
+1273;sandstone window;1744
+1274;sandstone window;1745
+1275;sandstone window;1746
+1276;sandstone window;1747
+1277;mast;1748
+1278;sail;1749
+1279;sail;1750
+1280;rudder of the boat;1751
+1281;rudder of the boat;1752
+1282;rudder of the boat;1753
+1283;rudder of the boat;1754
+1284;drawbridge;1771
+1285;stone;1772
+1286;stone;1773
+1287;stone;1774
+1288;stone;1775
+1289;stone;1776
+1290;stone;1777
+1291;stone;1778
+1292;stone;1779
+1293;stone;1780
+1294;small stone;1781
+1295;stone;1782
+1296;stone;1783
+1297;stone;1784
+1298;stone;1785
+1299;stone;1786
+1300;stone;1787
+1301;stone;1788
+1302;stone;1789
+1303;stone;1790
+1304;stone;1791
+1305;stone;1792
+1306;stone;1793
+1307;debris;1794
+1308;debris;1795
+1309;debris;1796
+1310;debris;1797
+1311;debris;1798
+1312;debris;1799
+1313;debris;1800
+1314;debris;1801
+1315;debris;1802
+1316;debris;1803
+1317;debris;1804
+1318;debris;1805
+1319;debris;1806
+1320;debris;1807
+1321;debris;1808
+1322;debris;1809
+1323;debris;1810
+1324;debris;1811
+1325;debris;1812
+1326;debris;1813
+1327;debris;1814
+1328;debris;1815
+1329;debris;1816
+1330;white mining stone;1817
+1331;debris;1818
+1332;debris;1819
+1333;debris;1820
+1334;debris;1821
+1335;stone pile;1822
+1336;debris;1823
+1337;debris;1824
+1338;debris;1825
+1339;debris;1826
+1340;debris;1827
+1341;debris;1828
+1342;debris;1829
+1343;debris;1830
+1344;debris;1831
+1345;debris;1832
+1346;debris;1833
+1347;debris;1834
+1348;debris;1835
+1349;debris;1836
+1350;debris;1837
+1351;debris;1838
+1352;debris;1839
+1353;mossy stone;1840
+1354;blue shrine stone;1841
+1355;red shrine stone;1842
+1356;stone;1843
+1357;stone;1844
+1358;stone;1845
+1359;stone;1846
+1360;fountain;1922
+1361;fountain;1923
+1362;fountain;1924
+1363;fountain;1925
+1364;water basin;1926
+1365;water basin;1927
+1366;water basin;1928
+1367;water basin;1929
+1368;draw well;1930
+1369;draw well;1931
+1370;marble well;1932
+1371;marble well;1933
+1372;marble well;1934
+1373;marble well;1935
+1374;marble fountain;1936
+1375;marble fountain;1937
+1376;marble fountain;1938
+1377;marble fountain;1939
+1378;small basin;1940
+1379;water wheel;1941
+1380;water wheel;1942
+1381;millstone;1943
+1382;millstone;1944
+1383;millstone;1945
+1384;millstone;1946
+1385;stairs;1947
+1386;ladder;1948
+1387;magic forcefield;1949
+1388;ramp;1950
+1389;ramp;1951
+1390;ramp;1952
+1391;ramp;1953
+1392;ramp;1954
+1393;ramp;1955
+1394;ramp;1956
+1395;ramp;1957
+1396;wooden stairs;1958
+1397;mystic flame;1959
+1398;ramp;1960
+1399;ramp;1961
+1400;ramp;1962
+1401;ramp;1963
+1402;ramp;1964
+1403;ramp;1965
+1404;ramp;1966
+1405;ramp;1967
+1406;grave;1979
+1407;gravestone;1980
+1408;gravestone;1981
+1409;gravestone;1982
+1410;stone coffin;1983
+1411;stone coffin;1984
+1412;stone coffin;1985
+1413;stone coffin;1986
+1414;stone coffin;1987
+1415;buried coffin;1988
+1416;buried coffin;1989
+1417;sarcophagus;1992
+1418;sarcophagus;1993
+1419;sarcophagus;1994
+1420;sarcophagus;1995
+1421;campfire;1996
+1422;campfire;1997
+1423;campfire;1998
+1424;campfire;1999
+1425;campfire;2000
+1426;unlit campfire;2001
+1427;campfire;2002
+1428;campfire;2003
+1429;sign;2012
+1430;sign;2013
+1431;sign;2014
+1432;sign;2015
+1433;sign;2016
+1434;sign;2017
+1435;dragon flag;2018
+1436;castle flag;2019
+1437;flag of Tibia;2020
+1438;street sign;2021
+1439;street sign;2022
+1440;sign;2023
+1441;sign;2024
+1442;statue;2025
+1443;statue;2026
+1444;hero statue;2027
+1445;monument;2028
+1446;minotaur statue;2029
+1447;goblin statue;2030
+1448;angel statue;2031
+1449;dwarven statue;2032
+1450;watchdog statue;2033
+1451;sandstone statue;2034
+1452;gargoyle statue;2035
+1453;gargoyle statue;2036
+1454;gargoyle statue;2037
+1455;gargoyle statue;2038
+1456;pedestal;2039
+1457;pedestal;2040
+1458;pedestal;2041
+1459;pedestal;2042
+1460;minotaur statue;2043
+1461;minotaur statue;2044
+1462;minotaur statue;2045
+1463;goblin statue;2046
+1464;goblin statue;2047
+1465;goblin statue;2048
+1466;pedestal;2049
+1467;cobra statue;2050
+1468;cobra statue;2051
+1469;pedestal;2052
+1470;cobra statue;2053
+1471;cobra statue;2054
+1472;cobra statue;2055
+1473;pedestal;2056
+1474;cobra statue;2057
+1475;pedestal;2058
+1476;statue;2059
+1477;statue;2060
+1478;statue;2061
+1479;street lamp;2108
+1480;street lamp;2109
+1481;coal basin;2110
+1482;coal basin;2111
+1483;coal basin;2112
+1484;coal basin;2113
+1485;empty coal basin;2114
+1486;stone coal basin;2115
+1487;fire field;2118
+1488;fire field;2119
+1489;fire field;2120
+1490;poison field;2121
+1491;energy field;2122
+1492;fire field;2123
+1493;fire field;2124
+1494;fire field;2125
+1495;energy field;2126
+1496;poison field;2127
+1497;magic wall;2128
+1498;magic wall;2129
+1499;rush wood;2130
+1500;fire field;2131
+1501;fire field;2132
+1502;fire field;2133
+1503;poison gas;2134
+1504;energy field;2135
+1505;smoke;2136
+1506;searing fire;2137
+1507;searing fire;2138
+1508;ashes;2140
+1509;lava;2144
+1510;slits;2145
+1511;blades;2146
+1512;strange holes;2147
+1513;spikes;2148
+1514;stone pillar;2152
+1515;marble pillar;2153
+1516;wooden railing;2154
+1517;wooden railing;2155
+1518;wooden railing;2156
+1519;wooden railing;2157
+1520;wooden railing;2158
+1521;wooden railing;2159
+1522;wooden railing;2160
+1523;wooden railing;2161
+1524;stone railing;2162
+1525;stone railing;2163
+1526;stone railing;2164
+1527;stone railing;2165
+1528;stone railing;2166
+1529;stone railing;2167
+1530;stone railing;2168
+1531;stone railing;2169
+1532;framework wall;2170
+1533;fence;2171
+1534;fence;2172
+1535;fence;2173
+1536;fence;2174
+1537;fence;2175
+1538;fence;2176
+1539;closed fence gate;2177
+1540;open fence gate;2178
+1541;closed fence gate;2179
+1542;open fence gate;2180
+1543;fence;2181
+1544;fence;2182
+1545;fence;2183
+1546;bars;2184
+1547;bars;2185
+1548;nothing special;2187
+1549;sandstone pillar;2188
+1550;sandstone statue;2189
+1551;oriental pillar;2190
+1552;ramp;2191
+1553;ramp;2192
+1554;ramp;2193
+1555;ramp;2194
+1556;ramp;2195
+1557;ramp;2196
+1558;ramp;2197
+1559;ramp;2198
+1560;obelisk;2199
+1561;broken obelisk;2200
+1562;stone railing;2201
+1563;stone railing;2202
+1564;stone railing;2203
+1565;stone railing;2204
+1566;stone railing;2205
+1567;stone railing;2206
+1568;stone railing;2207
+1569;stone railing;2208
+1570;sandstone railing;2209
+1571;sandstone railing;2210
+1572;sandstone railing;2211
+1573;sandstone railing;2212
+1574;sandstone railing;2213
+1575;sandstone railing;2214
+1576;sandstone railing;2215
+1577;sandstone railing;2216
+1578;ramp;2218
+1579;ramp;2219
+1580;ramp;2220
+1581;ramp;2221
+1582;white stone railing;2222
+1583;white stone railing;2223
+1584;white stone railing;2224
+1585;white stone railing;2225
+1586;white stone railing;2226
+1587;white stone railing;2227
+1588;white stone railing;2228
+1589;white stone railing;2229
+1590;white stone railing;2230
+1591;white stone railing;2231
+1592;white stone railing;2232
+1593;white stone railing;2233
+1594;wooden railing;2234
+1595;wooden railing;2235
+1596;wooden railing;2236
+1597;wooden railing;2237
+1598;wooden railing;2238
+1599;wooden railing;2239
+1600;wooden railing;2240
+1601;wooden railing;2241
+1602;big table;2302
+1603;big table;2303
+1604;big table;2304
+1605;big table;2305
+1606;big table;2306
+1607;big table;2307
+1608;big table;2308
+1609;big table;2309
+1610;big table;2310
+1611;big table;2311
+1612;big table;2312
+1613;big table;2313
+1614;big table;2314
+1615;square table;2315
+1616;small round table;2316
+1617;counter;2317
+1618;counter;2318
+1619;small table;2319
+1620;counter;2320
+1621;counter;2321
+1622;table;2322
+1623;table;2323
+1624;table;2324
+1625;table;2325
+1626;table;2326
+1627;table;2327
+1628;table;2328
+1629;table;2329
+1630;table;2330
+1631;table;2331
+1632;table;2332
+1633;table;2333
+1634;table;2334
+1635;table;2335
+1636;table;2336
+1637;table;2337
+1638;table;2338
+1639;table;2339
+1640;table;2340
+1641;table;2341
+1642;counter;2342
+1643;counter;2343
+1644;counter;2344
+1645;counter;2345
+1646;throne;2354
+1647;throne;2355
+1648;throne;2356
+1649;throne;2357
+1650;wooden chair;2358
+1651;wooden chair;2359
+1652;wooden chair;2360
+1653;wooden chair;2361
+1654;throne;2362
+1655;throne;2363
+1656;throne;2364
+1657;throne;2365
+1658;sofa chair;2366
+1659;sofa chair;2367
+1660;sofa chair;2368
+1661;sofa chair;2369
+1662;bench;2370
+1663;bench;2371
+1664;bench;2372
+1665;bench;2373
+1666;red cushioned chair;2374
+1667;red cushioned chair;2375
+1668;red cushioned chair;2376
+1669;red cushioned chair;2377
+1670;green cushioned chair;2378
+1671;green cushioned chair;2379
+1672;green cushioned chair;2380
+1673;green cushioned chair;2381
+1674;rocking chair;2382
+1675;rocking chair;2383
+1676;rocking chair;2384
+1677;rocking chair;2385
+1678;small purple pillow;2386
+1679;small green pillow;2387
+1680;small red pillow;2388
+1681;small blue pillow;2389
+1682;small orange pillow;2390
+1683;small turquoise pillow;2391
+1684;small white pillow;2392
+1685;heart pillow;2393
+1686;blue pillow;2394
+1687;red pillow;2395
+1688;green pillow;2396
+1689;yellow pillow;2397
+1690;round blue pillow;2398
+1691;round red pillow;2399
+1692;round purple pillow;2400
+1693;round turquoise pillow;2401
+1694;couch;2402
+1695;couch;2403
+1696;couch;2404
+1697;couch;2405
+1698;couch;2406
+1699;couch;2407
+1700;couch;2408
+1701;couch;2409
+1702;luxurious couch;2410
+1703;luxurious couch;2411
+1704;luxurious couch;2412
+1705;luxurious couch;2413
+1706;luxurious couch;2414
+1707;luxurious couch;2415
+1708;luxurious couch;2416
+1709;luxurious couch;2417
+1710;wardrobe;2427
+1711;wardrobe;2428
+1712;wardrobe;2429
+1713;wardrobe;2430
+1714;drawers;2431
+1715;drawers;2432
+1716;drawers;2433
+1717;drawers;2434
+1718;bookcase;2435
+1719;bookcase;2436
+1720;bookcase;2437
+1721;bookcase;2438
+1722;bookcase;2439
+1723;bookcase;2440
+1724;dresser;2441
+1725;dresser;2442
+1726;dresser;2443
+1727;dresser;2444
+1728;pendulum clock;2445
+1729;pendulum clock;2446
+1730;pendulum clock;2447
+1731;pendulum clock;2448
+1732;locker;2449
+1733;locker;2450
+1734;locker;2451
+1735;locker;2452
+1736;standing mirror;2453
+1737;mirror;2454
+1738;box;2469
+1739;crate;2471
+1740;chest;2472
+1741;box;2473
+1742;wooden coffin;2474
+1743;wooden coffin;2475
+1744;wooden coffin;2476
+1745;wooden coffin;2477
+1746;treasure chest;2478
+1747;chest;2480
+1748;chest;2481
+1749;chest;2482
+1750;large trunk;2483
+1751;large trunk;2484
+1752;large trunk;2485
+1753;large trunk;2486
+1754;bed;2487
+1755;bed;2488
+1756;cot;2489
+1757;cot;2490
+1758;cot;2491
+1759;cot;2492
+1760;bed;2493
+1761;bed;2494
+1762;bed;2495
+1763;bed;2496
+1764;bed;2497
+1765;bed;2498
+1766;cot;2499
+1767;cot;2500
+1768;cot;2501
+1769;cot;2502
+1770;barrel;2519
+1771;water cask;2520
+1772;beer cask;2521
+1773;wine cask;2522
+1774;barrel;2523
+1775;trough;2524
+1776;lemonade cask;2525
+1777;dustbin;2526
+1778;big wine cask;2527
+1779;big wine cask;2528
+1780;big wine cask;2529
+1781;big wine cask;2530
+1782;big wine cask;2531
+1783;big wine cask;2532
+1784;big wine cask;2533
+1785;big wine cask;2534
+1786;oven;2535
+1787;oven;2536
+1788;oven;2537
+1789;oven;2538
+1790;oven;2539
+1791;oven;2540
+1792;oven;2541
+1793;oven;2542
+1794;red carpet;2572
+1795;red carpet;2573
+1796;red carpet;2574
+1797;red carpet;2575
+1798;red carpet;2576
+1799;red carpet;2577
+1800;red carpet;2578
+1801;red carpet;2579
+1802;red carpet;2580
+1803;oriental carpet;2581
+1804;oriental carpet;2582
+1805;oriental carpet;2583
+1806;oriental carpet;2584
+1807;oriental carpet;2585
+1808;oriental carpet;2586
+1809;painting;2596
+1810;blackboard;2597
+1811;blackboard;2598
+1812;tapestry;2599
+1813;tapestry;2600
+1814;painting;2601
+1815;blackboard;2602
+1816;wall mirror;2603
+1817;wall mirror;2604
+1818;blackboard;2605
+1819;banner;2606
+1820;emblem;2607
+1821;emblem;2608
+1822;emblem;2609
+1823;emblem;2610
+1824;emblem;2611
+1825;painting;2612
+1826;painting;2613
+1827;painting;2614
+1828;painting;2615
+1829;scarab ornament;2616
+1830;scarab ornament;2617
+1831;picture;2618
+1832;picture;2619
+1833;painting;2620
+1834;painting;2621
+1835;picture;2622
+1836;picture;2623
+1837;painting;2624
+1838;painting;2625
+1839;painting;2626
+1840;painting;2627
+1841;painting;2628
+1842;painting;2629
+1843;wall mirror;2630
+1844;wall mirror;2631
+1845;wall mirror;2632
+1846;wall mirror;2633
+1847;wall mirror;2634
+1848;wall mirror;2635
+1849;wall mirror;2636
+1850;wall mirror;2637
+1851;wall mirror;2638
+1852;picture;2639
+1853;picture;2640
+1854;picture;2641
+1855;purple tapestry;2642
+1856;purple tapestry;2643
+1857;purple tapestry;2644
+1858;green tapestry;2645
+1859;green tapestry;2646
+1860;green tapestry;2647
+1861;yellow tapestry;2648
+1862;yellow tapestry;2649
+1863;yellow tapestry;2650
+1864;orange tapestry;2651
+1865;orange tapestry;2652
+1866;orange tapestry;2653
+1867;red tapestry;2654
+1868;red tapestry;2655
+1869;red tapestry;2656
+1870;blue tapestry;2657
+1871;blue tapestry;2658
+1872;blue tapestry;2659
+1873;cuckoo clock;2660
+1874;cuckoo clock;2661
+1875;cuckoo clock;2662
+1876;cuckoo clock;2663
+1877;cuckoo clock;2664
+1878;white tapestry;2665
+1879;white tapestry;2666
+1880;white tapestry;2667
+1881;cuckoo clock;2668
+1882;demon trophy;2669
+1883;demon trophy;2670
+1884;wolf trophy;2671
+1885;wolf trophy;2672
+1886;orc trophy;2673
+1887;orc trophy;2674
+1888;behemoth trophy;2675
+1889;behemoth trophy;2676
+1890;deer trophy;2677
+1891;deer trophy;2678
+1892;cyclops trophy;2679
+1893;cyclops trophy;2680
+1894;dragon trophy;2681
+1895;dragon trophy;2682
+1896;lion trophy;2683
+1897;lion trophy;2684
+1898;minotaur trophy;2685
+1899;minotaur trophy;2686
+1900;bloodstain;2693
+1901;bloodstain;2694
+1902;bloodstain;2695
+1903;bloodspot;2696
+1904;bloodspot;2697
+1905;bloodspot;2698
+1906;cobwebs;2699
+1907;cobwebs;2700
+1908;cobwebs;2701
+1909;flowery wall;2702
+1910;flowery wall;2703
+1911;flowery wall;2704
+1912;flowery wall;2705
+1913;flowery wall;2706
+1914;flowery wall;2707
+1915;flowery wall;2708
+1916;flowery wall;2709
+1917;flowery wall;2710
+1918;flowery wall;2711
+1919;flowery wall;2712
+1920;flowery wall;2713
+1921;mossy wall;2714
+1922;mossy wall;2715
+1923;mossy wall;2716
+1924;mossy wall;2717
+1925;mossy wall;2718
+1926;mossy wall;2719
+1927;mossy wall;2720
+1928;mossy wall;2721
+1929;mossy wall;2722
+1930;mossy wall;2723
+1931;mossy wall;2724
+1932;mossy wall;2725
+1933;mossy wall;2726
+1934;;2727
+1935;mossy wall;2728
+1936;mossy wall;2729
+1937;mossy wall;2730
+1938;;2731
+1939;mossy wall;2732
+1940;mossy wall;2733
+1941;mossy wall;2734
+1942;mossy wall;2735
+1943;mossy wall;2736
+1944;mossy wall;2737
+1945;lever;2772
+1946;lever;2773
+1947;blank paper;2813
+1948;parchment;2814
+1949;scroll;2815
+1950;book;2816
+1951;parchment;2817
+1952;document;2818
+1953;parchment;2819
+1954;paper;2820
+1955;book;2821
+1956;map;2822
+1957;map;2823
+1958;book;2824
+1959;book;2825
+1960;book;2826
+1961;book;2827
+1962;book;2828
+1963;book;2829
+1964;book;2830
+1965;book;2831
+1966;book;2832
+1967;parchment;2833
+1968;document;2834
+1969;parchment;2835
+1970;the holy Tible;2836
+1971;book;2837
+1972;book;2838
+1973;book;2839
+1974;book;2840
+1975;book;2841
+1976;T book;2842
+1977;book;2843
+1978;book;2844
+1979;book;2845
+1980;book;2846
+1981;book;2847
+1982;purple tome;2848
+1983;green tome;2849
+1984;blue tome;2850
+1985;grey tome;2851
+1986;red tome;2852
+1987;bag;2853
+1988;backpack;2854
+1989;basket;2855
+1990;present;2856
+1991;green bag;2857
+1992;yellow bag;2858
+1993;red bag;2859
+1994;purple bag;2860
+1995;blue bag;2861
+1996;gray bag;2862
+1997;golden bag;2863
+1998;green backpack;2865
+1999;yellow backpack;2866
+2000;red backpack;2867
+2001;purple backpack;2868
+2002;blue backpack;2869
+2003;gray backpack;2870
+2004;golden backpack;2871
+2005;bucket;2873
+2006;vial;2874
+2007;blue bottle;2875
+2008;vase;2876
+2009;green flask;2877
+2010;broken bottle;2878
+2011;blue amphora;2879
+2012;mug;2880
+2013;cup;2881
+2014;jug;2882
+2015;beer bottle;2885
+2016;pool;2886
+2017;pool;2887
+2018;pool;2888
+2019;pool;2889
+2020;pool;2890
+2021;pool;2891
+2022;broken bottle;2892
+2023;amphora;2893
+2024;broken brown glass;2894
+2025;pool;2895
+2026;pool;2896
+2027;pool;2897
+2028;pool;2898
+2029;pool;2899
+2030;pool;2900
+2031;waterskin;2901
+2032;bowl;2902
+2033;golden mug;2903
+2034;large amphora;2904
+2035;plate;2905
+2036;watch;2906
+2037;wall lamp;2907
+2038;lit wall lamp;2908
+2039;wall lamp;2909
+2040;lit wall lamp;2910
+2041;candelabrum;2911
+2042;lit candelabrum;2912
+2043;used candelabrum;2913
+2044;lamp;2914
+2045;lit lamp;2915
+2046;used lamp;2916
+2047;candlestick;2917
+2048;lit candlestick;2918
+2049;used candlestick;2919
+2050;torch;2920
+2051;lit torch;2921
+2052;torch;2922
+2053;lit torch;2923
+2054;torch;2924
+2055;lit torch;2925
+2056;burnt down torch;2926
+2057;candelabrum;2927
+2058;torch bearer;2928
+2059;lit torch bearer;2929
+2060;torch bearer;2930
+2061;lit torch bearer;2931
+2062;small oil lamp;2932
+2063;small oil lamp;2933
+2064;table lamp;2934
+2065;lit table lamp;2935
+2066;wall lamp;2936
+2067;lit wall lamp;2937
+2068;wall lamp;2938
+2069;lit wall lamp;2939
+2070;wooden flute;2948
+2071;lyre;2949
+2072;lute;2950
+2073;drum;2952
+2074;panpipes;2953
+2075;simple fanfare;2954
+2076;fanfare;2955
+2077;royal fanfare;2956
+2078;post horn;2957
+2079;war horn;2958
+2080;piano;2959
+2081;piano;2960
+2082;piano;2961
+2083;piano;2962
+2084;harp;2963
+2085;harp;2964
+2086;magical key;2967
+2087;wooden key;2968
+2088;silver key;2969
+2089;copper key;2970
+2090;crystal key;2971
+2091;golden key;2972
+2092;bone key;2973
+2093;water pipe;2974
+2094;bird cage;2975
+2095;bird cage;2976
+2096;pumpkinhead;2977
+2097;lit pumpkinhead;2978
+2098;globe;2979
+2099;water pipe;2980
+2100;god flowers;2981
+2101;indoor plant;2982
+2102;flower bowl;2983
+2103;honey flower;2984
+2104;potted flower;2985
+2105;christmas tree;2986
+2106;potted flower;2987
+2107;exotic flowers;2988
+2108;wooden doll;2989
+2109;football;2990
+2110;doll;2991
+2111;snowball;2992
+2112;teddy bear;2993
+2113;model ship;2994
+2114;piggy bank;2995
+2115;broken piggy bank;2996
+2116;rocking horse;2997
+2117;rocking horse;2998
+2118;rocking horse;2999
+2119;rocking horse;3000
+2120;rope;3003
+2121;wedding ring;3004
+2122;elven brooch;3005
+2123;ring of the sky;3006
+2124;crystal ring;3007
+2125;crystal necklace;3008
+2126;bronze necklace;3009
+2127;emerald bangle;3010
+2128;crown;3011
+2129;wolf tooth chain;3012
+2130;golden amulet;3013
+2131;star amulet;3014
+2132;silver necklace;3015
+2133;ruby necklace;3016
+2134;silver brooch;3017
+2135;scarab amulet;3018
+2136;demonbone amulet;3019
+2137;golden fruits;3020
+2138;sapphire amulet;3021
+2139;ancient tiara;3022
+2140;holy scarab;3023
+2141;holy falcon;3024
+2142;ancient amulet;3025
+2143;white pearl;3026
+2144;black pearl;3027
+2145;small diamond;3028
+2146;small sapphire;3029
+2147;small ruby;3030
+2148;gold coin;3031
+2149;small emerald;3032
+2150;small amethyst;3033
+2151;talon;3034
+2152;platinum coin;3035
+2153;violet gem;3036
+2154;yellow gem;3037
+2155;green gem;3038
+2156;red gem;3039
+2157;gold nugget;3040
+2158;blue gem;3041
+2159;scarab coin;3042
+2160;crystal coin;3043
+2161;strange talisman;3045
+2162;magic lightwand;3046
+2163;magic lightwand;3047
+2164;might ring;3048
+2165;stealth ring;3049
+2166;power ring;3050
+2167;energy ring;3051
+2168;life ring;3052
+2169;time ring;3053
+2170;silver amulet;3054
+2171;platinum amulet;3055
+2172;bronze amulet;3056
+2173;amulet of loss;3057
+2174;strange symbol;3058
+2175;spellbook;3059
+2176;orb;3060
+2177;life crystal;3061
+2178;mind stone;3062
+2179;gold ring;3063
+2180;orb of nature;3064
+2181;quagmire rod;3065
+2182;snakebite rod;3066
+2183;tempest rod;3067
+2184;crystal wand;3068
+2185;volcanic rod;3069
+2186;moonlight rod;3070
+2187;wand of inferno;3071
+2188;wand of plague;3072
+2189;wand of cosmic energy;3073
+2190;wand of vortex;3074
+2191;wand of dragonbreath;3075
+2192;crystal ball;3076
+2193;ankh;3077
+2194;mysterious fetish;3078
+2195;boots of haste;3079
+2196;broken amulet;3080
+2197;stone skin amulet;3081
+2198;elven amulet;3082
+2199;garlic necklace;3083
+2200;protection amulet;3084
+2201;dragon necklace;3085
+2202;stealth ring;3086
+2203;power ring;3087
+2204;energy ring;3088
+2205;life ring;3089
+2206;time ring;3090
+2207;sword ring;3091
+2208;axe ring;3092
+2209;club ring;3093
+2210;sword ring;3094
+2211;axe ring;3095
+2212;club ring;3096
+2213;dwarven ring;3097
+2214;ring of healing;3098
+2215;dwarven ring;3099
+2216;ring of healing;3100
+2217;book;3101
+2218;paw amulet;3102
+2219;banana skin;3104
+2220;dirty fur;3105
+2221;old twig;3106
+2222;some wood;3107
+2223;rubbish;3108
+2224;rubbish;3109
+2225;piece of iron;3110
+2226;fishbone;3111
+2227;rotten meat;3112
+2228;broken pottery;3113
+2229;skull;3114
+2230;bone;3115
+2231;big bone;3116
+2232;broken brown glass;3117
+2233;broken green glass;3118
+2234;broken sword;3119
+2235;mouldy cheese;3120
+2236;torn book;3121
+2237;dirty cape;3122
+2238;worn leather boots;3123
+2239;burnt scroll;3124
+2240;fish remains;3125
+2241;rubbish;3126
+2242;rubbish;3127
+2243;rubbish;3128
+2244;some leaves;3129
+2245;twigs;3130
+2246;burnt down firewood;3131
+2247;skull;3132
+2248;human remains;3133
+2249;ashes;3134
+2250;wooden trash;3135
+2251;wooden trash;3136
+2252;wooden trash;3137
+2253;wooden trash;3138
+2254;wooden trash;3139
+2255;wooden trash;3140
+2256;metal trash;3141
+2257;stone rubbish;3142
+2258;stone rubbish;3143
+2259;stone rubbish;3144
+2260;blank rune;3147
+2261;destroy field rune;3148
+2262;energy bomb rune;3149
+2263;spell rune;3150
+2264;spell rune;3151
+2265;intense healing rune;3152
+2266;cure poison rune;3153
+2267;spell rune;3154
+2268;sudden death rune;3155
+2269;wild growth rune;3156
+2270;spell rune;3157
+2271;icicle rune;3158
+2272;spell rune;3159
+2273;ultimate healing rune;3160
+2274;avalanche rune;3161
+2275;spell rune;3162
+2276;spell rune;3163
+2277;energy field rune;3164
+2278;paralyze rune;3165
+2279;energy wall rune;3166
+2280;spell rune;3167
+2281;mana rune;3168
+2282;spell rune;3169
+2283;spell rune;3170
+2284;mana rune +3;3171
+2285;poison field rune;3172
+2286;poison bomb rune;3173
+2287;light magic missile rune;3174
+2288;stone shower rune;3175
+2289;poison wall rune;3176
+2290;convince creature rune;3177
+2291;chameleon rune;3178
+2292;envenom rune;3179
+2293;magic wall rune;3180
+2294;spell rune;3181
+2295;holy missile rune;3182
+2296;spell rune;3183
+2297;spell rune;3184
+2298;spell rune;3185
+2299;spell rune;3186
+2300;holy mana rune;3187
+2301;fire field rune;3188
+2302;fireball rune;3189
+2303;fire wall rune;3190
+2304;great fireball rune;3191
+2305;fire bomb rune;3192
+2306;spell rune;3193
+2307;spell rune;3194
+2308;soulfire rune;3195
+2309;spell rune;3196
+2310;disintegrate rune;3197
+2311;heavy magic missile rune;3198
+2312;spell rune;3199
+2313;explosion rune;3200
+2314;spell rune;3201
+2315;thunderstorm rune;3202
+2316;animate dead rune;3203
+2317;dead human;3204
+2318;family brooch;3205
+2319;dragonfetish;3206
+2320;skull of Ratha;3207
+2321;giant smithhammer;3208
+2322;voodoo doll;3209
+2323;hat of the mad;3210
+2324;broom;3211
+2325;book;3212
+2326;annihilation bear;3213
+2327;ankh;3214
+2328;phoenix egg;3215
+2329;bill;3216
+2330;letterbag;3217
+2331;present;3218
+2332;Waldo's posthorn;3219
+2333;letter to Markwin;3220
+2334;Santa's Mailbox;3221
+2335;helmet ornament;3222
+2336;gem holder;3223
+2337;right horn;3224
+2338;left horn;3225
+2339;damaged helmet;3226
+2340;helmet piece;3227
+2341;helmet adornment;3228
+2342;helmet of the ancients;3229
+2343;helmet of the ancients;3230
+2344;gemmed lamp;3231
+2345;EXP Recover Scroll;3232
+2346;tear of Daraman;3233
+2347;cookbook;3234
+2348;ancient rune;3235
+2349;blue note;3236
+2350;sword hilt;3237
+2351;cobrafang dagger;3238
+2352;crystal arrow;3239
+2353;burning heart;3240
+2354;ornamented ankh;3241
+2355;stuffed rabbit;3242
+2356;gemmed lamp;3243
+2357;ring of wishes;3245
+2358;boots of waterwalking;3246
+2359;small oil lamp;3247
+2360;portable hole;3248
+2361;frozen starlight;3249
+2362;carrot of doom;3250
+2363;blood orb;3251
+2364;post horn;3252
+2365;backpack of holding;3253
+2366;roc feather;3254
+2367;drum;3255
+2368;simple fanfare;3256
+2369;cornucopia;3257
+2370;lute;3258
+2371;horn of sundering;3259
+2372;lyre;3260
+2373;panpipes;3261
+2374;wooden flute;3262
+2375;gemmed lamp;3263
+2376;sword;3264
+2377;two handed sword;3265
+2378;battle axe;3266
+2379;dagger;3267
+2380;hand axe;3268
+2381;halberd;3269
+2382;club;3270
+2383;spike sword;3271
+2384;rapier;3272
+2385;sabre;3273
+2386;axe;3274
+2387;double axe;3275
+2388;hatchet;3276
+2389;spear;3277
+2390;magic longsword;3278
+2391;war hammer;3279
+2392;fire sword;3280
+2393;giant sword;3281
+2394;morning star;3282
+2395;carlin sword;3283
+2396;ice rapier;3284
+2397;longsword;3285
+2398;mace;3286
+2399;throwing star;3287
+2400;magic sword;3288
+2401;staff;3289
+2402;silver dagger;3290
+2403;knife;3291
+2404;combat knife;3292
+2405;sickle;3293
+2406;short sword;3294
+2407;bright sword;3295
+2408;warlord sword;3296
+2409;serpent sword;3297
+2410;throwing knife;3298
+2411;poison dagger;3299
+2412;katana;3300
+2413;broadsword;3301
+2414;dragon lance;3302
+2415;old great axe;3303
+2416;crowbar;3304
+2417;battle hammer;3305
+2418;golden sickle;3306
+2419;scimitar;3307
+2420;machete;3308
+2421;thunder hammer;3309
+2422;iron hammer;3310
+2423;clerical mace;3311
+2424;silver mace;3312
+2425;obsidian lance;3313
+2426;naginata;3314
+2427;guardian halberd;3315
+2428;orcish axe;3316
+2429;barbarian axe;3317
+2430;knight axe;3318
+2431;stonecutter axe;3319
+2432;fire axe;3320
+2433;enchanted staff;3321
+2434;dragon hammer;3322
+2435;dwarven axe;3323
+2436;skull staff;3324
+2437;light mace;3325
+2438;epee;3326
+2439;daramanian mace;3327
+2440;daramanian waraxe;3328
+2441;daramian axe;3329
+2442;heavy machete;3330
+2443;ravager's axe;3331
+2444;hammer of wrath;3332
+2445;crystal mace;3333
+2446;pharaoh sword;3334
+2447;twin axe;3335
+2448;studded club;3336
+2449;bone club;3337
+2450;bone sword;3338
+2451;djinn blade;3339
+2452;heavy mace;3340
+2453;arcane staff;3341
+2454;war axe;3342
+2455;crossbow;3349
+2456;bow;3350
+2457;steel helmet;3351
+2458;chain helmet;3352
+2459;iron helmet;3353
+2460;brass helmet;3354
+2461;leather helmet;3355
+2462;devil helmet;3356
+2463;plate armor;3357
+2464;chain armor;3358
+2465;brass armor;3359
+2466;golden armor;3360
+2467;leather armor;3361
+2468;studded legs;3362
+2469;dragon scale legs;3363
+2470;golden legs;3364
+2471;golden helmet;3365
+2472;magic plate armor;3366
+2473;viking helmet;3367
+2474;winged helmet;3368
+2475;warrior helmet;3369
+2476;knight armor;3370
+2477;knight legs;3371
+2478;brass legs;3372
+2479;strange helmet;3373
+2480;legion helmet;3374
+2481;soldier helmet;3375
+2482;studded helmet;3376
+2483;scale armor;3377
+2484;studded armor;3378
+2485;doublet;3379
+2486;noble armor;3380
+2487;crown armor;3381
+2488;crown legs;3382
+2489;dark armor;3383
+2490;dark helmet;3384
+2491;crown helmet;3385
+2492;dragon scale mail;3386
+2493;demon helmet;3387
+2494;demon armor;3388
+2495;demon legs;3389
+2496;horned helmet;3390
+2497;crusader helmet;3391
+2498;royal helmet;3392
+2499;amazon helmet;3393
+2500;amazon armor;3394
+2501;ceremonial mask;3395
+2502;dwarven helmet;3396
+2503;dwarven armor;3397
+2504;dwarven legs;3398
+2505;dragon scale mail;3399
+2506;dragon scale helmet;3400
+2507;elven legs;3401
+2508;native armor;3402
+2509;steel shield;3409
+2510;plate shield;3410
+2511;brass shield;3411
+2512;wooden shield;3412
+2513;battle shield;3413
+2514;mastermind shield;3414
+2515;guardian shield;3415
+2516;dragon shield;3416
+2517;shield of honour;3417
+2518;beholder shield;3418
+2519;crown shield;3419
+2520;demon shield;3420
+2521;dark shield;3421
+2522;old great shield;3422
+2523;blessed shield;3423
+2524;old ornamented shield;3424
+2525;dwarven shield;3425
+2526;studded shield;3426
+2527;rose shield;3427
+2528;tower shield;3428
+2529;black shield;3429
+2530;copper shield;3430
+2531;viking shield;3431
+2532;ancient shield;3432
+2533;griffin shield;3433
+2534;vampire shield;3434
+2535;castle shield;3435
+2536;medusa shield;3436
+2537;amazon shield;3437
+2538;eagle shield;3438
+2539;phoenix shield;3439
+2540;scarab shield;3440
+2541;bone shield;3441
+2542;tempest shield;3442
+2543;bolt;3446
+2544;arrow;3447
+2545;poison arrow;3448
+2546;burst arrow;3449
+2547;power bolt;3450
+2548;pitch fork;3451
+2549;rake;3452
+2550;scythe;3453
+2551;broom;3454
+2552;hoe;3455
+2553;pick;3456
+2554;shovel;3457
+2555;anvil;3458
+2556;wooden hammer;3459
+2557;hammer;3460
+2558;saw;3461
+2559;small axe;3462
+2560;mirror;3463
+2561;baking tray;3464
+2562;pot;3465
+2563;pan;3466
+2564;fork;3467
+2565;spoon;3468
+2566;kitchen knife;3469
+2567;wooden spoon;3470
+2568;cleaver;3471
+2569;oven spatula;3472
+2570;rolling pin;3473
+2571;bowl;3474
+2572;bowl;3475
+2573;bowl;3476
+2574;white vase;3477
+2575;yellow vase;3478
+2576;blue vase;3479
+2577;green vase;3480
+2578;closed trap;3481
+2579;open trap;3482
+2580;fishing rod;3483
+2581;telescope;3484
+2582;telescope;3485
+2583;telescope;3486
+2584;telescope;3487
+2585;ship's telescope;3488
+2586;ship's telescope;3489
+2587;ship's telescope;3490
+2588;ship's telescope;3491
+2589;locker;3497
+2590;locker;3498
+2591;locker;3499
+2592;locker;3500
+2593;mailbox;3501
+2594;depot chest;3502
+2595;parcel;3503
+2596;stamped parcel;3504
+2597;letter;3505
+2598;stamped letter;3506
+2599;label;3507
+2600;inkwell;3509
+2601;coal basin;3510
+2602;coal basin;3511
+2603;coal basin;3512
+2604;coal basin;3513
+2605;empty coal basin;3514
+2606;altar;3515
+2607;altar;3516
+2608;altar;3517
+2609;altar;3518
+2610;sacrificial stone;3519
+2611;sacrificial stone;3520
+2612;sacrificial stone;3521
+2613;sacrificial stone;3522
+2614;altar;3523
+2615;altar;3524
+2616;sacrificial stone;3525
+2617;sacrificial stone;3526
+2618;sacrificial stone;3527
+2619;sacrificial stone;3528
+2620;sacrificial stone;3529
+2621;sacrificial stone;3530
+2622;sacrificial stone;3531
+2623;sacrificial stone;3532
+2624;black token;3533
+2625;white token;3534
+2626;white pawn;3535
+2627;white castle;3536
+2628;white knight;3537
+2629;white bishop;3538
+2630;white queen;3539
+2631;white king;3540
+2632;black pawn;3541
+2633;black castle;3542
+2634;black knight;3543
+2635;black bishop;3544
+2636;black queen;3545
+2637;black king;3546
+2638;tic-tac-toe token;3547
+2639;tic-tac-toe token;3548
+2640;karma boots;3549
+2641;patched boots;3550
+2642;sandals;3551
+2643;leather boots;3552
+2644;bunnyslippers;3553
+2645;steel boots;3554
+2646;golden boots;3555
+2647;plate legs;3557
+2648;chain legs;3558
+2649;leather legs;3559
+2650;jacket;3561
+2651;coat;3562
+2652;green tunic;3563
+2653;red tunic;3564
+2654;cape;3565
+2655;old robe;3566
+2656;blue robe;3567
+2657;simple dress;3568
+2658;white dress;3569
+2659;ball gown;3570
+2660;ranger's cloak;3571
+2661;scarf;3572
+2662;magician hat;3573
+2663;mystic turban;3574
+2664;wood cape;3575
+2665;post officers hat;3576
+2666;meat;3577
+2667;fish;3578
+2668;salmon;3579
+2669;northern pike;3580
+2670;shrimp;3581
+2671;ham;3582
+2672;dragon ham;3583
+2673;pear;3584
+2674;red apple;3585
+2675;orange;3586
+2676;banana;3587
+2677;blueberry;3588
+2678;coconut;3589
+2679;cherry;3590
+2680;strawberry;3591
+2681;grapes;3592
+2682;melon;3593
+2683;pumpkin;3594
+2684;carrot;3595
+2685;tomato;3596
+2686;corncob;3597
+2687;cookie;3598
+2688;candy cane;3599
+2689;bread;3600
+2690;roll;3601
+2691;brown bread;3602
+2692;flour;3603
+2693;lump of dough;3604
+2694;bunch of wheat;3605
+2695;egg;3606
+2696;cheese;3607
+2697;snowy dead tree;3608
+2698;snowy fir tree;3609
+2699;magic tree;3613
+2700;fir tree;3614
+2701;sycamore;3615
+2702;willow;3616
+2703;plum tree;3617
+2704;red maple;3618
+2705;pear tree;3619
+2706;yellow maple;3620
+2707;beech;3621
+2708;poplar;3622
+2709;dead tree;3623
+2710;dead tree;3624
+2711;dwarf tree;3625
+2712;pine;3626
+2713;dead tree;3627
+2714;dead tree;3628
+2715;dead tree;3629
+2716;dead tree;3630
+2717;dead tree;3631
+2718;dead tree;3632
+2719;dead tree;3633
+2720;dead tree;3634
+2721;old rush wood;3635
+2722;old tree;3636
+2723;cactus;3637
+2724;cactus;3638
+2725;palm;3639
+2726;coconut palm;3640
+2727;cactus;3641
+2728;cactus;3642
+2729;cactus;3643
+2730;cactus;3644
+2731;cactus;3645
+2732;cactus;3646
+2733;sun adorer cactus;3647
+2734;cactus;3648
+2735;cactus;3649
+2736;cactus;3650
+2737;wheat;3651
+2738;wheat;3652
+2739;wheat;3653
+2740;moonflowers;3654
+2741;moon flower;3655
+2742;white flower;3656
+2743;heaven blossom;3657
+2744;red rose;3658
+2745;blue rose;3659
+2746;yellow rose;3660
+2747;grave flower;3661
+2748;love flower;3662
+2749;royal blossom;3663
+2750;royal blossom;3664
+2751;royal blossom;3665
+2752;some sunflowers;3666
+2753;sunflower;3667
+2754;tulip;3668
+2755;water lily;3669
+2756;water lily;3670
+2757;water lily;3671
+2758;water lily;3672
+2759;orange star;3673
+2760;goat grass;3674
+2761;holy orchid;3675
+2762;rosebush;3676
+2763;rosebush;3677
+2764;rosebush;3678
+2765;rosebush;3679
+2766;rosebush;3680
+2767;bush;3681
+2768;small fir tree;3682
+2769;shadow plant;3683
+2770;branch;3684
+2771;mire sprout;3685
+2772;moon herb;3686
+2773;mud whip;3687
+2774;swamp reed;3688
+2775;swamp lilly;3689
+2776;dusk catcher;3690
+2777;bog fingers plant;3691
+2778;lady in the fog plant;3692
+2779;frog leaf;3693
+2780;sludge fern;3694
+2781;jungle grass;3695
+2782;jungle grass;3696
+2783;agave;3697
+2784;dry bush;3698
+2785;blueberry bush;3699
+2786;blueberry bush;3700
+2787;white mushroom;3723
+2788;red mushroom;3724
+2789;brown mushroom;3725
+2790;orange mushroom;3726
+2791;wood mushroom;3727
+2792;dark mushroom;3728
+2793;some mushrooms;3729
+2794;some mushrooms;3730
+2795;fire mushroom;3731
+2796;green mushroom;3732
+2797;dark mushrooms;3733
+2798;blood herb;3734
+2799;stone herb;3735
+2800;star herb;3736
+2801;fern;3737
+2802;sling herb;3738
+2803;powder herb;3739
+2804;shadow herb;3740
+2805;troll green;3741
+2806;dead troll;3987
+2807;dead spider;3988
+2808;dead cyclops;3989
+2809;slain skeleton;3990
+2810;dead troll;3991
+2811;dead troll;3992
+2812;;3993
+2813;dead rat;3994
+2814;dead rat;3995
+2815;dead rat;3996
+2816;dead rat;3997
+2817;dead snake;3998
+2818;dead snake;3999
+2819;dead snake;4000
+2820;dead orc;4001
+2821;dead orc;4002
+2822;dead spider;4003
+2823;dead spider;4004
+2824;dead rotworm;4005
+2825;dead rotworm;4006
+2826;dead wolf;4007
+2827;dead wolf;4008
+2828;dead wolf;4009
+2829;dead wolf;4010
+2830;dead minotaur;4011
+2831;dead minotaur;4012
+2832;dead minotaur;4013
+2833;dead minotaur;4014
+2834;dead minotaur;4015
+2835;dead deer;4016
+2836;dead deer;4017
+2837;dead deer;4018
+2838;dead deer;4019
+2839;dead dog;4020
+2840;dead dog;4021
+2841;dead dog;4022
+2842;dead dog;4023
+2843;slain skeleton;4024
+2844;dead dragon;4025
+2845;dead dragon;4026
+2846;slain ghoul;4027
+2847;dead dragon;4028
+2848;dead spider;4029
+2849;dead bear;4030
+2850;dead bear;4031
+2851;dead bear;4032
+2852;dead bear;4033
+2853;slain ghoul;4034
+2854;slain ghoul;4035
+2855;slain ghoul;4036
+2856;slain ghoul;4037
+2857;dead giant spider;4038
+2858;dead giant spider;4039
+2859;dead giant spider;4040
+2860;dead orc;4041
+2861;dead orc;4042
+2862;dead orc;4043
+2863;dead orc;4044
+2864;dead orc;4045
+2865;dead orc;4046
+2866;dead minotaur;4047
+2867;dead minotaur;4048
+2868;dead minotaur;4049
+2869;dead minotaur;4050
+2870;dead minotaur;4051
+2871;dead minotaur;4052
+2872;dead minotaur;4053
+2873;dead minotaur;4054
+2874;dead minotaur;4055
+2875;dead minotaur;4056
+2876;dead minotaur;4057
+2877;dead minotaur;4058
+2878;dead minotaur;4059
+2879;dead minotaur;4060
+2880;dead minotaur;4061
+2881;dead dragon lord;4062
+2882;dead dragon;4063
+2883;dead dragon;4064
+2884;dead dragon;4065
+2885;dead spider;4066
+2886;dead fire devil;4067
+2887;dead fire devil;4068
+2888;dead fire devil;4069
+2889;dead lion;4070
+2890;dead lion;4071
+2891;dead lion;4072
+2892;dead lion;4073
+2893;dead bear;4074
+2894;dead bear;4075
+2895;dead bear;4076
+2896;dead bear;4077
+2897;dead scorpion;4078
+2898;dead scorpion;4079
+2899;dead wasp;4080
+2900;dead wasp;4081
+2901;dead wasp;4082
+2902;dead bug;4083
+2903;dead bug;4084
+2904;dead bug;4085
+2905;dead sheep;4086
+2906;dead sheep;4087
+2907;dead sheep;4088
+2908;dead beholder;4089
+2909;dead beholder;4090
+2910;dead beholder;4091
+2911;dead cyclops;4092
+2912;dead cyclops;4093
+2913;remains of a ghost;4094
+2914;dead sheep;4095
+2915;dead sheep;4096
+2916;slain demon;4097
+2917;slain demon;4098
+2918;slain demon;4099
+2919;slain demon;4100
+2920;dead orc;4101
+2921;dead orc;4102
+2922;slain skeleton;4103
+2923;slain skeleton;4104
+2924;dead wolf;4105
+2925;dead wolf;4106
+2926;dead wolf;4107
+2927;dead wolf;4108
+2928;dead troll;4109
+2929;dead troll;4110
+2930;dead troll;4111
+2931;dead behemoth;4112
+2932;dead behemoth;4113
+2933;dead behemoth;4114
+2934;dead behemoth;4115
+2935;dead pig;4116
+2936;dead pig;4117
+2937;dead pig;4118
+2938;dead orc;4119
+2939;dead orc;4120
+2940;dead goblin;4121
+2941;dead goblin;4122
+2942;dead goblin;4123
+2943;dead goblin;4124
+2944;dead spider;4125
+2945;dead elf;4126
+2946;dead elf;4127
+2947;dead elf;4128
+2948;dead elf;4129
+2949;remains of a mummy;4130
+2950;remains of a mummy;4131
+2951;remains of a mummy;4132
+2952;split stone golem;4133
+2953;split stone golem;4134
+2954;split stone golem;4135
+2955;split stone golem;4136
+2956;slain vampire;4137
+2957;slain vampire;4138
+2958;slain vampire;4139
+2959;slain vampire;4140
+2960;dead dwarf;4141
+2961;dead dwarf;4142
+2962;dead dwarf;4143
+2963;dead dwarf;4144
+2964;dead rotworm;4145
+2965;dead scorpion;4146
+2966;dead orc;4147
+2967;dead orc;4148
+2968;dead orc;4149
+2969;dead wolf;4150
+2970;dead wolf;4151
+2971;dead wolf;4152
+2972;dead orc;4153
+2973;dead orc;4154
+2974;dead orc;4155
+2975;slain skeleton;4156
+2976;slain skeleton;4157
+2977;remains of a ghost;4158
+2978;remains of a ghost;4159
+2979;dead elf;4160
+2980;dead elf;4161
+2981;dead elf;4162
+2982;dead elf;4163
+2983;dead dwarf;4164
+2984;dead dwarf;4165
+2985;dead dwarf;4166
+2986;dead dwarf;4167
+2987;dead dwarf;4168
+2988;dead dwarf;4169
+2989;dead djinn;4170
+2990;dead djinn;4171
+2991;dead djinn;4172
+2992;dead rabbit;4173
+2993;dead rabbit;4174
+2994;dead rabbit;4175
+2995;dead troll;4176
+2996;dead troll;4177
+2997;dead troll;4178
+2998;slain banshee;4179
+2999;slain banshee;4180
+3000;slain banshee;4181
+3001;dead djinn;4182
+3002;dead djinn;4183
+3003;dead djinn;4184
+3004;dead ancient scarab;4185
+3005;dead ancient scarab;4186
+3006;dead ancient scarab;4187
+3007;dead cobra;4188
+3008;dead cobra;4189
+3009;dead cobra;4190
+3010;dead larva;4191
+3011;dead larva;4192
+3012;dead larva;4193
+3013;dead scarab;4194
+3014;dead scarab;4195
+3015;dead scarab;4196
+3016;dead pharaoh;4197
+3017;dead pharaoh;4198
+3018;dead pharaoh;4199
+3019;dead hyaena;4200
+3020;dead hyaena;4201
+3021;dead hyaena;4202
+3022;dead gargoyle;4203
+3023;dead gargoyle;4204
+3024;dead gargoyle;4205
+3025;slain lich;4206
+3026;slain lich;4207
+3027;slain lich;4208
+3028;slain crypt shambler;4209
+3029;slain crypt shambler;4210
+3030;slain crypt shambler;4211
+3031;slain bonebeast;4212
+3032;slain bonebeast;4213
+3033;slain bonebeast;4214
+3034;dead pharaoh;4215
+3035;dead pharaoh;4216
+3036;dead pharaoh;4217
+3037;dead efreet;4218
+3038;dead efreet;4219
+3039;dead efreet;4220
+3040;dead marid;4221
+3041;dead djinn;4222
+3042;dead marid;4223
+3043;dead badger;4224
+3044;dead badger;4225
+3045;dead badger;4226
+3046;dead skunk;4227
+3047;dead skunk;4228
+3048;dead skunk;4229
+3049;dead gazer;4230
+3050;dead gazer;4231
+3051;dead gazer;4232
+3052;dead beholder;4233
+3053;dead beholder;4234
+3054;dead elder beholder;4235
+3055;dead yeti;4236
+3056;dead yeti;4237
+3057;dead yeti;4238
+3058;dead human;4240
+3059;dead human;4241
+3060;dead human;4242
+3061;dead human;4243
+3062;dead human;4244
+3063;dead human;4245
+3064;dead human;4246
+3065;dead human;4247
+3066;dead human;4248
+3067;dead troll;4249
+3068;dead spider;4250
+3069;dead cyclops;4251
+3070;dead troll;4252
+3071;dead troll;4253
+3072;dead troll;4254
+3073;dead rat;4255
+3074;dead rat;4256
+3075;dead rat;4257
+3076;dead rat;4258
+3077;dead snake;4259
+3078;dead snake;4260
+3079;dead snake;4261
+3080;dead orc;4262
+3081;dead orc;4263
+3082;dead spider;4264
+3083;dead spider;4265
+3084;dead rotworm;4266
+3085;dead rotworm;4267
+3086;dead wolf;4268
+3087;dead wolf;4269
+3088;dead wolf;4270
+3089;dead wolf;4271
+3090;dead minotaur;4272
+3091;dead minotaur;4273
+3092;dead minotaur;4274
+3093;dead minotaur;4275
+3094;dead minotaur;4276
+3095;dead deer;4277
+3096;dead deer;4278
+3097;dead deer;4279
+3098;dead deer;4280
+3099;dead dog;4281
+3100;dead dog;4282
+3101;dead dog;4283
+3102;dead dog;4284
+3103;dead skeleton;4285
+3104;dead dragon;4286
+3105;dead dragon;4287
+3106;dead dragon;4288
+3107;dead dragon;4289
+3108;remains of a ghost;4290
+3109;dead bear;4291
+3110;dead bear;4292
+3111;dead bear;4293
+3112;dead bear;4294
+3113;slain ghoul;4295
+3114;slain ghoul;4296
+3115;slain ghoul;4297
+3116;slain ghoul;4298
+3117;dead cyclops;4299
+3118;dead cyclops;4300
+3119;dead rabbit;4301
+3120;dead rabbit;4302
+3121;dead rabbit;4303
+3122;dead dragon;4304
+3123;dead dragon;4305
+3124;dead dragon;4306
+3125;dead dragon;4307
+3126;dead dragon;4308
+3127;dead dragon;4309
+3128;dead human;4311
+3129;dead human;4312
+3130;dead human;4313
+3131;dead human;4314
+3132;dead human;4315
+3133;dead human;4316
+3134;dead human;4317
+3135;ladder;482
+3136;ladder;483
+3137;trapdoor;484
+3138;stairway;485
+3139;wooden floor;486
+3140;wooden floor;487
+3141;wooden floor;488
+3142;wooden floor;489
+3143;wooden floor;490
+3144;wooden floor;491
+3145;wooden floor;492
+3146;wooden floor;493
+3147;wooden floor;494
+3148;wooden floor;495
+3149;wooden floor;496
+3150;wooden floor;497
+3151;wooden floor;498
+3152;stone floor;499
+3153;stone floor;500
+3154;stone floor;501
+3155;stone floor;502
+3156;stone floor;503
+3157;stone floor;504
+3158;large stone carving;505
+3159;large stone carving;506
+3160;large stone carving;507
+3161;large stone carving;508
+3162;large stone carving;509
+3163;large stone carving;510
+3164;large stone carving;511
+3165;large stone carving;512
+3166;carved stone tile;513
+3167;carved stone tile;514
+3168;carved stone tile;515
+3169;carved stone tile;516
+3170;carved stone tile;517
+3171;carved stone tile;518
+3172;carved stone tile;519
+3173;ornamented floor;520
+3174;ornamented floor;521
+3175;ornamented floor;522
+3176;ornamented floor;523
+3177;ornamented floor;524
+3178;ornamented floor;525
+3179;ornamented floor;526
+3180;ornamented floor;527
+3181;ornamented floor;528
+3182;stone floor;529
+3183;stone floor;530
+3184;stone floor;531
+3185;stone floor;532
+3186;stone floor;533
+3187;stone floor;534
+3188;stone floor;535
+3189;stone floor;536
+3190;ornamented floor;537
+3191;ornamented floor;538
+3192;ornamented floor;539
+3193;ornamented floor;540
+3194;ornamented floor;541
+3195;ornamented floor;542
+3196;ornamented floor;543
+3197;ornamented floor;544
+3198;ornamented floor;545
+3199;snake ornament;546
+3200;snake ornament;547
+3201;snake ornament;548
+3202;snake ornament;549
+3203;snake ornament;550
+3204;snake ornament;551
+3205;snake ornament;552
+3206;snake ornament;553
+3207;snake ornament;554
+3208;snake ornament;555
+3209;snake ornament;556
+3210;snake ornament;557
+3211;snake ornament;558
+3212;snake ornament;559
+3213;snake ornament;560
+3214;snake ornament;561
+3215;stone floor;562
+3216;wooden floor;563
+3217;wooden floor;564
+3218;stone floor;565
+3219;stairs;566
+3220;stairs;567
+3221;stone floor;568
+3222;stone floor;569
+3223;stone floor;570
+3224;wooden floor;571
+3225;wooden floor;572
+3226;broken stone tile;573
+3227;broken stone tile;574
+3228;broken stone tile;575
+3229;broken stone tile;576
+3230;broken stone tile;577
+3231;broken stone tile;578
+3232;broken stone tile;579
+3233;broken stone tile;580
+3234;broken stone tile;581
+3235;broken stone tile;582
+3236;broken stone tile;583
+3237;broken stone tile;584
+3238;broken stone tile;585
+3239;broken stone tile;586
+3240;broken stone tile;587
+3241;broken stone tile;588
+3242;wooden floor;589
+3243;wooden floor;590
+3244;wooden floor;591
+3245;wooden floor;592
+3246;;853
+3247;;854
+3248;;855
+3249;;856
+3250;;857
+3251;;858
+3252;;859
+3253;;860
+3254;;861
+3255;;862
+3256;;863
+3257;;864
+3258;;865
+3259;;866
+3260;;867
+3261;;868
+3262;;869
+3263;;1019
+3264;;1020
+3265;;1021
+3266;;1022
+3267;;1023
+3268;;1024
+3269;;1025
+3270;;1026
+3271;;1027
+3272;;1028
+3273;;1029
+3274;;1030
+3275;;1031
+3276;;1032
+3277;;1033
+3278;;1034
+3279;;1035
+3280;;1036
+3281;;1037
+3282;;1038
+3283;;1039
+3284;;1040
+3285;;1041
+3286;;1042
+3287;;1043
+3288;;1044
+3289;;1045
+3290;;1046
+3291;;1047
+3292;;1048
+3293;;1049
+3294;;1050
+3295;;1051
+3296;;1052
+3297;;1053
+3298;jungle grass;1054
+3299;jungle grass;1055
+3300;jungle grass;1056
+3301;jungle grass;1057
+3302;jungle grass;1058
+3303;jungle grass;1059
+3304;jungle grass;1060
+3305;jungle grass;1061
+3306;jungle grass;1062
+3307;jungle grass;1063
+3308;jungle grass;1064
+3309;jungle grass;1065
+3310;pitfall;1066
+3311;pitfall;1067
+3312;ant trail;1068
+3313;ant trail;1069
+3314;ant trail;1070
+3315;ant trail;1071
+3316;ant trail;1072
+3317;ant trail;1073
+3318;ant trail;1074
+3319;ant trail;1075
+3320;ant trail;1076
+3321;ant trail;1077
+3322;ant trail;1078
+3323;anthill;1079
+3324;earth hole;1080
+3325;rock;1129
+3326;rock;1130
+3327;rock;1131
+3328;rock;1132
+3329;rock;1133
+3330;rock;1134
+3331;rock;1135
+3332;rock;1136
+3333;rock;1137
+3334;rock;1138
+3335;rock;1139
+3336;rock;1140
+3337;rock;1141
+3338;rock;1142
+3339;rock;1143
+3340;rock;1144
+3341;rock;1145
+3342;rock;1146
+3343;rock;1147
+3344;rock;1148
+3345;rock;1149
+3346;rock;1150
+3347;rock;1151
+3348;dried grass roof;1197
+3349;wooden roof;1198
+3350;wooden roof;1199
+3351;wooden roof;1200
+3352;wooden roof;1201
+3353;wooden roof;1202
+3354;wooden roof;1203
+3355;wooden roof;1204
+3356;wooden roof;1205
+3357;wooden roof;1206
+3358;wooden roof;1207
+3359;wooden roof;1208
+3360;wooden roof;1209
+3361;stone wall;1450
+3362;stone wall;1451
+3363;stone wall;1452
+3364;stone wall;1453
+3365;stone wall;1454
+3366;stone wall;1455
+3367;stone wall;1456
+3368;stone wall;1457
+3369;stone wall;1458
+3370;stone wall;1459
+3371;stone wall;1460
+3372;stone wall;1461
+3373;stone wall;1462
+3374;stone wall;1463
+3375;stone wall;1464
+3376;stone wall;1465
+3377;stone wall;1466
+3378;stone wall;1467
+3379;stone wall;1468
+3380;stone wall;1469
+3381;stone wall;1470
+3382;stone wall;1471
+3383;stone wall;1472
+3384;stone wall;1473
+3385;stone wall;1474
+3386;stone wall;1475
+3387;stone wall;1476
+3388;stone wall;1477
+3389;stone wall;1478
+3390;stone wall;1479
+3391;stone wall;1480
+3392;stone wall;1481
+3393;stone wall;1482
+3394;stone wall;1483
+3395;stone wall;1484
+3396;stone wall;1485
+3397;stone wall;1486
+3398;stone wall;1487
+3399;stone wall;1488
+3400;stone wall;1489
+3401;stone wall;1490
+3402;stone wall;1491
+3403;stone wall;1492
+3404;stone wall;1493
+3405;stone wall;1494
+3406;stone wall;1495
+3407;stone wall;1496
+3408;stone wall;1497
+3409;stone wall;1498
+3410;stone wall window;1499
+3411;stone wall window;1500
+3412;stone wall;1501
+3413;stone wall;1502
+3414;stone wall;1503
+3415;stone wall;1504
+3416;stone wall;1505
+3417;stone wall;1506
+3418;stone wall;1507
+3419;stone wall;1508
+3420;stone wall;1509
+3421;stone wall;1510
+3422;stone wall;1511
+3423;bamboo wall;1512
+3424;bamboo wall;1513
+3425;bamboo wall;1514
+3426;bamboo wall;1515
+3427;bamboo wall;1516
+3428;bamboo wall;1517
+3429;bamboo wall;1518
+3430;bamboo wall;1519
+3431;bamboo wall;1520
+3432;bamboo wall;1521
+3433;bamboo wall;1522
+3434;bamboo palisade;1523
+3435;bamboo palisade;1524
+3436;bamboo palisade;1525
+3437;bamboo palisade;1526
+3438;bamboo palisade;1527
+3439;archway;1528
+3440;archway;1529
+3441;archway;1530
+3442;archway;1531
+3443;archway;1532
+3444;archway;1533
+3445;archway;1534
+3446;archway;1535
+3447;bamboo wall;1536
+3448;bamboo wall;1537
+3449;bamboo wall window;1538
+3450;bamboo wall;1539
+3451;bamboo wall;1540
+3452;bamboo wall window;1541
+3453;bamboo palisade;1542
+3454;stone wall;1543
+3455;stone wall;1544
+3456;stone wall;1545
+3457;stone wall;1546
+3458;stone wall;1547
+3459;stone wall;1548
+3460;stone wall;1549
+3461;stone wall;1550
+3462;stone wall;1551
+3463;stone wall;1552
+3464;stone wall;1553
+3465;stone wall;1554
+3466;stone wall;1555
+3467;stone wall;1556
+3468;archway;1557
+3469;stone wall;1558
+3470;stone wall;1559
+3471;stone wall;1560
+3472;archway;1561
+3473;stone wall;1562
+3474;stone wall;1563
+3475;stone wall;1564
+3476;archway;1565
+3477;stone archway;1566
+3478;archway;1567
+3479;archway;1568
+3480;stone wall;1569
+3481;stone wall;1570
+3482;stone wall;1571
+3483;stone wall;1572
+3484;broken stone wall;1573
+3485;broken stone wall;1574
+3486;broken stone wall;1575
+3487;broken stone wall;1576
+3488;broken stone wall;1577
+3489;broken stone wall;1578
+3490;broken stone wall;1579
+3491;broken stone wall;1580
+3492;broken stone wall;1581
+3493;broken stone wall;1582
+3494;broken stone wall;1583
+3495;broken stone wall;1584
+3496;grass wall;1585
+3497;grass wall;1586
+3498;grass wall;1587
+3499;grass wall window;1588
+3500;grass wall;1589
+3501;grass wall;1590
+3502;grass wall window;1591
+3503;grass wall;1592
+3504;grass archway;1593
+3505;grass archway;1594
+3506;liane;1595
+3507;liane;1596
+3508;palisade;1597
+3509;palisade;1598
+3510;palisade;1599
+3511;palisade;1600
+3512;palisade;1601
+3513;palisade;1602
+3514;palisade;1603
+3515;palisade;1604
+3516;palisade;1605
+3517;palisade;1606
+3518;palisade;1607
+3519;palisade;1608
+3520;palisade;1609
+3521;palisade;1610
+3522;palisade;1611
+3523;palisade;1612
+3524;palisade;1613
+3525;palisade;1614
+3526;palisade;1615
+3527;palisade;1616
+3528;palisade;1617
+3529;palisade;1618
+3530;palisade;1619
+3531;palisade;1620
+3532;palisade;1621
+3533;stone wall;1622
+3534;stone wall;1623
+3535;closed door;1682
+3536;closed door;1683
+3537;open door;1684
+3538;closed door;1685
+3539;open door;1686
+3540;gate of expertise;1687
+3541;gate of expertise;1688
+3542;closed door;1689
+3543;open door;1690
+3544;closed door;1691
+3545;closed door;1692
+3546;open door;1693
+3547;closed door;1694
+3548;open door;1695
+3549;gate of expertise;1696
+3550;gate of expertise;1697
+3551;closed door;1698
+3552;open door;1699
+3553;;1700
+3554;;1701
+3555;;1702
+3556;;1703
+3557;;1704
+3558;;1705
+3559;;1706
+3560;;1707
+3561;;1708
+3562;;1709
+3563;;1710
+3564;;1711
+3565;;1712
+3566;;1713
+3567;;1714
+3568;;1715
+3569;waterfall;1716
+3570;waterfall;1717
+3571;waterfall;1718
+3572;waterfall;1719
+3573;waterfall;1720
+3574;waterfall;1721
+3575;;1722
+3576;;1723
+3577;;1724
+3578;;1725
+3579;;1726
+3580;;1727
+3581;;1728
+3582;;1729
+3583;;1730
+3584;;1731
+3585;;1732
+3586;;1733
+3587;small boat;1755
+3588;small boat;1756
+3589;small boat;1757
+3590;small boat;1758
+3591;small boat;1759
+3592;small boat;1760
+3593;small boat;1761
+3594;small boat;1762
+3595;small boat;1763
+3596;small boat;1764
+3597;small sail;1765
+3598;small sail;1766
+3599;paddle;1767
+3600;paddle;1768
+3601;mast;1769
+3602;mast;4945
+3603;mossy stone;1847
+3604;mossy stone;1848
+3605;mossy stone;1849
+3606;mossy stone;1850
+3607;stone;1851
+3608;stones;1852
+3609;stone;1853
+3610;stones;1854
+3611;stones;1855
+3612;stone;1856
+3613;stones;1857
+3614;stones;1858
+3615;stone;1859
+3616;stone;1860
+3617;stone;1861
+3618;stone;1862
+3619;stone;1863
+3620;stone;1864
+3621;stone;1865
+3622;stone;1866
+3623;stone;1867
+3624;stone;1868
+3625;stone;1869
+3626;stone;1870
+3627;stone;1871
+3628;stone;1872
+3629;stone;1873
+3630;stone;1874
+3631;stone;1875
+3632;mossy stone;1876
+3633;mossy stone;1877
+3634;mossy stone;1878
+3635;mossy stone;1879
+3636;mossy stone;1880
+3637;mossy stone;1881
+3638;mossy stone;1882
+3639;mossy stone;1883
+3640;mossy stone;1884
+3641;mossy stone;1885
+3642;mossy stone;1886
+3643;mossy stone;1887
+3644;mossy stone;1888
+3645;mossy stone;1889
+3646;mossy stone;1890
+3647;mossy stone;1891
+3648;debris;1892
+3649;debris;1893
+3650;debris;1894
+3651;debris;1895
+3652;debris;1896
+3653;debris;1897
+3654;debris;1898
+3655;debris;1899
+3656;debris;1900
+3657;stone;1901
+3658;stone;1902
+3659;stone;1903
+3660;stone;1904
+3661;stone;1905
+3662;stone;1906
+3663;stone;1907
+3664;stone;1908
+3665;stone;1909
+3666;stone;1910
+3667;stone;1911
+3668;stone;1912
+3669;stone;1913
+3670;stone;1914
+3671;painted stone;1915
+3672;painted stone;1916
+3673;painted stone;1917
+3674;painted stone;1918
+3675;painted stone;1919
+3676;painted stone;1920
+3677;painted stone;1921
+3678;ladder;1968
+3679;ramp;1969
+3680;ramp;1970
+3681;ramp;1971
+3682;ramp;1972
+3683;ramp;1973
+3684;ramp;1974
+3685;ramp;1975
+3686;ramp;1976
+3687;stone stairs;1977
+3688;stone stairs;1978
+3689;large cauldron;2004
+3690;large cauldron;2005
+3691;large cauldron;2006
+3692;large cauldron;2007
+3693;large cauldron;2008
+3694;large cauldron;2009
+3695;large cauldron;2010
+3696;large cauldron;2011
+3697;sacred statue;2062
+3698;sacred statue;2063
+3699;sacred statue;2064
+3700;sacred statue;2065
+3701;broken lizard statue;2066
+3702;broken lizard statue;2067
+3703;broken lizard statue;2068
+3704;broken lizard statue;2069
+3705;lizard statue;2070
+3706;lizard statue;2071
+3707;lizard statue;2072
+3708;lizard statue;2073
+3709;small pagoda;2074
+3710;small lit pagoda;2075
+3711;stone snake wall;2076
+3712;snake wall;2077
+3713;stone snake wall;2078
+3714;snake wall;2079
+3715;giant lizard head;2080
+3716;giant lizard head;2081
+3717;giant lizard head;2082
+3718;giant lizard head;2083
+3719;giant lizard head;2084
+3720;giant lizard head;2085
+3721;giant lizard head;2086
+3722;giant lizard head;2087
+3723;giant lizard claw;2088
+3724;giant lizard claw;2089
+3725;giant lizard claw;2090
+3726;giant lizard claw;2091
+3727;stone snake wall;2092
+3728;stone snake pagoda;2093
+3729;dried well;2094
+3730;dried well;2095
+3731;dried well;2096
+3732;dried well;2097
+3733;poison well;2098
+3734;poison well;2099
+3735;poison well;2100
+3736;poison well;2101
+3737;pagoda;2102
+3738;pagoda;2103
+3739;huntress statue;2104
+3740;huntress statue;2105
+3741;huntress statue;2106
+3742;huntress statue;2107
+3743;bamboo lamp;2116
+3744;skull candle;5024
+3745;bamboo column;2242
+3746;bamboo column;2243
+3747;bamboo column;2244
+3748;bamboo column;2245
+3749;bamboo column;2246
+3750;bamboo column;2247
+3751;bamboo column;2248
+3752;bamboo pole;2249
+3753;bamboo pole;2250
+3754;bamboo pole;2251
+3755;bamboo pole;2252
+3756;rope bridge;2253
+3757;rope bridge;2254
+3758;short pillar;2255
+3759;short pillar;2256
+3760;short pillar;2257
+3761;short pillar;2258
+3762;rope bridge;2259
+3763;rope bridge;2260
+3764;rope bridge;2261
+3765;rope bridge;2262
+3766;stone pillar;2263
+3767;broken stone pillar;2264
+3768;rope railing;2265
+3769;rope railing;2266
+3770;rope railing;2267
+3771;rope railing;2268
+3772;rope railing;2269
+3773;rope railing;2270
+3774;rope railing;2271
+3775;rope railing;2272
+3776;rope railing;2273
+3777;rope railing;2274
+3778;rope railing;2275
+3779;rope railing;2276
+3780;rope railing;2277
+3781;rope railing;2278
+3782;rope railing;2279
+3783;rope railing;2280
+3784;rope railing;2281
+3785;rope railing;2282
+3786;rope railing;2283
+3787;rope railing;2284
+3788;rope railing;2285
+3789;rope railing;2286
+3790;rope railing;2287
+3791;rope railing;2288
+3792;stone pillar;2289
+3793;broken stone pillar;2290
+3794;wooden bars;2291
+3795;wooden bars;2292
+3796;wooden bars;2293
+3797;wooden bars;2294
+3798;wooden bars;2295
+3799;wooden bars;2296
+3800;wooden bars;2297
+3801;wooden bars;2298
+3802;small totem pole;2299
+3803;large totem pole;2300
+3804;totem pole;2301
+3805;carved stone table;2346
+3806;stone table;2347
+3807;tusk table;2348
+3808;tusk table;2349
+3809;bamboo table;2350
+3810;bamboo table;2351
+3811;thick trunk;2352
+3812;ornamented stone table;2353
+3813;tusk chair;2418
+3814;tusk chair;2419
+3815;tusk chair;2420
+3816;tusk chair;2421
+3817;ivory chair;2422
+3818;ivory chair;2423
+3819;ivory chair;2424
+3820;ivory chair;2425
+3821;small trunk;2426
+3822;bamboo wardrobe;2455
+3823;bamboo wardrobe;2456
+3824;bamboo wardrobe;2457
+3825;bamboo wardrobe;2458
+3826;bamboo shelf;2459
+3827;bamboo shelf;2460
+3828;small bamboo shelf;2461
+3829;small bamboo shelf;2462
+3830;small bamboo shelf;2463
+3831;small bamboo shelf;2464
+3832;bamboo drawer;2465
+3833;bamboo drawer;2466
+3834;bamboo drawer;2467
+3835;bamboo drawer;2468
+3836;hammock;2503
+3837;hammock;2504
+3838;hammock;2505
+3839;hammock;2506
+3840;hammock;2507
+3841;hammock;2508
+3842;hammock;2509
+3843;hammock;2510
+3844;grass mat;2511
+3845;grass mat;2512
+3846;grass mat;2513
+3847;grass mat;2514
+3848;straw mat;2515
+3849;straw mat;2516
+3850;straw mat;2517
+3851;straw mat;2518
+3852;brown bear fur;2587
+3853;brown bear fur;2588
+3854;brown bear fur;2589
+3855;brown bear fur;2590
+3856;polar bear fur;2591
+3857;polar bear fur;2592
+3858;polar bear fur;2593
+3859;polar bear fur;2594
+3860;badger fur;2595
+3861;feather decoration;2687
+3862;feather decoration;2688
+3863;dried fur;2689
+3864;dried fur;2690
+3865;dried fur;2691
+3866;dried fur;2692
+3867;tanned brown bear fur;2738
+3868;tanned brown bear fur;2739
+3869;tanned polar bear fur;2740
+3870;tanned polar bear fur;2741
+3871;pile of chopped wood;2742
+3872;block of wood;2743
+3873;some pieces of wood;2744
+3874;fishing net;2745
+3875;fishing net;2746
+3876;fishing net;2747
+3877;fishing net;2748
+3878;fishing net;2749
+3879;fishing net;2750
+3880;fishing net;2751
+3881;fishing net;2752
+3882;giant footprint;2753
+3883;giant footprint;2754
+3884;giant footprint;2755
+3885;giant footprint;2756
+3886;giant footprint;2757
+3887;giant footprint;2758
+3888;giant footprint;2759
+3889;giant footprint;2760
+3890;giant footprint;2761
+3891;giant footprint;2762
+3892;giant footprint;2763
+3893;giant footprint;2764
+3894;giant footprint;2765
+3895;giant footprint;2766
+3896;tanned tiger fur;2767
+3897;tanned tiger fur;2768
+3898;tiger fur;2769
+3899;tiger fur;2770
+3900;sundial;2771
+3901;wooden chair kit;2775
+3902;sofa chair kit;2776
+3903;red cushioned chair kit;2777
+3904;green cushioned chair kit;2778
+3905;tusk chair kit;2779
+3906;ivory chair kit;2780
+3907;trunk chair kit;2781
+3908;small table kit;2782
+3909;ferumbras dummy kit;2783
+3910;square table kit;2784
+3911;round table kit;2785
+3912;coal basin kit;2786
+3913;stone table kit;2787
+3914;tusk table kit;2788
+3915;drawer kit;2789
+3916;dresser kit;2790
+3917;pendulum clock kit;2791
+3918;locker kit;2792
+3919;bamboo table kit;2793
+3920;trunk table kit;2794
+3921;harp kit;2795
+3922;birdcage kit;2796
+3923;globe kit;2797
+3924;table lamp kit;2798
+3925;rocking chair kit;2799
+3926;piano kit;2800
+3927;knight statue kit;2801
+3928;minotaur statue kit;2802
+3929;large amphora kit;2803
+3930;goblin statue kit;2804
+3931;indoor plant kit;2805
+3932;barrel kit;2806
+3933;christmas tree package;2807
+3934;rocking horse kit;2808
+3935;telescope kit;2809
+3936;bamboo drawer kit;2810
+3937;trough kit;2811
+3938;trunk kit;2812
+3939;camouflage bag;2864
+3940;camouflage backpack;2872
+3941;cup;2883
+3942;cup;2884
+3943;torch bearer;2940
+3944;lit torch bearer;2941
+3945;torch bearer;2942
+3946;lit torch bearer;2943
+3947;wall lamp;2944
+3948;lit wall lamp;2945
+3949;wall lamp;2946
+3950;lit wall lamp;2947
+3951;drum;2951
+3952;didgeridoo;2965
+3953;drum;2966
+3954;bear;3001
+3955;voodoo doll;3002
+3956;tusk;3044
+3957;war horn;3103
+3958;trashed wooden bars;3145
+3959;trashed wooden bars;3146
+3960;old and used backpack;3244
+3961;lich staff;3343
+3962;beastslayer axe;3344
+3963;templar scytheblade;3345
+3964;ripper lance;3346
+3965;hunting spear;3347
+3966;banana staff;3348
+3967;tribal mask;3403
+3968;leopard armor;3404
+3969;horseman helmet;3405
+3970;feather headdress;3406
+3971;charmer's tiara;3407
+3972;beholder helmet;3408
+3973;tusk shield;3443
+3974;sentinel shield;3444
+3975;salamander shield;3445
+3976;worm;3492
+3977;crane;3493
+3978;crane;3494
+3979;crane;3495
+3980;crane;3496
+3981;mailbox;3508
+3982;crocodile boots;3556
+3983;bast skirt;3560
+3984;jungle grass;3701
+3985;jungle grass;3702
+3986;thorn bush;3703
+3987;thorn bush;3704
+3988;thorn bush;3705
+3989;thorn bush;3706
+3990;thorn bush;3707
+3991;thorn bush;3708
+3992;thorn bush;3709
+3993;thorn bush;3710
+3994;thorn bush;3711
+3995;thorn bush;3712
+3996;thorn bush;3713
+3997;thorn bush;3714
+3998;thorn bush;3715
+3999;thorn bush;3716
+4000;thorn bush;3717
+4001;thorn bush;3718
+4002;thorn bush;3719
+4003;thorn bush;3720
+4004;thorn bush;3721
+4005;thorn bush;3722
+4006;orange tree;3742
+4007;thread tree;3743
+4008;jungle dweller bush;3744
+4009;tower fern;3745
+4010;snake nest bush;3746
+4011;green wig bush;3747
+4012;lizards tongue bush;3748
+4013;jungle crown plant;3749
+4014;green fountain bush;3750
+4015;big fern;3751
+4016;dragons nest tree;3752
+4017;purple kiss bush;3753
+4018;small fern;3754
+4019;jungle umbrella plant;3755
+4020;jungle umbrella plant;3756
+4021;jungle umbrella plant;3757
+4022;jungle umbrella plant;3758
+4023;jungle umbrella plant;3759
+4024;jungle umbrella plant;3760
+4025;bamboo plant;3761
+4026;bamboo plant;3762
+4027;bamboo plant;3763
+4028;bamboo plant;3764
+4029;bamboo plant;3765
+4030;bamboo plant;3766
+4031;bamboo plant;3767
+4032;bamboo plant;3768
+4033;bamboo plant;3769
+4034;bamboo plant;3770
+4035;giant tree;3771
+4036;giant tree;3772
+4037;giant tree;3773
+4038;giant tree;3774
+4039;giant tree;3775
+4040;giant tree;3776
+4041;giant tree;3777
+4042;giant tree;3778
+4043;giant tree;3779
+4044;giant tree;3780
+4045;giant tree;3781
+4046;giant tree;3782
+4047;giant tree;3783
+4048;giant tree;3784
+4049;giant tree;3785
+4050;giant tree;3786
+4051;giant tree;3787
+4052;giant tree;3788
+4053;giant tree;3789
+4054;giant tree;3790
+4055;giant tree;3791
+4056;giant tree;3792
+4057;giant tree;3793
+4058;giant tree;3794
+4059;giant tree;3795
+4060;giant tree;3796
+4061;giant tree;3797
+4062;giant tree;3798
+4063;giant tree;3799
+4064;giant tree;3800
+4065;giant tree;3801
+4066;giant tree;3802
+4067;giant tree;3803
+4068;jungle vines;3804
+4069;jungle vines;3805
+4070;jungle vines;3806
+4071;jungle vines;3807
+4072;jungle vines;3808
+4073;liana;3809
+4074;liana;3810
+4075;liana;3811
+4076;liana;3812
+4077;liana;3813
+4078;liana;3814
+4079;liana;3815
+4080;liana;3816
+4081;liana;3817
+4082;liana;3818
+4083;liana;3819
+4084;liana;3820
+4085;liana;3821
+4086;liana;3822
+4087;liana;3823
+4088;liana;3824
+4089;liana;3825
+4090;liana;3826
+4091;liana;3827
+4092;liana;3828
+4093;liana;3829
+4094;liana;3830
+4095;liana;3831
+4096;liana;3832
+4097;liana;3833
+4098;liana;3834
+4099;liana;3835
+4100;liana;3836
+4101;liana;3837
+4102;liana;3838
+4103;liana;3839
+4104;liana;3840
+4105;liana;3841
+4106;liana;3842
+4107;liana;3843
+4108;liana;3844
+4109;liana;3845
+4110;liana;3846
+4111;liana;3847
+4112;liana;3848
+4113;giant tree;3849
+4114;giant tree;3850
+4115;giant tree;3851
+4116;giant tree;3852
+4117;giant tree;3853
+4118;giant tree;3854
+4119;giant tree;3855
+4120;giant tree;3856
+4121;giant tree;3857
+4122;giant tree;3858
+4123;giant tree;3859
+4124;giant tree;3860
+4125;giant tree;3861
+4126;giant tree;3862
+4127;giant tree;3863
+4128;giant tree;3864
+4129;giant tree;3865
+4130;giant tree;3866
+4131;giant tree;3867
+4132;giant tree;3868
+4133;giant tree;3869
+4134;chill nettle;3870
+4135;monkey tail;3871
+4136;fairy queen;3872
+4137;crane plant;3873
+4138;jungle bells;3874
+4139;dawn singer;3875
+4140;turtle sprouter;3876
+4141;bees ballroom;3877
+4142;giant jungle rose;3878
+4143;jungle rose;3879
+4144;titans orchid;3880
+4145;titans orchid;3881
+4146;titans orchid;3882
+4147;titans orchid;3883
+4148;purple cardinal;3884
+4149;witches cauldron plant;3885
+4150;gold blossom;3886
+4151;gold blossom;3887
+4152;meadow star;3888
+4153;meadow star;3889
+4154;meadow star;3890
+4155;sneeze blossom;3891
+4156;dew kisser flower;3892
+4157;dew kisser flower;3893
+4158;dew kisser flower;3894
+4159;velvet petal;3895
+4160;velvet petal;3896
+4161;velvet petal;3897
+4162;velvet petal;3898
+4163;devil's tongue plant;3899
+4164;small pearl flower;3900
+4165;large pearl flower;3901
+4166;large pearl flower;3902
+4167;dead man's saddle;3903
+4168;dead man's saddle;3904
+4169;dead man's saddle;3905
+4170;dead man's saddle;3906
+4171;dead man's saddles;3907
+4172;moss cap mushroom;3908
+4173;moss cap mushroom;3909
+4174;slime table mushroom;3910
+4175;slime table mushroom;3911
+4176;slime table mushroom;3912
+4177;slime table mushrooms;3913
+4178;giggle mushroom;3914
+4179;giggle mushrooms;3915
+4180;cat's food mushroom;3916
+4181;cat's food mushrooms;3917
+4182;glimmer cap mushroom;3918
+4183;glimmer cap mushrooms;3919
+4184;giant glimmer cap mushroom;3920
+4185;large pearl flower;3921
+4186;fallen tree;3922
+4187;fallen tree;3923
+4188;fallen tree;3924
+4189;fallen tree;3925
+4190;fallen tree;3926
+4191;fallen tree;3927
+4192;fallen tree;3928
+4193;fallen tree;3929
+4194;fallen tree;3930
+4195;fallen tree;3931
+4196;fallen tree;3932
+4197;fallen tree;3933
+4198;fallen tree;3934
+4199;fallen tree;3935
+4200;fallen tree;3936
+4201;fallen tree;3937
+4202;vines;3938
+4203;vines;3939
+4204;vines;3940
+4205;vines;3941
+4206;vines;3942
+4207;vines;3943
+4208;jungle maw;3944
+4209;jungle maw;3945
+4210;fallen tree;3946
+4211;fallen tree;3947
+4212;fallen tree;3948
+4213;fallen tree;3949
+4214;fallen tree;3950
+4215;fallen tree;3951
+4216;giant tree;3952
+4217;giant tree;3953
+4218;giant tree;3954
+4219;giant tree;3955
+4220;giant tree;3956
+4221;giant tree;3957
+4222;giant tree;3958
+4223;giant tree root;3959
+4224;giant tree root;3960
+4225;giant tree root;3961
+4226;giant tree root;3962
+4227;giant tree root;3963
+4228;giant tree root;3964
+4229;giant tree root;3965
+4230;giant tree root;3966
+4231;giant tree root;3967
+4232;giant tree root;3968
+4233;giant tree root;3969
+4234;giant tree root;3970
+4235;giant tree root;3971
+4236;giant tree root;3972
+4237;giant tree root;3973
+4238;giant tree root;3974
+4239;fallen tree;3975
+4240;fallen tree;3976
+4241;fallen tree;3977
+4242;fallen tree;3978
+4243;fallen tree;3979
+4244;fallen tree;3980
+4245;fallen tree;3981
+4246;fallen tree;3982
+4247;fallen tree;3983
+4248;fallen tree;3984
+4249;fallen tree;3985
+4250;fallen tree;3986
+4251;dead lizard templar;4239
+4252;dead elephant;4310
+4253;dead crab;4318
+4254;dead crab;4319
+4255;dead crab;4320
+4256;dead lizard templar;4321
+4257;dead lizard templar;4322
+4258;dead lizard templar;4323
+4259;dead lizard sentinel;4324
+4260;dead lizard sentinel;4325
+4261;dead lizard sentinel;4326
+4262;dead lizard snakecharmer;4327
+4263;dead lizard snakecharmer;4328
+4264;dead lizard snakecharmer;4329
+4265;dead chicken;4330
+4266;dead chicken;4331
+4267;dead chicken;4332
+4268;dead kongra;4333
+4269;dead kongra;4334
+4270;dead kongra;4335
+4271;dead merlkin;4336
+4272;dead merlkin;4337
+4273;dead merlkin;4338
+4274;dead sibang;4339
+4275;dead sibang;4340
+4276;dead sibang;4341
+4277;dead crocodile;4342
+4278;dead crocodile;4343
+4279;dead crocodile;4344
+4280;dead carniphila;4345
+4281;dead carniphila;4346
+4282;dead carniphila;4347
+4283;dead hydra;4348
+4284;dead hydra;4349
+4285;dead hydra;4350
+4286;dead panda;4351
+4287;dead panda;4352
+4288;dead panda;4353
+4289;dead centipede;4354
+4290;dead centipede;4355
+4291;dead centipede;4356
+4292;dead tiger;4357
+4293;dead tiger;4358
+4294;dead tiger;4359
+4295;dead elephant;4360
+4296;dead elephant;4361
+4297;dead elephant;4362
+4298;dead bat;4363
+4299;dead bat;4364
+4300;dead bat;4365
+4301;dead flamingo;4366
+4302;dead flamingo;4367
+4303;dead flamingo;4368
+4304;dead dworc;4369
+4305;dead dworc;4370
+4306;dead dworc;4371
+4307;dead dworc;4372
+4308;dead dworc;4373
+4309;dead dworc;4374
+4310;dead dworc;4375
+4311;dead dworc;4376
+4312;dead dworc;4377
+4313;dead butterfly;4378
+4314;dead parrot;4379
+4315;dead parrot;4380
+4316;dead parrot;4381
+4317;dead terror bird;4382
+4318;dead terror bird;4383
+4319;dead terror bird;4384
+4320;dead tarantula;4385
+4321;dead tarantula;4386
+4322;dead tarantula;4387
+4323;dead serpent spawn;4388
+4324;dead serpent spawn;4389
+4325;dead serpent spawn;4390
+4326;lifeless nettle;4391
+4327;lifeless nettle;4392
+4328;;371
+4329;;372
+4330;;395
+4331;;426
+4332;;427
+4333;;451
+4334;;465
+4335;;466
+4336;;467
+4337;;468
+4338;;471
+4339;;472
+4340;;473
+4341;;474
+4342;;614
+4343;;616
+4344;;617
+4345;;621
+4346;;1099
+4347;;1990
+4348;;1991
+4349;;2139
+4350;;2141
+4351;;2142
+4352;;2143
+4353;;2149
+4354;;2150
+4355;;2151
+4356;;2186
+4357;;2217
+4358;;2470
+4359;;2479
+4360;;2543
+4361;;2544
+4362;;2545
+4363;;2546
+4364;;2547
+4365;;2548
+4366;;2549
+4367;;2550
+4368;;2551
+4369;;2552
+4370;;2553
+4371;;2554
+4372;;2555
+4373;;2556
+4374;;2557
+4375;;2558
+4376;;2559
+4377;;2560
+4378;;2561
+4379;;2562
+4380;;2563
+4381;;2564
+4382;;2565
+4383;;2566
+4384;;2567
+4385;;2568
+4386;;2569
+4387;;2570
+4388;;2571
+4389;;2774
+4390;;3610
+4391;;3611
+4392;;3612
+4393;;4393
+4394;red carpet;4854
+4395;red carpet;4855
+4396;red carpet;4856
+4397;red carpet;4857
+4398;red carpet;4858
+4399;red carpet;4859
+4400;red carpet;4860
+4401;red carpet;4861
+4402;red carpet;4862
+4403;mast;1770
+4404;bamboo lamp;2117
+4405;rock soil;4394
+4406;rock soil;4395
+4407;rock soil;4396
+4408;rock soil;4397
+4409;rock soil;4398
+4410;rock soil;4399
+4411;rock soil;4400
+4412;rock soil;4401
+4413;rock soil;4402
+4414;rock soil;4403
+4415;rock soil;4404
+4416;rock soil;4405
+4417;rock soil;4406
+4418;rock soil;4407
+4419;rock soil;4408
+4420;rock soil;4409
+4421;rock soil;4410
+4422;;4411
+4423;;4412
+4424;;4413
+4425;;4414
+4426;;4415
+4427;;4416
+4428;;4417
+4429;;4418
+4430;;4419
+4431;;4420
+4432;;4421
+4433;;4422
+4434;;4423
+4435;;4424
+4436;;4425
+4437;;4426
+4438;;4427
+4439;;4428
+4440;;4429
+4441;;4430
+4442;;4431
+4443;;4432
+4444;;4433
+4445;;4434
+4446;;4435
+4447;;4436
+4448;;4437
+4449;;4438
+4450;;4439
+4451;;4440
+4452;;4441
+4453;;4442
+4454;;4443
+4455;;4444
+4456;rocks;4445
+4457;rocks;4446
+4458;rocks;4447
+4459;rocks;4448
+4460;rocks;4449
+4461;rocks;4450
+4462;rocks;4451
+4463;rocks;4452
+4464;rocks;4453
+4465;rocks;4454
+4466;rocks;4455
+4467;rocks;4456
+4468;mountain;4457
+4469;mountain;4458
+4470;mountain;4459
+4471;mountain;4460
+4472;mountain;4461
+4473;mountain;4462
+4474;mountain;4463
+4475;mountain;4464
+4476;mountain;4465
+4477;mountain;4466
+4478;mountain;4467
+4479;mountain;4468
+4480;mountain;4469
+4481;mountain;4470
+4482;mountain;4471
+4483;mountain;4472
+4484;mountain;4473
+4485;mountain;4474
+4486;mountain;4475
+4487;mountain;4476
+4488;mountain;4477
+4489;mountain;4478
+4490;mountain;4479
+4491;mountain;4480
+4492;mountain;4481
+4493;mountain;4482
+4494;mountain;4483
+4495;mountain;4484
+4496;mountain;4485
+4497;mountain;4486
+4498;mountain;4487
+4499;mountain;4488
+4500;mountain;4489
+4501;mountain;4490
+4502;mountain;4491
+4503;mountain;4492
+4504;mountain;4493
+4505;mountain;4494
+4506;mountain;4495
+4507;mountain;4496
+4508;mountain;4497
+4509;mountain;4498
+4510;mountain;4499
+4511;mountain;4500
+4512;mountain;4501
+4513;mountain;4502
+4514;rock soil;4503
+4515;rock soil;4504
+4516;rock soil;4505
+4517;rock soil;4506
+4518;rock soil;4507
+4519;rock soil;4508
+4520;rock soil;4509
+4521;rock soil;4510
+4522;rock soil;4511
+4523;rock soil;4512
+4524;rock soil;4513
+4525;rock soil;4514
+4526;grass;4515
+4527;grass;4516
+4528;grass;4517
+4529;grass;4518
+4530;grass;4519
+4531;grass;4520
+4532;grass;4521
+4533;grass;4522
+4534;grass;4523
+4535;grass;4524
+4536;grass;4525
+4537;grass;4526
+4538;grass;4527
+4539;grass;4528
+4540;grass;4529
+4541;grass;4530
+4542;grass;4531
+4543;grass;4532
+4544;grass;4533
+4545;grass;4534
+4546;grass;4535
+4547;grass;4536
+4548;grass;4537
+4549;grass;4538
+4550;grass;4539
+4551;grass;4540
+4552;grass;4541
+4553;grass;4542
+4554;gravel;4543
+4555;gravel;4544
+4556;gravel;4545
+4557;gravel;4546
+4558;gravel;4547
+4559;gravel;4548
+4560;gravel;4549
+4561;gravel;4550
+4562;gravel;4551
+4563;gravel;4552
+4564;gravel;4553
+4565;gravel;4554
+4566;gravel;4555
+4567;;4556
+4568;;4557
+4569;;4558
+4570;gravel;4559
+4571;gravel;4560
+4572;gravel;4561
+4573;gravel;4562
+4574;gravel;4563
+4575;gravel;4564
+4576;gravel;4565
+4577;gravel;4566
+4578;gravel;4567
+4579;gravel;4568
+4580;rock soil;4569
+4581;rock soil;4570
+4582;rock soil;4571
+4583;rock soil;4572
+4584;rock soil;4573
+4585;rock soil;4574
+4586;rock soil;4575
+4587;rock soil;4576
+4588;rock soil;4577
+4589;rock soil;4578
+4590;rock soil;4579
+4591;rock soil;4580
+4592;rock soil;4581
+4593;rock soil;4582
+4594;rock soil;4583
+4595;gravel;4584
+4596;sand;4585
+4597;sand;4586
+4598;sand;4587
+4599;sand;4588
+4600;sand;4589
+4601;sand;4590
+4602;sand;4591
+4603;sand;4592
+4604;sand;4593
+4605;sand;4594
+4606;sand;4595
+4607;sand;4596
+4608;shallow water;4597
+4609;shallow water;4598
+4610;shallow water;4599
+4611;shallow water;4600
+4612;shallow water;4601
+4613;shallow water;4602
+4614;shallow water;4603
+4615;shallow water;4604
+4616;shallow water;4605
+4617;shallow water;4606
+4618;shallow water;4607
+4619;shallow water;4608
+4620;shallow water;4609
+4621;shallow water;4610
+4622;shallow water;4611
+4623;shallow water;4612
+4624;shallow water;4613
+4625;shallow water;4614
+4626;;4615
+4627;;4616
+4628;;4617
+4629;;4618
+4630;;4619
+4631;;4620
+4632;shallow water;4621
+4633;shallow water;4622
+4634;shallow water;4623
+4635;shallow water;4624
+4636;shallow water;4625
+4637;shallow water;4626
+4638;shallow water;4627
+4639;shallow water;4628
+4640;shallow water;4629
+4641;shallow water;4630
+4642;shallow water;4631
+4643;shallow water;4632
+4644;shallow water;4633
+4645;shallow water;4634
+4646;shallow water;4635
+4647;shallow water;4636
+4648;shallow water;4637
+4649;shallow water;4638
+4650;shallow water;4639
+4651;shallow water;4640
+4652;shallow water;4641
+4653;shallow water;4642
+4654;shallow water;4643
+4655;shallow water;4644
+4656;shallow water;4645
+4657;shallow water;4646
+4658;shallow water;4647
+4659;shallow water;4648
+4660;shallow water;4649
+4661;shallow water;4650
+4662;shallow water;4651
+4663;shallow water;4652
+4664;shallow water;4653
+4665;shallow water;4654
+4666;shallow water;4655
+4667;dirt;4656
+4668;dirt;4657
+4669;dirt;4658
+4670;dirt;4659
+4671;dirt;4660
+4672;dirt;4661
+4673;dirt;4662
+4674;dirt;4663
+4675;dirt;4664
+4676;dirt;4665
+4677;dirt;4666
+4678;dirt;4667
+4679;dirt;4668
+4680;dirt;4669
+4681;dirt;4670
+4682;dirt;4671
+4683;dirt;4672
+4684;dirt;4673
+4685;dirt;4674
+4686;dirt;4675
+4687;dirt;4676
+4688;dirt;4677
+4689;dirt;4678
+4690;dirt;4679
+4691;swamp;4680
+4692;swamp;4681
+4693;swamp;4682
+4694;swamp;4683
+4695;swamp;4684
+4696;swamp;4685
+4697;swamp;4686
+4698;swamp;4687
+4699;swamp;4688
+4700;swamp;4689
+4701;swamp;4690
+4702;swamp;4691
+4703;swamp;4692
+4704;swamp;4693
+4705;swamp;4694
+4706;swamp;4695
+4707;swamp;4696
+4708;swamp;4697
+4709;swamp;4698
+4710;swamp;4699
+4711;swamp;4700
+4712;swamp;4701
+4713;swamp;4702
+4714;swamp;4703
+4715;swamp;4704
+4716;swamp;4705
+4717;swamp;4706
+4718;swamp;4707
+4719;swamp;4708
+4720;swamp;4709
+4721;swamp;4710
+4722;swamp;4711
+4723;swamp;4712
+4724;swamp;4713
+4725;swamp;4714
+4726;swamp;4715
+4727;swamp;4716
+4728;swamp;4717
+4729;swamp;4718
+4730;swamp;4719
+4731;swamp;4720
+4732;swamp;4721
+4733;swamp;4722
+4734;swamp;4723
+4735;swamp;4724
+4736;swamp;4725
+4737;snow;4726
+4738;snow;4727
+4739;snow;4728
+4740;snow;4729
+4741;snow;4730
+4742;snow;4731
+4743;snow;4732
+4744;snow;4733
+4745;snow;4734
+4746;snow;4735
+4747;snow;4736
+4748;snow;4737
+4749;swamp;4738
+4750;swamp;4739
+4751;swamp;4740
+4752;swamp;4741
+4753;swamp;4742
+4754;swamp;4743
+4755;swamp;4744
+4756;;4745
+4757;;4746
+4758;;4747
+4759;;4748
+4760;sand;4749
+4761;sand;4750
+4762;sand;4751
+4763;sand;4752
+4764;sand;4753
+4765;sand;4754
+4766;sand;4755
+4767;sand;4756
+4768;sand;4757
+4769;sand;4758
+4770;sand;4759
+4771;sand;4760
+4772;sand;4761
+4773;sand;4762
+4774;sand;4763
+4775;sand;4764
+4776;sand;4765
+4777;sand;4766
+4778;sand;4767
+4779;sand;4768
+4780;sand;4769
+4781;sand;4770
+4782;sand;4771
+4783;sand;4772
+4784;grass;4773
+4785;grass;4774
+4786;grass;4775
+4787;grass;4776
+4788;grass;4777
+4789;grass;4778
+4790;grass;4779
+4791;grass;4780
+4792;grass;4781
+4793;grass;4782
+4794;grass;4783
+4795;grass;4784
+4796;dirt;4785
+4797;dirt;4786
+4798;dirt;4787
+4799;dirt;4788
+4800;dirt;4789
+4801;dirt;4790
+4802;dirt;4791
+4803;dirt;4792
+4804;dirt;4793
+4805;dirt;4794
+4806;dirt;4795
+4807;dirt;4796
+4808;dirt;4797
+4809;dirt;4798
+4810;dirt;4799
+4811;dirt;4800
+4812;dirt;4801
+4813;dirt;4802
+4814;dirt;4803
+4815;dirt;4804
+4816;dirt;4805
+4817;dirt;4806
+4818;dirt;4807
+4819;dirt;4808
+4820;shallow water;4809
+4821;shallow water;4810
+4822;shallow water;4811
+4823;shallow water;4812
+4824;shallow water;4813
+4825;shallow water;4814
+4826;mountain;4815
+4827;mountain;4816
+4828;shallow water;4817
+4829;shallow water;4818
+4830;shallow water;4819
+4831;shallow water;4820
+4832;dirt;4821
+4833;dirt;4822
+4834;stairs;4823
+4835;stairs;4824
+4836;stairs;4825
+4837;stairs;4826
+4838;stone herb;4827
+4839;flask of cough syrup;4828
+4840;witches' cap spot;4829
+4841;;4830
+4842;old parchment;4831
+4843;giant ape's hair;4832
+4844;;4833
+4845;family brooch;4834
+4846;iron hammer;4835
+4847;simple dress;4836
+4848;icicle;4837
+4849;flour;4838
+4850;hydra egg;4839
+4851;spectral stone;4840
+4852;memory stone;4841
+4853;sheet of tracing paper;4842
+4854;sheet of tracing paper;4843
+4855;elven poetry book;4844
+4856;ice pick;4845
+4857;wrinkled parchment;4846
+4858;funeral urn;4847
+4859;small cask;4848
+4860;wooden trash;4849
+4861;cobra statue;4850
+4862;metal trash;4851
+4863;ectoplasm container;4852
+4864;ectoplasm container;4853
+4865;butterfly conservation kit;4863
+4866;butterfly conservation kit;4864
+4867;butterfly conservation kit;4865
+4868;butterfly conservation kit;4866
+4869;botanist's container;4867
+4870;botanist's container;4868
+4871;botanist's container;4869
+4872;botanist's container;4870
+4873;explorer brooch;4871
+4874;dwarven pickaxe;4872
+4875;hydra's nest;4873
+4876;swamp;4874
+4877;swamp;4875
+4878;swamp;4876
+4879;swamp;4877
+4880;swamp;4878
+4881;swamp;4879
+4882;swamp;4880
+4883;ship;4881
+4884;ship;4882
+4885;ship;4883
+4886;ship;4884
+4887;ship;4885
+4888;ship;4886
+4889;ship;4887
+4890;ship;4888
+4891;ship;4889
+4892;ship;4890
+4893;ship;4891
+4894;ship;4892
+4895;ship;4893
+4896;ship;4894
+4897;ship;4895
+4898;ship;4896
+4899;ship;4897
+4900;ship;4898
+4901;ship;4899
+4902;ship;4900
+4903;ship;4901
+4904;ship;4902
+4905;ship;4903
+4906;ship cabin wall;4904
+4907;ship cabin wall;4905
+4908;ship cabin wall;4906
+4909;ship cabin wall;4907
+4910;ship cabin wall;4908
+4911;ship rail;4909
+4912;ship cabin wall;4910
+4913;closed door;4913
+4914;closed door;5006
+4915;open door;4914
+4916;closed door;4912
+4917;closed door;5007
+4918;open door;4911
+4919;ship railing;4917
+4920;ship rail;4918
+4921;ship cabin wall;4919
+4922;ship railing;4920
+4923;ship railing;4921
+4924;ship railing;4922
+4925;ship railing;4923
+4926;ship railing;4924
+4927;ship railing;4925
+4928;ship railing;4926
+4929;ship railing;4927
+4930;ship railing;4928
+4931;ship railing;4929
+4932;ship railing;4930
+4933;ship railing;4931
+4934;ship railing;4932
+4935;ship railing;4933
+4936;ship railing;4934
+4937;ship railing;4935
+4938;ship railing;4936
+4939;ship railing;4937
+4940;ship railing;4938
+4941;ship railing;4939
+4942;mast;4940
+4943;mast;4941
+4944;mast;4942
+4945;mast;4943
+4946;mast;4944
+4947;mast;4946
+4948;mast;4947
+4949;mast;4948
+4950;mast;4949
+4951;mast;4950
+4952;mast;4951
+4953;mast;4952
+4954;sail;4953
+4955;sail;4954
+4956;sail;4955
+4957;sail;4956
+4958;sail;4957
+4959;sail;4958
+4960;sail;4959
+4961;sail;4960
+4962;steering wheel;4961
+4963;steering wheel;4962
+4964;steering wheel;4963
+4965;steering wheel;4964
+4966;rudder blade;4965
+4967;rudder blade;4966
+4968;rudder blade;4967
+4969;rudder blade;4968
+4970;rudder blade;4969
+4971;rudder blade;4970
+4972;ventilation grille;4971
+4973;bollard;4972
+4974;anchor;4973
+4975;mast;4974
+4976;mast;4975
+4977;anchor;4976
+4978;hawser;4977
+4979;hawser;4978
+4980;hawser;4979
+4981;hawser;4980
+4982;hawser;4981
+4983;hawser;4982
+4984;hawser;4983
+4985;hawser;4984
+4986;hawser;4985
+4987;hawser;4986
+4988;hawser;4987
+4989;hawser;4988
+4990;white flag;4989
+4991;pirate flag;4990
+4992;dead butterfly;4991
+4993;dead butterfly;4992
+4994;dead butterfly;4993
+4995;sharp icicles;4994
+4996;canopic jar;4995
+4997;wooden trash;4996
+4998;hawser;4997
+4999;hawser;4998
+5000;hawser;4999
+5001;hawser;5000
+5002;ship railing;5001
+5003;ship cabin wall;5002
+5004;ship cabin wall;5003
+5005;ship cabin wall;5004
+5006;ship cabin wall;5005
+5007;ship cabin wall;4915
+5008;ship cabin wall;4916
+5009;;5008
+5010;white stone wall;5009
+5011;white stone wall;5010
+5012;lava wall;5011
+5013;lava wall;5012
+5014;dead butterfly;5013
+5015;mandrake;5014
+5016;skull;5015
+5017;skull;5016
+5018;some skulls;5017
+5019;some skulls;5018
+5020;burning skull;5019
+5021;burning skull;5020
+5022;orichalcum pearl;5021
+5023;magic forcefield;5022
+5024;magic forcefield;5023
+5025;bamboo lamp;5025
+5026;bamboo lamp;5026
+5027;bamboo lamp;5027
+5028;bamboo lamp;5028
+5029;bamboo lamp;5029
+5030;bamboo lamp;5030
+5031;bamboo lamp;5031
+5032;bamboo lamp;5032
+5033;bamboo lamp;5033
+5034;bamboo lamp;5034
+5035;bamboo lamp;5035
+5036;bamboo lamp;5036
+5037;bamboo lamp;5037
+5038;bamboo lamp;5038
+5039;bamboo lamp;5039
+5040;bamboo lamp;5040
+5041;bamboo lamp;5041
+5042;bamboo lamp;5042
+5043;bamboo lamp;5043
+5044;bamboo lamp;5044
+5045;flat roof;5045
+5046;monkey statue;5046
+5047;flat roof;5047
+5048;flat roof;5048
+5049;flat roof;5049
+5050;flat roof;5050
+5051;flat roof;5051
+5052;flat roof;5052
+5053;flat roof;5053
+5054;flat roof;5054
+5055;monkey statue;5055
+5056;monkey statue;5056
+5057;small snake head;5057
+5058;small snake head;5058
+5059;small snake head;5059
+5060;small snake head;5060
+5061;burning wall;5061
+5062;burning wall;5062
+5063;burning wall;5063
+5064;burning wall;5064
+5065;burning wall;5065
+5066;burning wall;5066
+5067;burning wall;5067
+5068;electric sparks;5068
+5069;electric sparks;5069
+5070;electric sparks;5070
+5071;energy fence;5071
+5072;energy fence;5072
+5073;energy fence;5073
+5074;lava fountain;5074
+5075;lava fountain;5075
+5076;stony pond;5076
+5077;stony pond;5077
+5078;stony pond;5078
+5079;stony pond;5079
+5080;panda teddy;5080
+5081;stairs;5081
+5082;closed door;5082
+5083;open door;5083
+5084;closed door;5084
+5085;open door;5085
+5086;monkey statue 'speak' kit;5086
+5087;monkey statue 'hear' kit;5087
+5088;monkey statue 'see' kit;5088
+5089;butterfly conservation kit;5089
+5090;skull dragon shield;5090
+5774;amulet of life;5091
+5775;amulet of mana;5092
+5776;mozradek armor;5093
+5777;magic golden armor;5094
+5778;;5095
+5779;white magic robe;5096
+5780;red robe;5097
+5781;dread shield;5098
+5782;white swamp shield;5099
+5783;flame fireaxe;5100
+5784;;5101
+5785;magic staff;5102
+5786;skull staff;5103
+5787;redborn boots;5104
+5788;;5105
+5789;silver bow;5106
+5790;dragon crossbow;5107
+5791;karma crossbow;5108
+5792;the iron worker;5109
+5793;royal helmet;5110
+5794;crusader helmet;5111
+5795;magic Helmet of Ancients;5112
+5796;red magician hat;5113
+5797;blue royal helmet;5114
+5798;grey helmet;5115
+5799;alpha scale mail;5116
+5800;galea;5117
+5801;Princess tiara;5118
+5802;dark ring;5119
+5803;karma ring +2;5120
+5804;karma ring;5121
+5805;silver ring;5122
+5806;love ring;5123
+5807;blessed golden ring;5124
+5808;the death ring;5125
+5809;blue pants;5126
+5810;red legs;5127
+5811;princess legs;5128
+5812;rebellion;5129
+5813;giant flameblade;5130
+5814;glorbito sword;5131
+5815;light sword;5132
+5816;;5133
+5817;;5134
+5818;karma cape;5135
+5819;small silver ring;5136
+5820;golden ring;5137
+5821;secret red rose;5138
+5822;carlin blue rose;5139
+5823;christmas token;5140
+5824;lory doll;5141
+5825;;5142
+5826;;5143
+5827;secret key;5144
+5828;blue blood herb;5145
+5829;violet blood herb;5146
+5830;green blood herb;5147
+5831;yellow blood herb;5148
+5832;white blood herb;5149
+5833;gamemaster doll;5150
+5834;warrior doll;5151
+5835;white rose;5152
+5836;golden doll;5153
+5837;magic statue;5154
+5838;magic powder;5155
+5839;enchanted saphire;5156
+5840;rooker ruby;5157
+5841;enchanted esmerald;5158
+5842;enchanted amethyst;5159
+5843;white gem;5160
+5844;fire gem;5161
+5845;crystal gem;5162
+5846;orange gem;5163
+5847;purple gem;5164
+5848;white gem;5165
+5849;karma map;5166
+5850;yellow tome;5167
+5851;green tales tome;5168
+5852;blue tales tome;5169
+5853;minotaur tome;5170
+5854;evil tome;5171
+5855;smoke bag;5172
+5856;backpack;5173
+5857;;5174
+5858;;5175
+5859;adventurer backpack;5176
+5860;grass backpack;5177
+5861;cupid backpack;5178
+5862;steel backpack;5179
+5863;copper backpack;5180
+5864;;5181
+5865;alchemist's backpack;5182
+5866;venomous flask backpack;5183
+5867;mystic essence backpack;5184
+5868;pyromancer's backpack;5185
+5869;solar flask backpack;5186
+5870;shadow alchemy backpack;5187
+5871;arcane explorer backpack;5188
+5872;loot pounch;5189
+5873;;5190
+5874;rune backpack;5191
+5875;rune backpack;5192
+5876;rune backpack;5193
+5877;rune backpack;5194
+5878;rune backpack;5195
+5879;rune backpack;5196
+5880;rune backpack;5197
+5881;rune backpack;5198
+5882;rune backpack;5199
+5883;rune backpack;5200
+5884;rune backpack;5201
+5885;rune backpack;5202
+5886;rune backpack;5203
+5887;;5204
+5888;;5205
+5889;;5206
+5890;;5207
+5891;;5208
+5892;;5209
+5893;;5210
+5894;;5211
+5895;;5212
+5896;princess dress;5213
+5897;elemental robe;5214
+5898;;5215
+5899;;5216
+5900;;5217
+5901;black demon legs;5218
+5902;;5219
+5903;winged boots;5220
+5904;WRONG SPR;5221
+5905;winged blue boots;5222
+5906;ITEM BUGADO;5223
+5907;demoniac essence;5224
+5908;demon horn;5225
+5909;Orshabaal brain;5226
+5910;dragon lord claw;5227
+5911;dragon Scale;5228
+5912;bone;5229
+5913;Morgaroth heart;5230
+5914;undead heart;5231
+5915;dragon claw;5232
+5916;behemoth claw;5233
+5917;holy bone;5234
+5918;dragon lord scale;5235
+5919;beholder eye;5236
+5920;giant spider head;5237
+5921;big claw;5238
+5922;dragon wing;5239
+5923;giant eye;5240
+5924;demoniac claw;5241
+5925;Rabo de dl;5242
+5926;pile of bones;5243
+5927;Soup;5244
+5928;giant spider silk;5245
+5929;tooth;5246
+5930;hero notebook;5247
+5931;strange stone;5248
+5932;dragon fruit;5249
+5933;fire stone;5250
+5934;fire egg;5251
+5935;spider egg;5252
+5936;dragon lord egg;5253
+5937;mystic ore;5254
+5938;demon claw;5255
+5939;morgaroth heart;5256
+5940;demon hert;5257
+5941;book of the secret spells;5258
+5942;black demons book;5259
+5943;soul stone;5260
+5944;Demon Book;5261
+5945;Warlock's Book;5262
+5946;strange stone;5263
+5947;red life crystal;5264
+5948;red life crystal;5265
+5949;green energy power;5266
+5950;purple energy power;5267
+5951;dark blue energy power;5268
+5952;ancient energy power;5269
+5953;eye;5270
+5954;giant spider egg;5271
+5955;hydra egg;5272
+5956;demon egg;5273
+5957;white claw;5274
+5958;white egg;5275
+5959;white Xscale;5276
+5960;white wing;5277
+5961;white scale;5278
+5962;black claw;5279
+5963;black wing;5280
+5964;blue scale;5281
+5965;blue egg;5282
+5966;blue wing;5283
+5967;golden dog;5284
+5968;yellow scale;5285
+5969;golden egg;5286
+5970;yellow wing;5287
+5971;golden claw;5288
+5972;demon claw;5289
+5973;black demon helmet;5290
+5974;mytril Sword;5291
+5975;excalibug;5292
+5976;special green key;5293
+5977;;5294
+5978;;5295
+5979;;5296
+5980;red magic lightwand;5297
+5981;;5298
+5982;silver ring;5299
+5983;wing ring;5300
+5984;old wooden key;5301
+5985;old silver key;5302
+5986;old blue key;5303
+5987;old golden key;5304
+5988;wooden key;5305
+5989;lost key;5306
+5990;daemons secret key;5307
+5991;demon eyes key;5308
+5992;elemental boots;5309
+5993;The Book of Ancients Beholders;5310
+5994;Boss Cooldown Book;5311
+5995;player statue;5312
+5996;energized magic wall;5313
+5997;;5314
+5998;flaming magic wall;5315
+5999;;5316
+6000;;5317
+6001;purple mining crystal;5318
+6002;;5319
+6003;blue mining crystal;5320
+6004;;5321
+6005;;5322
+6006;;5323
+6007;;5324
+6008;;5325
+6009;black demons statue;5326
+6010;yellow mining stone;5327
+6011;green mining stone;5328
+6012;red mining stone;5329
+6013;;5330
+6014;;5331
+6015;;5332
+6016;;5333
+6017;;5334
+6018;stone;5335
+6019;stone;5336
+6020;lava stone;5337
+6021;lava stone;5338
+6022;human statue;5339
+6023;dwarf statue;5340
+6024;dwarf stone;5341
+6025;black demon statue;5342
+6026;draconia;5343
+6027;dragon stone;5344
+6028;dragon stone;5345
+6029;dead human;5346
+6030;skull;5347
+6031;giant human stone;5348
+6032;statue;5349
+6033;greenfire basing;5350
+6034;red throne;5351
+6035;cova;5352
+6036;stone;5353
+6037;damaged stone;5354
+6038;anvil;5355
+6039;caixao superior;5356
+6040;caixao cima;5357
+6041;sun mark;5358
+6042;ball mark;5359
+6043;omega mark;5360
+6044;caixao coma;5361
+6045;parte cima caixao;5362
+6046;statue knight morto;5363
+6047;workbench;5364
+6048;demon statue;5365
+6049;black demon statue;5366
+6050;ank adicional;5367
+6051;special crowbar;5368
+6052;custom hammer;5369
+6053;violet special key;5370
+6054;very old key;5371
+6055;special silver key;5372
+6056;special orange key;5373
+6057;secret blue key;5374
+6058;secret golden key;5375
+6059;special silver key;5376
+6060;special green key;5377
+6061;special blue key;5378
+6062;secret red key;5379
+6063;stone;5380
+6064;stone;5381
+6065;a demon statue;5382
+6066;secret ankh;5383
+6067;old warlord sword;5384
+6068;silver mace;5385
+6069;griffin training shield;5386
+6070;;5387
+6071;thais book;5388
+6072;carlin book;5389
+6073;edron book;5390
+6074;princess real book;5391
+6075;damaged stone;5392
+6076;dead nightmare knight;5393
+6077;dead nightmare knight;5394
+6078;dead nightmare knight;5395
+6079;dead nightmare knight;5396
+6080;x;5397
+6081;dragon scale boots;5398
+6082;dragon scale legs;5399
+6083;aprisioned human;5400
+6084;moon staff;5401
+6085;tempestrain wand;5402
+6086;sunfire wand;5403
+6087;magician statue;5404
+6088;enchanted ankh;5405
+6089;blue egg;5406
+6090;blue stone;5407
+6091;orc book;5408
+6092;death book;5409
+6093;golden protector;5410
+6094;Coin Converter;5411
+6095;;5412
+6096;silver protector;5413
+6097;undead heart;5414
+6098;bronze protector;5415
+6099;lava stone;5416
+6100;metal rare;5417
+6101;;5418
+6102;metal rare;5419
+6103;death statue;5420
+6104;sacrifice statue;5421
+6105;fire knight statue;5422
+6106;golden knight statue;5423
+6107;secret map;5424
+6108;white tower;5425
+6109;golden ankh;5426
+6110;arbalest;5427
+6111;the avenger;5428
+6112;worn soft boots;5429
+6113;;5430
+6114;redteaser sword;5431
+6115;magic armor;5432
+6116;boots of firewalking;5433
+6117;alpha scale armor;5434
+6118;karma sword;5435
+6119;;5436
+6120;;5437
+6121;;5438
+6122;;5439
+6123;;5440
+6124;;5441
+6125;;5442
+6126;;5443
+6127;karma armor;5444
+6128;karma shield;5445
+6129;;5446
+6130;;5447
+6131;;5448
+6132;;5449
+6133;blood herb;5450
+6134;;5451
+6135;;5452
+6136;vial of urine;5453
+6137;;5454
+6138;tom brooch;5455
+6139;;5456
+6140;vial of fire;5457
+6141;;5458
+6142;;5459
+6143;;5460
+6144;swamp armor;5461
+6145;strong mana potion;5462
+6146;health potion;5463
+6147;mana potion;5464
+6148;;5465
+6149;fluid of training weapon;5466
+6150;vial of speed;5467
+6151;;5468
+6152;;5469
+6153;;5470
+6154;skull hammer;5471
+6155;book of training weapon;5472
+6156;dragonsilver shield;5473
+6157;;5474
+6158;dread amulet;5475
+6159;ultimate protection amulet;5476
+6160;mozradek amulet;5477
+6161;karma amulet;5478
+6162;;5479
+6163;;5480
+6164;;5481
+6165;;5482
+6166;ultimate dreafiend cape;5483
+6167;karma hat;5484
+6168;;5485
+6169;yalahari king armor;5486
+6170;blue dragon shield;5487
+6171;;5488
+6172;swamp amulet;5489
+6173;dread helmet;5490
+6174;karma bow;5491
+6175;bow of flame;5492
+6176;karma legs;5493
+6177;queen helmet;5494
+6178;queen legs;5495
+6179;dread armor;5496
+6180;dread legs;5497
+6181;mana amulet;5498
+6182;pink starlight;5499
+6183;sword of queen;5500
+6184;yalahari mage armor;5501
+6185;red ring of the sky;5502
+6186;;5503
+6187;yalahari shooter armor;5504
+6188;sword amulet;5505
+6189;;5506
+6190;;5507
+6191;;5508
+6192;omega magic armor;5509
+6193;autoloot coin;5510
+6194;piece of karma coin;5511
+6195;piece of karma coin;5512
+6196;karma staff;5513
+6197;;5514
+6198;;5515
+6199;;5516
+6200;;5517
+6201;;5518
+6202;pink orb;5519
+6203;yellow orb;5520
+6204;green orb;5521
+6205;blue orb;5522
+6206;red orb;5523
+6207;grey orb;5524
+6208;white orb;5525
+6209;;5526
+6210;;5527
+6211;;5528
+6212;;5529
+6213;;5530
+6214;;5531
+6215;;5532
+6216;yellow mastermind shield;5533
+6217;dreadfiend boots;5534
+6218;;5535
+6219;;5536
+6220;slain;5537
+6221;karma hammer;5538
+6222;;5539
+6223;Vale 100 reais;5540
+6224;;5541
+6225;karma axe;5542
+6226;;5543
+6227;;5544
+6228;;5545
+6229;;5546
+6230;;5547
+6231;;5548
+6232;;5549
+6233;;5550
+6234;;5551
+6235;;5552
+6236;;5553
+6237;;5554
+6238;;5555
+6239;;5556
+6240;;5557
+6241;;5558
+6242;;5559
+6243;;5560
+6244;;5561
+6245;;5562
+6246;;5563
+6247;;5564
+6248;;5565
+6249;;5566
+6250;;5567
+6251;;5568
+6252;;5569
+6253;;5570
+6254;;5571
+6255;;5572
+6256;;5573
+6257;;5574
+6258;;5575
+6259;;5576
+6260;;5577
+6261;;5578
+6262;;5579
+6263;;5580
+6264;;5581
+6265;;5582
+6266;;5583
+6267;;5584
+6268;;5585
+6269;;5586
+6270;;5587
+6271;;5588
+6272;;5589
+6273;;5590
+6274;;5591
+6275;;5592
+6276;;5593
+6277;;5594
+6278;;5595
+6279;;5596
+6280;;5597
+6281;;5598
+6282;;5599
+6283;;5600
+6284;;5601
+6285;;5602
+6286;;5603
+6287;;5604
+6288;;5605
+6289;;5606
+6290;;5607
+6291;;5608
+6292;;5609
+6293;;5610
+6294;;5611
+6295;;5612
+6296;;5613
+6297;;5614
+6298;;5615
+6299;;5616
+6300;;5617
+6301;;5618
+6302;;5619
+6303;;5620
+6304;;5621
+6305;;5622
+6306;;5623
+6307;;5624
+6308;;5625
+6309;;5626
+6310;;5627
+6311;;5628
+6312;;5629
+6313;;5630
+6314;;5631
+6315;;5632
+6316;;5633
+6317;;5634
+6318;;5635
+6319;;5636
+6320;;5637
+6321;;5638
+6322;;5639
+6323;;5640
+6324;;5641
+6325;;5642
+6326;;5643
+6327;;5644
+6328;;5645
+6329;;5646
+6330;;5647
+6331;;5648
+6332;;5649
+6333;;5650
+6334;;5651
+6335;;5652
+6336;;5653
+6337;;5654
+6338;;5655
+6339;;5656
+6340;;5657
+6341;;5658
+6342;;5659
+6343;ramp;5660
+6344;;5661
+6345;ramp;5662
+6346;;5663
+6347;ramp;5664
+6348;;5665
+6349;ramp;5666
+6350;;5667
+6351;;5668
+6352;;5669
+6353;;5670
+6354;;5671
+6355;;5672
+6356;;5673
+6357;;5674
+6358;;5675
+6359;;5676
+6360;;5677
+6361;;5678
+6362;;5679
+6363;;5680
+6364;;5681
+6365;;5682
+6366;;5683
+6367;;5684
+6368;;5685
+6369;;5686
+6370;;5687
+6371;;5688
+6372;;5689
+6373;;5690
+6374;;5691
+6375;;5692
+6376;;5693
+6377;;5694
+6378;;5695
+6379;;5696
+6380;;5697
+6381;;5698
+6382;;5699
+6383;;5700
+6384;;5701
+6385;;5702
+6386;;5703
+6387;dinamarca tapestry;5704
+6388;;5705
+6389;;5706
+6390;;5707
+6391;;5708
+6392;;5709
+6393;;5710
+6394;;5711
+6395;;5712
+6396;;5713
+6397;;5714
+6398;;5715
+6399;brasil tapestry;5716
+6400;halberd;5717
+6401;club;5718
+6402;spike sword;5719
+6403;sabre;5720
+6404;war hammer;5721
+6405;morning star;5722
+6406;;5723
+6407;mace;5724
+6408;;5725
+6409;staff;5726
+6410;combat knife;5727
+6411;warlord sword;5728
+6412;poison dagger;5729
+6413;scimitar;5730
+6414;silver mace;5731
+6415;crossbow;5732
+6416;bow;5733
+6417;steel helmet;5734
+6418;brass helmet;5735
+6419;leather helmet;5736
+6420;plate armor;5737
+6421;brass armor;5738
+6422;golden armor;5739
+6423;leather armor;5740
+6424;dragon scale legs;5741
+6425;golden legs;5742
+6426;golden helmet;5743
+6427;magic plate armor;5744
+6428;winged helmet;5745
+6429;warrior helmet;5746
+6430;knight armor;5747
+6431;knight legs;5748
+6432;brass legs;5749
+6433;legion helmet;5750
+6434;soldier helmet;5751
+6435;crown armor;5752
+6436;crown legs;5753
+6437;dark armor;5754
+6438;crown helmet;5755
+6439;dragon scale mail;5756
+6440;steel shield;5757
+6441;wooden shield;5758
+6442;battle shield;5759
+6443;mastermind shield;5760
+6444;guardian shield;5761
+6445;dragon shield;5762
+6446;crown shield;5763
+6447;dark shield;5764
+6448;great shield;5765
+6449;ornamented shield;5766
+6450;;5767
+6451;studded shield;5768
+6452;;5769
+6453;copper shield;5770
+6454;fishing rod;5771
+6455;leather boots;5772
+6456;plate legs;5773
+6457;leather legs;5774
+6458;jacket;5775
+6459;cape;5776
+6460;old robe;5777
+6461;blue robe;5778
+6462;watch;5779
+6463;small stone;5780
+6464;;5781
+6465;;5782
+6466;crown;5783
+6467;hat of the mad;5784
+6468;broom;5785
+6469;two handed sword;5786
+6470;dagger;5787
+6471;;5788
+6472;magic longsword;5789
+6473;fire sword;5790
+6474;giant sword;5791
+6475;longsword;5792
+6476;short sword;5793
+6477;karma ticket;5794
+6478;katana;5795
+6479;machete;5796
+6480;skull staff;5797
+6481;hunting spear;5798
+6482;chain helmet;5799
+6483;chain armor;5800
+6484;studded legs;5801
+6485;viking helmet;5802
+6486;studded helmet;5803
+6487;scale armor;5804
+6488;studded armor;5805
+6489;doublet;5806
+6490;noble armor;5807
+6491;royal helmet;5808
+6492;;5809
+6493;brass shield;5810
+6494;beholder shield;5811
+6495;scroll of frag;5812
+6496;rose shield;5813
+6497;;5814
+6498;bolt;5815
+6499;power bolt;5816
+6500;rake;5817
+6501;scythe;5818
+6502;hoe;5819
+6503;pick;5820
+6504;shovel;5821
+6505;;5822
+6506;wooden hammer;5823
+6507;;5824
+6508;saw;5825
+6509;small axe;5826
+6510;;5827
+6511;steel boots;5828
+6512;golden boots;5829
+6513;chain legs;5830
+6514;green tunic;5831
+6515;red tunic;5832
+6516;chain helmet;5833
+6517;rope;5834
+6518;rope;5835
+6519;fishing rod;5836
+6520;chain legs;5837
+6521;rose shield;5838
+6522;plate shield;5839
+6523;plate shield;5840
+6524;;5841
+6525;;5842
+6526;;5843
+6527;sword;5844
+6528;sword;5845
+6529;;5846
+6530;hand axe;5847
+6531;rapier;5848
+6532;rapier;5849
+6533;axe;5850
+6534;axe;5851
+6535;double axe;5852
+6536;;5853
+6537;sickle;5854
+6538;golden sickle;5855
+6539;hatchet;5856
+6540;hatchet;5857
+6541;guardian halberd;5858
+6542;orcish axe;5859
+6543;magic longsword;5860
+6544;giant sword;5861
+6545;carlin sword;5862
+6546;longsword;5863
+6547;serpent sword;5864
+6548;silver dagger;5865
+6549;silver dagger;5866
+6550;chain armor;5867
+6551;scale armor;5868
+6552;viking helmet;5869
+6553;dragon lance;5870
+6554;naginata;5871
+6555;castle shield;5872
+6556;great axe;5873
+6557;barbarian axe;5874
+6558;light mace;5875
+6559;obsidian lance;5876
+6560;iron helmet;5877
+6561;banana staff;5878
+6562;smithing hammer;5879
+6563;dwarven pickaxe;5880
+6564;;5881
+6565;;5882
+6566;;5883
+6567;;5884
+6568;;5885
+6569;;5886
+6570;;5887
+6571;;5888
+6572;;5889
+6573;;5890
+6574;;5891
+6575;;5892
+6576;double axe;5893
+6577;lit torch;5894
+6578;lit torch;5895
+6579;torch;5896
+6580;torch;5897
+6581;burnt down torch;5898
+6582;lit torch;5899
+6583;;5900
+6584;;5901
+6585;coat;5902
+6586;;5903
+6587;dark helmet;5904
+6588;;5905
+6589;fire sword;5906
+6590;;5907
+6591;;5908
+6592;leather helmet;5909
+6593;leather legs;5910
+6594;leather armor;5911
+6595;sandals;5912
+6596;throwing star;5913
+6597;winged helmet;5914
+6598;dark helmet;5915
+6599;shovel;5916
+6600;;5917
+6601;umbrella ops backpack;5918
+6602;heartbreaker backpack;5919
+6603;cyber scale backpack;5920
+6604;nike explorer backpack;5921
+6605;sudden backpack;5922
+6606;Mystic Converter;5923
+6607;dummy stone;5924
+6608;;5925
+6609;;5926
+6610;ultimate surprise bag;5927
+6611;;5928
+6612;youtube backpack;5929
+6613;Royal Costume Outfit doll;5930
+6614;;5931
+6615;leather boots;5932
+6616;plate legs;5933
+6617;plate legs;5934
+6618;plate armor;5935
+6619;plate armor;5936
+6620;magic plate armor;5937
+6621;jacket;5938
+6622;coat;5939
+6623;brass armor;5940
+6624;golden helmet;5941
+6625;steel helmet;5942
+6626;bright sword;5943
+6627;wooden shield;5944
+6628;ice rapier;5945
+6629;poison dagger;5946
+6630;sabre;5947
+6631;spike sword;5948
+6632;sword;5949
+6633;two handed sword;5950
+6634;broadsword;5951
+6635;bone club;5952
+6636;club;5953
+6637;scythe;5954
+6638;battle axe;5955
+6639;battle axe;5956
+6640;spear;5957
+6641;spear;5958
+6642;ring of the sky;5959
+6643;crystal ring;5960
+6644;mirror;5961
+6645;explosion rune;5962
+6646;;5963
+6647;animate dead rune;5964
+6648;destroy field rune;5965
+6649;energy bomb rune;5966
+6650;;5967
+6651;intense healing rune;5968
+6652;cure poison rune;5969
+6653;;5970
+6654;sudden death rune;5971
+6655;;5972
+6656;mana rune +2;5973
+6657;;5974
+6658;disintegrate rune;5975
+6659;heavy magic missile rune;5976
+6660;fire field rune;5977
+6661;fireball rune;5978
+6662;fire wall rune;5979
+6663;great fireball rune;5980
+6664;fire bomb rune;5981
+6665;poison wall rune;5982
+6666;convince creature rune;5983
+6667;chameleon rune;5984
+6668;envenom rune;5985
+6669;magic wall rune;5986
+6670;poison field rune;5987
+6671;poison bomb rune;5988
+6672;great poisonball rune;5989
+6673;;5990
+6674;;5991
+6675;ultimate healing rune;5992
+6676;;5993
+6677;energy field rune;5994
+6678;paralyze rune;5995
+6679;energy wall rune;5996
+6680;ultimate healing rune;5997
+6681;intense healing rune;5998
+6682;bag;5999
+6683;backpack;6000
+6684;parcel;6001
+6685;stamped parcel;6002
+6686;letter;6003
+6687;label;6004
+6688;parchment;6005
+6689;scroll;6006
+6690;present;6007
+6691;football;6008
+6692;casino ticket;6009
+6693;elf outfits;6010
+6694;dwarf geomancer outfits;6011
+6695;dwarf guard outfits;6012
+6696;dwarf soldier outfits;6013
+6697;dwarf outfits;6014
+6698;exp boost scroll;6015
+6699;new citizen outfit full addons;6016
+6700;yalaharian outfit full addons;6017
+6701;new hunter outfit full addons;6018
+6702;pirate outfit full addons;6019
+6703;new mage outfit full addons;6020
+6704;new knight outfit full addons;6021
+6705;new summoner outfit full addons;6022
+6706;;6023
+6707;citizen advanced outfit full addons;6024
+6708;assassin outfit full addons;6025
+6709;demonhunter outfit full addons;6026
+6710;shaman outfit full addons;6027
+6711;norseman outfit full addons;6028
+6712;hunter advanced outfit full addons;6029
+6713;beggar outfit full addons;6030
+6714;druid outfit full addons;6031
+6715;mage advanced outfit full addons;6032
+6716;nightmare outfit full addons;6033
+6717;barbarian outfit full addons;6034
+6718;oriental outfit full addons;6035
+6719;brotherhood outfit full addons;6036
+6720;wizard outfit full addons;6037
+6721;jersey outfits;6038
+6722;married outfit full addons;6039
+6723;australia tapestry;6040
+6724;argentina tapestry;6041
+6725;belgium tapestry;6042
+6726;canada tapestry;6043
+6727;chile tapestry;6044
+6728;;6045
+6729;poland tapestry;6046
+6730;germany tapestry;6047
+6731;united kingdom tapestry;6048
+6732;mexico tapestry;6049
+6733;netherlands tapestry;6050
+6734;norway tapestry;6051
+6735;portugal tapestry;6052
+6736;espanha tapestry;6053
+6737;sweden tapestry;6054
+6738;united states tapestry;6055
+6739;venezuela tapestry;6056
+6740;wispwood backpack;6057
+6741;pirate backpack;6058
+6742;aquatic backpack;6059
+6743;fur backpack;6060
+6744;brocade backpack;6061
+6745;mystic demon backpack;6062
+6746;orange backpack;6063
+6747;quiver;6064
+6748;crown backpack;6065
+6749;love backpack;6066
+6750;euphoric expedition backpack;6067
+6751;mozradek backpack;6068
+6752;energy minotaur backpack;6069
+6753;santa backpack;6070
+6754;deepling backpack;6071
+6755;buggy backpack;6072
+6756;mushroom backpack;6073
+6757;crystal backpack;6074
+6758;nature's backpack;6075
+6759;Peri's backpack;6076
+6760;Notorious backpack;6077
+6761;odyssey backpack;6078
+6762;nocturnal backpack;6079
+6763;energetic backpack;6080
+6764;book backpack;6081
+6765;festive backpack;6082
+6766;winged backpack;6083
+6767;phantom death backpack;6084
+6768;smoky backpack;6085
+6769;kitty backpack;6086
+6770;death essence backpack;6087
+6771;devil draptor backpack;6088
+6772;beholder backpack;6089
+6773;astral elevation backpack;6090
+6774;cursed backpack;6091
+6775;enchanted woods backpack;6092
+6776;;6093
+6777;elf arcanist outfits;6094
+6778;orc outfits;6095
+6779;summoner backpack;6096
+6780;7 days of premium account;6097
+6781;15 days of premium account;6098
+6782;30 days of premium account;6099
+6783;golden outfit full addons;6100
+6784;Demon Outfit doll;6101
+6785;draconia backpack;6102
+6786;mage backpack;6103
+6787;angel backpack;6104
+6788;magician backpack;6105
+6789;orc spearman outfits;6106
+6790;orc warrior outfits;6107
+6791;orc shaman outfits;6108
+6792;orc berserker outfits;6109
+6793;orc leader outfits;6110
+6794;orc warlord outfits;6111
+6795;minotaur outfits;6112
+6796;minotaur archer outfits;6113
+6797;minotaur mage outfits;6114
+6798;minotaur guard outfits;6115
+6799;banshee outfits;6116
+6800;dragon slayer outfit full addons;6117
+6801;karma surprise bag;6118
+6802;25 years backpack;6119
+6803;;6120
+6804;golden doll;6121
+6805;;6122
+6806;;6123
+6807;;6124
+6808;royal costume outfit full addons;6125
+6809;;6126
+6810;;6127
+6811;;6128
+6812;;6129
+6813;;6130
+6814;;6131
+6815;;6132
+6816;;6133
+6817;house scroll;6134
+6818;temple scroll;6135
+6819;;6136
+6820;;6137
+6821;rooker wand;6138
+6822;rooker wand;6139
+6823;wood;6140
+6824;nail;6141
+6825;rooker tools;6142
+6826;decorated carpet;6143
+6827;decorated carpet;6144
+6828;decorated carpet;6145
+6829;lush grass;6146
+6830;lush grass;6147
+6831;lush grass;6148
+6832;sneaky stabber of eliteness;6149
+6833;blue djinn scroll;6150
+6834;green djinn scroll;6151
+6835;rashid scroll;6152
+6836;karma ticket;6153
+6837;;6015
+6838;bless scroll;6155
+6839;;6154
+6840;daily reward;6156
+6841;;6157
+6842;santa doll;6158
+6843;santa circle;6159
+6844;santa circle;6160
+6845;santa hat;6161
+6846;magic sulphur;6162
+6847;bless check;3241
+6848;;6164
+6849;;6165
+6850;thaddeus scroll;6166
+6851;;6167
+6852;;6168
+6853;smithing lava;6169
+6854;;6170
+6855;;6171
+6856;;6172
+6857;;6173
+6858;;6174
+6859;;3241
+6860;;3241
+6861;;3241
+6862;terra mantle;6175
+6863;terra legs;6176
+6864;terra boots;6177
+6865;terra amulet;6178
+6866;magma amulet;6179
+6867;magma boots;6180
+6868;lighting boots;6181
+6869;magma legs;6182
+6870;lighting legs;6183
+6871;lightning armor;6184
+6872;magma coat;6185
+6873;magma monocle;6186
+6874;lightining glasses;6187
+6875;terra hood;6188
+6876;;6189
+6877;;6190
+6878;;6191
+6879;Karma Market;6192
+6880;Inbox;6193
+6881;gold chest;6194
+6882;gold chest;6195
+6883;;6196
+6884;;6197
+6885;;6198
+6886;;6199
+6887;;6200
+6888;;6201
+6889;;6202
+6890;;6203
+6891;;6204
+6892;;6205
+6893;;6206
+6894;;6207
+6895;;6208
+6896;;6209
+6897;;6210
+6898;;6211
+6899;;6212
+6900;;6213
+6901;;6214
+6902;;6215
+6903;;6216
+6904;;6217
+6905;;6218
+6906;;6219
+6907;;6220
+6908;;6221
+6909;;6222
+6910;;6223
+6911;;6224
+6912;;6225
+6913;;6226
+6914;;6227
+6915;;6228
+6916;;6229
+6917;;6230
+6918;;6231
+6919;;6232
+6920;;6233
+6921;;6234
+6922;;6235
+6923;;6236
+6924;;6237
+6925;;6238
+6926;;6239
+6927;;6240
+6928;;6241
+6929;;6242
+6930;;6243
+6931;;6244
+6932;;6245
+6933;;6246
+6934;;6247
+6935;;6248
+6936;;6249
+6937;;6250
+6938;;6251
+6939;;6252
+6940;;6253
+6941;;6254
+6942;;6255
+6943;;6256
+6944;;6257
+6945;;6258
+6946;;6259
+6947;;6260
+6948;;6261
+6949;;6262
+6950;;6263
+6951;;6264
+6952;;6265
+6953;;6266
+6954;;6267
+6955;;6268
+6956;;6269
+6957;;6270
+6958;;6271
+6959;;6272
+6960;;6273
+6961;;6274
+6962;;6275
+6963;;6276
+6964;;6277
+6965;;6278
+6966;;6279
+6967;;6280
+6968;;6281
+6969;;6282
+6970;;6283
+6971;;6284
+6972;;6285
+6973;;6286
+6974;;6287
+6975;;6288
+6976;;6289
+6977;;6290
+6978;;6291
+6979;;6292
+6980;;6293
+6981;;6294
+6982;;6295
+6983;;6296
+6984;;6297
+6985;;6298
+6986;;6299
+6987;;6300
+6988;;6301
+6989;;6302
+6990;;6303
+6991;;6304
+6992;;6305
+6993;;6306
+6994;;6307
+6995;;6308
+6996;;6309
+6997;;6310
+6998;;6311
+6999;;6312
+7000;;6313
+7001;;6314
+7002;;6315
+7003;;6316
+7004;;6317
+7005;;6318
+7006;;6319
+7007;;6320
+7008;;6321
+7009;;6322
+7010;;6323
+7011;;6324
+7012;;6325
+7013;;6326
+7014;;6327
+7015;;6328
+7016;;6329
+7017;;6330
+7018;;6331
+7019;;6332
+7020;;6333
+7021;;6334
+7022;;6335
+7023;;6336
+7024;;6337
+7025;;6338
+7026;;6339
+7027;;6340
+7028;;6341
+7029;;6342
+7030;;6343
+7031;;6344
+7032;;6345
+7033;;6346
+7034;;6347
+7035;;6348
+7036;;6349
+7037;;6350
+7038;;6351
+7039;;6352
+7040;;6353
+7041;;6354
+7042;;6355
+7043;;6356
+7044;;6357
+7045;;6358
+7046;;6359
+7047;;6360
+7048;;6361
+7049;;6362
+7050;;6363
+7051;;6364
+7052;;6365
+7053;;6366
+7054;;6367
+7055;;6368
+7056;;6369
+7057;;6370
+7058;;6371
+7059;;6372
+7060;;6373
+7061;;6374
+7062;;6375
+7063;;6376
+7064;;6377
+7065;;6378
+7066;;6379
+7067;;6380
+7068;;6381
+7069;;6382
+7070;;6383
+7071;;6384
+7072;;6385
+7073;;6386
+7074;;6387
+7075;;6388
+7076;;6389
+7077;;6390
+7078;;6391
+7079;;6392
+7080;;6393
+7081;;6394
+7082;;6395
+7083;;6396
+7084;;6397
+7085;;6398
+7086;;6399
+7087;;6400
+7088;;6401
+7089;;6402
+7090;;6403
+7091;;6404
+7092;;6405
+7093;;6406
+7094;;6407
+7095;;6408
+7096;;6409
+7097;;6410
+7098;;6411
+7099;;6412
+7100;;6413
+7101;;6414
+7102;;6415
+7103;;6416
+7104;;6417
+7105;;6418
+7106;;6419
+7107;;6420
+7108;;6421
+7109;;6422
+7110;;6423
+7111;;6424
+7112;;6425
+7113;;6426
+7114;;6427
+7115;;6428
+7116;;6429
+7117;;6430
+7118;;6431
+7119;;6432
+7120;;6433
+7121;;6434
+7122;;6435
+7123;;6436
+7124;;6437
+7125;;6438
+7126;;6439
+7127;;6440
+7128;;6441
+7129;;6442
+7130;;6443
+7131;;6444
+7132;;6445
+7133;;6446
+7134;;6447
+7135;;6448
+7136;;6449
+7137;;6450
+7138;;6451
+7139;;6452
+7140;;6453
+7141;;6454
+7142;;6455
+7143;;6456
+7144;;6457
+7145;;6458
+7146;;6459
+7147;;6460
+7148;;6461
+7149;;6462
+7150;;6463
+7151;;6464
+7152;;6465
+7153;;6466
+7154;;6467
+7155;;6468
+7156;;6469
+7157;;6470
+7158;;6471
+7159;;6472
+7160;;6473
+7161;;6474
+7162;;6475
+7163;;6476
+7164;;6477
+7165;;6478
+7166;;6479
+7167;;6480
+7168;;6481
+7169;;6482
+7170;;6483
+7171;;371
+7172;;6485
+7173;;6486
+7174;;6487
+7175;;6488
+7176;;6489
+7177;;6490
+7178;;6491
+7179;;6492
+7180;;6493
+7181;;6494
+7182;;6495
+7183;;6496
+7184;;6497
+7185;;6498
+7186;;6499
+7187;;6500
+7188;;6501
+7189;;6502
+7190;;6503
+7191;;6504
+7192;;6505
+7193;;6506
+7194;;6507
+7195;;6508
+7196;;6509
+7197;closed door;6510
+7198;;6511
+7199;;6512
+7200;;6513
+7201;;6514
+7202;;6515
+7203;closed door;6516
+7204;;6517
+7205;;6518
+7206;;6519
+7207;;6520
+7208;;6521
+7209;;6522
+7210;;6523
+7211;;6524
+7212;;6525
+7213;;6526
+7214;;6527
+7215;;6528
+7216;;6529
+7217;;6530
+7218;;6531
+7219;;6532
+7220;;6533
+7221;;6534
+7222;;6535
+7223;;6536
+7224;;6537
+7225;;6538
+7226;;6539
+7227;;6540
+7228;;6541
+7229;;6542
+7230;;6543
+7231;;6544
+7232;;6545
+7233;;6546
+7234;;6547
+7235;;6548
+7236;;6549
+7237;;6550
+7238;;6551
+7239;;6552
+7240;;6553
+7241;;372
+7242;;6555
+7243;;6556
+7244;;6557
+7245;;6558
+7246;;6559
+7247;;6560
+7248;;6561
+7249;;6562
+7250;;6563
+7251;;6564
+7252;;6565
+7253;;6566
+7254;;6567
+7255;;6568
+7256;;6569
+7257;;6570
+7258;;6571
+7259;;6572
+7260;;6573
+7261;;6574
+7262;;6575
+7263;;6576
+7264;;6577
+7265;;6578
+7266;;6579
+7267;;6580
+7268;;6581
+7269;;6582
+7270;;6583
+7271;;6584
+7272;;6585
+7273;;6586
+7274;;6587
+7275;;6588
+7276;;6589
+7277;;6590
+7278;;6591
+7279;;6592
+7280;;6593
+7281;;6594
+7282;;6595
+7283;;6596
+7284;;6597
+7285;;6598
+7286;;6599
+7287;;6600
+7288;;6601
+7289;;6602
+7290;;6603
+7291;;6604
+7292;;6605
+7293;;6606
+7294;;6607
+7295;;6608
+7296;;6609
+7297;;6610
+7298;;6611
+7299;;6612
+7300;;6613
+7301;;6614
+7302;;6615
+7303;;6616
+7304;;6617
+7305;;6618
+7306;;6619
+7307;;6620
+7308;;6621
+7309;;6622
+7310;;6623
+7311;;6624
+7312;;6625
+7313;;6626
+7314;;6627
+7315;;6628
+7316;;6629
+7317;;6630
+7318;;6631
+7319;;6632
+7320;;6633
+7321;;6634
+7322;;6635
+7323;;6636
+7324;;6637
+7325;;6638
+7326;;6639
+7327;;6640
+7328;;6641
+7329;;6642
+7330;;6643
+7331;;6644
+7332;;6645
+7333;;6646
+7334;;6647
+7335;;6648
+7336;;6649
+7337;;6650
+7338;;6651
+7339;;6652
+7340;;6653
+7341;;6654
+7342;;6655
+7343;;6656
+7344;;6657
+7345;;6658
+7346;;6659
+7347;;6660
+7348;;6661
+7349;;6662
+7350;;6663
+7351;;6664
+7352;;6665
+7353;;6666
+7354;;6667
+7355;;6668
+7356;;6669
+7357;;6670
+7358;;6671
+7359;;6672
+7360;;6673
+7361;;6674
+7362;;6675
+7363;;6676
+7364;;6677
+7365;;6678
+7366;;6679
+7367;;6680
+7368;;6681
+7369;;6682
+7370;;6683
+7371;;6684
+7372;;6685
+7373;;6686
+7374;;6687
+7375;;6688
+7376;;6689
+7377;;6690
+7378;;6691
+7379;;6692
+7380;;6693
+7381;;6694
+7382;;6695
+7383;;6696
+7384;;6697
+7385;;6698
+7386;;6699
+7387;;6700
+7388;;6701
+7389;;6702
+7390;;6703
+7391;;6704
+7392;;6705
+7393;;6706
+7394;slain frost dragon;6707
+7395;;6708
+7396;;6709
+7397;;6710
+7398;;6711
+7399;;6712
+7400;;6713
+7401;;6714
+7402;;6715
+7403;;6716
+7404;brutetamer's staff;6717
+7405;headchopper;6718
+7406;mammoth whopper;6719
+7407;demonrage sword;6720
+7408;relic sword;6721
+7409;mystic blade;6722
+7410;crimson sword;6723
+7411;mercenary sword;6724
+7412;diamond sceptre;6725
+7413;vile axe;6726
+7414;heroic axe;6727
+7415;the justice seeker;6728
+7416;thaian sword;6729
+7417;orcish maul;6730
+7418;dragon slayer;6731
+7419;berserker;6732
+7420;assassin dagger;6733
+7421;havoc blade;6734
+7422;blacksteel sword;6735
+7423;haunted blade;6736
+7424;wyvern fang;6737
+7425;northern star;6738
+7426;queen's sceptre;6739
+7427;ornamented axe;6740
+7428;butcher's axe;6741
+7429;titan axe;6742
+7430;abyss hammer;6743
+7431;cranial basher;6744
+7432;bloody edge;6745
+7433;runed sword;6746
+7434;nightmare blade;6747
+7435;dreaded cleaver;6748
+7436;reaper's axe;6749
+7437;onyx flail;6750
+7438;jade hammer;6751
+7439;skullcrusher;6752
+7440;lunar staff;5401
+7441;taurus mace;6754
+7442;amber staff;6755
+7443;chaos mace;6756
+7444;bonebreaker;6757
+7445;blessed sceptre;6758
+7446;dragonbone staff;6759
+7447;demonbone;6760
+7448;furry club;6761
+7449;ravenwing;6762
+7450;royal axe;6763
+7451;impaler;6764
+7452;angelic axe;6765
+7453;sapphire hammer;6766
+7454;elvish bow;6767
+7455;;6768
+7456;;6769
+7457;;6770
+7458;;6771
+7459;;6772
+7460;;6773
+7461;;6774
+7462;;6775
+7463;;6776
+7464;;6777
+7465;;6778
+7466;;6779
+7467;;6780
+7468;;6781
+7469;;6782
+7470;;6783
+7471;;6784
+7472;;6785
+7473;;6786
+7474;;6787
+7475;;6788
+7476;;6789
+7477;;6790
+7478;;6791
+7479;;6792
+7480;;6793
+7481;;6794
+7482;;6795
+7483;;6796
+7484;;6797
+7485;;6798
+7486;;6799
+7487;;6800
+7488;;6801
+7489;;6802
+7490;;6803
+7491;;6804
+7492;;6805
+7493;;6806
+7494;;6807
+7495;;6808
+7496;;6809
+7497;;6810
+7498;;6811
+7499;;6812
+7500;;6813
+7501;;6814
+7502;;6815
+7503;;6816
+7504;;6817
+7505;;6818
+7506;;6819
+7507;;6820
+7508;;6821
+7509;;6822
+7510;;6823
+7511;;6824
+7512;;6825
+7513;;6826
+7514;royal spear;6827
+7515;;6828
+7516;;6829
+7517;;6830
+7518;;6831
+7519;;6832
+7520;;6833
+7521;;6834
+7522;;6835
+7523;;6836
+7524;;6837
+7525;;6838
+7526;;6839
+7527;;6840
+7528;;6841
+7529;;6842
+7530;;6843
+7531;;6844
+7532;;6845
+7533;;6846
+7534;;6847
+7535;;6848
+7536;;6849
+7537;;6850
+7538;;6851
+7539;;6852
+7540;;6853
+7541;hero club;6854
+7542;;6855
+7543;;6856
+7544;;6857
+7545;;6858
+7546;;6859
+7547;;6860
+7548;;6861
+7549;swamp hammer;6862
+7550;;6863
+7551;;6753
+7552;;6865
+7553;;6866
+7554;;6867
+7555;;6868
+7556;blessed staff;6869
+7557;;6870
+7558;;6871
+7559;;6872
+7560;;6873
+7561;;6874
+7562;;6875
+7563;;6876
+7564;;6877
+7565;;6878
+7566;ice cube;6879
+7567;;6880
+7568;;6881
+7569;;6882
+7570;;6883
+7571;;6884
+7572;;6885
+7573;;6886
+7574;crystal sword;6887
+7575;;6888
+7576;shadow sceptre;6889
+7577;spiked squelcher;6890
+7578;executioner;6891
+7579;glorious axe;6892
+7580;mythril axe;6893
+7581;greatfire axe;6894
+7582;fur boots;6895
+7583;fur cap;6896
+7584;pair of earmuffs;6897
+7585;norse shield;6898
+7586;krimhorn helmet;6899
+7587;ragnir helmet;6900
+7588;mammoth fur cape;6901
+7589;mammoth fur shorts;6902
+7590;modified crossbow;6903
+7591;chain bolter;6904
+7592;royal crossbow;6905
+7593;the devileye;6906
+7594;the ironworker;6907
+7595;warsinger bow;6908
+7596;composite hornbow;6909
+7597;Yol's bow;6910
+7598;silkweaver bow;6911
+7599;Elethriel's elemental bow;6912
+7600;dreafiend cape;6913
+7601;robe of the ice queen;6914
+7602;dragon robe;6915
+7603;velvet mantle;6916
+7604;greenwood coat;6917
+7605;spirit cloak;6918
+7606;focus cape;6919
+7607;belted cape;6920
+7608;hibiscus dress;6921
+7609;summer dress;5503
+7610;tunic;5213
+7611;girl's dress;6924
+7612;lavos armor;6925
+7613;crystalline armor;6926
+7614;voltage armor;6927
+7615;swamp armor;6928
+7616;fireborn giant armor;6929
+7617;earthborn titan armor;6930
+7618;windborn colossus armor;6931
+7619;oceanborn leviathan armor;6932
+7620;divine plate;6933
+7621;molten plate;6934
+7622;frozen plate;6935
+7623;master archer's armor;6936
+7624;skullcracker armor;6937
+7625;robe of the underworld;6938
+7626;paladin armor;6939
+7627;spellbook of enlightenment;6940
+7628;spellbook of warding;6941
+7629;spellbook of mind control;6942
+7630;karma spellbook;6943
+7631;spellscroll of prophecies;6944
+7632;rainbow shield;6945
+7633;fiery rainbow shield;6946
+7634;icy rainbow shield;6947
+7635;sparking rainbow shield;6948
+7636;terran rainbow shield;6949
+7637;undead rod;6950
+7638;;6951
+7639;;6952
+7640;slain wyrm;6953
+7641;;6954
+7642;;6955
+7643;;6956
+7644;dead bod raider;6957
+7645;dead bod raider;6958
+7646;;6959
+7647;;6960
+7648;;6961
+7649;;6962
+7650;;6963
+7651;;6964
+7652;zaoan armor;6965
+7653;zaoan helmet;6966
+7654;zaoan shoes;6967
+7655;zaoan legs;6968
+7656;;6969
+7657;;6970
+7658;;6971
+7659;;6972
+7660;;6973
+7661;redborn armor;6974
+7662;royal scale robe;6975
+7663;shield of corruption;6976
+7664;elite draken helmet;6977
+7665;draken boots;6978
+7666;snake god's wristguard;6979
+7667;snake god's sceptre;6980
+7668;blade of corruption;6981
+7669;purple magic forcefield;6982
+7670;;3241
+7671;;371
+7672;;372
+7673;;5401
+7674;;5503
+7675;;5213
+7676;;3241
+7677;;371
+7678;;372
+7679;;5401
+7680;;5503
+7681;;5213
+7682;;3241
+7683;;371
+7684;;372
+7685;;5401
+7686;;5503
+7687;;5213
+7688;flash arrow;6983
+7689;shiver arrow;6984
+7690;flaming arrow;6985
+7691;piercing bolt;6986
+7692;sniper arrow;6987
+7693;onyx arrow;6988
+7694;viper star;6989
+7695;training spear;6990
+7696;assassin star;6991
+7697;;3241
+7698;;371
+7699;;372
+7700;;5401
+7701;;5503
+7702;;5213
+7703;;6992
+7704;;6993
+7705;;6994
+7706;;6995
+7707;ferumbras hat;6996
+7708;;6997
+7709;;6998
+7710;;6999
+7711;;7000
+7712;;7001
+7713;;7002
+7714;hook;7003
+7715;eye patch;7004
+7716;pirate hat;7005
+7717;S heart pillow;7006
+7718;;7007
+7719;;7008
+7720;;7009
+7721;;7010
+7722;tortoise shield;7011
+7723;eternal torch;7012
+7724;sacred tree amulet;7013
+7725;leviathan's amulet;7014
+7726;shockwave amulet;7015
+7727;autoloot box;7016
+7728;;7017
+7729;craft machine;7018
+7730;magic potion shield;7019
+7731;food fluid;7020
+7732;;3241
+7733;;371
+7734;;372
+7735;;5401
+7736;;5503
+7737;;5213
+7738;earth arrow;7021
+7739;;395
+7740;sniper gloves;7023
+7741;lizard leather;7024
+7742;green dragon leather;7025
+7743;minotaur leather;7026
+7744;spider silk;5245
+7745;iron ore;5254
+7746;lizard scale;7029
+7747;red dragon scale;5235
+7748;ape fur;7031
+7749;spirit container;7032
+7750;flask of warrior's sweat;7033
+7751;spool of yarn;7034
+7752;piece of royal steel;7035
+7753;piece of hell steel;7036
+7754;piece of draconian steel;7037
+7755;chicken feather;7038
+7756;enchanted chicken wing;7039
+7757;huge chunk of crude iron;7040
+7758;perfect behemoth fang;5246
+7759;bat wing;7042
+7760;fish fin;6994
+7761;bear paw;7044
+7762;wolf paw;7045
+7763;bonelord eye;5236
+7764;turtle shell;6995
+7765;vampire dust;7048
+7766;demon dust;7049
+7767;slingshot;7050
+7768;obsidian knife;7051
+7769;white piece of cloth;7052
+7770;green piece of cloth;7053
+7771;red piece of cloth;7054
+7772;blue piece of cloth;7055
+7773;brown piece of cloth;7056
+7774;yellow piece of cloth;7057
+7775;bandana;7058
+7776;pirate knee breeches;7059
+7777;dragon claw;7060
+7778;green dragon scale;5228
+7779;heaven blossom;7062
+7780;holy orchid;7063
+7781;;426
+7782;damaged steel helmet;7065
+7783;hardened bone;5229
+7784;pirate backpack;6058
+7785;pirate bag;7068
+7786;empty goldfish bowl;7069
+7787;goldfish bowl;7070
+7788;behemoth claw;5233
+7789;remains of ferumbras;7072
+7790;remains of ferumbras;7073
+7791;remains of ferumbras;7074
+7792;slain frog;7075
+7793;slain frog;7076
+7794;slain frog;7077
+7795;botanist's container;4868
+7796;Ceiron's waterskin;7079
+7797;Ceiron's waterskin;7080
+7798;Ceiron's wolf tooth chain;7081
+7799;wooden stake;7082
+7800;blessed wooden stake;7083
+7801;Morgaroth's Heart;7084
+7802;soul orb;7085
+7803;coral comb;7086
+7804;comb;7087
+7805;Elane's crossbow;7088
+7806;red dragon leather;7089
+7807;beach backpack;6999
+7808;beach bag;7000
+7809;fish tail;7092
+7810;scroll;7093
+7811;raven herb;7094
+7812;demon horn;5225
+7813;old parchment;427
+7814;lottery ticket;7097
+7815;winning lottery ticket;7098
+7816;;7099
+7817;;7100
+7818;slain pirate skeleton;7101
+7819;slain pirate ghost;7102
+7820;slain blood crab;7103
+7821;peg leg;7104
+7822;;7105
+7823;;7106
+7824;;7107
+7825;;7108
+7826;;7109
+7827;;7110
+7828;slain medusa;7111
+7829;;3241
+7830;;371
+7831;;372
+7832;;5401
+7833;;5503
+7834;;5213
+7835;;395
+7836;;5245
+7837;;5254
+7838;;5235
+7839;;5246
+7840;;6994
+7841;;5236
+7842;;6995
+7843;;5228
+7844;;426
+7845;;5229
+7846;;6058
+7847;;5233
+7848;;4868
+7849;;6999
+7850;;7000
+7851;;5225
+7852;;427
+7853;;7112
+7854;;7113
+7855;;3241
+7856;;371
+7857;;372
+7858;;5401
+7859;;5503
+7860;;5213
+7861;;395
+7862;;5245
+7863;;5254
+7864;;5235
+7865;;5246
+7866;;6994
+7867;;5236
+7868;;6995
+7869;;5228
+7870;;426
+7871;;5229
+7872;;6058
+7873;;5233
+7874;;4868
+7875;;6999
+7876;;7000
+7877;;5225
+7878;;427
+7879;;3241
+7880;;371
+7881;;372
+7882;;5401
+7883;;5503
+7884;;5213
+7885;;395
+7886;;5245
+7887;;5254
+7888;;5235
+7889;;5246
+7890;;6994
+7891;;5236
+7892;;6995
+7893;;5228
+7894;;426
+7895;;5229
+7896;pirate backpack;6058
+7897;;5233
+7898;;4868
+7899;;6999
+7900;;7000
+7901;demon horn;5225
+7902;;427
+7903;glacier shoes;7114
+7904;glacier kilt;7115
+7905;glacier robe;7116
+7906;glacier mask;7117
+7907;;7118
+7908;;7119
+7909;;3241
+7910;;371
+7911;;372
+7912;;5401
+7913;;5503
+7914;;5213
+7915;;395
+7916;;5245
+7917;;5254
+7918;;5235
+7919;;5246
+7920;;6994
+7921;;5236
+7922;;6995
+7923;;5228
+7924;;426
+7925;;5229
+7926;;6058
+7927;;5233
+7928;;4868
+7929;;6999
+7930;;7000
+7931;;5225
+7932;;427
+7933;;3241
+7934;;371
+7935;;372
+7936;;5401
+7937;;5503
+7938;;5213
+7939;;395
+7940;;5245
+7941;;5254
+7942;;5235
+7943;;5246
+7944;;6994
+7945;;5236
+7946;;6995
+7947;;5228
+7948;;426
+7949;;5229
+7950;;6058
+7951;;5233
+7952;;4868
+7953;;6999
+7954;;7000
+7955;;5225
+7956;;427
+7957;remains of water;7120
+7958;sign;7121
+7959;sign;7122
+7960;sign;7123
+7961;sign;7124
+7962;sign;7125
+7963;sign;7126
+7964;sign;7127
+7965;sign;7128
+7966;sign;7129
+7967;sign;7130
+7968;sign;7131
+7969;sign;7132
+7970;sign;7133
+7971;sign;7134
+7972;sign;7135
+7973;sign;7136
+7974;sign;7137
+7975;sign;7138
+7976;sign;7139
+7977;sign;7140
+7978;sign;7141
+7979;sign;7142
+7980;sign;7143
+7981;sign;7144
+7982;sign;7145
+7983;sign;7146
+7984;sign;7147
+7985;sign;7148
+7986;sign;7149
+7987;sign;7150
+7988;sign;7151
+7989;sign;7152
+7990;sign;7153
+7991;sign;7154
+7992;sign;7155
+7993;sign;7156
+7994;sign;7157
+7995;sign;7158
+7996;sign;7159
+7997;sign;7160
+7998;sign;7161
+7999;sign;7162
+8000;sign;7163
+8001;sign;7164
+8002;sign;7165
+8003;sign;7166
+8004;sign;7167
+8005;sign;7168
+8006;sign;7169
+8007;sign;7170
+8008;sign;7171
+8009;sign;7172
+8010;sign;7173
+8011;sign;7174
+8012;sign;7175
+8013;sign;7176
+8014;sign;7177
+8015;sign;7178
+8016;;7179
+8017;;7180
+8018;;7181
+8019;;7182
+8020;;7183
+8021;;7184
+8022;;7185
+8023;;7186
+8024;;7187
+8025;;7188
+8026;;7189
+8027;;7190
+8028;;7191
+8029;;7192
+8030;;7193
+8031;slain undead;7194
+8032;blue carpet;7195
+8033;blue carpet;7196
+8034;blue carpet;7197
+8035;blue carpet;7198
+8036;blue carpet;7199
+8037;blue carpet;7200
+8038;blue carpet;7201
+8039;blue carpet;7202
+8040;blue carpet;7203
+8041;green carpet;7204
+8042;green carpet;7205
+8043;green carpet;7206
+8044;green carpet;7207
+8045;green carpet;7208
+8046;green carpet;7209
+8047;green carpet;7210
+8048;green carpet;7211
+8049;green carpet;7212
+8050;brown carpet;7213
+8051;brown carpet;7214
+8052;brown carpet;7215
+8053;brown carpet;7216
+8054;brown carpet;7217
+8055;brown carpet;7218
+8056;brown carpet;7219
+8057;brown carpet;7220
+8058;brown carpet;7221
+8059;;7222
+8060;;7223
+8061;;7224
+8062;giftbox;7225
+8063;Zaoan chess box;7226
+8064;;7227
+8065;;7228
+8066;reward chest;7229
+8067;;7230
+8068;;7231
+8069;compass;7232
+8070;;7233
+8071;;7234
+8072;;7235
+8073;;7236
+8074;table;7237
+8075;table;7238
+8076;closet;7239
+8077;closet;7240
+8078;;7241
+8079;;7242
+8080;;7243
+8081;;7244
+8082;;7245
+8083;;7246
+8084;;7247
+8085;;7248
+8086;;7249
+8087;;7250
+8088;;7251
+8089;;7252
+8090;;3241
+8091;;371
+8092;;372
+8093;;5401
+8094;;5503
+8095;;5213
+8096;;395
+8097;;5245
+8098;;5254
+8099;;5235
+8100;;5246
+8101;;6994
+8102;;5236
+8103;;6995
+8104;;5228
+8105;;426
+8106;;5229
+8107;;6058
+8108;;5233
+8109;quiver +2;4868
+8110;;6999
+8111;;7000
+8112;;5225
+8113;;427
+8114;blue blank rune;7253
+8115;babyblue blank rune;7254
+8116;green blank rune;7255
+8117;yellow blank rune;7256
+8118;red blank rune;7257
+8119;purple blank rune;7258
+8120;;3241
+8121;;371
+8122;;372
+8123;;5401
+8124;;5503
+8125;;5213
+8126;;395
+8127;;5245
+8128;;5254
+8129;;5235
+8130;;5246
+8131;;6994
+8132;;5236
+8133;;6995
+8134;;5228
+8135;;426
+8136;;5229
+8137;;6058
+8138;;5233
+8139;;4868
+8140;;6999
+8141;;7000
+8142;;5225
+8143;;427
+8144;white crystal;7259
+8145;blue crystal;7260
+8146;purple crystal;7261
+8147;red crystal;7262
+8148;yellow crystal;7263
+8149;green crystal;5518
+8150;;3241
+8151;;371
+8152;;372
+8153;;5401
+8154;;5503
+8155;;5213
+8156;;395
+8157;;5245
+8158;;5254
+8159;;5235
+8160;;5246
+8161;;6994
+8162;;5236
+8163;;6995
+8164;;5228
+8165;;426
+8166;;5229
+8167;;6058
+8168;;5233
+8169;;4868
+8170;;6999
+8171;;7000
+8172;;5225
+8173;;427
+8174;;5518
+8175;;7265
+8176;mystic shard;7266
+8177;diamond mining pick;7267
+8178;golden mining pick;7268
+8179;redborn robe;7269
+8180;;7270
+8181;;3241
+8182;;371
+8183;;372
+8184;;5401
+8185;;5503
+8186;;5213
+8187;;395
+8188;;5245
+8189;;5254
+8190;;5235
+8191;;5246
+8192;;6994
+8193;;5236
+8194;;6995
+8195;;5228
+8196;;426
+8197;;5229
+8198;;6058
+8199;;5233
+8200;;4868
+8201;;6999
+8202;;7000
+8203;;5225
+8204;;427
+8205;;5518
+8206;mining pick;5820
+8207;;7272
+8208;;3241
+8209;;371
+8210;;372
+8211;;5401
+8212;;5503
+8213;;5213
+8214;;395
+8215;;5245
+8216;;5254
+8217;;5235
+8218;;5246
+8219;;6994
+8220;;5236
+8221;;6995
+8222;;5228
+8223;;426
+8224;;5229
+8225;;6058
+8226;;5233
+8227;;4868
+8228;;6999
+8229;;7000
+8230;;5225
+8231;;427
+8232;;5518
+8233;;5820
+8234;house decoration trophy;5430
+8235;house decoration trophy;7274
+8236;house decoration trophy;7275
+8237;a;7276
+8238;jasmin coin;7277
+8239;karma boots +2;7278
+8240;karma boots +3;7279
+8241;ferumbras dummy;7280
+8242;dummy;7281
+8243;magic feather aura;7282
+8244;training staff;7283
+8245;training bow;7284
+8246;training club;7285
+8247;training axe;7286
+8248;training sword;7287
+8249;;3241
+8250;;371
+8251;;372
+8252;;5401
+8253;;5503
+8254;;5213
+8255;;395
+8256;;5245
+8257;;5254
+8258;;5235
+8259;;5246
+8260;;6994
+8261;;5236
+8262;;6995
+8263;;5228
+8264;;426
+8265;;5229
+8266;;7067
+8267;;5233
+8268;;4868
+8269;;7090
+8270;;7091
+8271;;5225
+8272;;427
+8273;;5518
+8274;;5820
+8275;;5430
+8276;earth buff;7288
+8277;physical buff;7289
+8278;ice buff;7290
+8279;;7291
+8280;energy buff;7292
+8281;;7293
+8282;fire buff;7294
+8283;death buff;7295
+8284;;7296
+8285;;6163
+8286;;6484
+8287;;6554
+8288;;6864
+8289;;6922
+8290;;6923
+8291;;7022
+8292;;7027
+8293;;7028
+8294;;7030
+8295;;7041
+8296;;7043
+8297;;7046
+8298;;7047
+8299;;7061
+8300;;7064
+8301;;7066
+8302;;7067
+8303;;7071
+8304;;7078
+8305;;7090
+8306;;7091
+8307;;7095
+8308;;7096
+8309;;7264
+8310;;7271
+8311;;7273
+8312;;7297
+8313;ticket boss;7298
+8314;compact buff;7299
+8315;attack buff;7300
+8316;experience buff;7301
+8317;;7302
+8318;mozradek helmet;7303
+8319;;6193
+8320;;7305
+8321;karma boots +4;7306
+8322;mozradek boots;7307
+8323;lucky ring;7308
+8324;lucky ring +2;7309
+8325;;6193
+8326;quiver +2;7310
+8327;quiver +3;7311

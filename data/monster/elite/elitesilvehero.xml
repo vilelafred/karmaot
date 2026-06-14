@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Silver Hero" nameDescription="a silver hero" race="undead" experience="55955" speed="975" manacost="0">
+    <health now="31700" max="31700"/>
+    <look type="432" corpse="3128"/>
+	<level min="50" max="100" />		
+    <targetchange interval="1000" chance="10"/>
+    <targetstrategies nearest="70" health="20" damage="10" random="20"/>
+
+    <flags>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag summonable="0"/>
+        <flag convinceable="0"/>
+        <flag illusionable="0"/>
+        <flag pushable="0"/>
+        <flag canpushitems="1"/>
+        <flag canpushcreatures="1"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="90"/>
+        <flag runonhealth="0"/>
+    </flags>
+
+    <script>
+        <event name="elite"/>
+    </script>
+
+    <attacks>
+        <!-- Mesmo melee do Hellvain -->
+        <attack name="melee" interval="2500" skill="157" attack="165"/>
+
+        <!-- Death wave (equivalente ao fire wave do Hellvain) -->
+        <attack name="death" interval="2000" chance="25" length="8" spread="0" min="-850" max="-1480">
+            <attribute key="areaEffect" value="mortarea"/>
+            <attribute key="shootEffect" value="suddendeath"/>
+        </attack>
+
+        <!-- Explosão de morte em área -->
+        <attack name="death" interval="2000" chance="15" radius="3" target="0" min="-250" max="-500">
+            <attribute key="areaEffect" value="mortarea"/>
+        </attack>
+
+        <!-- Raio único à distância (death) -->
+        <attack name="death" interval="2000" chance="20" min="-200" max="-550" range="7" target="1">
+            <attribute key="shootEffect" value="suddendeath"/>
+            <attribute key="areaEffect" value="blackspark"/>
+        </attack>
+    </attacks>
+
+    <!-- +50% em armor/defense; cura e speed buff mais fortes -->
+    <defenses armor="210" defense="248">
+        <defense name="healing" interval="2000" chance="30" min="750" max="1050">
+            <attribute key="areaEffect" value="blackspark"/>
+        </defense>
+        <defense name="speed" interval="2000" chance="25" speedchange="750" duration="9000">
+            <attribute key="areaEffect" value="blackspark"/>
+        </defense>
+    </defenses>
+
+    <!-- Resistências: imune a death, earth e energy (ajuste ao seu gosto) -->
+    <elements>
+        <element deathPercent="100"/>
+        <element earthPercent="100"/>
+        <element energyPercent="100"/>
+    </elements>
+
+    <immunities>
+        <immunity lifedrain="1"/>
+        <immunity paralyze="1"/>
+        <immunity invisible="1"/>
+    </immunities>
+
+    <voices interval="2000" chance="5">
+        <voice sentence="EMBRACE THE SILENCE!" yell="1"/>
+        <voice sentence="DEATH AWAITS!" yell="1"/>
+        <voice sentence="FEEL THE VOID!" yell="1"/>
+        <voice sentence="MORTEM TENET OMNIA!" yell="1"/>
+    </voices>
+
+    <loot>
+        <item id="2795" chance="1000" countmax="20"/><!-- fire mushroom -->
+        <item id="2152" chance="3000" countmax="10"/><!-- platinum coin -->
+        <item id="2152" chance="3000" countmax="10"/>
+        <item id="2152" chance="3000" countmax="10"/>
+        <item id="2514" chance="800"/><!-- mastermind shield -->
+        <item id="2214" chance="1000"/><!-- ring of healing -->
+        <item id="2164" chance="1000"/><!-- might ring -->
+        <item id="2165" chance="1000"/><!-- stealth ring -->
+        <item id="2151" chance="3000"/><!-- talon -->
+        <item id="5907" chance="500"/><!-- demoniac essence -->
+        <item id="1986" chance="1000"/><!-- red tome -->
+        <item id="2653" chance="700"/><!-- red tunic -->
+        <item id="2483" chance="500"/><!-- scale armor -->
+        <item id="2147" chance="900"/><!-- small ruby -->
+        <item id="2493" chance="700"/><!-- demon helmet -->
+        <item id="2472" chance="600"/><!-- magic plate armor -->
+        <item id="5780" chance="1000"/><!-- sun fire robe -->
+        <item id="2546" chance="1000" countmax="15"/><!-- burst arrow -->
+        <item id="2396" chance="1000"/><!-- ice rapier -->
+        <item id="2520" chance="1000"/><!-- demon shield -->
+        <item id="5980" chance="100"/><!-- red spellwand -->
+        <item id="2164" chance="200"/><!-- might ring (extra) -->
+    </loot>
+</monster>

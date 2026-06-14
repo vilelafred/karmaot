@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Karma Trader" script="karma_trader.lua" walkinterval="200000" floorchange="0">
+  <health now="100" max="100"/>
+  <look type="128" head="78" body="88" legs="0" feet="0" addons="3"/>
+  <parameters>
+    <parameter key="message_greet" value="|GREETING|"/>
+  </parameters>
+</npc>
+
+

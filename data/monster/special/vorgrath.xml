@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Vorgrath" nameDescription="a vorgrath" race="undead" experience="155000" speed="900" manacost="0">
+    <health now="42400" max="42400"/>
+    <look type="472" corpse="6220"/>
+    <light color="215" level="5"/>
+    <targetchange interval="1000" chance="10"/>
+    <targetstrategies nearest="70" health="20" damage="10" random="20"/>
+
+    <flags>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag summonable="0"/>
+        <flag convinceable="0"/>
+        <flag illusionable="0"/>
+        <flag pushable="0"/>
+        <flag canpushitems="1"/>
+        <flag canpushcreatures="1"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="90"/>
+        <flag runonhealth="0"/>
+    </flags>
+
+    <script>
+        <event name="elite"/>
+    </script>
+
+    <attacks>
+        <!-- Mesmo melee do Hellvain -->
+        <attack name="melee" interval="2000" skill="187" attack="165"/>
+
+        <!-- Death wave (equivalente ao fire wave do Hellvain) -->
+        <attack name="death" interval="2000" chance="35" length="8" spread="0" min="-1050" max="-1480">
+            <attribute key="areaEffect" value="mortarea"/>
+            <attribute key="shootEffect" value="suddendeath"/>
+        </attack>
+
+        <!-- Explosão de morte em área -->
+        <attack name="death" interval="2000" chance="25" radius="3" target="0" min="-450" max="-800">
+            <attribute key="areaEffect" value="mortarea"/>
+        </attack>
+
+        <!-- Raio único à distância (death) -->
+        <attack name="death" interval="2000" chance="25" min="-500" max="-950" range="7" target="1">
+            <attribute key="shootEffect" value="suddendeath"/>
+            <attribute key="areaEffect" value="blackspark"/>
+        </attack>
+    </attacks>
+
+    <defenses armor="140" defense="165">
+        <defense name="healing" interval="2000" chance="30" min="700" max="900">
+            <attribute key="areaEffect" value="blackspark"/>
+        </defense>
+        <defense name="speed" interval="2000" chance="25" speedchange="500" duration="9000">
+            <attribute key="areaEffect" value="blackspark"/>
+        </defense>
+    </defenses>
+
+    <elements>
+        <element firePercent="35"/>
+        <element physicalPercent="25"/>
+        <element deathPercent="20"/>
+        <element icePercent="-25"/>
+    </elements>
+
+    <immunities>
+        <immunity lifedrain="1"/>
+        <immunity paralyze="1"/>
+        <immunity invisible="1"/>
+    </immunities>
+
+    <voices interval="2000" chance="5">
+        <voice sentence="THE VOID CLAIMS YOU!" yell="1"/>
+        <voice sentence="EMBRACE OBLIVION!" yell="1"/>
+        <voice sentence="WHISPERS FROM BEYOND..." yell="1"/>
+        <voice sentence="MORTHA SAR UMOR!" yell="1"/>
+    </voices>
+
+    <loot>
+        <item id="2795" chance="3000" countmax="20"/><!-- fire mushroom -->
+        <item id="2160" chance="500" countmax="3"/><!-- crystal coin -->
+        <item id="2494" chance="400"/><!-- demon armor -->	
+        <item id="2214" chance="1000"/><!-- ring of healing -->
+        <item id="2546" chance="1000" countmax="15"/><!-- burst arrow -->
+        <item id="2520" chance="1000"/><!-- demon shield -->
+        <item id="5937" chance="1000"/><!-- mystic ore -->				
+		<item id="2151" chance="200" countmax="2"/><!-- talon - ajustado -->
+		<item id="5937" chance="100" countmax="5"/> <!-- mystic ore -->					
+		<item id="5907" chance="700"/><!-- 0.7% deoniac essense -->
+		<item id="2494" chance="160"/> <!-- demon armor -->
+		<item id="2520" chance="130"/> <!-- demon shield -->
+		<item id="2156" chance="120"/> <!-- red gem -->
+    </loot>
+</monster>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Demon Knight" nameDescription="a Demon Knight" race="fire" experience="7200" speed="240" manacost="0">
+	<health now="9800" max="9800"/>
+	<look type="241" corpse="2916"/>
+	<targetchange interval="1000" chance="10"/>
+	<targetstrategies nearest="70" health="10" damage="10" random="10"/>
+	<flags>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag summonable="0"/>
+		<flag convinceable="0"/>
+		<flag illusionable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+			<script>
+    <event name="elite"/>
+</script>
+	<attacks>
+		<attack name="melee" interval="2000" skill="150" attack="90"/>
+		<attack name="energy" interval="2000" chance="30" length="8" spread="0" min="-100" max="-220">
+			<attribute key="areaEffect" value="fire"/>
+		</attack>
+				<attack name="energy" chance="25" length="8" spread="0" min="-100" max="-250">
+			<attribute key="areaEffect" value="fire"/>
+	</attack>
+	</attacks>
+	<defenses armor="40" defense="65">
+		<defense name="healing" interval="2000" chance="25" min="100" max="250">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</defense>
+				<defense name="outfit" interval="2000" chance="10" monster="demon" duration="90">
+			<attribute key="areaEffect" value="redshimmer"/>
+			</defense>
+			
+			<defense name="speed" interval="2000" chance="25" speedchange="500" duration="9000">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</defense>
+		
+	</defenses>
+	<elements>
+		<element firePercent="100"/>
+		<element earthPercent="100"/>
+		<element energyPercent="100"/>
+	</elements>
+	<immunities>
+		<immunity lifedrain="1"/>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="2000" chance="5">
+		<voice sentence="RELEASE MY SOUL!" yell="1"/>
+		<voice sentence="MY HATE IS GROOOW!" yell="1"/>
+		<voice sentence="HAIL RUTHLESS SEVEN!" yell="1"/>
+		<voice sentence="CHAMEK ATH UTHUL ARAK!" yell="1"/>
+	</voices>
+	<loot>
+		<item id="2795" chance="20000" countmax="6"/><!-- 6 20% fire mushroom -->
+		<item id="2148" chance="80000" countmax="100"/><!-- 100 40% gold coin -->
+		<item id="2148" chance="80000" countmax="100"/><!-- 100 40% gold coin -->
+		<item id="2148" chance="80000" countmax="100"/><!-- 100 40% gold coin -->
+		<item id="1967" countmax="1" chance="100000" text="Testing textpowerful and greedy heroes who with their evil thoughts, were corrupted by the forces of darkness, and became slaves to the power of Infernatil, their souls were imprisoned forever, and their bodies were armored with powerful armor from demons, are extremely aggressive fighters and without mercy, not the most powerful element, which burns and reveals the true path."/> <!-- parchment -->
+		<item id="2151" chance="300"/><!-- 3.5% talon -->
+		<item id="5907" chance="500"/><!-- 3.5% demoniac essence  -->
+		<item id="1986" chance="1300"/><!-- 1.3% red tome -->
+		<item id="2653" chance="700"/><!-- 0.7% red tunic -->  
+		<item id="2483" chance="500"/><!-- scale armor --> 																
+		<item id="2147" chance="1400"/><!-- 1.4% small ruby --> 
+		<item id="2472" chance="700"/><!-- 0.3% magic plate armor --> 
+		<item id="8176" countmax="100" chance="50000"/> <!-- mystic shard -->		
+		<item id="8176" countmax="50" chance="10000"/>
+		<item id="5937" countmax="5" chance="90"/> <!-- mystic ore -->	
+		
+			<item id="2395" chance="500"/><!-- 20% carlin sword -->
+				<item id="2546" chance="1000" countmax="5"/><!-- 3 burst arrow -->
+				<item id="2396" chance="600"/><!-- 0.6% ice rapier -->
+				<item id="2520" chance="1500"/><!-- 0.7% demon shield -->
+				<item id="2164" chance="200"/><!-- 0.2% might ring -->
+	</loot>
+</monster>

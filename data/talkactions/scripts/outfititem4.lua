@@ -1,0 +1,54 @@
+    -- function onSay(player, words, param)
+
+    -- local outfits =
+    -- {
+    -- ["outfit"] = {id_female, id_male},
+    -- [“citizen”] = {600, 500},
+    -- [“hunter”] = {601, 501},
+    -- [“mage”] = {602, 502},
+    -- [“knight”] = {603, 503},
+    -- [“noblewoman”] = {604, 504},
+    -- [“summoner”] = {605, 505},
+    -- [“warrior”] = {606, 506},
+    -- [“barbarian”] = {607, 507},
+    -- [“druid”] = {608, 508},
+    -- [“wizard”] = {609, 509},
+    -- [“oriental”] = {610, 510},
+    -- [“pirate”] = {611, 511},
+    -- [“assassin”] = {612, 512},
+    -- [“beggar”] = {613, 513},
+    -- [“shaman”] = {614, 514},
+    -- [“norsewoman”] = {615, 515},
+    -- [“nightmare”] = {616, 516},
+    -- [“jester”] = {617, 517},
+    -- [“brotherhood”] = {618, 518},
+    -- [“demonhunter”] = {619, 519},
+    -- [“yalaharian”] = {620, 520},
+    -- [“warmaster”] = {621, 521},
+    -- [“wayfarer”] = {622, 522},
+    -- [“afflicted”] = {623, 523},
+    -- }
+
+    -- local param = string.lower(param)
+    -- local addondoll_id = 2195
+
+    -- if player:getItemCount(addondoll_id) > 0 then
+    -- if param ~= “” and outfits[param] then
+    -- if (not player:hasOutfit(outfits[param][1], 3)) or (not player:hasOutfit(outfits[param][2], 3)) then
+    -- player:getPosition():sendMagicEffect(CONST_ME_GIFT_WRAPS)
+    -- player:removeItem(addondoll_id, 1)
+    -- player:addOutfitAddon(outfits[param][1], 3)
+    -- player:addOutfitAddon(outfits[param][2], 3)
+    -- player:sendTextMessage(MESSAGE_INFO_DESCR, “Seu Addon full foi adicionado!”)
+    -- else
+    -- player:sendCancelMessage(“Voce ja tem este addon”)
+    -- end
+    -- else
+    -- player:sendCancelMessage(“Digite novamente, algo esta errado!”)
+    -- end
+    -- else
+    -- player:sendCancelMessage(“Voce nao tem addon doll!”)
+    -- end
+
+    -- return true
+    -- end

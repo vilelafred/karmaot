@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<npc name="Izabelly" script="Izabelly.lua" walkinterval="0" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="132" head="114" body="113" legs="114" feet="76" addons="0"/>
+    <parameters>
+        <parameter key="message_greet" value="Hello |PLAYERNAME|. I can bless you. Say 'bless' to see options."/>
+    </parameters>
+</npc>

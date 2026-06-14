@@ -1,0 +1,16 @@
+local autoBroadcast = GlobalEvent("AutoBroadcast")
+
+local messages = {
+    "AVISO DO ADM FRED: esta aberta a pesquisa oficial de balanceamento do KarmaOT, que vai definir ajustes de dano, cura e velocidade; o formulario esta no canal do Discord e ficara disponivel ate terca 20:00, participe e ajude a construir o futuro do servidor!!",
+    "AVISO DO ADM FRED: esta aberta a pesquisa oficial de balanceamento do KarmaOT, que vai definir ajustes de dano, cura e velocidade; o formulario esta no canal do Discord e ficara disponivel ate terca 20:00, participe e ajude a construir o futuro do servidor!!"
+}
+
+local nextIndex = 0
+function autoBroadcast.onThink(interval, lastExecution)
+    nextIndex = (nextIndex % #messages) + 1
+    Game.broadcastMessage(messages[nextIndex], MESSAGE_EVENT_ADVANCE)
+    return true
+end
+
+autoBroadcast:interval(30 * 60 * 1000) -- 7 minutos
+autoBroadcast:register()

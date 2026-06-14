@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Abyssal Tempest" nameDescription="an abyssal tempest" race="energy" experience="390660" speed="995" manacost="0">
+  <health now="46600" max="46600"/>
+  <look type="292" head="0" body="52" legs="128" feet="95" corpse="3128"/>
+  <targetchange interval="2000" chance="50"/>
+  <strategy attack="100" defense="0"/>
+
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="0"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <!-- Melee básico -->
+    <attack name="melee" skill="190" attack="272"/>
+
+    <!-- Raio em linha (forte) -->
+    <attack name="energy" chance="25" length="8" spread="0" min="-1700" max="-2200">
+      <attribute key="areaEffect" value="energyarea"/>
+    </attack>
+
+    <!-- Explosão elétrica em área -->
+    <attack name="energy" chance="25" radius="5" target="0" min="-1650" max="-2100">
+      <attribute key="areaEffect" value="energy"/>
+    </attack>
+
+    <!-- Rajada de vento que empurra (paralyze invertido) -->
+    <attack name="speed" chance="20" range="7" speedchange="-600" duration="6000">
+      <attribute key="areaEffect" value="iceattack"/>
+    </attack>
+
+    <!-- Sombra mortal (death damage com visual vermelho) -->
+    <attack name="death" chance="25" radius="4" target="0" min="-1600" max="-2000">
+      <attribute key="areaEffect" value="redspark"/>
+    </attack>
+  </attacks>
+
+  <defenses armor="28" defense="164">
+    <!-- Cura elétrica -->
+    <defense name="healing" chance="25" min="1700" max="1980">
+      <attribute key="areaEffect" value="energyarea"/>
+    </defense>
+    <defense name="haste" chance="25"/>
+  </defenses>
+
+  <elements>
+    <element energyPercent="80"/>
+    <element deathPercent="50"/>
+    <element firePercent="0"/>
+    <element earthPercent="0"/>
+  </elements>
+
+  <immunities>
+    <immunity energy="1"/>
+    <immunity fire="1"/>
+    <immunity poison="1"/>
+    <immunity paralyze="1"/>
+    <immunity invisible="1"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+  </immunities>
+
+  <voices interval="5000" chance="10">
+    <voice sentence="The storm consumes all!"/>
+    <voice sentence="Lightning is my wrath!"/>
+    <voice sentence="Feel the abyssal winds!"/>
+    <voice sentence="Darkness follows the thunder!"/>
+  </voices>
+
+  <loot>
+    <!-- Mantém drops parecidos, pode ajustar conforme necessidade -->
+    <item id="2160" chance="1000" countmax="3"/>
+    <item id="2152" chance="4800" countmax="10"/>
+        <item id="5937" chance="1000"/><!-- mystic ore -->			
+    <item id="5937" chance="3600"/>
+    <item id="2146" chance="3600" countmax="50"/>
+    <item id="2472" chance="1200"/>
+    <item id="2470" chance="1320"/>
+    <item id="2536" chance="480"/>
+    <item id="2392" chance="360"/>
+    <item id="2168" chance="1800"/>
+    <item id="2167" chance="1800"/>
+  </loot>
+</monster>

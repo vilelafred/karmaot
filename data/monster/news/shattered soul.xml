@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="shattered soul" nameDescription="a shattered soul" race="undead" experience="875" speed="210" manacost="0">
+	<health now="750" max="750"/>
+	<look type="251" corpse="2998"/>
+	<targetchange interval="1000" chance="5"/>
+	<targetstrategies nearest="60" health="10" damage="10" random="20"/>
+	<flags>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag summonable="0"/>
+		<flag convinceable="0"/>
+		<flag illusionable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="0"/>
+		<flag staticattack="60"/>
+		<flag runonhealth="150"/>
+		
+	</flags>
+	<attacks>
+		<attack name="melee" skill="50" attack="50"/>
+		<attack name="physical" checkshield="1" range="1" min="0" max="-100"/>
+		<attack name="lifedrain" chance="4" range="1" min="-25" max="-75"/>
+	</attacks>
+	<defenses armor="25" defense="60">
+	</defenses>
+	<elements>
+		<element physicalPercent="100"/>
+		<element deathPercent="100"/>
+	</elements>
+	<immunities>
+		<immunity lifedrain="1"/>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="1000" chance="5">
+		    <voice sentence="Join the damned!"/>
+		    <voice sentence="Graaaaa!"/>
+	</voices>
+	<loot>
+		<item id="2148" chance="25000" countmax="90"/><!-- 90 25% gold coin -->
+		<item id="2143" chance="2000" countmax="2"/><!-- 2% white pearl -->
+		<item id="2144" chance="4000" countmax="2"/><!-- 4% black pearl -->
+		<item id="2383" chance="2000"/><!-- 2% spike sword -->
+		<item id="2409" chance="1000"/><!-- 1% serpent sword -->
+		<item id="2656" chance="800"/><!-- 0.8% blue robe -->
+	</loot>
+</monster>

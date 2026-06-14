@@ -1,0 +1,94 @@
+-- local config = {
+    -- itemId = 2345,
+    -- percent = 100, -- 1-100
+    -- cumulative = false,
+    -- storageKeys = {
+        -- experienceAtDeath = 45043,
+        -- storedExperience = 45044
+    -- },
+    -- maxRecoverableExp = 100000000 -- Proteção: 100kk
+-- }
+
+SCROLL USO
+-- local action = Action()
+
+-- function action.onUse(player, item, fromPosition, target, toPosition, isHotkey)
+    -- local storedExperience = player:getStoredExperience()
+
+    -- if storedExperience <= 0 then
+        -- player:sendTextMessage(MESSAGE_STATUS_SMALL, "You have no stored experience to obtain.")
+        -- player:getPosition():sendMagicEffect(CONST_ME_POFF)
+        -- return true
+    -- end
+
+    Proteção contra valores absurdos
+    -- if storedExperience > config.maxRecoverableExp then
+        -- player:sendTextMessage(MESSAGE_STATUS_WARNING, "Stored experience is too high and was blocked for safety.")
+        -- return true
+    -- end
+
+    -- player:addExperience(storedExperience, true)
+    -- player:setStoredExperience(0)
+    -- player:getPosition():sendMagicEffect(CONST_ME_HEARTS)
+    -- item:remove(1)
+    -- return true
+-- end
+
+-- action:id(config.itemId)
+-- action:register()
+
+EVENTO ONDEATH
+-- local deathEvent = CreatureEvent("onDeath_ExperienceRecoveryItem")
+
+-- function deathEvent.onDeath(creature, corpse, killer, mostDamageKiller, lastHitUnjustified, mostDamageUnjustified)
+    -- local currentExp = creature:getExperience()
+
+    Proteção contra valores bugados
+    -- if currentExp < 0 or currentExp > 1000000000 then
+        -- return true
+    -- end
+
+    -- creature:setExperienceAtDeath(currentExp)
+    -- return true
+-- end
+
+-- deathEvent:register()
+
+EVENTO ONLOGIN
+-- local loginEvent = CreatureEvent("onLogin_ExperienceRecoveryItem")
+
+-- function loginEvent.onLogin(player)
+    -- player:registerEvent("onDeath_ExperienceRecoveryItem")
+
+    -- local experienceAtDeath = player:getExperienceAtDeath()
+
+    -- if experienceAtDeath > 0 then
+        -- local currentExp = player:getExperience()
+
+        -- if currentExp <= 0 then
+            -- return true
+        -- end
+
+        -- local lostExp = 0
+        -- if experienceAtDeath > currentExp then
+            -- lostExp = experienceAtDeath - currentExp
+        -- end
+
+        -- if lostExp > 0 then
+            -- local storedExperience = math.floor(lostExp * (config.percent / 100))
+
+            Proteção contra valores absurdos
+            -- if storedExperience > config.maxRecoverableExp then
+                -- storedExperience = config.maxRecoverableExp
+            -- end
+
+            -- player:setStoredExperience(storedExperience)
+        -- end
+
+        -- player:setExperienceAtDeath(0)
+    -- end
+
+    -- return true
+-- end
+
+-- loginEvent:register()

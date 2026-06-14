@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Frozen Hero" nameDescription="a frozen hero" race="blood" experience="2550" speed="320" manacost="0">
+	<health now="2400" max="2400"/>
+	<look type="329" corpse="3128"/>
+	<targetchange interval="1000" chance="5"/>
+	<targetstrategies nearest="80" health="10" damage="10" random="0"/>
+	<flags>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag summonable="0"/>
+		<flag convinceable="0"/>
+		<flag illusionable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="80"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="-100" max="-325"/>
+		<attack name="lifedrain" interval="2000" chance="10" target="0" length="8" spread="3" min="-175" max="-380">
+			<attribute key="areaEffect" value="icearea"/>
+		</attack>
+		<attack name="speed" interval="2000" chance="5" target="0" radius="3" speedchange="-700" duration="12000">
+			<attribute key="areaEffect" value="icearea"/>
+		</attack>
+		<attack name="ice" interval="2000" chance="5" radius="3" target="0" min="-60" max="-120">
+			<attribute key="areaEffect" value="icetornado"/>
+		</attack>
+		<attack name="ice" interval="2000" chance="10" target="1" radius="4" min="-100" max="-240">
+			<attribute key="areaEffect" value="icearea"/>
+		</attack>
+		<attack name="physical" interval="2000" chance="5" target="0" length="1" spread="0" min="0" max="-220">
+			<attribute key="areaEffect" value="icetornado"/>
+		</attack>
+		<attack name="speed" interval="2000" chance="20" target="1" radius="4" speedchange="-600" duration="12000">
+			<attribute key="areaEffect" value="icearea"/>
+		</attack>
+	</attacks>
+	<defenses armor="75" defense="75">
+		<defense name="healing" interval="2000" chance="10" min="150" max="200">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+		<defense name="speed" interval="2000" chance="15" speedchange="290" duration="5000">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element firePercent="100"/>
+		<element earthPercent="100"/>
+		<element energyPercent="100"/>
+	</elements>
+	<immunities>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="1000" chance="5">
+		<voice sentence="Let's have a fight!"/>
+		<voice sentence="Welcome to my battleground."/>
+		<voice sentence="Have you seen princess Lumelia?"/>
+		<voice sentence="I will sing a tune at your grave."/>
+	</voices>
+	<loot>
+		<item id="2667" chance="18000" countmax="2"/>
+		<item id="5875" chance="7800" countmax="1"/>		
+		<item id="2670" chance="20000"/>
+		<item id="2146" chance="3000"/>		
+		<item id="2396" chance="600"/>
+		<item id="2177" chance="800"/>		
+        <item id="5937" chance="1000"/><!-- mystic ore -->				
+		<item id="2520" chance="700"/>		
+		<item id="2152" chance="6000" countmax="5"/>
+		<item id="2152" chance="6000" countmax="5"/>
+		<item id="2152" chance="6000" countmax="5"/>
+		<item id="1949" chance="45000"/>
+		<item id="2745" chance="20000"/>
+		<item id="2656" chance="1500"/>
+		<item id="5828" chance="150"/>		
+		<item id="2663" chance="800"/>
+		<item id="2491" chance="5000"/>
+		<item id="2487" chance="3000"/>
+	</loot>
+</monster>

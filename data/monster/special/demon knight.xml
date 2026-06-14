@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Demon Knight" nameDescription="a demon knight" race="fire" experience="14200" speed="340" manacost="0">
+	<health now="9800" max="9800"/>
+	<look type="241" corpse="6220"/>
+	<targetchange interval="1000" chance="10"/>
+	<targetstrategies nearest="70" health="10" damage="10" random="10"/>
+	<flags>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag summonable="0"/>
+		<flag convinceable="0"/>
+		<flag illusionable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="150" attack="150"/>
+		<attack name="fire" interval="2000" chance="30" length="8" spread="0" min="-700" max="-920">
+			<attribute key="areaEffect" value="fire"/>
+		</attack>
+	</attacks>
+	<defenses armor="40" defense="65">
+		<defense name="healing" interval="2000" chance="10" min="200" max="450">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</defense>
+		<defense name="outfit" interval="2000" chance="10" monster="demon" duration="90">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element firePercent="100"/>
+		<element earthPercent="100"/>
+		<element energyPercent="100"/>
+	</elements>
+	<immunities>
+		<immunity lifedrain="1"/>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="2000" chance="5">
+		<voice sentence="RELEASE MY SOUL!" yell="1"/>
+		<voice sentence="MY HATE IS GROOOW!" yell="1"/>
+		<voice sentence="HAIL RUTHLESS SEVEN!" yell="1"/>
+		<voice sentence="CHAMEK ATH UTHUL ARAK!" yell="1"/>
+	</voices>
+	<loot>
+		<item id="2795" chance="2000" countmax="15"/>
+		<item id="2152" chance="8000" countmax="40"/>
+		<item id="8176" chance="8000" countmax="100"/>
+		<item id="8176" chance="8000" countmax="100"/>
+		<item id="2151" chance="300"/>
+        <item id="5937" chance="1000"/><!-- mystic ore -->				
+		<item id="5907" chance="500"/>
+		<item id="1986" chance="1300"/>
+		<item id="2653" chance="700"/>
+		<item id="2483" chance="500"/>
+		<item id="2147" chance="700"/>
+		<item id="5777" chance="30"/>
+		<item id="2493" chance="99"/>
+		<item id="2472" chance="100"/>
+		<item id="2493" chance="10"/>
+		<item id="6784" chance="1"/>			
+	</loot>
+</monster>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<raid>
+	<!-- Message broadcast -->
+	<!-- Broadcast types: warning, event, default, description, smallstatus, blueconsole, redconsole -->
+	<announce delay="1000" type="warning" message="Attention! Trolls Constructor have been seen approaching north of rookgaard." />
+	<announce delay="60000" type="warning" message="Careful it seems they somehow managed to access the continent of rookgaard!" />
+	<announce delay="120000" type="warning" message="Trolls Constructor are attacking from all sides, run away!" />
+
+	<!-- Primeira area a esquerda norte -->
+	<areaspawn delay="120000" fromx="31967" fromy="32133" fromz="7" tox="32018" toy="32176" toz="7">
+		<monster name="Troll Constructor" minamount="10" maxamount="15" /><!-- Random amount in specified range -->
+	</areaspawn>
+
+	<!-- Segunda area a direita norte -->
+	<areaspawn delay="120000" fromx="32022" fromy="32107" fromz="7" tox="32074" toy="32137" toz="7">
+		<monster name="Troll Constructor" minamount="10" maxamount="15" /><!-- Random amount in specified range -->
+	</areaspawn>
+
+	<!-- Single spawns -->
+	<singlespawn delay="120000" name="Troll Constructor" x="32078" y="32112" z="7" />
+	<singlespawn delay="120000" name="Troll Constructor" x="32080" y="32117" z="6" />
+	<singlespawn delay="120000" name="Troll Constructor" x="32080" y="32117" z="5" />
+	<singlespawn delay="120000" name="Troll Constructor" x="32080" y="32117" z="4" />
+	<singlespawn delay="120000" name="Troll Constructor" x="32046" y="32180" z="7" />
+	<singlespawn delay="120000" name="Troll Constructor" x="32045" y="32176" z="6" />
+	<singlespawn delay="120000" name="Troll Constructor" x="32045" y="32176" z="5" />
+
+</raid>

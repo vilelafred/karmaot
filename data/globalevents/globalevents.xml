@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<globalevents>
+
+	<globalevent type="startup" name="ServerStartup" script="startup.lua" />
+	<globalevent type="record" name="PlayerRecord" script="record.lua" />
+	<globalevent name="Server Save" time="23:55:00" script="serversave.lua" />
+
+	<!-- Updates -->
+	<!-- <globalevent name="SavePlayers" interval="900000" script="NewsUpdate/SavePlayersAndHouses.lua"/> 	 -->
+	<globalevent name="RashidSpawn" type="startup" script="NewsUpdate/RashidTeleport.lua" />
+	<globalevent type="startup" name="LoadForge" script="forge.lua" />
+	<globalevent name="EntregaCodigosConvite" interval="10000" script="codigo_convite.lua"/>
+	
+	<!-- CleanDB -->
+	<!-- <globalevent type="startup" name="CleanDatabase" script="cleandb.lua" />  -->
+	<globalevent name="powergamers" interval="60000" script="powergamers.lua"/>
+	<globalevent name="InboxToDepotTick" interval="1000" script="inbox_tick.lua"/>
+
+
+	<!-- ShopSystem -->
+	<!-- <globalevent name="ShopSystem" interval="30000" script="NewsUpdate/gesior-shop-system.lua" /> 	 -->
+	<!--<globalevent name="timer_example" time="12:00:00" script="my_script.lua" />-->
+</globalevents>

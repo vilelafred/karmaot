@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="barbarian bloodwalker" nameDescription="a barbarian bloodwalker" race="blood" experience="195" speed="205" manacost="590">
+	<health now="305" max="305"/>
+	<look type="255" head="114" body="132" legs="132" feet="132" corpse="3128"/>
+	<targetchange interval="4000" chance="10"/>
+	<targetstrategies nearest="70" health="10" damage="10" random="10"/>
+	<flags>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag summonable="0"/>
+		<flag convinceable="1"/>
+		<flag illusionable="1"/>
+		<flag pushable="1"/>
+		<flag canpushitems="0"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="80"/>
+		<flag runonhealth="0"/>
+		<flag canwalkonenergy="0"/>
+		<flag canwalkonfire="0"/>
+		<flag canwalkonpoison="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="0" max="-240" />
+	</attacks>
+	<defenses armor="15" defense="15">
+	</defenses>
+	<elements>
+		<element physicalPercent="10"/>
+	</elements>
+	<immunities>
+		<immunity paralyze="1"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="YAAAHEEE!" />
+		<voice sentence="SLAUGHTER!" />
+		<voice sentence="CARNAGE!" />
+		<voice sentence="You can run but you can't hide" />
+	</voices>
+	<loot>
+		<item id="2148" countmax="12" chance="55310"/><!-- gold coin -->
+		<item id="2671" chance="11700"/><!-- ham -->
+		<item id="2044" chance="8450"/><!-- lamp -->
+		<item id="2381" chance="7725"/><!-- halberd -->
+		<item id="2458" chance="12000"/><!-- chain helmet -->
+		<item id="2378" chance="7000"/><!-- battle axe -->
+		<item id="2464" chance="9500"/><!-- chain armor -->
+		<item id="1987" chance="100000"><!-- bag -->
+			<inside>
+				<item id="2265" chance="1250"/><!-- IH -->
+				<item id="2429" chance="180"/><!-- barbarian axe -->
+			</inside>
+		</item>
+	</loot>
+</monster>

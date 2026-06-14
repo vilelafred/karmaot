@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<outfits>
+
+
+	
+<!-- Female outfits -->
+<outfit type="0" looktype="136" name="Citizen" premium="no" unlocked="yes" enabled="yes" />
+<outfit type="0" looktype="567" name="Hunter" premium="no" unlocked="yes" enabled="yes" />
+<outfit type="0" looktype="703" name="Mage" premium="no" unlocked="yes" enabled="yes" />
+<outfit type="0" looktype="626" name="Knight" premium="no" unlocked="yes" enabled="yes" />
+<outfit type="0" looktype="573" name="Noblewoman" premium="yes" unlocked="yes" enabled="yes" />
+<outfit type="0" looktype="571" name="Summoner" premium="yes" unlocked="yes" enabled="yes" />
+<outfit type="0" looktype="575" name="Warrior" premium="yes" unlocked="yes" enabled="yes" />
+
+<!-- Male outfits -->
+<outfit type="1" looktype="566" name="Citizen" premium="no" unlocked="yes" enabled="yes" />
+<outfit type="1" looktype="568" name="Hunter" premium="no" unlocked="yes" enabled="yes" />
+<outfit type="1" looktype="570" name="Mage" premium="no" unlocked="yes" enabled="yes" />
+<outfit type="1" looktype="569" name="Knight" premium="no" unlocked="yes" enabled="yes" />
+<outfit type="1" looktype="572" name="Nobleman" premium="yes" unlocked="yes" enabled="yes" />
+<outfit type="1" looktype="133" name="Summoner" premium="yes" unlocked="yes" enabled="yes" />
+<outfit type="1" looktype="574" name="Warrior" premium="yes" unlocked="yes" enabled="yes" />	
+	
+
+
+
+								<!-- SHOP OUTFITS -->
+
+<!-- Male outfits -->
+<outfit type="1" looktype="128" name="Advanced Citizen" premium="no" unlocked="no" enabled="yes" />
+		
+<!-- Female outfits -->
+<outfit type="0" looktype="565" name="Advanced Citizen" premium="no" unlocked="no" enabled="yes" />
+
+<!-- Male outfit -->
+<outfit type="1" looktype="129" name="Advanced Hunter" premium="no" unlocked="no" enabled="yes" />
+
+<!-- Female outfit -->
+<outfit type="0" looktype="137" name="Advanced Hunter" premium="no" unlocked="no" enabled="yes" />
+
+<!-- Male outfit -->
+<outfit type="1" looktype="130" name="Advanced Mage" premium="no" unlocked="no" enabled="yes" />
+
+<!-- Female outfit -->
+<outfit type="0" looktype="138" name="Advanced Mage" premium="no" unlocked="no" enabled="yes" />
+
+<!-- Male outfit -->
+<outfit type="1" looktype="131" name="Advanced Knight" premium="no" unlocked="no" enabled="yes" />
+
+<!-- Female outfit -->
+<outfit type="0" looktype="139" name="Advanced Knight" premium="no" unlocked="no" enabled="yes" />
+
+<!-- Male outfit -->
+<outfit type="1" looktype="132" name="Advanced Nobleman" premium="no" unlocked="no" enabled="yes" />
+
+<!-- Female outfit -->
+<outfit type="0" looktype="141" name="Advanced Noblewoman" premium="no" unlocked="no" enabled="yes" />
+
+<!-- Male outfit -->
+<outfit type="1" looktype="134" name="Advanced Warrior" premium="no" unlocked="no" enabled="yes" />
+
+<!-- Female outfit -->
+<outfit type="0" looktype="142" name="Advanced Warrior" premium="no" unlocked="no" enabled="yes" />
+
+<!-- Male outfit -->
+<outfit type="1" looktype="655" name="New Citizen" premium="no" unlocked="no" enabled="yes" />
+
+<!-- Female outfit -->
+<outfit type="0" looktype="656" name="New Citizen" premium="no" unlocked="no" enabled="yes" />
+
+<!-- Male outfit -->
+<outfit type="1" looktype="657" name="New Hunter" premium="no" unlocked="no" enabled="yes" />
+
+<!-- Female outfit -->
+<outfit type="0" looktype="658" name="New Hunter" premium="no" unlocked="no" enabled="yes" />
+
+<!-- Male outfit -->
+<outfit type="1" looktype="659" name="New Mage" premium="no" unlocked="no" enabled="yes" />
+
+<!-- Female outfit -->
+<outfit type="0" looktype="660" name="New Mage" premium="no" unlocked="no" enabled="yes" />
+
+<!-- Male outfit -->
+<outfit type="1" looktype="661" name="New Knight" premium="no" unlocked="no" enabled="yes" />
+
+<!-- Female outfit -->
+<outfit type="0" looktype="662" name="New Knight" premium="no" unlocked="no" enabled="yes" />
+
+<!-- Male outfit -->
+<outfit type="1" looktype="663" name="New Nobleman" premium="no" unlocked="no" enabled="yes" />
+
+<!-- Female outfit -->
+<outfit type="0" looktype="664" name="New Noblewoman" premium="no" unlocked="no" enabled="yes" />
+
+<!-- Male outfit -->
+<outfit type="1" looktype="665" name="New Summoner" premium="no" unlocked="no" enabled="yes" />
+
+<!-- Female outfit -->
+<outfit type="0" looktype="666" name="New Summoner" premium="no" unlocked="no" enabled="yes" />
+
+<!-- New Warrior Male -->
+<outfit type="1" looktype="667" name="New Warrior" premium="no" unlocked="no" enabled="yes" />
+
+<!-- New Warrior Female -->
+<outfit type="0" looktype="668" name="New Warrior" premium="no" unlocked="no" enabled="yes" />
+
+<!-- New Barbarian Male -->
+<outfit type="1" looktype="669" name="New Barbarian" premium="no" unlocked="no" enabled="yes" />
+
+<!-- New Barbarian Female -->
+<outfit type="0" looktype="670" name="New Barbarian" premium="no" unlocked="no" enabled="yes" />
+
+<!-- New Wizard Male-->
+<outfit type="1" looktype="671" name="New Wizard" premium="no" unlocked="no" enabled="yes" />
+
+<!-- New Wizard Female -->
+<outfit type="0" looktype="672" name="New Wizard" premium="no" unlocked="no" enabled="yes" />
+
+<!-- New Druid Male -->
+<outfit type="1" looktype="673" name="New Druid" premium="no" unlocked="no" enabled="yes" />
+
+<!-- New Druid Female -->
+<outfit type="0" looktype="674" name="New Druid" premium="no" unlocked="no" enabled="yes" />
+
+<!-- Male outfit -->
+<outfit type="1" looktype="675" name="New Oriental" premium="no" unlocked="no" enabled="yes" />
+
+<!-- Female outfit -->
+<outfit type="0" looktype="676" name="New Oriental" premium="no" unlocked="no" enabled="yes" />
+	
+<!-- Male outfit -->
+<outfit type="1" looktype="677" name="New Pirate" premium="no" unlocked="no" enabled="yes" />
+
+<!-- Female outfit -->
+<outfit type="0" looktype="678" name="New Pirate" premium="no" unlocked="no" enabled="yes" />	
+	
+<!-- Male outfit -->
+<outfit type="1" looktype="679" name="New Assassin" premium="no" unlocked="no" enabled="yes" />
+
+<!-- Female outfit -->
+<outfit type="0" looktype="680" name="New Assassin" premium="no" unlocked="no" enabled="yes" />
+
+<!-- Male outfit -->
+<outfit type="1" looktype="681" name="New Beggar" premium="no" unlocked="no" enabled="yes" />
+
+<!-- Female outfit -->
+<outfit type="0" looktype="682" name="New Beggar" premium="no" unlocked="no" enabled="yes" />
+	
+<!-- Male outfit -->
+<outfit type="1" looktype="683" name="New Shaman" premium="no" unlocked="no" enabled="yes" />
+
+<!-- Female outfit -->
+<outfit type="0" looktype="684" name="New Shaman" premium="no" unlocked="no" enabled="yes" />	
+	
+<!-- Male outfit -->
+<outfit type="1" looktype="685" name="Golden Oufit" premium="no" unlocked="no" enabled="yes" />
+
+<!-- Female outfit -->
+<outfit type="0" looktype="686" name="Golden Outfit" premium="no" unlocked="no" enabled="yes" />		
+
+<!-- Male outfit -->
+<outfit type="1" looktype="687" name="Demonhunter Oufit" premium="no" unlocked="no" enabled="yes" />
+
+<!-- Female outfit -->
+<outfit type="0" looktype="688" name="Demonhunter Outfit" premium="no" unlocked="no" enabled="yes" />	
+
+<!-- Male outfit -->
+<outfit type="1" looktype="689" name="Norseman Oufit" premium="no" unlocked="no" enabled="yes" />
+
+<!-- Female outfit -->
+<outfit type="0" looktype="690" name="Norsewoman Outfit" premium="no" unlocked="no" enabled="yes" />	
+
+<!-- Male outfit -->
+<outfit type="1" looktype="691" name="Jersey Oufit" premium="no" unlocked="no" enabled="yes" />
+
+<!-- Female outfit -->
+<outfit type="0" looktype="692" name="Jersey Outfit" premium="no" unlocked="no" enabled="yes" />	
+
+<!-- Male outfit -->
+<outfit type="1" looktype="693" name="Nightmare Oufit" premium="no" unlocked="no" enabled="yes" />
+
+<!-- Female outfit -->
+<outfit type="0" looktype="694" name="Nightmare Outfit" premium="no" unlocked="no" enabled="yes" />	
+
+<!-- Male outfit -->
+<outfit type="1" looktype="695" name="Brotherhood Oufit" premium="no" unlocked="no" enabled="yes" />
+
+<!-- Female outfit -->
+<outfit type="0" looktype="696" name="Brotherhood Outfit" premium="no" unlocked="no" enabled="yes" />	
+
+<!-- Male outfit -->
+<outfit type="1" looktype="697" name="Yalaharian Oufit" premium="no" unlocked="no" enabled="yes" />
+
+<!-- Female outfit -->
+<outfit type="0" looktype="698" name="Yalaharian Outfit" premium="no" unlocked="no" enabled="yes" />	
+
+<!-- Male outfit -->
+<outfit type="1" looktype="695" name="Brotherhood Oufit" premium="no" unlocked="no" enabled="yes" />
+
+<!-- Female outfit -->
+<outfit type="0" looktype="696" name="Brotherhood Outfit" premium="no" unlocked="no" enabled="yes" />	
+
+<!-- Male outfit -->
+<outfit type="1" looktype="704" name="Dragon Slayer Oufit" premium="no" unlocked="no" enabled="yes" />
+
+<!-- Female outfit -->
+<outfit type="0" looktype="705" name="Dragon Slayer Outfit" premium="no" unlocked="no" enabled="yes" />	
+
+<!-- Male outfit -->
+<outfit type="1" looktype="706" name="Royal Costume Oufit" premium="no" unlocked="no" enabled="yes" />
+
+<!-- Female outfit -->
+<outfit type="0" looktype="707" name="Royal Costume Outfit" premium="no" unlocked="no" enabled="yes" />	
+
+<!-- Male outfit -->
+<outfit type="1" looktype="634" name="Dwarf Outfit" premium="no" unlocked="no" enabled="yes" />
+
+<!-- Male outfit -->
+<outfit type="1" looktype="637" name="Dwarf Geo Outfit" premium="no" unlocked="no" enabled="yes" />
+
+<!-- Female outfit -->
+<outfit type="0" looktype="637" name="Dwarf Geo Outfit" premium="no" unlocked="no" enabled="yes" />
+
+<!-- Male outfit -->
+<outfit type="1" looktype="652" name="Banshee Outfit" premium="no" unlocked="no" enabled="yes" />
+
+<!-- Female outfit -->
+<outfit type="0" looktype="652" name="Banshee Outfit" premium="no" unlocked="no" enabled="yes" />
+
+<!-- Male outfit -->
+<outfit type="1" looktype="127" name="Old Citizen Outfit" premium="no" unlocked="no" enabled="yes" />
+
+<!-- Female outfit -->
+<outfit type="0" looktype="126" name="Old Citizen Outfit" premium="no" unlocked="no" enabled="yes" />
+
+<!-- GOD OUTFIT -->
+<outfit type="0" looktype="159" name="GOD" premium="no" unlocked="no" enabled="yes" />
+
+
+<!-- Missing outfits mapped from outfititem.lua -->
+<!-- Elf -->
+<outfit type="1" looktype="638" name="Elf" premium="no" unlocked="no" enabled="yes" />
+<outfit type="0" looktype="638" name="Elf" premium="no" unlocked="no" enabled="yes" />
+<!-- Dwarf (female) to pair existing male 634 -->
+<outfit type="0" looktype="634" name="Dwarf Outfit" premium="no" unlocked="no" enabled="yes" />
+<!-- Dwarf Soldier -->
+<outfit type="1" looktype="635" name="Dwarf Soldier" premium="no" unlocked="no" enabled="yes" />
+<outfit type="0" looktype="635" name="Dwarf Soldier" premium="no" unlocked="no" enabled="yes" />
+<!-- Dwarf Guard -->
+<outfit type="1" looktype="636" name="Dwarf Guard" premium="no" unlocked="no" enabled="yes" />
+<outfit type="0" looktype="636" name="Dwarf Guard" premium="no" unlocked="no" enabled="yes" />
+<!-- Elf Arcanist -->
+<outfit type="1" looktype="640" name="Elf Arcanist" premium="no" unlocked="no" enabled="yes" />
+<outfit type="0" looktype="640" name="Elf Arcanist" premium="no" unlocked="no" enabled="yes" />
+<!-- Orc family -->
+<outfit type="1" looktype="641" name="Orc" premium="no" unlocked="no" enabled="yes" />
+<outfit type="0" looktype="641" name="Orc" premium="no" unlocked="no" enabled="yes" />
+<outfit type="1" looktype="642" name="Orc Spearman" premium="no" unlocked="no" enabled="yes" />
+<outfit type="0" looktype="642" name="Orc Spearman" premium="no" unlocked="no" enabled="yes" />
+<outfit type="1" looktype="643" name="Orc Warrior" premium="no" unlocked="no" enabled="yes" />
+<outfit type="0" looktype="643" name="Orc Warrior" premium="no" unlocked="no" enabled="yes" />
+<outfit type="1" looktype="644" name="Orc Shaman" premium="no" unlocked="no" enabled="yes" />
+<outfit type="0" looktype="644" name="Orc Shaman" premium="no" unlocked="no" enabled="yes" />
+<outfit type="1" looktype="645" name="Orc Berserker" premium="no" unlocked="no" enabled="yes" />
+<outfit type="0" looktype="645" name="Orc Berserker" premium="no" unlocked="no" enabled="yes" />
+<outfit type="1" looktype="646" name="Orc Leader" premium="no" unlocked="no" enabled="yes" />
+<outfit type="0" looktype="646" name="Orc Leader" premium="no" unlocked="no" enabled="yes" />
+<outfit type="1" looktype="647" name="Orc Warlord" premium="no" unlocked="no" enabled="yes" />
+<outfit type="0" looktype="647" name="Orc Warlord" premium="no" unlocked="no" enabled="yes" />
+<!-- Minotaur family -->
+<outfit type="1" looktype="648" name="Minotaur" premium="no" unlocked="no" enabled="yes" />
+<outfit type="0" looktype="648" name="Minotaur" premium="no" unlocked="no" enabled="yes" />
+<outfit type="1" looktype="649" name="Minotaur Archer" premium="no" unlocked="no" enabled="yes" />
+<outfit type="0" looktype="649" name="Minotaur Archer" premium="no" unlocked="no" enabled="yes" />
+<outfit type="1" looktype="650" name="Minotaur Mage" premium="no" unlocked="no" enabled="yes" />
+<outfit type="0" looktype="650" name="Minotaur Mage" premium="no" unlocked="no" enabled="yes" />
+<outfit type="1" looktype="651" name="Minotaur Guard" premium="no" unlocked="no" enabled="yes" />
+<outfit type="0" looktype="651" name="Minotaur Guard" premium="no" unlocked="no" enabled="yes" />
+<!-- Married -->
+<outfit type="1" looktype="653" name="Married" premium="no" unlocked="no" enabled="yes" />
+<outfit type="0" looktype="654" name="Married" premium="no" unlocked="no" enabled="yes" />
+
+ 
+</outfits>
+

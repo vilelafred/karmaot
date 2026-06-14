@@ -1,0 +1,210 @@
+-- Combat settings
+-- NOTE: valid values for worldType are: "pvp", "no-pvp" and "pvp-enforced"
+worldType = "pvp"
+hotkeyAimbotEnabled = true
+protectionLevel = 1
+killsToRedSkull = 5
+killsToBlackSkull = 7
+pzLocked = 60000
+removeChargesFromRunes = true
+removeChargesFromPotions = true
+removeWeaponAmmunition = true
+removeWeaponCharges = true
+timeToDecreaseFrags = 12 * 60 * 60
+whiteSkullTime = 15 * 60
+stairJumpExhaustion = 0
+experienceByKillingPlayers = false
+expFromPlayersLevelRange = 75
+
+-- Connection Config
+-- NOTE: maxPlayers set to 0 means no limit
+-- NOTE: allowWalkthrough is only applicable to players
+ip = "72.62.11.29"
+bindOnlyGlobalAddress = false
+loginProtocolPort = 7171
+gameProtocolPort = 7172
+statusProtocolPort = 7171
+maxPlayers = 1000
+motd = "Welcome to Karma!"
+onePlayerOnlinePerAccount = false
+allowClones = false
+allowWalkthrough = false
+serverName = "Karma"
+statusTimeout = 5000
+replaceKickOnLogin = true
+maxPacketsPerSecond = 75
+
+-- RSA
+-- NOTE: These should not be changed unless you know what your doing!
+-- Prime1 - known as p; Prime2 - known as q; Public - known as e;
+-- Modulus - known as n; Private - known as d.
+rsaPrime1 = "f449b42fc28f7ac922467a739c5d34f2dbd6b6bed1f9b6e5330ebaa022a95ee50614f9ad7b5506a8d58da4c2848bc64bbd6d9a3f31eef0137ef2436e1c3d8969"
+rsaPrime2 = "ef85ead7199862d37596f611e4447a5ee5804a32470c6622b86b8a9f00fedd153b9c4c0713a19278ace701f139bbd87d5f9d47bcc44273c5fa2b212f65a91c95"
+rsaPublic = "65537"
+rsaModulus = "e490999bd47aa0c9c485a48fe4f79fbab9e7b7d7f3326214bdee52a1343bbf82f1b02b296ea4025d25da35a0d7e04ca06db863a13c422d6f73c5bf2967ef38b0eed266bcaaf6b90c883e54a3015c0a0f3150e7a109a5b2db70a62279cfeff62c81a1a65d29af211f047f222a6d67cc71949132c7f5ad91f313dbf94a4e29761d"
+rsaPrivate = "af1f0f6272d12602919d27b1cc67e1ad2aa51c99cbceed9120d8c9dc936db7d53722985f5d53323076411357d22f1be6cb4a3ca39bccc48d213200be53d0d9285c925bbbb3e19005db3211757d5ccb0b5c1127abe3fc11ca87bd4cfa9867388529b21e0cf0c6b4030b30c6d9ef62033991a28aa35273adca9662b0fd185f94a1"
+
+-- Deaths
+-- NOTE: Leave deathLosePercent as -1 if you want to use the default
+-- death penalty formula. For the old formula, set it to 10. For
+-- no skill/experience loss, set it to 0.
+deathLosePercent = 10
+
+-- Houses
+-- NOTE: set housePriceEachSQM to -1 to disable the ingame buy house functionality
+-- NOTE: valid values for houseRentPeriod are: "daily", "weekly", "monthly", "yearly"
+-- use any other value to disable the rent system
+housePriceEachSQM = 50000
+houseRentPeriod = "monthly"
+houseOwnedByAccount = false
+houseDoorShowPrice = true
+onlyInvitedCanMoveHouseItems = true
+
+-- Item Usage
+timeBetweenActions = 200
+timeBetweenExActions = 1000
+
+-- Map
+-- NOTE: set mapName WITHOUT .otbm at the end
+mapName = "world"
+mapAuthor = "Karma"
+
+-- Elite Monsters
+
+monsterBonusHealth = 0.007
+monsterBonusSpeed = 0.005
+monsterBonusDamage = 0.007
+
+-- Market
+marketOfferDuration = 30 * 24 * 60 * 60
+premiumToCreateMarketOffer = false
+checkExpiredMarketOffersEachMinutes = 60
+maxMarketOffersAtATimePerPlayer = 100
+
+-- MySQL
+mysqlHost = "127.0.0.1"
+mysqlUser = "root"
+mysqlPass = "CHANGE_ME"
+mysqlDatabase = "karma"
+mysqlPort = 3306
+mysqlSock = ""
+
+-- Misc.
+-- NOTE: classicAttackSpeed set to true makes players constantly attack at regular
+-- intervals regardless of other actions such as item (potion) use. This setting
+-- may cause high CPU usage with many players and potentially affect performance!
+-- NOTE: forceMonsterTypesOnLoad loads all monster types on startup to validate them.
+-- You can disable it to save some memory if you don't see any errors at startup.
+allowChangeOutfit = true
+freePremium = false
+kickIdlePlayerAfterMinutes = 30
+maxMessageBuffer = 10
+emoteSpells = true
+classicEquipmentSlots = true
+classicAttackSpeed = true
+showScriptsLogInConsole = true
+showOnlineStatusInCharlist = false
+yellMinimumLevel = 2
+yellAlwaysAllowPremium = false
+forceMonsterTypesOnLoad = true
+cleanProtectionZones = true
+luaItemDesc = false
+showPlayerLogInConsole = true
+blessings = true
+
+-- VIP and Depot limits
+-- NOTE: you can set custom limits per group in data/XML/groups.xml
+vipFreeLimit = 100
+vipPremiumLimit = 100
+depotFreeLimit = 10000
+depotPremiumLimit = 10000
+
+-- World Light
+-- NOTE: if defaultWorldLight is set to true the world light algorithm will
+-- be handled in the sources. set it to false to avoid conflicts if you wish
+-- to make use of the function setWorldLight(level, color)
+defaultWorldLight = true
+
+-- Server Save
+-- NOTE: serverSaveNotifyDuration in minutes
+serverSaveNotifyMessage = true
+serverSaveNotifyDuration = 5
+serverSaveCleanMap = false
+serverSaveClose = false
+serverSaveShutdown = true
+
+-- Experience stages
+-- NOTE: to use a flat experience multiplier, set experienceStages to nil
+-- minlevel and multiplier are MANDATORY
+-- maxlevel is OPTIONAL, but is considered infinite by default
+-- to disable stages, create a stage with minlevel 1 and no maxlevel
+experienceStages = {
+		{ minlevel = 1, maxlevel = 7, multiplier = 100 },
+		{ minlevel = 8, maxlevel = 20, multiplier = 150 },
+		{ minlevel = 21, maxlevel = 40, multiplier = 120 },
+		{ minlevel = 41, maxlevel = 50, multiplier = 110 },
+		{ minlevel = 51, maxlevel = 60, multiplier = 100 },
+		{ minlevel = 61, maxlevel = 100, multiplier = 90 },
+		{ minlevel = 101, maxlevel = 150, multiplier = 80 },
+		{ minlevel = 151, maxlevel = 200, multiplier = 60 },
+		{ minlevel = 201, maxlevel = 250, multiplier = 50 },
+		{ minlevel = 251, maxlevel = 300, multiplier = 40 },
+		{ minlevel = 301, maxlevel = 310, multiplier = 30 },
+		{ minlevel = 311, maxlevel = 320, multiplier = 20 },	
+		{ minlevel = 321, maxlevel = 330, multiplier = 10 },		
+		{ minlevel = 331, maxlevel = 400, multiplier = 9 },
+		{ minlevel = 401, maxlevel = 450, multiplier = 8 },
+		{ minlevel = 451, maxlevel = 500, multiplier = 7 },
+		{ minlevel = 501, maxlevel = 550, multiplier = 6 },
+		{ minlevel = 551, maxlevel = 600, multiplier = 4 },	
+		{ minlevel = 601, maxlevel = 650, multiplier = 2 },	
+		{ minlevel = 651, maxlevel = 700, multiplier = 1.5 },	
+		{ minlevel = 701, maxlevel = 730, multiplier = 1.0 },	
+		{ minlevel = 731, maxlevel = 750, multiplier = 0.9 },
+		{ minlevel = 751, maxlevel = 770, multiplier = 0.8 },	
+		{ minlevel = 771, maxlevel = 800, multiplier = 0.7 },	
+		{ minlevel = 801, maxlevel = 810, multiplier = 0.5 },
+		{ minlevel = 811, maxlevel = 830, multiplier = 0.3 },	
+		{ minlevel = 831, maxlevel = 850, multiplier = 0.2 },		
+		{ minlevel = 851, maxlevel = 900, multiplier = 0.1 },	
+		{ minlevel = 901, maxlevel = 920, multiplier = 0.09 },	
+		{ minlevel = 921, maxlevel = 940, multiplier = 0.08 },	
+		{ minlevel = 941, maxlevel = 1000, multiplier = 0.07 },			
+		{ minlevel = 1001, maxlevel = 9999, multiplier = 0.05 }
+
+}
+
+-- Rates
+-- NOTE: rateExp is not used if you have enabled stages above
+rateExp = 1
+rateSkill = 0 -- stages on events/player.lua
+rateLoot = 1
+rateMagic = 0 -- stages on events/player.lua
+rateSpawn = 5
+
+-- Monster Despawn Config
+-- despawnRange is the amount of floors a monster can be from its spawn position
+-- despawnRadius is how many tiles away it can be from its spawn position
+-- removeOnDespawn will remove the monster if true or teleport it back to its spawn position if false
+deSpawnRange = 2
+deSpawnRadius = 50
+removeOnDespawn = true
+
+-- Stamina
+staminaSystem = false
+
+-- Scripts
+warnUnsafeScripts = true
+convertUnsafeScripts = true
+
+-- Startup
+-- NOTE: defaultPriority only works on Windows and sets process
+-- priority, valid values are: "normal", "above-normal", "high"
+defaultPriority = "high"
+startupDatabaseOptimization = false
+
+-- Status Server Information
+ownerName = "Frederico"
+ownerEmail = ""
+url = "http://72.62.11.29:8088"
+location = "America/USA"

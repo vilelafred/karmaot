@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Elite Dwarf Guard" nameDescription="a dwarf guard" race="blood" experience="165" speed="206" manacost="650">
+	<health now="245" max="245" />
+	<level min="5" max="100" />	
+	<look type="70" corpse="2983" />
+	<targetchange interval="1000" chance="5" />
+	<targetstrategies nearest="70" health="0" damage="20" random="10" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="1" />
+		<flag convinceable="1" />
+		<flag illusionable="1" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="1" />
+		<flag staticattack="80" />
+		<flag runonhealth="0" />
+	</flags>
+	<attacks>
+		<attack name="melee" skill="55" attack="39" />
+	</attacks>
+	<defenses armor="15" defense="37">
+	</defenses>
+	<elements>
+		<element earthPercent="100" />
+	</elements>
+	<immunities>
+		<immunity invisible="1" />
+	</immunities>
+	<voices interval="1000" chance="5">
+		<voice sentence="Hail Durin!" />
+	</voices>
+	<loot>
+		<item name="mystic shard" countmax="16" chance="19512" />
+		
+		<item id="2787" chance="80000" countmax="2" />
+		<item id="2148" chance="5400" countmax="100" />
+                <item id="2148" chance="80000" countmax="50" />
+		<item id="2150" chance="1440" />
+		<item id="2643" chance="72000" />
+		<item id="2483" chance="18000" />
+		<item id="2457" chance="2160" />
+
+			
+				<item id="2417" chance="2340" />
+				<item id="2387" chance="1800" />
+				<item id="2513" chance="2700" />
+				<item id="2208" chance="1800" />
+			
+
+	</loot>
+</monster>

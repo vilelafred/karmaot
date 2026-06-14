@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Lava Golem" nameDescription="a lava golem" race="undead" experience="4300" speed="295" manacost="9590">
+  <health now="3900" max="3900"/>
+  <look type="333" head="0" body="0" legs="0" feet="0" corpse="2952"/>
+  <targetchange interval="2000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" skill="92" attack="138"/>
+			<attack name="energy" chance="25" length="8" spread="0" min="-250" max="-490">
+			<attribute key="areaEffect" value="fire"/>
+	</attack>
+	<attack name="fire" interval="1500" chance="10" length="5" spread="5" min="-500" max="-690">
+			<attribute key="areaEffect" value="explosionarea"/>
+		</attack>
+  </attacks>
+  <defenses armor="30" defense="25"/>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="1"/>
+    <immunity poison="1"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+  </immunities>
+	<loot>
+    <item id="1987" chance="100000"> -- bag
+        <inside>
+            <item id="2166" chance="5500" /> -- power ring
+			<item id="2225" chance="5500" /> -- piece of iron
+            <item id="2124" chance="200" /> -- crystal ring
+            <item id="2156" chance="125" /> -- red gem
+			<item id="5840" chance="125" /> -- enchanted ruby
+			<item id="2392" chance="225" /> -- fire sword
+			<item id="2432" chance="225" /> -- fire axe
+			<item id="2434" chance="225" /> -- dragon hammer
+			<item id="2260" chance="225" /> -- blank rune
+			<item id="2201" chance="125" /> -- dragon necklage
+        </inside>
+    </item>
+	<item id="2398" chance="20000"/><!-- 20% mace -->
+	<item id="2509" chance="15000"/><!-- 15% steel shield -->
+    <item id="1294" countmax="6" chance="31450" /> -- small stone :: Atk 5
+    <item id="2395" chance="2100" /> -- carlin sword :: Def 13 :: Atk 15
+	<item id="5813" chance="125" /> -- gigant fire sword
+	<item id="5948" chance="125" /> -- red life crystal
+	<item id="2148" countmax="100" chance="19075" /> -- gold coin
+	<item id="2148" countmax="100" chance="19075" /> -- gold coin
+	<item id="2148" countmax="100" chance="19075" /> -- gold coin
+	<item id="2148" countmax="100" chance="19075" /> -- gold coin
+</loot>
+</monster>

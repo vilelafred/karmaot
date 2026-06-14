@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Elite Orc Leader" nameDescription="an orc leader" race="blood" experience="270" speed="230" manacost="640">
+	<health now="450" max="450" />
+	<level min="5" max="100" />	
+	<look type="59" corpse="2938" />
+	<targetchange interval="1000" chance="5" />
+	<targetstrategies nearest="70" health="15" damage="15" random="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="1" />
+		<flag convinceable="1" />
+		<flag illusionable="1" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="1" />
+		<flag staticattack="80" />
+		<flag runonhealth="0" />
+	</flags>
+	<attacks>
+		<attack name="melee" skill="52" attack="48" />
+		<attack name="physical" checkshield="1" chance="17" range="7" min="-50" max="-70">
+			<attribute key="shootEffect" value="throwingknife" />
+		</attack>
+	</attacks>
+	<defenses armor="20" defense="45">
+	</defenses>
+	<elements>
+		<element firePercent="100" />
+	</elements>
+	<immunities>
+		<immunity invisible="1" />
+	</immunities>
+	<voices interval="1000" chance="5">
+		<voice sentence="Ulderek futgyr human!" />
+	</voices>
+	<loot>
+			<item name="mystic shard" countmax="8" chance="13008" />
+		<item name="mystic ore" chance="168" />	
+		<item id="2666" chance="18000" countmax="2" />
+		<item id="2667" chance="36000" />
+		<item id="2148" chance="33600" countmax="35" />
+		<item id="2410" chance="12000" countmax="4" />
+		<item id="1988" chance="24000" dropempty="true" />
+		<item id="2475" chance="600" />
+		<item id="2478" chance="3000" />
+		<item id="2647" chance="480" />
+		<item id="2463" chance="1800" />
+
+			
+				<item id="2413" chance="960" />
+				<item id="2397" chance="9600" />
+				<item id="2419" chance="14400" />
+				<item id="2379" chance="27600" />
+				<item id="2510" chance="12000" />
+				<item id="2207" chance="4800" />
+			
+
+	</loot>
+</monster>

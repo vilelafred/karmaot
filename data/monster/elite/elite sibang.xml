@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Elite Sibang" nameDescription="a sibang" race="blood" experience="105" speed="214" manacost="0">
+	<health now="225" max="225" />
+	<level min="5" max="100" />	
+	<look type="118" corpse="4274" />
+	<targetchange interval="1000" chance="50" />
+	<targetstrategies nearest="100" health="0" damage="0" random="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="1" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="4" />
+		<flag staticattack="80" />
+		<flag runonhealth="0" />
+	</flags>
+	<attacks>
+		<attack name="melee" skill="33" attack="20" />
+		<attack name="physical" checkshield="1" chance="25" range="7" min="-35" max="-55">
+			<attribute key="shootEffect" value="smallstone" />
+		</attack>
+	</attacks>
+	<defenses armor="15" defense="32">
+		<defense name="haste_sibang" chance="12" />
+	</defenses>
+	<elements>
+	</elements>
+	<immunities>
+		<immunity invisible="1" />
+	</immunities>
+	<voices interval="1000" chance="5">
+		<voice sentence="Eeeeek! Eeeeek" />
+		<voice sentence="Huh! Huh! Huh!" />
+		<voice sentence="Ahhuuaaa!" />
+	</voices>
+	<loot>
+			<item name="mystic shard" countmax="8" chance="13008" />
+		
+		<item id="2676" chance="36000" countmax="2" />
+		<item id="2676" chance="6000" countmax="10" />
+		<item id="2675" chance="24000" countmax="5" />
+		<item id="2678" chance="24000" countmax="5" />
+		<item id="2682" chance="12000" />
+		<item id="2148" chance="80000" countmax="25" />
+		<item id="1294" countmax="3" chance1="30000" chancemax="0" />
+		<item id="2458" chance="4800" />
+	</loot>
+</monster>

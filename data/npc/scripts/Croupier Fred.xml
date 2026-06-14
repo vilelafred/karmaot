@@ -1,0 +1,14 @@
+<npc name="Croupier Fred" script="casino.lua" floorchange="0" walkinterval="0" speed="0">
+	<health now="100" max="100"/>
+	<look type="685" head="58" body="68" legs="101" feet="95"/>
+	<parameters>
+		<parameter key="idletime" value="30"/>
+		<parameter key="message_greet" value="Welcome to the KARMA CASINO, |PLAYERNAME|. This is a lounge reserved only for true millionaires and power game legends! Ready to risk your fortune?"/>
+		<parameter key="message_placedinqueue" value="Hold on, |PLAYERNAME|. At Karma Casino, we treat each VIP with exclusivity."/>
+		<parameter key="message_walkaway" value="A true high-roller always knows when to take a break. Come back stronger."/>
+		<parameter key="message_farewell" value="Until next time, legend of luxury."/>
+		<parameter key="message_idletimeout" value="Vanished? Probably off spending more millions..."/>
+		<parameter key="message_decline" value="Maybe once you feel lucky enough to handle the Karma heat."/>
+		<parameter key="message_needmoremoney" value="This table is for the elite, my friend. Come back when you're truly dripping in gold."/>
+	</parameters>
+</npc>

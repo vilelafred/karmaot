@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Pirate Marauder" nameDescription="a pirate marauder" race="blood" experience="125" speed="230">
+	<health now="210" max="210"/>
+	<look type="93" corpse="3128"/>
+	<targetchange interval="4000" chance="15"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="0"/>
+		<flag staticattack="90"/>
+		<flag targetdistance="1"/>
+		<flag runonhealth="25"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="60" attack="40"/>
+		<attack name="physical" interval="2000" chance="20" range="7" min="-0" max="-40">
+			<attribute key="shootEffect" value="spear"/>
+		</attack>
+	</attacks>
+	<defenses armor="15" defense="20"/>
+	<elements>
+		<element physicalPercent="30"/>
+		<element earthPercent="20"/>
+		<element firePercent="-25"/>
+	</elements>
+	<immunities>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="Plundeeeeer!"/>
+		<voice sentence="Give up!"/>
+		<voice sentence="Hiyaa!"/>
+	</voices>
+	<loot>
+		<item id="2148" countmax="60" chance="77670"/><!-- gold coin -->
+		<item id="2376" chance="9750"/><!-- sword -->
+		<item id="2050" chance="9250"/><!-- torch -->
+		<item id="2389" countmax="2" chance="4000"/><!-- spear -->
+		<item id="2510" chance="4800"/><!-- plate shield -->
+		<item id="2464" chance="2750"/><!-- chain armor -->
+		<item id="1987" chance="100000"><!-- bag -->
+			<inside>
+		<item id="5123" chance="1957"/><!-- dice -->
+		<item id="5236" chance="1957"/><!-- map -->
+		<item id="5194" chance="100"/><!-- rum flask -->
+		<item id="2032" chance="200"/><!-- bowl -->	
+		<item id="5245" chance="500"/><!-- pirate bag -->
+		<item id="2476" chance="150"/> <!-- knight armor -->
+		<item id="2498" chance="120"/> <!-- royal helmet -->
+		<item id="2645" chance="100"/> <!-- steel boots -->
+		<item id="2454" chance="180"/> <!-- war axe -->
+			</inside>
+		</item>
+	</loot>
+</monster>

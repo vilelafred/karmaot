@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Mystical Dragon" nameDescription="a mystical dragon" race="blood" experience="49950" speed="650" manacost="0">
+	<health now="18990" max="18990"/>
+	<look type="260" corpse="3106"/>
+	<targetchange interval="1000" chance="20"/>
+	<targetstrategies nearest="70" health="10" damage="10" random="10"/>
+	<flags>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag summonable="0"/>
+		<flag convinceable="0"/>
+		<flag illusionable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="80"/>
+		<flag runonhealth="300"/>
+	</flags>
+				<script>
+    <event name="elite"/>
+</script>
+	<attacks>
+		<attack name="melee" skill="95" attack="95"/>
+		<attack name="energy" chance="25" range="8" radius="7" target="1" min="-490" max="-799">
+			<attribute key="shootEffect" value="energy"/>
+			<attribute key="areaEffect" value="bluebubble"/>
+		</attack>
+		<attack name="energy" interval="2000" chance="25" range="7" min="-650" max="-990">
+			<attribute key="shootEffect" value="energy"/>
+		</attack>
+		<attack name="energy" chance="17" length="8" spread="3" min="-350" max="-850">
+			<attribute key="areaEffect" value="energyarea"/>
+		</attack>
+		<attack name="energy" interval="2000" chance="10" length="8" spread="0" min="-300" max="-920">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</attack>
+	</attacks>
+	<defenses armor="32" defense="156">
+		<defense name="healing" chance="25" min="400" max="990">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element energyPercent="35"/>
+		<element physicalPercent="25"/>
+		<element icePercent="-40"/>
+	</elements>
+	<immunities>
+		<immunity lifedrain="1"/>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="1000" chance="5">
+		<voice sentence="ARCHHHHH" yell="1"/>
+		<voice sentence="MYSTIC POWERS!" yell="1"/>
+		<voice sentence="FEEL MY ENERGY!" yell="1"/>
+	</voices>
+	<loot>
+		<item id="2672" chance="600" countmax="3"/>
+		<item id="2152" chance="4000" countmax="30"/>
+		<item id="2152" chance="6000" countmax="10"/>
+		<item id="5937" chance="6000" countmax="1"/>			
+		<item id="2146" chance="5000" countmax="5"/>
+		<item id="2547" chance="5000" countmax="100"/>
+		<item id="6870" chance="2000"/>		
+		<item id="6871" chance="2000"/>		
+		<item id="6874" chance="2000"/>	
+		<item id="6868" chance="2000"/>			
+		<item id="2654" chance="1200"/>
+		<item id="2492" chance="1200"/>
+		<item id="2177" chance="600"/>
+		<item id="2319" chance="1000"/>
+		<item id="2498" chance="600"/>
+		<item id="2472" chance="500"/>
+		<item id="2647" chance="300"/>
+		<item id="2542" chance="10"/>
+		<item id="5797" chance="20"/>
+		<item id="2576" chance="450"/>
+		<item id="5964" chance="420"/>
+		<item id="5965" chance="200"/>
+		<item id="5966" chance="320"/>
+		<item id="2138" chance="200"/>
+		<item id="2677" chance="6000" countmax="5"/>
+		<item id="2151" chance="300"/>
+		<item id="2528" chance="300"/>
+		<item id="2463" chance="400"/>
+		<item id="2168" chance="200"/>
+		<item id="5828" chance="200"/>
+		<item id="2377" chance="3000"/>
+		<item id="2167" chance="200"/>
+		<item id="2165" chance="300"/>
+		<item id="2492" chance="150"/> <!-- golden armor - já existente com chance ajustada -->
+		<item id="2183" chance="130"/> <!-- tempest rod -->
+		<item id="2138" chance="120"/> <!-- sapphire amulet - já existente com chance ajustada -->
+		<item id="2146" countmax="2" chance="200"/> <!-- small sapphire - já existente -->
+	</loot>
+</monster>

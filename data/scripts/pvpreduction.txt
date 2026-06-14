@@ -1,0 +1,38 @@
+-- data/scripts/pvp/pvp_damage_scale.lua
+
+local PVP_DAMAGE_REDUCTION = 0.3 -- 70%
+
+local function scale(value, factor)
+	if value == 0 then
+		return 0
+	end
+	local sign = value < 0 and -1 or 1
+	return sign * math.floor(math.abs(value) * factor)
+end
+
+-- ========== HEALTH ==========
+local pvpHealth = CreatureEvent("PvpHealthReduction")
+
+function pvpHealth.onHealthChange(creature, attacker, primaryDamage, primaryType, secondaryDamage, secondaryType, origin)
+	if attacker and attacker:isPlayer() and creature and creature:isPlayer() then
+		primaryDamage = scale(primaryDamage, PVP_DAMAGE_REDUCTION)
+		secondaryDamage = scale(secondaryDamage, PVP_DAMAGE_REDUCTION)
+	end
+	return primaryDamage, primaryType, secondaryDamage, secondaryType
+end
+
+pvpHealth:register()
+
+-- ========== MANA ==========
+local pvpMana = CreatureEvent("PvpManaReduction")
+
+function pvpMana.onManaChange(creature, attacker, manaChange, origin)
+	if attacker and attacker:isPlayer() and creature and creature:isPlayer() then
+		manaChange = scale(manaChange, PVP_DAMAGE_REDUCTION)
+	end
+	return manaChange
+end
+
+pvpMana:register()
+
+

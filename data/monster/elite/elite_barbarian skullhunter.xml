@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Barbarian Skullhunter" nameDescription="a barbarian skullhunter" race="blood" experience="55500" speed="650" manacost="0" raceid="322">
+<targetstrategies nearest="96" health="85" damage="98" random="95" />
+	<health now="23500" max="23500" />
+	<level min="50" max="100" />		
+	<look type="746" head="0" body="77" legs="77" feet="114" corpse="3128" />
+	<targetchange interval="60000" chance="0" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="1" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag staticattack="70" />
+		<flag lightlevel="0" />
+		<flag lightcolor="0" />
+		<flag targetdistance="1" />
+		<flag runonhealth="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="0" />
+	</flags>	
+	<attacks>
+		<attack name="melee" interval="2000" min="-700" max="-1268" poison="120"/>
+		<attack name="earth" interval="2000" chance="15" range="7" min="-700" max="-1080">
+			<attribute key="shootEffect" value="poison"/>
+		</attack>
+		<attack name="drown" interval="2000" chance="15" target="0" radius="6" min="-300" max="-900">
+			<attribute key="areaEffect" value="whitenote"/>
+		</attack>
+		<attack name="mutated bat curse" interval="2000" chance="10"/>
+		<attack name="poisoncondition" interval="2000" chance="15" target="0" length="4" spread="3" min="-590" max="-840">
+			<attribute key="areaeffect" value="poison"/>
+		</attack>
+	</attacks>
+	<defenses armor="20" defense="20">
+		<defense name="healing" interval="2000" chance="10" min="80" max="95">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element icePercent="50" />
+		<element holyPercent="10" />
+		<element energyPercent="20" />
+		<element physicalPercent="5" />
+		<element earthPercent="-10" />
+		<element deathPercent="-5" />
+	</elements>
+	<immunities>
+		<immunity paralyze="1" />
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="You will become my trophy." />
+		<voice sentence="Fight harder, coward." />
+		<voice sentence="Show that you are a worthy opponent." />
+	</voices>
+	<loot>
+		<item id="2050" chance="6680" /><!-- torch -->
+		<item name="crystal coin" countmax="3" chance="1240" />
+		<item name="ring of healing" chance="3000" />
+		<item id="7668" chance="30" /><!-- skull -->
+		<item name="knife" chance="1067" />
+		<item name="brass helmet" chance="2200" />
+		<item name="viking helmet" chance="860" />
+		<item name="scale armor" chance="440" />
+		<item name="brown piece of cloth" chance="500" />
+		<item name="crystal sword" chance="100" />
+		<item name="fur boots" chance="100" />
+		<item id="8176" countmax="100" chance="50000"/> <!-- mystic shard -->
+		<item id="8176" countmax="100" chance="50000"/> <!-- mystic shard -->
+		<item name="ragnir helmet" chance="100" />
+		<item name="health potion" chance="100" />
+	</loot>
+</monster>

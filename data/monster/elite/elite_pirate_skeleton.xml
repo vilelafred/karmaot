@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Pirate Skeleton" nameDescription="a pirate skeleton" race="undead" experience="29000" speed="720" raceid="256">
+	<targetstrategies nearest="96" health="85" damage="98" random="95"/>
+	<health now="22000" max="22000"/>
+	<level min="5" max="100" />		
+	<look type="731" corpse="2975"/>
+	<targetchange interval="4000" chance="15"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag staticattack="90"/>
+		<flag targetdistance="1"/>
+		<flag runonhealth="3000"/>
+		<flag canwalkonenergy="0"/>
+		<flag canwalkonfire="0"/>
+		<flag canwalkonpoison="0"/>
+	</flags>
+	<script>
+		<event name="elite"/>
+	</script>
+	<attacks>
+		<attack name="melee" interval="2000" min="0" max="-950" death="300"/>
+
+		<attack name="death" interval="4000" chance="20" radius="5" target="0" min="-700" max="-1200">
+			<attribute key="areaEffect" value="mortarea"/>
+		</attack>
+
+		<attack name="manadrain" interval="4500" chance="15" radius="3" target="1" min="-200" max="-500">
+			<attribute key="areaEffect" value="purpleenergy"/>
+		</attack>
+
+		<attack name="physical" interval="3000" chance="20" radius="3" target="0" min="-500" max="-800">
+			<attribute key="areaEffect" value="blacksmoke"/>
+		</attack>
+
+		<attack name="summon" interval="8000" chance="10" max="2" force="1">
+			<summon name="Skeleton" interval="1000" chance="100"/>
+		</attack>
+	</attacks>
+	<defenses armor="90" defense="90">
+		<defense name="healing" interval="5000" chance="20" min="1200" max="2000">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element holyPercent="-40"/>
+		<element deathPercent="50"/>
+		<element physicalPercent="10"/>
+	</elements>
+	<immunities>
+		<immunity invisible="1"/>
+		<immunity paralyze="1"/>
+		<immunity earth="1"/>
+		<immunity death="1"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="Rattle the bones!"/>
+		<voice sentence="The cursed treasure will never be yours!"/>
+		<voice sentence="You dare disturb the dead?"/>
+	</voices>
+	<loot>
+		<item id="2152" countmax="100" chance="1000"/> <!-- platinum coin -->
+		<item name="golden legs" chance="1200"/>
+		<item name="mastermind shield" chance="1000"/>
+		<item name="bone shield" chance="1000"/>
+		<item name="magic sulphur" chance="80"/>
+		<item name="assassin dagger" chance="900"/>
+		<item name="mystic ore" chance="10000"/>
+		<item name="mystic shard" id="8176" countmax="10" chance="10000"/>
+		<item name="stealth ring" chance="900"/>
+		<item name="demon shield" chance="700"/>
+		<item name="spiked squelcher" chance="800"/>
+		<item name="compass" chance="8000"/>
+	</loot>
+</monster>

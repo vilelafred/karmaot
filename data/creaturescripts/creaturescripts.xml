@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<creaturescripts>
+
+	<event type="login" name="PlayerLogin" script="login.lua" />
+	<event type="logout" name="PlayerLogout" script="logout.lua" />
+	<event type="login" name="FirstItems" script="firstitems.lua" />
+	<event type="login" name="RegenerateStamina" script="regeneratestamina.lua" />
+	<event type="death" name="PlayerDeath" script="playerdeath.lua" />
+	<event type="death" name="DropLoot" script="droploot.lua" />
+	<event type="extendedopcode" name="ExtendedOpcode" script="extendedopcode.lua" />
+	<event type="extendedopcode" name="Shop" script="shop.lua" />
+	<event type="death" name="elite" script="elite.lua" />
+	<event type="login" name="TooltipsLogin" script="tooltips.lua" />
+	<event type="extendedopcode" name="TooltipsExtended" script="tooltips.lua" />
+	<event type="healthchange" name="mitigation" script="mitigation.lua"/>
+	<!-- <event type="login" name="SpeedCurveLogin" script="speed_curve.lua"/> -->
+	<!-- <event type="advance" name="SpeedCurveAdvance" script="speed_curve.lua"/> -->
+	<!-- Attributes sync to client (extended opcode) -->
+	<event type="login" name="AttributesSyncLogin" script="attributes_sync.lua" />
+	<event type="logout" name="AttributesSyncLogout" script="attributes_sync.lua" />	
+	
+	
+	<event type="login" name="InboxToDepotOnLogin" script="market/inbox_to_depot.lua" />
+	<event type="login" name="MarketReconcile" script="market/market_reconcile.lua" />
+	<event type="login" name="MarketSellerReconcile" script="market/market_seller_reconcile.lua" />
+	
+	<!-- Modal Windows -->
+	<event type="modalwindow" name="ModalWindowHelper" script="modalwindowhelper.lua" />
+    <!-- <event type="modalwindow" name="skillPoints_modal" script="sp.lua"/> -->
+    <!-- <event type="advance" name="skillPoints_advance" script="sp.lua"/> -->
+    <!-- <event type="login" name="skillPoints_register" script="sp.lua"/> -->
+	
+	<!-- Roll & Attribute Damage -->
+	<event type="healthchange" name="rollHealth" script="attributes.lua"/>
+	<event type="manachange" name="rollMana" script="attributes.lua"/>
+	<event type="kill" name="RatKill" script="rat_kill.lua"/>
+    <!-- <event type="healthchange" name="criticalHitSystemXHP" script="critical_hit_system.lua"/> -->
+    <!-- <event type="manachange" name="criticalHitSystemXMP" script="critical_hit_system.lua"/>	 -->
+	<event type="death" name="AzerusDeath" script="azerusdeath.lua"/>	
+	<event type="death" name="zugurosh_death_final" script="inq/zugurosh_death_final.lua"/>
+	<event type="death" name="ushuriel_death_final" script="inq/ushuriel_death_final.lua"/>	
+	<event type="death" name="madareth_death_final" script="inq/madareth_death_final.lua"/>	
+	<event type="death" name="annihilon_death_final" script="inq/annihilon_death_final.lua"/>
+	<event type="death" name="hellgorak_death_final" script="inq/hellgorak_death_final.lua"/>
+	
+	<!-- Speed Balancer (PvP Balance) -->
+	<event type="login" name="SpeedBalancerLogin" script="speed_balancer.lua"/>
+	<event type="advance" name="SpeedBalancerAdvance" script="speed_balancer.lua"/>	
+	
+	<!-- News Updates -->
+	<event name="HPadvance" type="advance" script="NewsUpdates/HPadvance.lua"/>
+	<event name="Hotaboss" type="death" script="NewsUpdates/hota.lua"/>
+	<event name="Killed" type="kill" script="NewsUpdates/killed.lua"/>
+	<event type="death" name="livroloot" event="script" value="livroloot.lua"/>	
+	
+	<!-- Task -->
+	<!-- <event type="kill" name="TaskSystem" script="task/taskSystem.lua"/> -->
+	<event type="advance" name="levelSave" script="levelSave.lua"/>	
+
+	
+</creaturescripts>

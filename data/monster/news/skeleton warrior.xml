@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Skeleton Warrior" nameDescription="a skeleton warrior" race="undead" experience="341000" speed="880" manacost="99990">
+	<health now="45500" max="45500"/>
+	<look type="348" corpse="2843"/>
+	<targetchange interval="1000" chance="0"/>
+	<targetstrategies nearest="80" health="10" damage="10" random="0"/>
+	<flags>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag summonable="1"/>
+		<flag convinceable="1"/>
+		<flag illusionable="1"/>
+		<flag pushable="1"/>
+		<flag canpushitems="0"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+		<flag canwalkonenergy="1"/>
+		<flag canwalkonfire="1"/>
+		<flag canwalkonpoison="1"/>
+	</flags>
+
+    <script>
+        <event name="elite"/>
+    </script>
+
+    <attacks>
+        <attack name="melee" skill="180" attack="200"/>
+        <attack name="holy" chance="30" length="8" spread="0" min="-1500" max="-1820">
+            <attribute key="areaEffect" value="holy"/>
+        </attack>
+        <attack name="death" chance="25" radius="4" target="0" min="-1525" max="-1975">
+            <attribute key="areaEffect" value="redspark"/>
+        </attack>		
+    </attacks>
+
+    <defenses armor="140" defense="165">
+        <defense name="healing" interval="3000" chance="30" min="2700" max="3900">
+            <attribute key="areaEffect" value="redshimmer"/>
+        </defense>
+        <defense name="speed" interval="1000" chance="25" speedchange="500" duration="9000">
+            <attribute key="areaEffect" value="redshimmer"/>
+        </defense>
+    </defenses>
+
+    <elements>
+        <element physicalPercent="30"/>
+        <element deathPercent="25"/>
+        <element firePercent="-20"/>
+        <element holyPercent="-15"/>
+    </elements>
+
+    <immunities>
+        <immunity lifedrain="1"/>
+        <immunity paralyze="1"/>
+        <immunity invisible="1"/>
+    </immunities>
+
+	<voices interval="2000" chance="5">
+		<voice sentence="RISE FROM THE GRAVE!" yell="1"/>
+		<voice sentence="BONES SHALL CRUSH YOU!" yell="1"/>
+		<voice sentence="NO ESCAPE FROM DEATH!" yell="1"/>
+		<voice sentence="CLATTER AND SLAUGHTER!" yell="1"/>
+		<voice sentence="YOUR FLESH IS MINE!" yell="1"/>
+		<voice sentence="I AM ETERNAL BONES!" yell="1"/>
+		<voice sentence="SILENCE... THEN DEATH!" yell="1"/>
+	</voices>
+
+    <loot>
+        <item name="platinum coin" countmax="30" chance="5200"/>
+        <item name="platinum coin" countmax="30" chance="5200"/>
+        <item id="5937" chance="4850"/><!-- mystic ore -->		
+        <item name="mystic shard" countmax="50" chance="52000"/>
+        <item name="mystic shard" countmax="50" chance="52000"/>			
+        <item name="dark shield" chance="3000"/>
+        <item id="2472" chance="500"/>
+        <item name="golden armor" countmax="4" chance="1000"/>
+        <item name="nightmare blade" chance="2080"/>
+        <item name="crown legs" chance="2080"/>		
+        <item name="mana potion" chance="10000"/>
+        <item name="health potion" chance="9600"/>
+        <item id="2472" chance="150"/> <!-- magic plate armor -->
+        <item id="2466" chance="120"/> <!-- golden armor -->
+        <item id="2390" chance="100"/> <!-- magic longsword -->
+        <item id="2154" chance="200"/> <!-- yellow gem -->
+    </loot>
+</monster>

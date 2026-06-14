@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Nature Golem" nameDescription="a nature golem" race="blood" experience="9950" speed="250" manacost="999990">
+	<health now="5700" max="5700"/>
+	<look type="380" corpse="2952"/>
+	<level min="5" max="100" />		
+	<targetchange interval="1000" chance="20"/>
+	<targetstrategies nearest="70" health="10" damage="10" random="10"/>
+	<flags>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag summonable="0"/>
+		<flag convinceable="0"/>
+		<flag illusionable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="80"/>
+		<flag runonhealth="300"/>
+	</flags>
+	<script>
+		<event name="elite"/>
+	</script>
+	<attacks>
+		<attack name="melee" interval="2000" skill="65" attack="55"/>
+		
+		<!-- Poison ranged burst -->
+		<attack name="poison" interval="2000" chance="17" range="7" radius="4" target="1" min="-120" max="-180">
+			<attribute key="shootEffect" value="poison"/>
+			<attribute key="areaEffect" value="poison"/>
+		</attack>
+		<attack name="poison" interval="2000" chance="17" length="8" spread="3" min="-50" max="-250">
+			<attribute key="areaEffect" value="poison"/>
+		</attack>
+		
+		<!-- Slow effect with poison visuals -->
+		<attack name="speed" interval="2000" chance="25" range="1" target="1" speedchange="-500" duration="50000">
+			<attribute key="areaEffect" value="poison"/>
+		</attack>
+		
+		<!-- Physical AoE -->
+		<attack name="physical" interval="2000" chance="25" range="7" radius="7" target="0" min="-200" max="-320">
+			<attribute key="areaEffect" value="greenbubble"/>
+		</attack>
+		
+		<!-- Poison small AoE -->
+		<attack name="poison" interval="2000" chance="25" radius="3" target="0" min="-150" max="-450">
+			<attribute key="areaEffect" value="poison"/>
+		</attack>
+		
+		<!-- Poison field -->
+		<attack name="poisonfield" interval="2000" chance="15" range="7" target="1">
+			<attribute key="shootEffect" value="poison"/>
+			<attribute key="areaEffect" value="poison"/>
+			<attribute key="duration" value="5000"/>
+		</attack>
+	</attacks>
+	<defenses armor="32" defense="156">
+		<defense name="healing" interval="2000" chance="15" min="200" max="300">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element poisonPercent="0"/>
+		<element physicalPercent="0"/>
+	</elements>
+	<immunities>
+		<immunity lifedrain="1"/>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="1000" chance="5">
+		<voice sentence="ZCHHHHH" yell="1"/>
+		<voice sentence="YOU WILL ROT!" yell="1"/>
+	</voices>
+	<loot>
+		<item id="8176" chance="36000" countmax="100"/>
+		<item id="8176" chance="36000" countmax="50"/>
+		<item id="2152" chance="4000" countmax="70"/>
+		<item id="2152" chance="3000" countmax="100"/>
+		<item id="2154" chance="3000"/>
+		<item id="2145" chance="1800"/>
+		<item id="2547" chance="3600"/>
+		<item id="2137" chance="600"/>
+		<item id="2177" chance="3600"/>
+		<item id="2418" chance="5400"/>
+		<item id="2033" chance="1800"/>
+		<item id="2980" chance="1800"/>
+		<item id="2130" chance="2400"/>
+		<item id="5970" chance="600"/>
+		<item id="5969" chance="600"/>
+		<item id="5968" chance="600"/>
+		<item id="2466" chance="600"/>
+		<item id="2470" chance="600"/>
+		<item id="7592" chance="60"/>
+	</loot>
+</monster>

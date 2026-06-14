@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Pirate Buccaneer" nameDescription="a pirate buccaneer" race="blood" experience="32000" speed="700" manacost="0" raceid="249">
+	<targetstrategies nearest="96" health="85" damage="98" random="95"/>
+	<health now="12000" max="12000"/>
+	<level min="5" max="100" />		
+	<look type="712" corpse="6220"/>
+	<targetchange interval="4000" chance="15"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag staticattack="90"/>
+		<flag targetdistance="1"/>
+		<flag runonhealth="2000"/>
+		<flag canwalkonenergy="0"/>
+		<flag canwalkonfire="0"/>
+		<flag canwalkonpoison="0"/>
+	</flags>
+	<script>
+		<event name="elite"/>
+	</script>
+	<attacks>
+		<attack name="melee" interval="2000" min="0" max="-900"/>
+		<attack name="physical" interval="2000" chance="25" range="4" min="-400" max="-700">
+			<attribute key="shootEffect" value="throwingknife"/>
+		</attack>
+		<attack name="death" interval="2000" chance="15" radius="4" target="1" min="-600" max="-1000">
+			<attribute key="areaEffect" value="mortarea"/>
+		</attack>
+	</attacks>
+	<defenses armor="85" defense="75">
+		<defense name="healing" interval="2000" chance="25" min="1000" max="2000">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element earthPercent="10"/>
+		<element holyPercent="15"/>
+		<element deathPercent="10"/>
+		<element firePercent="10"/>
+		<element energyPercent="-10"/>
+		<element icePercent="-10"/>
+		<element physicalPercent="0"/>
+	</elements>
+	<immunities>
+		<immunity invisible="1"/>
+		<immunity paralyze="1"/>
+		<immunity outfit="1"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="Give up!"/>
+		<voice sentence="Hiyaa"/>
+		<voice sentence="Plundeeeeer!"/>
+	</voices>
+	<loot>
+		<item id="2152" countmax="100" chance="900"/> <!-- platinum coin -->
+		<item name="golden legs" chance="1500"/>
+		<item name="magic plate armor" chance="1000"/>
+		<item name="mastermind shield" chance="1200"/>
+		<item id="8176" countmax="10" chance="10000"/> <!-- mystic shard -->
+		<item name="pirate backpack" chance="700"/>
+		<item name="mysctic ore" chance="650"/>
+		<item name="eye patch" chance="600"/>
+		<item name="peg leg" chance="600"/>
+		<item name="compass" chance="8000"/>
+	</loot>
+</monster>
+
+

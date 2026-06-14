@@ -1,0 +1,9 @@
+<npc name="Haroun" script="Haroun.lua" floorchange="0" walkinterval="1500" speed="100">
+	<health now="100" max="100"/>
+	<look type="80" head="0" body="0" legs="0" feet="0"/>
+	<parameters>
+<parameter key="idletime" value="60"/>
+<parameter key="message_greet" value="Be greeted, human |PLAYERNAME|. How can a humble djinn be of service?"/>
+<parameter key="message_farewell" value="Farewell! May the serene light of the enlightened one rest shine on your travels."/>
+	</parameters>
+</npc>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Gypsy, the Rune Seller" script="rune.lua" floorchange="0" walkinterval="1500" speed="100">
+	<health now="100" max="100"/>
+	<look type="141" head="132" body="67" legs="131" feet="98"/>
+	<parameters>
+<parameter key="idletime" value="30"/>
+<parameter key="message_greet" value="Oh, please come in, |PLAYERNAME|. What do you need?"/>
+<parameter key="message_placedinqueue" value="Sorry |PLAYERNAME|, I am already talking to a customer. Wait a minute, please."/>
+<parameter key="message_walkaway" value="Good bye."/>
+<parameter key="message_farewell" value="Good bye and come again."/>
+<parameter key="message_idletimeout" value="Good bye and come again."/>
+
+<parameter key="message_decline" value="Hmm, but next time."/>
+<parameter key="message_needmoremoney" value="Come back, when you have enough money."/>
+	</parameters>
+</npc>

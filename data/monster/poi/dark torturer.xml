@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Dark Torturer" nameDescription="a dark torturer" race="blood" experience="9650" speed="380" manacost="0">
+	<health now="8350" max="8350"/>
+	<look type="256" corpse="6220"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+
+	<attacks>
+		<attack name="melee" interval="2000" skill="90" attack="100"/>
+		<attack name="physical" interval="3000" chance="17" range="7" min="300" max="-781">
+			<attribute key="shootEffect" value="throwingknife"/>
+		</attack>
+		<attack name="physical" interval="3000" chance="17" length="4" spread="3" min="-300" max="-700">
+			<attribute key="areaEffect" value="purplenote"/>
+		</attack>
+	</attacks>
+
+	<defenses armor="25" defense="35">
+		<defense name="healing" interval="4000" chance="15" min="75" max="325">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+
+	<elements>
+		<element earthPercent="90"/>
+		<element energyPercent="30"/>
+		<element deathPercent="10"/>
+	</elements>
+
+	<immunities>
+		<immunity invisible="1"/>
+		<immunity fire="1"/>
+	</immunities>
+
+	<voices interval="3000" chance="10">
+		<voice sentence="You like it, don't you?"/>
+		<voice sentence="The torturer is in!"/>
+		<voice sentence="It's party time!"/>
+		<voice sentence="Harrr, Harrr!"/>
+		<voice sentence="IahaEhheAie!"/>
+	</voices>
+
+	<loot>
+		<item id="5022" countmax="2" chance="600"/>      <!-- orichalcum pearl -->
+		<item id="2558" chance="1800"/>                  <!-- saw -->
+		<item id="8176" countmax="100" chance="10000"/>	
+		<item id="8176" countmax="100" chance="10000"/>				
+		<item id="2152" countmax="15" chance="4950"/>     <!-- platinum coin -->
+		<item id="2645" chance="2000"/>                   <!-- steel boots -->
+		<item id="2152" countmax="20" chance="5800"/>     <!-- platinum coin -->
+		<item id="2152" countmax="2" chance="65875"/>    <!-- ham -->
+		<item id="2470" chance="1000"/>                   <!-- golden legs -->
+	</loot>
+</monster>

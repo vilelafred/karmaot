@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="horse" nameDescription="a horse" race="blood" experience="0" speed="124">
+	<health now="75" max="75"/>
+	<look type="258" corpse="2835"/>
+	<targetchange interval="4000" chance="20"/>
+	<targetstrategies nearest="100" health="0" damage="0" random="0"/>
+	<flags>
+		<flag attackable="1"/>
+		<flag hostile="0"/>
+		<flag summonable="0"/>
+		<flag convinceable="1"/>
+		<flag illusionable="1"/>
+		<flag pushable="1"/>
+		<flag canpushitems="0"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="25"/>
+		<flag canwalkonenergy="0"/>
+		<flag canwalkonfire="0"/>
+		<flag canwalkonpoison="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" skill="20" attack="4"/>
+	</attacks>
+	<defenses armor="4" defense="4">
+	</defenses>
+	<elements>
+	</elements>
+	<immunities>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="Weeeeheeeeeee"/>
+		<voice sentence="*snort*"/>
+		<voice sentence="*Weeeeheeeeaaa*"/>
+	</voices>
+	<loot>
+		<item id="2671" chance="50000" countmax="2"/><!-- 2 50% ham -->
+		<item id="2666" chance="75000" countmax="4"/><!-- 4 75% meat -->
+	</loot>
+</monster>

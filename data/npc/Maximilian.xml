@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Maximilian" script="Task.lua" walkinterval="0" floorchange="0">
+	<health now="100" max="100" />
+	<look type="229"/>
+	<parameters>
+<parameter key="idletime" value="30"/>
+<parameter key="message_placedinqueue" value="Hmm, hello |PLAYERNAME|."/>
+	</parameters>
+</npc>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Elite Red Magician" nameDescription="a elite red magician" race="blood" experience="7660" speed="290" manacost="0">
+  <health now="5600" max="5600"/>
+  <level min="5" max="100"/>
+  <look type="240" head="0" body="52" legs="128" feet="95" corpse="3128"/>
+
+  <targetchange interval="2000" chance="50"/>
+  <strategy attack="100" defense="0"/>
+
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="4"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="1600"/>
+  </flags>
+
+  <attacks>
+    <attack name="melee" interval="2000" skill="50" attack="40"/>
+    
+    <attack name="fire" interval="3000" chance="50" range="7" radius="3" target="1" min="-190" max="-270">
+      <attribute key="shootEffect" value="fire"/>
+      <attribute key="areaEffect" value="firearea"/>
+    </attack>
+
+    <attack name="fire" interval="3000" chance="45" range="7" radius="3" target="1" min="-150" max="-250">
+      <attribute key="shootEffect" value="burstarrow"/>
+      <attribute key="areaEffect" value="firearea"/>
+    </attack>
+
+    <attack name="energy" interval="2000" chance="13" length="8" spread="0" min="-245" max="-305">
+      <attribute key="areaEffect" value="fire"/>
+    </attack>
+
+    <attack name="fire" interval="3000" chance="25" radius="5" target="0" min="-200" max="-420">
+      <attribute key="areaEffect" value="firearea"/>
+    </attack>
+  </attacks>
+
+  <defenses armor="32" defense="50">
+    <defense name="healing" interval="2000" chance="25" min="100" max="250">
+      <attribute key="areaEffect" value="redshimmer"/>
+    </defense>
+    <defense name="invisible" interval="1000" chance="10" duration="20000">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+  </defenses>
+
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="1"/>
+    <immunity poison="1"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+
+  <summons maxSummons="2">
+    <summon name="fire elemental" interval="2000" chance="10" max="2"/>
+  </summons>
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Learn the secrets of FIRE!!"/>
+    <voice sentence="I'am the mage of SUN."/>
+    <voice sentence="The FIRE clean your soul!"/>
+    <voice sentence="THE FIRE reveals the way"/>
+  </voices>
+
+  <loot>
+    <item id="1987" chance="100000"> 
+      <item id="2401" chance="225"/> 
+      <item id="5786" chance="250"/> 
+      <item id="2260" chance="700"/> 
+      <item id="2795" countmax="2" chance="325"/> 
+      <item id="5780" chance="10"/>
+      <item id="5844" chance="200"/> 
+      <item id="5948" chance="100"/> 
+      <item id="2546" chance="8000" countmax="3"/> <!-- burst arrow -->
+      <item id="5907" chance="900"/> 
+      <item id="2214" chance="100"/> 
+      <item id="2197" chance="300"/> 
+      <item id="2239" chance="900"/>
+      <item id="2392" chance="400"/> 
+      <item id="2150" chance="4000" countmax="30"/> <!-- small amethyst -->
+      <item id="2152" chance="60000" countmax="20"/> <!-- platinum coin -->
+      <item id="5840" chance="275"/>  
+      <item id="2600" chance="600"/> 
+      <item id="2151" chance="300"/> 
+      <item id="2456" chance="200"/>
+      <item id="5796" chance="100"/>  
+      <item id="2433" chance="600"/> 
+      <item id="2238" chance="700"/> 
+      <item id="5980" chance="100"/> 
+      <item id="2466" chance="300"/>
+      <item id="5810" chance="300"/> 	
+      <item id="6185" chance="20"/> 
+      <item id="5838" chance="20"/> 	
+      <item id="5937" chance="2000"/>	  
+    </item>
+  </loot>
+</monster>

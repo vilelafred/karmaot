@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="barbarian headsplitter" nameDescription="a barbarian headsplitter" race="blood" experience="85" speed="270" manacost="450">
+	<health now="135" max="135"/>
+	<look type="254" head="0" body="77" legs="77" feet="114" corpse="3128"/>
+	<targetchange interval="6000" chance="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="1"/>
+		<flag pushable="1"/>
+		<flag canpushitems="0"/>
+		<flag canpushcreatures="0"/>
+		<flag staticattack="70"/>
+		<flag targetdistance="1"/>
+		<flag runonhealth="0"/>
+		<flag canwalkonenergy="0"/>
+		<flag canwalkonfire="0"/>
+		<flag canwalkonpoison="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="0" max="-60" />
+	</attacks>
+	<defenses armor="30" defense="30">
+	</defenses>
+	<elements>
+		<element physicalPercent="5"/>
+	</elements>
+	<immunities>
+		<immunity paralyze="1"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="You will become my trophy." />
+		<voice sentence="Fight harder, coward." />
+		<voice sentence="Show that you are a worthy opponent." />
+	</voices>
+	<loot>
+		<item id="2148" countmax="30" chance="38250"/><!-- gold coin -->
+		<item id="2050" chance="60000"/><!-- torch -->
+		<item id="2460" chance="21000"/><!-- brass helmet -->
+		<item id="2403" chance="14400"/><!-- knife -->
+		<item id="2473" chance="8200"/><!-- viking helmet -->
+		<item id="2483" chance="3750"/><!-- scale armor -->
+		<item id="2229" chance="3500"/><!-- skull -->
+		<item id="1987" chance="100000"><!-- bag -->
+			<inside>
+		<item id="2377" chance="190"/><!-- two handed sword -->
+		<item id="2168" chance="190"/><!-- life ring -->
+		<item id="2541" chance="90"/><!-- viking shield -->
+			</inside>
+		</item>
+	</loot>
+</monster>

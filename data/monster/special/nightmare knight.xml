@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Nightmare Knight" nameDescription="a nightmare knight" race="blood" experience="7600" speed="330" manacost="0">
+  <health now="9600" max="9600"/>
+  <look type="284" head="95" body="95" legs="95" feet="95" corpse="3128"/>
+  <targetchange interval="2000" chance="3"/>
+  <strategy attack="80" defense="10"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" skill="108" attack="90"/>
+	    <attack name="physical" interval="2000" chance="10" radius="3" target="0" min="-500" max="-800">
+      <attribute key="areaEffect" value="blackspark"/>
+    </attack>
+    <attack name="energy" interval="1000" chance="50" range="7" radius="3" target="1" min="-190" max="-470">
+      <attribute key="shootEffect" value="energy"/>
+  </attacks>
+  <defenses armor="42" defense="60"/>
+    <defense name="healing" interval="2000" chance="25" min="200" max="600">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+	  </defenses>
+	  
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="1"/>
+    <immunity fire="1"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  
+  <voices interval="5000" chance="10">
+    <voice sentence="For king and country!" yell="1"/>
+    <voice sentence="With honor and virtue!" yell="1"/>
+    <voice sentence="We will protect this plains" yell="1"/>
+    <voice sentence="HE can never return!"/>
+	<voice sentence="Master Banor"/>
+  </voices>
+	<loot>
+		<item id="2789" chance="20000" countmax="2"/><!-- 3 20% brown mushroom -->
+		<item id="2148" chance="80000" countmax="100"/><!-- 100 40% gold coin -->
+		<item id="2148" chance="70000" countmax="100"/><!-- 100 70% gold coin -->
+		<item id="2148" chance="60000" countmax="100"/><!-- 100 60% gold coin -->
+		<item id="2148" chance="50000" countmax="100"/><!-- 100 50% gold coin -->
+		<item id="2150" chance="3500"/><!-- 3.5% small amethyst -->
+		<item id="2498" chance="503"/><!-- 0.4% royal helmet -->
+		<item id="2476" chance="593"/><!-- 0.4% knight armor --> 
+		<item id="2463" chance="303"/><!-- 0.1% plate armor --> 
+		<item id="5022" chance="100"/><!-- orichaum pearl -->
+		<item id="2647" chance="303"/><!-- 0.4% knight legs -->
+		<item id="2647" chance="503"/><!-- 0.1% plate legs --> 
+		<item id="2472" chance="203"/><!-- 0.1%  magic plate armor --> 
+		<item id="2407" chance="400"/><!-- bright sword -->
+		<item id="2645" chance="203"/><!-- 0.1% steel boots --> 
+		<item id="1987" chance="100000"><!-- bag -->
+			<inside>
+				<item id="2413" chance="400"/><!-- 0.1% broad sword --> 
+				<item id="2193" chance="3500"/><!-- ankh -->
+				<item id="2398" chance="500"/><!-- giant sword -->
+				<item id="2510" chance="303"/><!-- 0.1% plate shield --> 
+				<item id="2420" chance="350"/><!-- machete -->
+				<item id="2120" chance="455"/><!-- rope -->
+				<item id="2123" chance="205"/><!-- ring of the sky -->
+				<item id="2207" chance="435"/><!-- sword ring -->
+				<item id="2208" chance="595"/><!-- axe ring -->
+				<item id="2547" chance="300" countmax="2"/><!-- 100 50% power bolt -->
+				<item id="2214" chance="300"/><!-- 0.5% ring of healing -->
+				<item id="2514" chance="300"/><!-- 0.5$ mastermindshield -->
+			</inside>
+		</item>
+	</loot>
+</monster>

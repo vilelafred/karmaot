@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="boar" nameDescription="a boar" race="blood" experience="60" speed="205" manacost="465">
+	<health now="198" max="198"/>
+	<look type="199" corpse="2935"/>
+	<targetchange interval="4000" chance="0"/>
+	<targetstrategies nearest="70" health="0" damage="30" random="0"/>
+	<flags>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag summonable="0"/>
+		<flag convinceable="1"/>
+		<flag illusionable="1"/>
+		<flag pushable="1"/>
+		<flag canpushitems="0"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="30"/>
+		<flag canwalkonenergy="0"/>
+		<flag canwalkonfire="0"/>
+		<flag canwalkonpoison="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" skill="30" attack="18"/>
+	</attacks>
+	<defenses armor="35" defense="35">
+	</defenses>
+	<elements>
+	</elements>
+	<immunities>
+	</immunities>
+	<voices interval="1000" chance="5">
+		<voice sentence="Grunt"/>
+		<voice sentence="Grunt! Grunt!"/>
+		<voice sentence="Snort!"/>
+		<voice sentence="Squeal!"/>
+	</voices>
+	<loot>
+		<item id="2148" countmax="20" chance="25000"/>
+		<item id="2666" chance="60000" countmax="3"/><!-- 4 75% meat -->
+		<item id="2671" chance="20000" countmax="5"/><!-- 2 20% ham -->
+	</loot>
+</monster>

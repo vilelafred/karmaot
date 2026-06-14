@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Burning Demon Skeleton" nameDescription="a burning demon skeleton" race="undead" experience="8500" speed="740" manacost="99990">
+    <health now="5900" max="5900"/>
+    <look type="462" corpse="2843"/>
+    <targetchange interval="1000" chance="0"/>
+    <targetstrategies nearest="80" health="10" damage="10" random="0"/>
+
+    <flags>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag summonable="1"/>
+        <flag convinceable="1"/>
+        <flag illusionable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="85"/>
+        <flag runonhealth="0"/>
+        <flag canwalkonenergy="1"/>
+        <flag canwalkonfire="1"/>
+        <flag canwalkonpoison="1"/>
+    </flags>
+
+    <script>
+        <event name="elite"/>
+    </script>
+
+    <attacks>
+        <!-- Golpe corpo a corpo -->
+        <attack name="melee" skill="120" attack="120"/>
+
+        <!-- Feixe de fogo (linha longa) -->
+        <attack name="fire" chance="30" length="8" spread="0" min="-650" max="-900">
+            <attribute key="areaEffect" value="firearea"/>
+        </attack>
+
+        <!-- Explosão de fogo em área -->
+        <attack name="fire" chance="25" radius="4" target="0" min="-500" max="-800">
+            <attribute key="areaEffect" value="firearea"/>
+        </attack>
+
+        <!-- Dano de morte com visual redspark (em área) -->
+        <attack name="death" chance="20" radius="4" target="0" min="-700" max="-1050">
+            <attribute key="areaEffect" value="redspark"/>
+        </attack>
+    </attacks>
+
+    <defenses armor="95" defense="110">
+        <defense name="healing" interval="3000" chance="25" min="200" max="800">
+            <attribute key="areaEffect" value="redshimmer"/>
+        </defense>
+        <defense name="speed" interval="2000" chance="20" speedchange="350" duration="7000">
+            <attribute key="areaEffect" value="redshimmer"/>
+        </defense>
+    </defenses>
+
+    <elements>
+        <!-- Mantém identidade “burning”: imune a fogo; resistente à terra -->
+        <element firePercent="100"/>
+        <element earthPercent="100"/>
+    </elements>
+
+    <immunities>
+        <immunity lifedrain="1"/>
+        <immunity paralyze="1"/>
+        <immunity invisible="1"/>
+    </immunities>
+
+    <voices interval="2000" chance="5">
+        <voice sentence="ASHES TO ASHES!" yell="1"/>
+        <voice sentence="FEEL THE HELLFIRE!" yell="1"/>
+        <voice sentence="BONES BURN BRIGHT!" yell="1"/>
+        <voice sentence="THE FLAMES CLAIM YOU!" yell="1"/>
+        <voice sentence="RATTLE IN THE EMBERS!" yell="1"/>
+    </voices>
+
+    <loot>
+        <item name="platinum coin" countmax="20" chance="1200"/>
+        <item id="5937" chance="1000"/><!-- mystic ore -->				
+        <item name="platinum coin" countmax="20" chance="1200"/>
+        <item id="5937" chance="1800"/> <!-- mystic ore -->
+        <item name="mystic shard" countmax="30" chance="36000"/>
+        <item name="dark shield" chance="1200"/>
+        <item id="2472" chance="350"/> <!-- magic plate armor -->
+        <item name="golden armor" countmax="2" chance="500"/>
+        <item name="nightmare blade" chance="500"/>
+        <item name="crown legs" chance="500"/>
+        <item name="mana potion" chance="9000"/>
+        <item name="health potion" chance="8500"/>
+    </loot>
+</monster>

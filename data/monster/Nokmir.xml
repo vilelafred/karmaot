@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Nokmir" nameDescription="a nokmir" race="blood" experience="3500" speed="300" manacost="0">
+	<health now="2800" max="2800"/>
+	<look type="708" corpse="3128"/>
+	<targetchange interval="1000" chance="15"/>
+	<targetstrategies nearest="80" health="10" damage="10" random="0"/>
+	<flags>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag summonable="0"/>
+		<flag convinceable="0"/>
+		<flag illusionable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="80"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<script>
+		<event name="elite"/>
+	</script>
+	<attacks>
+		<attack name="melee" skill="125" attack="85"/>
+		<attack name="physical" checkshield="1" chance="25" range="6" min="-320" max="-685">
+			<attribute key="shootEffect" value="arrow"/>
+		</attack>
+	</attacks>
+	<defenses armor="55" defense="70">
+		<defense name="healing" chance="10" min="277" max="377">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element firePercent="100"/>
+		<element earthPercent="100"/>
+		<element energyPercent="100"/>
+	</elements>
+	<immunities>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="1000" chance="5">
+		<voice sentence="Come on bitch!"/>
+		<voice sentence="Welcome to my battleground."/>
+		<voice sentence="Have you seen princess Lumelia?"/>
+		<voice sentence="I will sing a tune at your grave."/>
+	</voices>
+	<loot>
+<item id="2666" chance="599" countmax="2"/>
+<item id="2681" chance="665"/>
+<item id="2152" chance="1680" countmax="15"/>
+<item id="2544" chance="898" countmax="13"/>
+<item id="1949" chance="1497"/>
+<item id="8176" countmax="100" chance="17500"/>
+<item id="8176" countmax="100" chance="17500"/>
+<item id="2744" chance="665"/>
+<item id="2071" chance="499"/>
+<item id="2121" chance="166"/>
+<item id="5793" chance="44"/>
+<item id="7629" chance="44"/>
+<item id="2120" chance="665"/>
+<item id="2661" chance="1729"/>
+<item id="2652" chance="532"/>
+<item id="2491" chance="749"/>
+<item id="2487" chance="948"/>
+<item id="2488" chance="674"/>
+<item id="2456" chance="963"/>
+<item id="2392" chance="674"/>
+<item id="2377" chance="1374"/>
+<item id="2391" chance="998"/>
+<item id="2519" chance="740"/>
+	</loot>
+</monster>

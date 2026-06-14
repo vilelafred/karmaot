@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Mozradek" nameDescription="Mozradek" race="fire" experience="21000" speed="310">
+<targetstrategies nearest="96" health="85" damage="98" random="95" />
+	<health now="28000" max="28000"/>
+	<look type="240" corpse="3128"/>
+	<targetchange interval="4000" chance="10"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="100"/>
+		<flag runonhealth="10"/>
+		<flag canwalkonenergy="1"/>
+		<flag canwalkonfire="1"/>
+		<flag canwalkonpoison="1"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="0" max="-600"/>
+		<attack name="fire" interval="2000" chance="20" radius="4" min="-400" max="-550">
+			<attribute key="areaEffect" value="firearea"/>
+		</attack>
+		<attack name="death" interval="2000" chance="16" range="7" target="1" radius="3" min="-450" max="-600">
+		    <attribute key="shootEffect" value="suddendeath"/>
+			<attribute key="areaEffect" value="mortarea"/>
+		</attack>
+		<attack name="fire" interval="2000" chance="14" range="7" radius="1" target="1" min="-450" max="-500">
+			<attribute key="shootEffect" value="fire"/>
+			<attribute key="areaEffect" value="explosion"/>
+		</attack>
+	</attacks>
+	<defenses armor="84" defense="84"/>
+	<immunities>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<loot>
+		<item id="2160" chance="40000" countmax="3"/>
+		<item id="6160" chance="3500"/>
+		<item id="6086" chance="3500"/>
+		<item id="5776" chance="350"/>	
+		<item id="6751" chance="35000"/>
+		<item id="6140" chance="350"/>	
+		<item id="6116" chance="35"/>	
+		<item id="6160" chance="3500"/>	
+		
+	</loot>	
+</monster>

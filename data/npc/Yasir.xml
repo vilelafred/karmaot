@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Yasir" script="default.lua" walkinterval="1500" speed="100" walkradius="2" floorchange="0" speechbubble="2">
+	<health max="100" now="100"/>
+	<look type="128" head="0" body="0" legs="0" feet="0" addons="3" mount="405"/>
+	<parameters>
+		<!--MESSAGES-->
+		<parameter key="message_greet" value="Greetings, |PLAYERNAME|, {Trade} to sell itens?"/>
+		<parameter key="message_farewell" value="Good bye, |PLAYERNAME|."/>
+		<parameter key="message_buy" value="Do you want to buy |ITEMCOUNT| |ITEMNAME| for |TOTALCOST| gold coins?"/>
+		<parameter key="message_onbuy" value="Here you are."/>
+		<parameter key="message_bought" value="Bought |ITEMCOUNT|x |ITEMNAME| for |TOTALCOST| gold."/>
+		<parameter key="message_sell" value="Do you want to sell |ITEMCOUNT| |ITEMNAME| for |TOTALCOST| gold coins?"/>
+		<parameter key="message_onsell" value="Here you are, |TOTALCOST| gold."/>
+		<parameter key="message_sold" value="Sold |ITEMCOUNT|x |ITEMNAME| for |TOTALCOST| gold."/>
+		<parameter key="message_missingmoney" value="You don't have enough money."/>
+		<parameter key="message_needmoney" value="You don't have enough money."/>
+		<parameter key="message_missingitem" value="You don't have so many."/>
+		<parameter key="message_needitem" value="You do not have this object."/>
+		<parameter key="message_needspace" value="You do not have enough capacity."/>
+		<parameter key="message_needmorespace" value="You do not have enough capacity for all items."/>
+		<parameter key="message_idletimeout" value="Good bye."/>
+		<parameter key="message_decline" value="Then not."/>
+		<parameter key="message_sendtrade" value="Of course, just browse through my wares."/>
+		<parameter key="message_noshop" value="Sorry, I'm not offering anything."/>
+		<parameter key="message_oncloseshop" value="Thank you, come back whenever you're in need of something else."/>
+		<parameter key="message_alreadyfocused" value="|PLAYERNAME|, I am already talking to you."/>
+		<parameter key="message_walkaway_male" value="Good bye."/>
+		<parameter key="message_walkaway_female" value="Good bye."/>
+		<!--SHOP-->
+		<parameter key="module_shop" value="1"/>
+		<parameter key="shop_sellable" value="tokenoflove,36308,440000;
+		gianttopaz,37349,80000;
+		ancientlichebone,36302,28000;
+		medalofvaliance,36305,410000;
+		whitegem,37495,12000;
+		nobleamulet,36309,430000;
+		gruesomefan,39768,15000;
+		axxeniushead,34435,500000;
+		signetring,36306,480000;
+		lionfigurine,39548,10000;
+		whitesilkflower,39752,9000;
+		sparkion legs,26160,310;
+		barofgold,15515,10000;
+		blackpearl,2144,280;
+		bluecrystalshard,18413,1500;
+		bluecrystalsplinter,18418,400;
+		bluegem,2158,5000;
+		browncrystalsplinter,18417,400;
+		cyancrystalfragment,18419,800;
+		emeraldbangle,2127,800;
+		giantshimmeringpearl,7632,3000;
+		giantshimmeringpearl,7633,3000;
+		goldingot,9971,5000;
+		goldnugget,2157,850;
+		greencrystalfragment,18421,800;
+		greencrystalshard,18415,1500;
+		greencrystalsplinter,18416,400;
+		greengem,2155,5000;
+		onyxchip,24849,500;
+		opal,24850,500;
+		orichalcumpearl,5022,40;
+		redcrystalfragment,18420,800;
+		redgem,2156,1000;
+		scarabcoin,2159,100;
+		silverbrooch,2134,150;
+		smallamethyst,2150,200;
+		smalldiamond,2145,300;
+		smallemerald,2149,250;
+		smallruby,2147,250;
+		smallsapphire,2146,250;
+		smalltopaz,9970,200;
+		talon,2151,320;
+		violetcrystalshard,18414,1500;
+		violetgem,2153,10000;
+		whitepearl,2143,160;
+		yellowgem,2154,1000;
+		giantemerald,34553,90000;
+		giantruby,34552,70000;
+		giantsapphire,34554,50000;
+		Alptramun'stoothbrush,34436,270000;
+		beast'snightmare-cushion,34439,630000;
+		crunoridol,34548,30000;
+		dragonfigurine,34546,45000;
+		Izcandar'ssnowglobe,34437,180000;
+		Izcandar'ssundial,34438,225000;
+		Malofur'slunchbox,34581,240000;
+		Maxxeniushead,34435,500000;
+		ornatelocket,34549,18000;
+		Plaguerootoffshoot,34580,280000;
+		unicornfigurine,34547,50000;
+		greenglassplate,33839,120;
+		acorn,11213,10;
+		ancientstone,10549,200;
+		antlers,11214,500;
+		apefur,5883,120;
+		badgerfur,3860,15;
+		bamboostick,12401,30;
+		bananasash,12467,55;
+		basaltfetish,20136,210;
+		basaltfigurine,20137,160;
+		batwing,5894,50;
+		battlestone,12403,290;
+		bearpaw,5896,100;
+		behemothclaw,5930,2000;
+		blackhood,10562,190;
+		blackwool,12404,300;
+		blazingbone,18425,610;
+		bloodpreservation,12405,320;
+		bloodtinctureinavial,21245,360;
+		bloodydwarvenbeard,20107,110;
+		bloodypincers,10550,100;
+		boggydreads,10584,200;
+		bola,20089,35;
+		bonefetish,20111,150;
+		boneshoulderplate,11321,150;
+		bonecarvingknife,20110,190;
+		bonelordeye,5898,80;
+		bonytail,11194,210;
+		bookofnecromanticrituals,11237,180;
+		bookofprayers,10563,120;
+		bowlofterrorsweat,22538,500;
+		brimstonefangs,12658,380;
+		brimstoneshell,12659,210;
+		brokencrossbow,12407,30;
+		brokendrakenmail,12616,340;
+		brokengladiatorshield,10573,190;
+		brokenhalberd,11335,100;
+		brokenhelmet,12409,20;
+		brokenkeyring,12608,8000;
+		brokenshamanicstaff,12408,35;
+		brokenslicer,12617,120;
+		brokenthrowingaxe,20131,230;
+		brokenvisor,22518,1900;
+		bunchofriperice,11245,75;
+		bunchoftrollhair,10606,30;
+		bundleofcursedstraw,10605,800;
+		carniphilaseeds,11217,50;
+		carrionwormfang,11192,35;
+		cat'spaw,5480,2000;
+		cavebearskull,13303,550;
+		centipedeleg,11218,28;
+		cheesecutter,20097,50;
+		cheesyfigurine,20098,150;
+		clawof'TheNoxiousSpawn',10309,15000;
+		cliffstriderclaw,18428,800;coal,13757,20;
+		cobratongue,10551,15;
+		colourfulfeather,12470,110;
+		compass,11219,45;compoundeye,15486,150;
+		corruptedflag,11326,700;
+		CountessSorrow'sfrozentear,6536,50000;
+		cowbell,23575,210;
+		crabpincers,11189,35;
+		crawlerheadplating,15482,210;
+		crystallinespikes,18432,440;
+		cultishmask,10555,280;		
+		cultishrobe,10556,150;
+		cultishsymbol,12411,500;
+		cursedshoulderspikes,11327,320;
+		cyclopstoe,10574,55;damselflyeye,19743,25;damselflywing,19738,20;darkrosary,11220,48;deadweight,22536,450;deeplingbreaktimesnack,15424,90;deeplingclaw,15455,430;deeplingridge,15452,360;deeplingscales,15430,80;deeplingwarts,15425,180;deeptags,15426,290;demondust,5906,300;demonhorn,5954,1000;demonicessence,6500,1000;demonicfinger,13530,1000;demonicskeletalhand,10564,80;dirtyturban,12412,120;downyfeather,12640,20;dowser,21427,35;Dracola'seye,6546,50000;dragon'stail,12413,100;dragonclaw,5919,8000;dragonpriest'swandtip,11361,175;drakensulphur,12614,550;drakenwristbands,12615,430;draptorscales,13296,800;dungball,15622,130;earflap,20099,40;eggofTheMany,10523,15000;elderbonelordtentacle,11193,150;elvenastralobserver,12421,90;elvenhoof,21311,115;elvenscoutingglass,12420,50;energysoil,8303,2000;essenceofabaddream,11223,360;eternalflames,8304,5000;execowtionermask,23572,240;eyeofcorruption,12627,390;eyeofadeepling,13870,150;eyeofaweeper,18426,650;fieryheart,10553,375;fircone,21428,25;fishfin,5895,150;flaskofembalmingfluid,12422,30;flawlessicecrystal,8300,5000;flintstone,13943,800;frazzleskin,22533,400;frazzletongue,22532,700;frostgiantpelt,10575,160;frostyearofatroll,10565,30;frostyheart,10578,280;gauzebandage,10566,90;gearcrystal,10572,200;gearwheel,9690,500;geomancer'srobe,12414,80;geomancer'sstaff,12419,120;ghastlydragonhead,11366,700;ghostlytissue,10607,90;ghoulsnack,12423,60;giantcrabpincer,13304,950;gianteye,11197,380;giantpacifier,23570,170;girlishhairdecoration,12399,30;gland,8971,500;glimmeringsoil,8299,2000;globofacidslime,9967,25;globofglooth,23553,125;globofmercury,9966,20;globoftar,9968,30;gloothinjectiontube,23474,350;goblinear,12495,20;goosebumpleather,22539,650;greendragonleather,5877,100;greendragonscale,5920,100;hairofabanshee,12402,350;half-digestedpieceofmeat,11200,55;half-eatenbrain,10576,85;hardenedbone,5925,70;hatchedrorcegg,21314,30;hauntedpieceofwood,10600,115;heavenblossom,2743,50;hellhoundslobber,10554,500;hellspawntail,11221,475;hemprope,22540,350;hideouschunk,18434,510;highguardflag,11332,550;highguardshoulderplates,11333,130;holyash,20130,160;holyorchid,5922,90;honeycomb,5902,40;horoscope,21243,40;humongouschunk,18433,540;hunter'squiver,12425,80;hydraegg,4850,500;hydrahead,11199,600;icedsoil,8302,2000;incantationnotes,21246,90;jewelledbelt,12426,180;keytotheDrownedLibrary,15422,330;kollosshell,15480,420;kongra'sshoulderpad,12427,100;lancerbeetleshell,11372,80;lancet,21242,90;legionnaireflags,11334,500;lion'smane,10608,60;lizardessence,12636,300;lizardleather,5876,150;lizardscale,5881,120;lostbasher'sspike,20106,280;lostbracers,20133,140;losthusher'sstaff,20128,250;luminousorb,12410,1000;lumpofdirt,10609,10;lumpofearth,11222,130;madfroth,20134,80;magmaclump,18424,570;mammothtusk,11238,100;mantassintail,12445,280;marshstalkerbeak,19741,65;marshstalkerfeather,19742,50;maxilla,13302,250;metaljaw,23564,260;metalspike,11215,320;metaltoe,23569,430;midnightshard,10531,1000;mindstone,2178,170;minotaurhorn,12428,75;minotaurleather,5878,80;miraculum,12430,60;mooh'tahshell,23573,110;moohtanthorn,23571,140;mothersoil,8305,5000;Mr.Punish'shandcuffs,6537,50000;mutatedbatear,10579,420;mutatedflesh,11225,50;mutatedrattail,10585,150;mysticalhourglass,10577,700;nail,8309,10;naturalsoil,8298,2000;necromanticrobe,12431,250;necromanticrust,23567,390;nettleblossom,11231,75;nettlespit,12432,25;nobleturban,12442,430;oldparchment,4842,500;orcleather,12435,30;orctooth,11113,150;orctusk,8614,700;orcishgear,12433,85;orshabaal'sbrain,5808,12000;pantherhead,13026,750;pantherpaw,13027,300;pelvisbone,12437,30;perfectbehemothfang,5893,250;petrifiedscream,11337,250;pieceofarcherarmor,12439,20;pieceofcrocodileleather,11196,15;pieceofdeadbrain,10580,420;pieceofhellfirearmor,10581,550;pieceofMassacre'sshell,6540,50000;pieceofscarabshell,10558,45;pieceofswamplingwood,20103,30;pieceofwarriorarmor,12438,50;piecesofmagicchalk,21247,210;pigfoot,10610,10;pileofgraveearth,12440,25;poisonspidershell,12441,10;poisonedfang,23566,130;quaraeye,12444,350;poisonousslime,10557,50;polarbearpaw,10567,30;poolofchitinousglue,22541,480;protectivecharm,12400,60;pulverizedore,18427,400;pureenergy,8306,5000;purplerobe,12429,110;quarabone,12447,500;quarapincers,12446,410;quaratentacle,12443,140;rabbit'sfoot,13159,50;reddragonleather,5948,200;reddragonscale,5882,200;redhairdye,20135,40;redlantern,11206,250;ropebelt,12448,66;rorcegg,21313,120;rorcfeather,21310,70;rottenpieceofcloth,11208,30;sabretooth,11228,400;safetypin,12449,120;sandcrawlershell,11373,20;scaleofcorruption,12629,680;scarabpincers,10548,280;scorpiontail,10568,25;scrollofheroicdeeds,12466,230;scytheleg,11229,450;seaserpentscale,10583,520;shaggytail,11324,25;shamanichood,12434,45;shard,7290,2000;shinystone,11227,500;sightofsurrender'seye,22517,3000;silencerclaws,22534,390;silencerresonatingchamber,22535,600;silkyfur,11209,35;skullbelt,12436,80;skullshatterer,20129,170;skunktail,11191,50;slimeheart,23565,160;slimyleaftentacle,23568,320;smallflaskofeyedrops,12468,95;smallnotebook,12406,480;smallpitchfork,12469,70;snakeskin,10611,400;snipergloves,5875,2000;soulorb,5944,25;spellsinger'sseal,15421,280;spiderfangs,8859,10;spidersilk,5879,100;spidrismandible,15485,450;spikedironball,11325,100;spitternose,15481,340;spookyblueeye,10559,95;stamporhorn,13299,280;stamportalons,13300,150;stonenose,18431,590;stonewing,11195,120;strandofmedusahair,11226,600;stripedfur,11210,50;sulphurousstone,11232,100;swampgrass,10603,20;swamplingmoss,20102,20;swarmerantenna,15479,130;tailofcorruption,12628,240;tarantulaegg,11198,80;tatteredpieceofrobe,10601,120;technomancerbeard,7699,5000;tentaclepiece,12622,5000;terramitelegs,11371,60;terramiteshell,11369,170;terrorbirdbeak,11190,95;theHandmaiden'sprotector,6539,50000;theImperor'strident,6534,50000;thePlasmother'sremains,6535,50000;thickfur,11224,150;thorn,10560,100;toothfile,21241,60;trappedbaddreammonster,22537,900;trollroot,12471,50;turtleshell,5899,90;tusk,3956,100;undeadheart,11367,200;unholybone,11233,480;vampire'scapechain,21244,150;vampireteeth,10602,275;veinofore,18429,330;venison,21312,55;warcrystal,10571,460;warmaster'swristguards,11322,200;warwolffur,11235,30;waspoidclaw,15483,320;waspoidwing,15484,190;weaver'swandtip,11314,250;werewolffur,11234,380;whitedeerantlers,13533,400;whitedeerskin,13534,245;widow'smandibles,11328,110;wingedtail,11230,800;winterwolffur,11212,20;witchbroom,10569,60;wolfpaw,5897,70;wool,11236,15;wyrmscale,10582,400;wyverntalisman,10561,265;yielocks,13942,600;yielowax,13881,600;zaogunflag,11330,600;zaogunshoulderplates,11331,150;vampiredust,5905,100;ancientbeltbuckle,27052,260;bonetoothpick,27048,150;crackedalabastervase,27053,180;dragonblood,27605,700;dragontongue,27606,550;rhinohide,27056,175;rhinohorn,27057,265;rhinohorncarving,27054,300;tarnishedrhinofigurine,27055,320;bedofnails,29044,500;colourfulsnailshell,29001,250;dandelionseeds,29000,200;fairywings,28999,200;figleaf,29043,200;greenbandage,29002,180;guidebook,29046,200;littlebowlofmyrrh,29007,500;shimmeringbeetles,28998,150;singlehumaneye,29006,1000;tornshirt,29045,250;wildflowers,28996,120;cavedevourereyes,30834,550;cavedevourerlegs,30836,350;cavedevourermaw,30835,600;chasmspawnabdomen,30838,240;chasmspawnhead,30837,850;chasmspawntail,30839,120;chitinousmouth,30857,10000;chitinousmouth,30861,10000;damagedwormhead,30855,8000;deepwormjaws,30829,500;deepwormspikeroots.,30828,650;deepwormspikes,30827,800;diremawbrainpan,30832,350;diremawlegs,30833,270;foxpaw,30697,100;gianttentacle,30854,10000;half-digestedstones,30604,40;harpoonofagiantsnail,30860,15000;hugeshell,30856,15000;hugespikysnailshell,30862,8000;longingeyes,30859,8000;pristinewormhead,30853,15000;rareearth,30536,80;slimyleg,30858,4500;stonerefiner'sskull,30841,100;tunneltyranthead,30830,500;tunneltyrantshell,30831,700;werefoxtail,30698,200;witheredpauldrons,30842,850;witheredscalp,30843,900;bookpage,33316,640;damagedarmorplates,32519,280;falconcrest,32520,650;glowingrune,33317,350;grantofarms,32521,950;inkwell,33315,720;patchoffinecloth,32518,1350;quill,33314,1100;silkenbookmark,33313,1300;Alptramun'stoothbrush,34581,270000;beast'snightmare-cushion,34584,630000;dreamessenceegg,34643,205;iceflowerseeds,15271,370;Izcandar'ssnowglobe,34582,180000;Izcandar'ssundial,34583,225000;Malofur'slunchbox,34726,240000;Maxxeniushead,34580,500000;Plaguerootoffshoot,34725,280000;poisongland,33986,210;brightbell,35151,220;darkbell,35152,250;perchthorns,35045,200;ancientlichebone,36423,28000;bluegoannascale,36394,230;cobracrest,36513,650;emptyhoneyglass,36166,270;Fafnarsymbol,36278,950;goannaclaw,36396,260;goannameat,36395,190;lamassuhoof,36276,330;lamassuhorn,36277,240;lizardheart,36175,530;manticoreear,36275,310;manticoretail,36274,220;redgoannascale,36393,270;rottenheart,36424,74000;sphinxfeather,36272,470;sphinxtiara,36273,360;Urmahlullu'sMane,36458,490000;Urmahlullu'sPaw,36459,245000;Urmahlullu'sTail,36457,210000;cowbell,36847,120;meathammer,36928,60;angelfigurine,37424,36000;brainhead'sgiantneuron,37413,100000;brainhead'slefthemisphere,37414,90000;brainhead'srighthemisphere,37415,50000;cursedbone,37609,6000;ensouledessence,37533,820;grimace,37428,120000;ivorycomb,37608,8000;paleworm'sscalp,37433,489000;ravenouscirclet,37432,220000;silverhandmirror,37607,10000;writhingbrain,37435,370000;writhingheart,37434,185000;bonesofZorvorax,27610,10000;scaleofGelidrazah,27607,10000;rainbowquartz,29038,500;prismaticquartz,27630,450;blueglassplate,33983,60;violetglassplate,33985,2150;vexclawtalon,25384,1100;somegrimeleechwings,25386,1200"/>
+</parameters>
+</npc>

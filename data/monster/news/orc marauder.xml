@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="orc marauder" nameDescription="an orc marauder" race="blood" experience="205" speed="205">
+	<health now="515" max="515"/>
+	<look type="178" corpse="2972"/>
+	<targetchange interval="1000" chance="10"/>
+	<targetstrategies nearest="70" health="20" damage="10" random="0"/>
+	<flags>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag summonable="0"/>
+		<flag convinceable="1"/>
+		<flag illusionable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="4"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+		<flag canwalkonenergy="0"/>
+		<flag canwalkonfire="0"/>
+		<flag canwalkonpoison="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="0" max="-100"/>
+		<attack name="physical" interval="2000" chance="50" range="7" min="0" max="-100">
+			<attribute key="shootEffect" value="arrow"/>
+		</attack>
+	</attacks>
+	<defenses armor="25" defense="25">
+		<defense name="haste_orcrider" chance="15"/>
+	</defenses>
+	<elements>
+	</elements>
+	<immunities>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="Grrrrrrr"/>
+	</voices>
+	<loot>
+		<item id="2666" chance="30000" countmax="3"/><!-- 3 30% meat -->
+		<item id="2148" chance="50000" countmax="10"/><!-- 10 50% gold coin -->
+		<item id="2148" chance="5000" countmax="80"/><!-- 80 5% gold coin -->
+		<item id="2455" chance="4440"/><!-- 4,44% crossbow -->
+		<item id="2456" chance="5210"/><!-- 5.21% bow -->
+		<item id="2666" chance="24600"/><!-- 24.6% meat -->
+		<item id="2483" chance="6000"/><!-- 6% scale armor -->
+		<item id="1987" chance="100000"><!-- bag -->
+			<inside>
+				<item id="2050" chance="8000"/><!-- 8% torch -->
+				<item id="2428" chance="1320"/><!-- 1.32% orcish axe -->
+				<item id="2425" chance="1110"/><!-- 1.1% obsidian lance -->
+			</inside>
+		</item>
+	</loot>
+</monster>

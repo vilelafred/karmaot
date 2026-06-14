@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="wight" nameDescription="a wight" race="undead" experience="900" speed="260" manacost="0">
+	<health now="1500" max="1500"/>
+	<look type="200" corpse="2998"/>
+	<targetchange interval="1000" chance="5"/>
+	<targetstrategies nearest="50" health="30" damage="20" random="0"/>
+	<flags>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag summonable="0"/>
+		<flag convinceable="0"/>
+		<flag illusionable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="80"/>
+		<flag runonhealth="500"/>
+		
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="0" max="-100" poison="90"/>
+		<attack name="lifedrain" chance="4" range="1" min="-70" max="-140"/>
+		<attack name="paralyze_banshee" chance="30" range="7"/>
+		<attack name="lifedrain" chance="34" radius="4" target="0" min="-120" max="-165">
+			<attribute key="areaEffect" value="purplenote"/>
+		</attack>
+	</attacks>
+	<defenses armor="25" defense="35">
+	    <defense name="healing" chance="25" min="120" max="200">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element firePercent="100"/>
+		<element earthPercent="100"/>
+	</elements>
+	<immunities>
+		<immunity lifedrain="1"/>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="1000" chance="5">
+		    <voice sentence="Come with me!"/>
+	</voices>
+	<loot>
+		<item id="2148" chance="35000" countmax="100"/><!-- 100 35% gold coin -->
+		<item id="2143" chance="1000" countmax="4"/><!-- 1% white pearl -->
+		<item id="2541" chance="4000"/><!-- 4% bone shield -->
+		<item id="5210" chance="300"/><!-- 0.3% pirate tapestry -->
+		<item id="2195" chance="200"/><!-- 0.2% boots of haste -->
+		<item id="2658" chance="100"/><!-- 0.1% white dress -->
+		<item id="2528" chance="3000"/><!-- 3% tower shield -->
+		<item id="2436" chance="2000"/><!-- 2% skull staff -->
+		<item id="2462" chance="5000"/><!-- 5% devil helmet -->
+		<item id="2656" chance="1500"/><!-- 1,5% blue robe -->
+		<item id="2655" chance="200"/><!-- 0.2% red robe -->
+		<item id="1987" chance="100000"><!-- bag -->
+			<inside>
+				<item id="2197" chance="1200"/><!-- 1,2% stone skin amulet -->
+				<item id="2170" chance="10000"/><!-- 10% silver amulet -->
+				<item id="2214" chance="4000"/><!-- 4% ring of healing -->
+				<item id="2175" chance="1000"/><!-- 1% spellbook -->
+			</inside>
+		</item>
+	</loot>
+</monster>

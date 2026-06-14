@@ -1,0 +1,18 @@
+<npc name="Maikon" script="Maikon.lua" floorchange="0" walkinterval="1500" speed="100">
+	<health now="100" max="100"/>
+	<look type="416" head="94" body="114" legs="114" feet="114"/>
+	<parameters>
+		<parameter key="idletime" value="30"/>
+
+		<!-- GREETING -->
+		<parameter key="message_greet" value="Greetings, |PLAYERNAME|. I sell the legendary {magic powder} used to forge weapons into {Rare}, {Epic}, or even {Legendary}."/>
+
+		<!-- DEFAULT MESSAGES -->
+		<parameter key="message_placedinqueue" value="Hold on, |PLAYERNAME|. I'm already talking to another warrior."/>
+		<parameter key="message_walkaway" value="Come back when you're ready to forge your destiny."/>
+		<parameter key="message_farewell" value="Good luck with your enhancements, |PLAYERNAME|."/>
+		<parameter key="message_idletimeout" value="The forge grows cold without your presence..."/>
+		<parameter key="message_decline" value="Perhaps next time your steel will be ready."/>
+		<parameter key="message_needmoremoney" value="You need more gold to touch the power of the forge."/>
+	</parameters>
+</npc>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="corym" nameDescription="a corym" race="blood" experience="80" speed="125" manacost="290">
+	<health now="150" max="150"/>
+	<look type="186" corpse="2806"/>
+	<targetchange interval="1000" chance="0"/>
+	<targetstrategies nearest="100" health="0" damage="0" random="0"/>
+	<flags>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag summonable="1"/>
+		<flag convinceable="1"/>
+		<flag illusionable="1"/>
+		<flag pushable="1"/>
+		<flag canpushitems="0"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="80"/>
+		<flag runonhealth="15"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="0" max="-45"/>
+	</attacks>
+	<defenses armor="10" defense="10">
+	</defenses>
+	<elements>
+	</elements>
+	<immunities>
+	</immunities>
+	<voices interval="1000" chance="5">
+		<voice sentence="Mehehe!"/>
+		<voice sentence="Squeak! Squeak!"/>
+	</voices>
+	<loot>
+		<item id="2696" chance="50000"/><!-- cheese -->
+		<item id="2148" chance="60000" countmax="20"/><!-- 20 60% gold coin -->
+		<item id="2411" chance="100"/><!-- 0.1% poison dagger -->
+	</loot>
+</monster>

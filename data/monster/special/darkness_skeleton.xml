@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="darkness skeleton" nameDescription="a darkness skeleton" race="undead" experience="5400" speed="580" manacost="0">
+	<health now="4700" max="4700"/>
+	<look type="339" head="0" body="0" legs="0" feet="0" corpse="2809"/>
+	<targetchange interval="1000" chance="5"/>
+	<targetstrategies nearest="70" health="0" damage="30" random="0"/>
+	<flags>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag summonable="1"/>
+		<flag convinceable="1"/>
+		<flag illusionable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="80"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" skill="95" attack="105"/>
+		<attack name="lifedrain" chance="10" range="1" min="-200" max="-300"/>
+	</attacks>
+	<defenses armor="25" defense="122">
+	</defenses>
+	<elements>
+		<element firePercent="100"/>
+		<element earthPercent="100"/>
+	</elements>
+	<immunities>
+		<immunity lifedrain="1"/>
+		<immunity paralyze="1"/>
+	</immunities>
+	<loot>
+        <item name="gold coin" countmax="100" chance="9900"/>
+        <item name="platinum coin" countmax="15" chance="1200"/>
+        <item id="2162" chance="1850"/><!-- magic lightwand -->
+        <item id="5937" chance="1850"/><!-- mystic ore -->		
+        <item name="mystic shard" countmax="40" chance="52000"/>
+        <item name="mystic shard" countmax="40" chance="52000"/>			
+        <item name="dark shield" chance="1000"/>
+        <item name="orichalcum pearl" countmax="4" chance="1400"/>
+        <item name="nightmare blade" chance="580"/>
+        <item name="mana potion" chance="1000"/>
+        <item name="glacier kilt" chance="330"/>
+        <item name="health potion" chance="960"/>
+        <item name="skullcracker armor" chance="270"/>
+	</loot>
+</monster>

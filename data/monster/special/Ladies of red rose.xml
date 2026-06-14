@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Ladies of red rose" nameDescription="a lady" race="blood" experience="22600" speed="599" manacost="0">
+	<health now="12300" max="12300"/>
+	<look type="137" head="115" body="94" legs="95" feet="76" corpse="3065"/>
+	<targetchange interval="1000" chance="50"/>
+	<targetstrategies nearest="100" health="100" damage="10" random="0"/>
+	<flags>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag summonable="0"/>
+		<flag convinceable="0"/>
+		<flag illusionable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="3"/>
+		<flag staticattack="80"/>
+		<flag runonhealth="360"/>
+	</flags>
+	<attacks>
+		<attack name="melee" skill="95" attack="89"/>
+		<attack name="physical" checkshield="1" chance="75" range="8" min="-320" max="-955">
+			<attribute key="shootEffect" value="arrow"/>
+		</attack>
+	</attacks>
+	<defenses armor="35" defense="50">
+		<defense name="healing" chance="10" min="200" max="550">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element physicalPercent="25"/>
+		<element firePercent="20"/>
+		<element icePercent="-30"/>
+	</elements>
+	<immunities>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="1000" chance="5">
+		<voice sentence="Protect the Queen!"/>
+		<voice sentence="Hail Princess of Red Rose!."/>
+		<voice sentence="Fight for Princess Lumelia."/>
+		<voice sentence="We are the secret warriors of Carlin."/>
+	</voices>
+	<loot>
+		<!-- Comida e itens simples -->
+		<item id="2674" chance="1800" countmax="2"/> <!-- Apple -->
+		<item id="2678" chance="2000"/> <!-- Coconut -->
+		<item id="2544" chance="27000" countmax="13"/> <!-- Arrow -->
+		<item id="2544" chance="27000" countmax="3"/> <!-- Arrow -->
+		<item id="2744" chance="20000"/> <!-- Red Rose -->
+		
+		<!-- Gold -->
+		<item id="2152" chance="6000" countmax="10"/> <!-- Gold Coin -->
+		<item id="2152" chance="6000" countmax="10"/> <!-- Gold Coin -->
+		<item id="2152" chance="6000" countmax="10"/> <!-- Gold Coin -->
+
+		<!-- Roupas, acessórios, equipamentos -->
+		<item id="2485" chance="20000"/> <!-- Leather Boots -->
+		<item id="2661" chance="12000"/> <!-- Scarf -->
+		<item id="2653" chance="800"/> <!-- Red Tunic -->
+		<item id="5805" chance="100"/> <!-- Silver Ring -->
+		<item id="2488" chance="5000"/> <!-- Crown Legs -->
+		<item id="2500" chance="150"/> <!-- Crown Ring -->
+		<item id="2499" chance="150"/> <!-- Crown Armor -->
+        <item id="5937" chance="1000"/><!-- mystic ore -->				
+		<item id="2456" chance="13000"/> <!-- Bow -->
+		<item id="2392" chance="5000"/> <!-- Fire Sword -->
+		<item id="2519" chance="400"/> <!-- Crown Shield -->
+		<item id="2164" chance="300"/> <!-- Might Ring -->
+
+		<!-- Itens únicos e raros -->
+		<item id="5811" chance="2000"/> <!-- Lady Legs -->
+		<item id="5848" chance="500"/> <!-- Pink Gem -->
+		<item id="5821" chance="200"/> <!-- Secret Red Rose -->
+		<item id="5800" chance="300"/> <!-- Galea -->
+
+		<!-- Parchment -->
+		<item id="1967" countmax="1" chance="300" text="Diary 03 Since the last events, the queen has forced us to train hard and acquire new skills thanks to elven knowledge, we must protect the princess's secret."/>
+		
+		<!-- Queen Items -->
+		<item id="6178" chance="150"/> <!-- queen legs -->
+		<item id="6177" chance="120"/> <!-- queen helmet -->
+		<item id="6183" chance="100"/> <!-- sword of queen -->
+		<item id="2154" countmax="1" chance="220"/> <!-- yellow gem -->
+	</loot>
+</monster>

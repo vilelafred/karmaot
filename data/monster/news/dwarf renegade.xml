@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="dwarf renegade" nameDescription="a dwarf renegade" race="blood" experience="1000" speed="200" manacost="0">
+	<health now="1500" max="1500"/>
+	<look type="183" corpse="2987"/>
+	<targetchange interval="1000" chance="50"/>
+	<targetstrategies nearest="80" health="10" damage="10" random="0"/>
+	<flags>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag summonable="0"/>
+		<flag convinceable="0"/>
+		<flag illusionable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="80"/>
+		<flag runonhealth="150"/>
+	</flags>
+	<attacks>
+		<attack name="melee" skill="71" attack="56"/>
+		<attack name="physical" checkshield="1" chance="15" range="7" min="-0" max="-70">
+			<attribute key="shootEffect" value="throwingknife"/>
+		</attack>
+		<attack name="physical" chance="5" radius="3" target="0" min="-0" max="-150">
+			<attribute key="areaEffect" value="blackspark"/>
+			</attack>
+	</attacks>
+	<defenses armor="35" defense="150">
+	</defenses>
+	<summons maxSummons="6">
+		<summon name="dwarf" chance="10" max="2"/>
+		<summon name="dwarf soldier" chance="10" max="3"/>
+		<summon name="dwarf guard" chance="10" max="3"/>
+		<summon name="dwarf slayer" chance="10" max="3"/>
+	</summons>
+	<elements>
+	</elements>
+	<immunities>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="1000" chance="5">
+		<voice sentence="Death to Durin!"/>
+	</voices>
+	<loot>
+		<item id="2148" chance="70000" countmax="84"/><!-- 84 70% gold coin -->
+		<item id="2417" chance="10000"/><!-- 10% battle hammer -->
+		<item id="2649" chance="20000"/><!-- 20% leather legs -->
+		<item id="2490" chance="2000"/><!-- 2% dark helmet -->
+		<item id="1987" chance="100000"><!-- bag -->
+			<inside>
+				<item id="2313" chance="12000"/><!-- 12% explosion rune -->
+				<item id="2430" chance="600"/><!-- 0.6% knight axe -->
+				<item id="2645" chance="100"/><!-- 0.1% steel boots -->
+			</inside>
+		</item>
+	</loot>
+</monster>

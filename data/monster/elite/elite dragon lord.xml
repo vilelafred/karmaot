@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Elite Dragon Lord" nameDescription="a dragon lord" race="blood" experience="2100" speed="200">
+    <health now="1900" max="1900"/>
+    <level min="5" max="100"/>
+    <look type="39" corpse="2881"/>
+    <targetchange interval="1000" chance="5"/>
+    <targetstrategies nearest="70" health="10" damage="10" random="10"/>
+
+    <flags>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag summonable="0"/>
+        <flag convinceable="0"/>
+        <flag illusionable="1"/>
+        <flag pushable="0"/>
+        <flag canpushitems="1"/>
+        <flag canpushcreatures="1"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="80"/>
+        <flag runonhealth="400"/>
+    </flags>
+
+    <attacks>
+        <attack name="melee" skill="65" attack="55"/>
+        <attack name="fire" chance="17" range="7" radius="4" target="1" min="-120" max="-190">
+            <attribute key="shootEffect" value="fire"/>
+            <attribute key="areaEffect" value="firearea"/>
+        </attack>
+        <attack name="firefield" chance="15" range="7" radius="4" target="1">
+            <attribute key="shootEffect" value="fire"/>
+        </attack>
+        <attack name="fire" chance="17" length="8" spread="3" min="-150" max="-260">
+            <attribute key="areaEffect" value="firearea"/>
+        </attack>
+    </attacks>
+
+    <defenses armor="32" defense="48">
+        <defense name="healing" chance="25" min="97" max="153">
+            <attribute key="areaEffect" value="blueshimmer"/>
+        </defense>
+    </defenses>
+
+    <elements>
+        <element firePercent="100"/>
+        <element earthPercent="100"/>
+    </elements>
+
+    <immunities>
+        <immunity lifedrain="1"/>
+        <immunity paralyze="1"/>
+        <immunity invisible="1"/>
+        <immunity fire="1"/>
+    </immunities>
+
+    <voices interval="1000" chance="5">
+        <voice sentence="ZCHHHHH" yell="1"/>
+        <voice sentence="YOU WILL BURN!" yell="1"/>
+    </voices>
+
+    <loot>
+        <item name="mystic shard" countmax="16" chance="19512"/>
+        <item name="mystic ore" chance="252"/>
+        <item name="mystic shard" countmax="16" chance="19512"/>
+        <item name="mystic ore" chance="252"/>
+        <item id="2672" chance="80000" countmax="5"/>
+        <item id="2796" chance="21600"/>
+        <item id="2148" chance="80000" countmax="100"/>
+        <item id="2148" chance="72000" countmax="50"/>
+        <item id="2148" chance="80000" countmax="100"/>
+        <item id="2547" chance="10800" countmax="5"/>
+        <item id="2146" chance="9000"/>
+        <item id="2547" chance="10800"/>
+        <item id="2177" chance="3600"/>
+        <item id="1976" chance="16200"/>
+        <item id="2033" chance="5400"/>
+        <item id="5918" chance="1800"/>
+        <item id="2479" chance="1800"/>
+        <item id="2492" chance="720"/>
+        <item id="2498" chance="900"/>
+        <item id="2148" chance="80000" countmax="50"/>
+        <item id="2414" chance="1260"/>
+        <item id="2392" chance="2160"/>
+        <item id="2528" chance="2340"/>
+        <item id="2167" chance="3600"/>
+    </loot>
+</monster>

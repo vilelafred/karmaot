@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Belkadhi" script="Task.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100" />
+	<look type="128" head="59" body="87" legs="49" feet="114"/>
+	<parameters>
+<parameter key="idletime" value="30"/>
+<parameter key="message_placedinqueue" value="Hmm, hello |PLAYERNAME|."/>
+	</parameters>
+</npc>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Infernal Dreadlord" nameDescription="Infernal Dreadlord" race="earth" experience="2560000" speed="610">
+    <targetstrategies nearest="96" health="85" damage="98" random="95" />
+    <health now="12900000" max="12900000"/>
+    <look type="445" corpse="0"/>
+    <targetchange interval="4000" chance="10"/>
+    
+    <flags>
+        <flag summonable="0"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="0"/>
+        <flag convinceable="0"/>
+        <flag pushable="0"/>
+        <flag canpushitems="1"/>
+        <flag canpushcreatures="1"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="100"/>
+        <flag runonhealth="10"/>
+        <flag canwalkonenergy="1"/>
+        <flag canwalkonfire="1"/>
+        <flag canwalkonpoison="1"/>
+    </flags>
+
+    <script>
+        <event name="RewardChestDeath"/>
+        <event name="RewardChestMonster"/>
+    </script>
+
+<attacks>
+    <!-- Fire Cluster Bomb: explode na posição do alvo -->
+    <attack name="fire" interval="1000" chance="35" range="7" radius="7" target="1" min="-1400" max="-2600">
+        <attribute key="shootEffect" value="fire"/>
+        <attribute key="areaEffect" value="explosionarea"/>
+    </attack>
+
+    <!-- Death Nova: anel de explosão ao redor do boss -->
+    <attack name="death" interval="2000" chance="28" radius="6" target="0" min="-1700" max="-2600">
+        <attribute key="areaEffect" value="darkenergy"/>
+    </attack>
+
+    <!-- Seismic Shockwave: explosão física curta em volta do boss -->
+    <attack name="physical" interval="2000" chance="24" radius="4" target="0" min="-1200" max="-2200">
+        <attribute key="areaEffect" value="explosionarea"/>
+    </attack>
+
+    <!-- Fire Carpet Bursts: múltiplas detonações pequenas e rápidas -->
+    <attack name="fire" interval="1500" chance="25" radius="2" target="0" min="-900" max="-1800">
+        <attribute key="areaEffect" value="firearea"/>
+    </attack>
+
+    <!-- Doom Detonation: grande explosão onde o alvo estiver -->
+    <attack name="death" interval="2000" chance="30" range="7" radius="5" target="1" min="-1600" max="-2400">
+        <attribute key="areaEffect" value="mortarea"/>
+    </attack>
+
+    <!-- Fragmentation Slam: explosão física focada (anti-stack) -->
+    <attack name="physical" interval="1000" chance="20" range="2" radius="5" target="1" min="-1100" max="-2100">
+        <attribute key="areaEffect" value="explosion"/>
+    </attack>
+</attacks>
+
+
+    <defenses armor="84" defense="84"/>
+    <defense name="healing" chance="30" min="2000" max="3200">
+        <attribute key="areaEffect" value="greenspark"/>
+    </defense>
+
+    <elements>
+        <element deathPercent="100"/>
+        <element firePercent="100"/>
+        <element energyPercent="100"/>
+    </elements>
+
+    <immunities>
+        <immunity paralyze="1"/>
+        <immunity invisible="1"/>
+    </immunities>
+
+    <!-- No loot -->
+</monster>

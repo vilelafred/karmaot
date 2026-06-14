@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Pumin" nameDescription="a pumin" race="fire" experience="1599600" speed="795" manacost="0">
+	<health now="2286000" max="2286000"/>
+	<look type="447" corpse="5887"/>
+	<targetchange interval="1000" chance="50"/>
+	<targetstrategies nearest="90" health="10" damage="10" random="30"/>
+
+	<flags>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag summonable="0"/>
+		<flag convinceable="0"/>
+		<flag illusionable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="80"/>
+		<flag runonhealth="0"/>
+	</flags>
+
+	<attacks>
+		<attack name="melee" skill="150" attack="190"/>
+		<attack name="manadrain" chance="33" range="7" min="-300" max="-1000"/>
+		<attack name="fire" chance="34" range="7" radius="7" target="1" min="-1310" max="-1950">
+			<attribute key="shootEffect" value="fire"/>
+		</attack>
+		<attack name="speed" interval="2000" chance="25" range="7" speedchange="-900" duration="50000">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</attack>
+		<attack name="physical" interval="2000" chance="30" radius="3" target="0" min="-500" max="-1700">
+			<attribute key="areaEffect" value="blackspark"/>
+		</attack>
+		<attack name="physical" interval="2000" chance="7" radius="3" target="0" min="-750" max="-1250">
+			<attribute key="areaEffect" value="mortarea"/>
+		</attack>
+	</attacks>
+
+	<defenses armor="60" defense="490">
+		<defense name="healing" chance="25" min="1900" max="2900">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</defense>
+	</defenses>
+
+	<summons maxSummons="4">
+		<summon name="black demon" chance="39" max="4"/>
+	</summons>
+
+	<elements>
+		<element firePercent="100"/>
+		<element earthPercent="100"/>
+		<element energyPercent="100"/>
+	</elements>
+
+	<immunities>
+		<immunity lifedrain="1"/>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+
+	<voices interval="1000" chance="5">
+		<voice sentence="DIE HUMANS!" yell="1"/>
+		<voice sentence="DARKNESSSS!" yell="1"/>
+		<voice sentence="CHAMEK ATH UTHUL ARAK!" yell="1"/>
+	</voices>
+
+	<loot>
+		<!-- Moedas e Recursos -->
+		<item id="2152" chance="80000" countmax="100"/><!-- Gold Coin -->
+		<item id="2152" chance="70000" countmax="100"/>
+		<item id="2152" chance="60000" countmax="100"/>
+		<item id="2157" chance="100"/><!-- Gold Nugget -->
+
+		<!-- Equipamentos e Armaduras -->
+		<item id="5897" chance="150"/><!-- Black Demon Armor -->
+		<item id="5777" chance="110"/><!-- Golden Magic Plate Armor -->
+		<item id="5901" chance="100"/><!-- Black Demon Legs -->
+		<item id="2645" chance="2000"/><!-- Steel Boots -->
+		<item id="2178" chance="500"/><!-- Mind Stone -->
+		<item id="5907" chance="300"/><!-- Demoniac Essence -->
+		<item id="5812" chance="100"/><!-- Rebellion Sword -->
+		<item id="5792" chance="100"/><!-- Iron Worker -->
+		<item id="1985" chance="300"/><!-- Gray Tome -->
+		<item id="6053" chance="100"/><!-- Magic Key -->
+		<item id="2151" chance="500"/><!-- Talon -->
+
+		<!-- Componentes e Itens Especiais -->
+		<item id="5841" chance="3500"/><!-- Enchanted Emerald -->
+		<item id="2792" chance="20000" countmax="100"/><!-- Dark Mushroom -->
+
+		<!-- Itens antes dentro da bag -->
+		<item id="2144" chance="1100"/><!-- Black Pearl -->
+		<item id="5832" chance="1100"/><!-- White Blod Herb -->
+		<item id="2396" chance="600"/><!-- Ice Rapier -->
+		<item id="5908" chance="500"/><!-- Demon Horn -->
+		<item id="2547" chance="500" countmax="100"/><!-- Power Bolt -->
+		<item id="5843" chance="200"/><!-- White Gem -->
+	</loot>
+</monster>

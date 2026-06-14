@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Frost Witch" nameDescription="a frost witch" race="blood" experience="2950" speed="320" manacost="0">
+	<health now="2400" max="2400"/>
+	<look type="328" corpse="3065"/>
+	<targetchange interval="1000" chance="5"/>
+	<targetstrategies nearest="80" health="10" damage="10" random="0"/>
+	<flags>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag summonable="0"/>
+		<flag convinceable="0"/>
+		<flag illusionable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="80"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" skill="90" attack="98"/>
+		<attack name="speed" interval="1000" chance="13" length="8" spread="0" speedchange="-800" duration="20000">
+			<attribute key="areaEffect" value="energy"/>
+		</attack>
+		
+		<attack name="ice" interval="1000" chance="15" range="7" min="-230" max="-385">
+			<attribute key="shootEffect" value="smallice"/>
+			<attribute key="areaEffect" value="iceattack"/>
+		</attack>
+    <attack name="ice" interval="4000" chance="50" length="3" spread="3" min="-320" max="-410">
+      <attribute key="areaEffect" value="icearea"/>
+    </attack>
+	
+	</attacks>
+	<defenses armor="75" defense="75">
+		<defense name="healing" chance="10" min="300" max="550">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element earthPercent="100"/>
+		<element energyPercent="100"/>
+	</elements>
+	<immunities>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="2000" chance="5">
+		<voice sentence="So you think you are cool?"/>
+		<voice sentence="I hope it is not too cold for you! HeHeHe."/>
+		<voice sentence="Freeze!"/>
+	</voices>
+	<loot>
+    <item id="2148" countmax="100" chance="16025" /><!-- gold coin -->
+	<item id="2148" countmax="100" chance="16025" /><!-- gold coin -->
+    <item id="2170" chance="10550" /><!-- silver amulet -->
+    <item id="2396" chance="225" /><!-- ICE RAPIER -->
+    <item id="4856" chance="125" /><!-- ICE PICK -->
+	<item id="2160" chance="100" /><!-- crystal coin -->
+	<item id="5989" chance="175" /><!-- MOON BP -->
+    <item id="2167" chance="1250" /><!-- energy ring -->
+	<item id="2146" chance="1250" /><!-- small saphire --> 
+	<item id="2177" chance="350" /><!-- life crystal -->
+	<item id="2355" chance="100" /><!-- stuffed rabbit -->
+	<item id="5839" chance="200" /><!-- enchanted saphire --> 
+    <item id="2796" chance="2325" /><!-- green mushroom -->
+	<item id="2576" chance="2325" /><!-- blue vase -->
+	<item id="2644" chance="100" /><!-- bunnyslippers -->
+	<item id="2361" chance="100" /><!-- frozen star light -->   
+    <item id="1987" chance="100000"><!-- bag -->
+        <inside>
+			<item id="2148" countmax="100" chance="16025" /><!-- gold coin -->
+			<item id="2260" chance="1500" /><!-- blank rune -->
+			<item id="2175" chance="1500" /><!-- spellbook -->
+			<item id="2162" chance="1500" /><!-- MAGIC LIGHT WAND -->
+            <item id="2423" chance="1500" /><!-- clerical mace -->
+            <item id="2663" chance="850" /><!-- mystic turban -->
+            <item id="2436" chance="900" /><!-- skull staff  -->
+			<item id="2322" chance="500" /><!-- voodo doll  -->
+			<item id="2745" chance="500" /><!-- blue rose  -->
+			<item id="2165" chance="200" /><!-- STEALTH RING  -->
+        </inside>
+    </item>
+</loot>
+</monster>

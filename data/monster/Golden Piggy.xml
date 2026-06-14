@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Golden Piggy" nameDescription="a golden piggy" race="blood" experience="0" speed="150" manacost="0">
+	<health now="100" max="100"/>
+	<look type="60" corpse="2935"/>
+	<targetchange interval="500" chance="10"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<summonable value="0"/>
+		<attackable value="1"/>
+		<hostile value="0"/>
+		<illusionable value="0"/>
+		<convinceable value="0"/>
+		<pushable value="0"/>
+		<canpushitems value="0"/>
+		<canpushcreatures value="0"/>
+		<staticattack value="90"/>
+		<targetdistance value="4"/>
+		<runonhealth value="0"/>
+	</flags>
+	
+	<attacks>
+		<!-- Golden Piggy nao ataca, apenas foge -->
+	</attacks>
+	
+	<defenses armor="1" defense="1">
+		<!-- Speed boost quando atacado -->
+		<defense name="speed" interval="2000" chance="30" speedchange="300" duration="3000">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</defense>
+	</defenses>
+	
+	<elements>
+		<element physicalPercent="0"/>
+		<element icePercent="100"/>
+		<element holyPercent="100"/>
+		<element deathPercent="100"/>
+		<element firePercent="100"/>
+		<element energyPercent="100"/>
+		<element earthPercent="100"/>
+	</elements>
+	
+	<immunities>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+		<immunity drunk="1"/>
+	</immunities>
+	
+	<voices interval="3000" chance="30">
+		<voice sentence="OINK! OINK!" />
+		<voice sentence="You can't catch me!" />
+		<voice sentence="My gold! MY GOLD!" />
+		<voice sentence="Run piggy run!" />
+		<voice sentence="Stop hitting me!" />
+	</voices>
+	
+	<script>
+		<event name="GoldenPiggyDamage"/>
+		<event name="GoldenPiggyDeath"/>
+	</script>
+	
+	<loot>
+		<!-- Loot controlado por script (golden_piggy_mechanics.lua) -->
+	</loot>
+</monster>
+

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Dreadfiend" nameDescription="a Dreadfiend" race="death" experience="259000" speed="640">
+    <health now="550000" max="550000"/>
+    <look type="287" corpse="0"/>
+    <targetchange interval="1000" chance="10"/>
+    <targetstrategies nearest="70" health="20" damage="0" random="10"/>
+
+    <flags>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag summonable="0"/>
+        <flag convinceable="0"/>
+        <flag illusionable="0"/>
+        <flag pushable="0"/>
+        <flag canpushitems="1"/>
+        <flag canpushcreatures="1"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="80"/>
+        <flag runonhealth="0"/>
+    </flags>
+
+    <script>
+        <event name="RewardChestDeath"/>
+        <event name="RewardChestMonster"/>
+    </script>
+
+    <attacks>
+        <attack name="melee" skill="95" attack="70" poison="95"/>
+        <attack name="paralyze_warlock" chance="24" range="7"/>
+        <attack name="lifedrain" chance="20" range="1" min="-350" max="-1050">
+            <attribute key="areaEffect" value="redspark"/>
+        </attack>
+        <attack name="death" chance="34" range="7" radius="7" target="1" min="-450" max="-1250">
+            <attribute key="shootEffect" value="death"/>
+            <attribute key="areaEffect" value="mortarea"/>
+        </attack>
+        <attack name="death" chance="10" length="8" spread="0" min="-800" max="-1090">
+            <attribute key="shootEffect" value="death"/>
+            <attribute key="areaEffect" value="mortarea"/>
+        </attack>
+        <attack name="death" chance="10" range="5" min="-500" max="-1000">
+            <attribute key="shootEffect" value="death"/>
+            <attribute key="areaEffect" value="mortarea"/>
+        </attack>
+    </attacks>
+
+    <defenses armor="25" defense="25">
+        <defense name="healing" chance="25" min="500" max="700">
+            <attribute key="areaEffect" value="blueshimmer"/>
+        </defense>
+    </defenses>
+
+    <elements>
+        <element earthPercent="100"/>
+    </elements>
+
+    <immunities>
+        <immunity lifedrain="1"/>
+        <immunity invisible="1"/>
+        <immunity fire="1"/>
+    </immunities>
+
+    <voices interval="1000" chance="5"/>
+
+    <loot>
+        <item id="6774" chance="10300" countmax="1"/> <!-- mushroom backpack -->
+        <item id="6158" chance="99090" countmax="1"/> <!-- dread amulet -->
+        <item id="2152" chance="66600" countmax="100"/> <!-- gold coin -->
+        <item id="6180" chance="4000"/> <!-- dread legs -->
+        <item id="6179" chance="2000"/> <!-- dread armor -->
+        <item id="6173" chance="3000"/> <!-- dread helmet -->
+        <item id="5781" chance="1500"/> <!-- dread shield -->
+        <item id="6692" chance="500"/> <!-- casino token -->
+        <item id="2171" chance="1200"/> <!-- platinum amulet -->
+        <item id="8176" countmax="100" chance="50000"/> <!-- mystic shard -->
+        <item id="5937" countmax="2" chance="90"/> <!-- mystic ore -->
+    </loot>
+</monster>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Sister Marwen" nameDescription="a Sister Marwen" race="fire" experience="25970" speed="550" manacost="0">
+    <health now="12800" max="12800"/>
+    <look type="392" corpse="3128"/>
+    <targetchange interval="1000" chance="10"/>
+    <targetstrategies nearest="70" health="20" damage="10" random="20"/>
+
+    <flags>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag summonable="0"/>
+        <flag convinceable="0"/>
+        <flag illusionable="0"/>
+        <flag pushable="0"/>
+        <flag canpushitems="1"/>
+        <flag canpushcreatures="1"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="90"/>
+        <flag runonhealth="0"/>
+    </flags>
+
+    <script>
+        <event name="elite"/>
+    </script>
+
+    <!-- MENOS ATAQUES | INTERVALO 1000–1500ms | DANO OK PARA HUNT -->
+    <attacks>
+        <attack name="melee" interval="1000" skill="100" attack="100"/>
+
+        <!-- Cone curto de fogo (principal) -->
+        <attack name="fire" interval="1000" chance="22" length="6" spread="2" min="-160" max="-260">
+            <attribute key="areaEffect" value="fire"/>
+        </attack>
+
+        <!-- Raio de energia simples (line) -->
+        <attack name="energy" interval="1000" chance="22" length="7" spread="0" min="-180" max="-280">
+            <attribute key="shootEffect" value="energy"/>
+            <attribute key="areaEffect" value="energyarea"/>
+        </attack>
+
+        <!-- Explosão pequena em área (chance baixa) -->
+        <attack name="fire" interval="1000" chance="28" radius="2" target="0" min="-140" max="-220">
+            <attribute key="areaEffect" value="explosionarea"/>
+        </attack>
+
+        <!-- Death single-target (sem condição/DoT) -->
+        <attack name="death" interval="1500" chance="29" target="1" min="-120" max="-180">
+            <attribute key="areaEffect" value="mortarea"/>
+        </attack>
+
+    </attacks>
+
+    <defenses armor="140" defense="165">
+        <defense name="healing" interval="2000" chance="25" min="600" max="800">
+            <attribute key="areaEffect" value="redshimmer"/>
+        </defense>
+        <defense name="speed" interval="2000" chance="20" speedchange="450" duration="7000">
+            <attribute key="areaEffect" value="redshimmer"/>
+        </defense>
+    </defenses>
+
+    <elements>
+        <element firePercent="100"/>
+        <element earthPercent="100"/>
+        <element energyPercent="100"/>
+    </elements>
+
+    <immunities>
+        <immunity lifedrain="1"/>
+        <immunity paralyze="1"/>
+        <immunity invisible="1"/>
+    </immunities>
+
+    <voices interval="2000" chance="5">
+        <voice sentence="Your blood will feed the altar!" yell="1"/>
+        <voice sentence="Kneel before the Crimson Mother!" yell="1"/>
+        <voice sentence="Surrender your soul to the ritual!" yell="1"/>
+        <voice sentence="The circle must be completed!" yell="1"/>
+        <voice sentence="I will purify you with fire and pain!" yell="1"/>
+        <voice sentence="You are nothing but fuel for the sacrifice!" yell="1"/>
+        <voice sentence="The sacred blood must flow!" yell="1"/>
+        <voice sentence="The prophecy demands your end!" yell="1"/>
+        <voice sentence="I am the hand of eternal punishment!" yell="1"/>
+        <voice sentence="Witness the birth of a new age in blood!" yell="1"/>
+    </voices>
+
+    <loot>
+        <item id="2152" chance="6000" countmax="12"/>          <!-- platinum coin -->
+        <item id="2148" chance="7000" countmax="95"/>          <!-- gold coin -->
+        <item id="2795" chance="1800" countmax="10"/>          <!-- fire mushroom -->
+
+        <!-- utilidades/consumíveis -->
+        <item id="2546" chance="1400" countmax="20"/>          <!-- burst arrow -->
+        <item id="2396" chance="900"/>                         <!-- ice rapier -->
+        <item id="2147" chance="1500" countmax="3"/>           <!-- small ruby -->
+
+        <!-- equipamentos temáticos -->
+
+        <item id="2653" chance="900"/>                         <!-- red tunic -->
+        <item id="2514" chance="500"/>                         <!-- mastermind shield -->
+        <item id="2520" chance="450"/>                         <!-- demon shield -->
+        <item id="2493" chance="350"/>                         <!-- demon helmet -->
+        <item id="2472" chance="250"/>                         <!-- magic plate armor -->
+
+        <!-- rings & trinkets -->
+        <item id="2214" chance="1200"/>                        <!-- ring of healing -->
+        <item id="2164" chance="600"/>                         <!-- might ring -->
+        <item id="2165" chance="700"/>                         <!-- stealth ring -->
+
+        <!-- raridades/lore -->
+        <item id="1986" chance="500"/>                         <!-- red tome -->
+        <item id="2177" chance="250"/>                         <!-- life crystal -->
+        <item id="2195" chance="120"/>                         <!-- boots of haste -->
+    </loot>
+</monster>

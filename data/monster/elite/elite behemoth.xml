@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Elite Behemoth" nameDescription="a behemoth" race="blood" experience="2500" speed="340" manacost="0">
+	<health now="4000" max="4000" />
+	<level min="5" max="100" />	
+	<look type="55" corpse="2931" />
+	<targetchange interval="1000" chance="5" />
+	<targetstrategies nearest="70" health="0" damage="30" random="0" />
+	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag convinceable="0" />
+		<flag illusionable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="1" />
+		<flag staticattack="80" />
+		<flag runonhealth="0" />
+	</flags>
+	<attacks>
+		<attack name="melee" skill="110" attack="75" />
+		<attack name="physical" checkshield="1" chance="15" range="7" min="-125" max="-185">
+			<attribute key="shootEffect" value="largerock" />
+		</attack>
+	</attacks>
+	<defenses armor="50" defense="65">
+		<defense name="haste_behemoth" chance="7" />
+	</defenses>
+	<elements>
+		<element firePercent="100" />
+		<element earthPercent="100" />
+		<element energyPercent="100" />
+	</elements>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity invisible="1" />
+	</immunities>
+	<voices interval="1000" chance="5">
+		<voice sentence="You're so little!" />
+		<voice sentence="Human flesh - delicious!" />
+		<voice sentence="Crush the intruders!" yell="1" />
+	</voices>
+	<loot>
+			<item name="mystic shard" countmax="16" chance="19512" />
+					<item name="mystic shard" countmax="16" chance="19512" />
+							<item name="mystic shard" countmax="16" chance="19512" />
+		<item id="2666" chance="72000" countmax="6" />
+		<item id="2148" chance="80000" countmax="60" />
+		<item id="2148" chance="80000" countmax="80" />
+		<item id="2150" chance="7200" countmax="2" />
+		<item id="2231" chance="12600" />
+		<item id="2553" chance="10800" />
+		<item id="2023" chance="19800" />
+		<item id="2125" chance="540" />
+		<item id="2489" chance="5400" />	
+		<item id="2463" chance="7200" />
+		<item id="2645" chance="1440" />
+			
+				<item id="2393" chance="1980" />
+				<item id="2377" chance="7200" />
+				<item id="2387" chance="18000" />
+				<item id="2416" chance="27000" />
+				<item id="2174" chance="1440" />
+			
+	</loot>
+</monster>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Spider Queen" nameDescription="a spider queen" race="venom" experience="36999" speed="980" manacost="0">
+	<health now="15900" max="15900"/>
+	<look type="367" corpse="2857"/>
+	<targetchange interval="1000" chance="10"/>
+	<targetstrategies nearest="70" health="20" damage="0" random="10"/>
+	<flags>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag summonable="0"/>
+		<flag convinceable="0"/>
+		<flag illusionable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="210" attack="185"/>
+		<attack name="poisonfield" interval="1000" chance="67" range="9" radius="1" target="1">
+			<attribute key="shootEffect" value="poison"/>
+		</attack>
+		<attack name="poison" chance="12" length="8" spread="3" min="-1000" max="-1300">
+			<attribute key="areaEffect" value="poison"/>
+		</attack>		
+		<attack name="paralyze_mummy" chance="18" range="9"/>
+	</attacks>
+	<defenses armor="70" defense="60">
+		<defense name="haste_giantspider" interval="2000" chance="16"/>
+	</defenses>
+	<elements>
+		<element earthPercent="35"/>
+		<element physicalPercent="20"/>
+		<element firePercent="-40"/>
+	</elements>
+	<immunities>
+		<immunity lifedrain="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="2000" chance="5">
+	</voices>
+	<loot>
+		<item id="2152" chance="3300" countmax="55"/><!-- 55 33.3% gold coin -->
+		<item id="2152" chance="9900" countmax="11"/><!-- 11 99.9% gold coin -->
+		<item id="2152" chance="6600" countmax="33"/><!-- 33 66.6% gold coin -->
+		<item id="2472" chance="1000"/><!-- 10% plate armor -->
+		<item id="2171" chance="100"/><!-- 0.1% platinum amulet -->
+		<item id="5928" chance="2000"/><!-- 0.1% gs silk  -->  
+        <item id="5937" chance="1000"/><!-- mystic ore -->				
+		<item id="5920" chance="300"/><!-- 0.1% gs head -->  
+		<item id="2169" chance="700"/><!-- 0.7% time ring -->
+		<item id="2540" chance="150"/> <!-- scarab shield -->
+		<item id="2150" countmax="2" chance="200"/> <!-- small amethyst -->
+		<item id="2645" chance="120"/> <!-- steel boots -->
+		<item id="5799" chance="100"/> <!-- alpha scale mail -->
+	</loot>
+</monster>

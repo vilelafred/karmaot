@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Demon" nameDescription="a shiny demon" race="fire" experience="160000" speed="840" manacost="0">
+	<health now="38200" max="38200"/>
+	<look type="315" corpse="2916"/>
+	<targetchange interval="1000" chance="10"/>
+	<targetstrategies nearest="70" health="10" damage="10" random="10"/>
+
+	<flags>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag summonable="0"/>
+		<flag convinceable="0"/>
+		<flag illusionable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="80"/>
+		<flag runonhealth="0"/>
+	</flags>
+
+	<script>
+		<event name="elite"/>
+	</script>
+
+	<attacks>
+		<!-- Melee para punir contato -->
+		<attack name="melee" skill="125" attack="100"/>
+
+		<!-- Inferno Nova: explosão em anel (área) -->
+		<attack name="fire" interval="2000" chance="22" radius="4" target="0" min="-700" max="-1100">
+			<attribute key="areaEffect" value="firearea"/>
+		</attack>
+
+		<!-- Hell Beam: feixe longo (linha, atinge vários no trajeto) -->
+		<attack name="energy" interval="2000" chance="20" length="8" spread="0" min="-1100" max="-1600">
+			<attribute key="areaEffect" value="energy"/>
+		</attack>
+
+		<!-- Blazing Cone: cone frontal (área) -->
+		<attack name="fire" interval="2000" chance="18" length="7" spread="3" min="-850" max="-1300">
+			<attribute key="areaEffect" value="firearea"/>
+		</attack>
+
+		<!-- Death Wave: “linha grossa” (length com spread) -->
+		<attack name="death" interval="2000" chance="16" length="8" spread="2" min="-700" max="-1200">
+			<attribute key="areaEffect" value="mortarea"/>
+		</attack>
+
+		<!-- Mana Rupture: drenagem de mana em área -->
+		<attack name="manadrain" interval="2000" chance="16" radius="3" target="0" min="-450" max="-800">
+			<attribute key="areaEffect" value="greenspark"/>
+		</attack>
+
+		<!-- Hellfire Rain: chuva de campos de fogo em área -->
+		<attack name="firefield" interval="2000" chance="14" radius="2" target="0">
+			<attribute key="shootEffect" value="fire"/>
+		</attack>
+	</attacks>
+
+	<defenses armor="40" defense="65">
+		<defense name="healing" chance="15" min="1290" max="1350">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+
+	<elements>
+		<element firePercent="35"/>
+		<element energyPercent="25"/>
+		<element holyPercent="-25"/>
+		<element icePercent="-10"/>
+	</elements>
+
+	<immunities>
+		<immunity lifedrain="1"/>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+
+	<voices interval="1000" chance="5">
+		<voice sentence="MUHAHAHAHA!" yell="1"/>
+		<voice sentence="I SMELL FEEEEEAAAR!" yell="1"/>
+		<voice sentence="CHAMEK ATH UTHUL ARAK!" yell="1"/>
+		<voice sentence="Your resistance is futile!"/>
+		<voice sentence="Your soul will be mine!" yell="1"/>
+	</voices>
+
+	<loot>
+		<item id="2795" chance="20000" countmax="6"/><!-- fire mushroom -->
+		<item id="2152" chance="80000" countmax="10"/>
+		<item id="2152" chance="70000" countmax="10"/>
+		<item id="2152" chance="60000" countmax="10"/>
+		<item id="2152" chance="50000" countmax="10"/>
+		<item id="8176" countmax="100" chance="50000"/>
+		<item id="8176" countmax="50" chance="10000"/>
+		<item id="2492" chance="150"/> <!-- golden armor -->
+		<item id="2470" chance="130"/> <!-- golden legs -->
+		<item id="2123" chance="120"/> <!-- ring of the sky -->
+		<item id="2155" chance="180"/> <!-- green gem -->
+	</loot>
+</monster>

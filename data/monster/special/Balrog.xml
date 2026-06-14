@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="balrog" nameDescription="a balrog" race="fire" experience="80000" speed="590" manacost="0">
+	<health now="582000" max="582000"/>
+	<look type="460" corpse="0"/>
+	<targetchange interval="1000" chance="10"/>
+	<targetstrategies nearest="70" health="10" damage="10" random="10"/>
+	<flags>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag summonable="0"/>
+		<flag convinceable="0"/>
+		<flag illusionable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="80"/>
+		<flag runonhealth="0"/>
+	</flags>
+         <script>
+            <event name="RewardChestDeath"/>
+             <event name="RewardChestMonster"/>
+    </script>		
+	<attacks>
+		<attack name="melee" skill="220" attack="200"/>
+		<attack name="manadrain" chance="25" range="7" min="-1500" max="-1900"/>
+		<attack name="fire" chance="40" range="7" radius="7" target="1" min="-1400" max="-1700">
+			<attribute key="shootEffect" value="fire"/>
+			<attribute key="areaEffect" value="firearea"/>
+		</attack>
+		<attack name="firefield" chance="35" range="7" radius="1" target="1">
+			<attribute key="shootEffect" value="fire"/>
+		</attack>
+		<attack name="energy" chance="10" length="8" spread="0" min="-1500" max="-1720">
+			<attribute key="areaEffect" value="fire"/>
+		</attack>
+	</attacks>
+	<defenses armor="40" defense="390">
+		<defense name="healing" chance="25" min="1300" max="1550">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<summons maxSummons="1">
+		<summon name="demon" chance="9" max="2"/>
+	</summons>
+	<elements>
+		<element firePercent="100"/>
+		<element earthPercent="100"/>
+		<element energyPercent="100"/>
+	</elements>
+	<immunities>
+		<immunity lifedrain="1"/>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="1000" chance="5">
+		<voice sentence="MUHAHAHAHA!" yell="1"/>
+		<voice sentence="I SMELL FEEEEEAAAR!" yell="1"/>
+		<voice sentence="CHAMEK ATH UTHUL ARAK!" yell="1"/>
+		<voice sentence="Your resistance is futile!"/>
+		<voice sentence="Your soul will be mine!" yell="1"/>
+	</voices>
+	<loot>
+		<item id="2795" chance="20000" countmax="100"/><!-- 6 20% fire mushroom -->
+		<item id="2152" chance="80000" countmax="100"/><!-- 100 40% gold coin -->
+		<item id="2152" chance="70000" countmax="100"/><!-- 100 70% gold coin -->
+		<item id="2152" chance="60000" countmax="100"/><!-- 100 60% gold coin -->
+		<item id="2152" chance="50000" countmax="100"/><!-- 100 50% gold coin -->
+		<item id="2151" chance="3500"/><!-- 3.5% talon -->
+		<item id="2176" chance="3000"/><!-- 3% orb -->
+		<item id="2470" chance="400"/><!-- 0.4% golden legs -->
+		<item id="2472" chance="100"/><!-- 0.1% magic plate armor -->
+		<item id="2432" chance="4000"/><!-- 4% fire axe -->
+		<item id="2514" chance="500"/><!-- 0.5% mastermind shield -->
+	<!-- 	<item id="6165" chance="300"/><!-- 0.2% arken stone -->
+	</loot>
+</monster>
